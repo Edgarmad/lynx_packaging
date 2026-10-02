@@ -1,0 +1,25 @@
+---
+import type { Language, Product } from '../../types/content';
+import { ui } from '../../i18n/ui';
+import ProductCard from './ProductCard.astro';
+interface Props { lang: Language; products: Product[]; id: string; }
+const {lang,products,id}=Astro.props;
+---
+<div data-carousel>
+  <div class="carousel-track" id={id}>{products.map(product=><ProductCard lang={lang} product={product}/>)}</div>
+  {products.length>1&&<div class="carousel-controls" hidden data-carousel-controls>
+    <button class="round-control" data-direction="-1" aria-label={ui(lang).previous} aria-controls={id}>‹</button>
+    <button class="round-control" data-direction="1" aria-label={ui(lang).next} aria-controls={id}>›</button>
+  </div>}
+</div>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-carousel]').forEach(root=>{
+    const track=root.querySelector<HTMLElement>('.carousel-track');if(!track)return;
+    const controls=root.querySelector<HTMLElement>('[data-carousel-controls]');if(controls)controls.hidden=false;
+    root.querySelectorAll<HTMLButtonElement>('[data-direction]').forEach(button=>button.addEventListener('click',()=>{
+      track.scrollBy({left:Number(button.dataset.direction)*track.clientWidth,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+    }));
+    const update=()=>{const prev=root.querySelector<HTMLButtonElement>('[data-direction="-1"]');const next=root.querySelector<HTMLButtonElement>('[data-direction="1"]');if(prev)prev.disabled=track.scrollLeft<2;if(next)next.disabled=track.scrollLeft+track.clientWidth>=track.scrollWidth-2;};
+    track.addEventListener('scroll',update,{passive:true});new ResizeObserver(update).observe(track);update();
+  });
+</script>

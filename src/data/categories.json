@@ -1,0 +1,146 @@
+[
+  {
+    "id": "demo-category-1",
+    "slug": "demo-category-1",
+    "title": {
+      "es": "Categoría 01",
+      "en": "Category 01"
+    },
+    "description": {
+      "es": "Muestra de composición. Los nombres y contenidos de categorías se incorporarán a partir de los catálogos reales.",
+      "en": "Layout sample. Category names and content will be added from the actual catalogs."
+    },
+    "status": "demo",
+    "order": 1,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "alt": {
+        "es": "Material visual pendiente",
+        "en": "Visual asset pending"
+      },
+      "ratio": 1.5
+    },
+    "filters": [
+      {
+        "key": "sample",
+        "label": {
+          "es": "Grupo de muestra",
+          "en": "Sample group"
+        },
+        "values": [
+          {
+            "id": "a",
+            "label": {
+              "es": "Muestra A",
+              "en": "Sample A"
+            }
+          },
+          {
+            "id": "b",
+            "label": {
+              "es": "Muestra B",
+              "en": "Sample B"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "demo-category-2",
+    "slug": "demo-category-2",
+    "title": {
+      "es": "Categoría 02",
+      "en": "Category 02"
+    },
+    "description": {
+      "es": "Muestra de composición. Los nombres y contenidos de categorías se incorporarán a partir de los catálogos reales.",
+      "en": "Layout sample. Category names and content will be added from the actual catalogs."
+    },
+    "status": "demo",
+    "order": 2,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "alt": {
+        "es": "Material visual pendiente",
+        "en": "Visual asset pending"
+      },
+      "ratio": 1.5
+    },
+    "filters": [
+      {
+        "key": "sample",
+        "label": {
+          "es": "Grupo de muestra",
+          "en": "Sample group"
+        },
+        "values": [
+          {
+            "id": "a",
+            "label": {
+              "es": "Muestra A",
+              "en": "Sample A"
+            }
+          },
+          {
+            "id": "b",
+            "label": {
+              "es": "Muestra B",
+              "en": "Sample B"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "demo-category-3",
+    "slug": "demo-category-3",
+    "title": {
+      "es": "Categoría 03",
+      "en": "Category 03"
+    },
+    "description": {
+      "es": "Muestra de composición. Los nombres y contenidos de categorías se incorporarán a partir de los catálogos reales.",
+      "en": "Layout sample. Category names and content will be added from the actual catalogs."
+    },
+    "status": "demo",
+    "order": 3,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "alt": {
+        "es": "Material visual pendiente",
+        "en": "Visual asset pending"
+      },
+      "ratio": 1.5
+    },
+    "filters": [
+      {
+        "key": "sample",
+        "label": {
+          "es": "Grupo de muestra",
+          "en": "Sample group"
+        },
+        "values": [
+          {
+            "id": "a",
+            "label": {
+              "es": "Muestra A",
+              "en": "Sample A"
+            }
+          },
+          {
+            "id": "b",
+            "label": {
+              "es": "Muestra B",
+              "en": "Sample B"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

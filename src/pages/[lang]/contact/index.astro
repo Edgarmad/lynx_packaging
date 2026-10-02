@@ -1,0 +1,12 @@
+---
+import { languages, type Language } from '../../../types/content';
+import { ui } from '../../../i18n/ui';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import InteriorBanner from '../../../components/sections/InteriorBanner.astro';
+import ContactForm from '../../../components/sections/ContactForm.astro';
+export function getStaticPaths(){return languages.map(lang=>({params:{lang}}));}
+const lang=Astro.params.lang as Language;const t=ui(lang);
+---
+<BaseLayout lang={lang} path="contact" title={t.contact} description={t.contactIntro}>
+  <InteriorBanner lang={lang} title={lang==='es'?'Contacto':'Contact'}/><section class="section site-container contact-layout"><div class="contact-copy"><h2>{t.contactIntro}</h2><p>Lynx Packaging</p></div><ContactForm lang={lang}/></section>
+</BaseLayout>

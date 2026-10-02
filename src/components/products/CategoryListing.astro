@@ -1,0 +1,41 @@
+---
+import type { Language, Category, Product } from '../../types/content';
+import { ui } from '../../i18n/ui';
+import ProductCard from './ProductCard.astro';
+interface Props { lang: Language; category: Category; products: Product[]; }
+const {lang,category,products}=Astro.props;const t=ui(lang);
+---
+<div class="site-container catalog-layout" data-catalog data-allowed={JSON.stringify(Object.fromEntries(category.filters.map(f=>[f.key,f.values.map(v=>v.id)])))}>
+  <aside>
+    <details class="filter-panel" open>
+      <summary>{t.filters}</summary>
+      <form data-filter-form>
+        <button type="reset" class="filter-clear">{t.clear}</button>
+        {category.filters.map(filter=><fieldset><legend>{filter.label[lang]}</legend>{filter.values.map(value=><label><input type="checkbox" name={filter.key} value={value.id}/>{value.label[lang]}</label>)}</fieldset>)}
+      </form>
+    </details>
+    <noscript><p>{lang==='es'?'Activa JavaScript para filtrar. Todos los productos están disponibles debajo.':'Enable JavaScript to filter. All products are available below.'}</p></noscript>
+  </aside>
+  <div><h2 class="sr-only">{t.products}</h2><p class="result-count" aria-live="polite" data-result-count data-lang={lang}>{products.length} {category.status==='demo'?(lang==='es'?'muestras de diseño':'design samples'):(lang==='es'?'productos':'products')}</p>
+    <div class="product-grid">{products.map(product=><ProductCard lang={lang} product={product} filterable/>)}</div>
+    <p data-empty hidden>{t.noProducts}</p>
+  </div>
+</div>
+<script>
+  import { matches, readFilters } from '../../lib/filters';
+  document.querySelectorAll<HTMLElement>('[data-catalog]').forEach(root=>{
+    const allowed:Record<string,string[]>=JSON.parse(root.dataset.allowed??'{}');
+    const form=root.querySelector<HTMLFormElement>('[data-filter-form]');
+    const cards=Array.from(root.querySelectorAll<HTMLElement>('[data-product]')).map(element=>({element,attributes:JSON.parse(element.dataset.product??'{}') as Record<string,string[]>}));
+    const count=root.querySelector<HTMLElement>('[data-result-count]');const empty=root.querySelector<HTMLElement>('[data-empty]');if(!form)return;
+    const render=(writeUrl:boolean)=>{
+      const data=new FormData(form);const selection=Object.fromEntries(Object.keys(allowed).map(key=>[key,data.getAll(key).map(String)]));let total=0;
+      cards.forEach(card=>{card.element.hidden=!matches(card.attributes,selection);if(!card.element.hidden)total++;});
+      if(count)count.textContent=`${total} / ${cards.length} ${count.dataset.lang==='es'?'resultados':'results'}`;if(empty)empty.hidden=total!==0;
+      if(writeUrl){const url=new URL(location.href);Object.entries(selection).forEach(([key,values])=>{url.searchParams.delete(key);values.forEach(value=>url.searchParams.append(key,value));});history.replaceState(null,'',url);}
+    };
+    const restore=()=>{const selection=readFilters(location.search,allowed);form.querySelectorAll<HTMLInputElement>('input[type="checkbox"]').forEach(input=>input.checked=selection[input.name]?.includes(input.value)??false);render(false);};
+    form.addEventListener('change',()=>render(true));form.addEventListener('reset',event=>{event.preventDefault();form.querySelectorAll<HTMLInputElement>('input[type="checkbox"]').forEach(input=>input.checked=false);render(true);});window.addEventListener('popstate',restore);restore();
+    const details=root.querySelector<HTMLDetailsElement>('details');const mq=window.matchMedia('(max-width: 767px)');const responsive=()=>{if(details)details.open=!mq.matches;};mq.addEventListener('change',responsive);responsive();
+  });
+</script>

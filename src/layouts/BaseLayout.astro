@@ -1,0 +1,31 @@
+---
+import Header from '../components/navigation/Header.astro';
+import Footer from '../components/navigation/Footer.astro';
+import { site } from '../lib/data';
+import { route } from '../lib/routes';
+import { ui } from '../i18n/ui';
+import type { Language } from '../types/content';
+import '../styles/global.css';
+interface Props { lang: Language; path: string; title: string; description: string; home?: boolean; noindex?: boolean; }
+const {lang,path,title,description,home=false,noindex=false}=Astro.props;
+const canonical=site.publicUrl?new URL(route(lang,path),site.publicUrl).href:undefined;
+---
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>{title} | Lynx Packaging</title><meta name="description" content={description}/>
+    {(site.preview||noindex)&&<meta name="robots" content="noindex, nofollow"/>}
+    {canonical&&<link rel="canonical" href={canonical}/>}
+    {(['es','en'] as const).map(language=><link rel="alternate" hreflang={language} href={site.publicUrl?new URL(route(language,path),site.publicUrl).href:route(language,path)}/>)}
+    <meta property="og:title" content={`${title} | Lynx Packaging`}/><meta property="og:description" content={description}/><meta property="og:type" content="website"/>
+    {canonical&&<meta property="og:url" content={canonical}/>}
+  </head>
+  <body class:list={{'is-home':home}}>
+    <a class="skip-link" href="#main">{ui(lang).skip}</a>
+    <Header lang={lang} path={path} home={home}/>
+    <main id="main"><slot/></main>
+    {site.preview&&<aside class="prototype-note">{ui(lang).preview}</aside>}
+    <Footer lang={lang} path={path}/>
+  </body>
+</html>

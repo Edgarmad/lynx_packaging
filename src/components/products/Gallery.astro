@@ -1,0 +1,21 @@
+---
+import type { Language, Media } from '../../types/content';
+import { ui } from '../../i18n/ui';
+import MediaPlaceholder from '../ui/MediaPlaceholder.astro';
+interface Props { lang: Language; gallery: Media[]; }
+const {lang,gallery}=Astro.props;const t=ui(lang);
+---
+<section class="product-gallery" aria-label={t.gallery} aria-roledescription={lang==='es'?'carrusel':'carousel'} data-gallery>
+  {gallery.map((media,index)=><div class="gallery-slide" data-slide={index} hidden={index!==0} role="group" aria-label={`${index+1} / ${gallery.length}`}><MediaPlaceholder lang={lang} media={media}/></div>)}
+  {gallery.length>1&&<><div class="gallery-arrows" hidden data-gallery-controls><button class="round-control" data-step="-1" aria-label={t.previous}>‹</button><button class="round-control" data-step="1" aria-label={t.next}>›</button></div>
+    <div class="gallery-dots" hidden data-gallery-controls>{gallery.map((_,index)=><button data-index={index} aria-label={`${lang==='es'?'Imagen':'Image'} ${index+1}`} aria-current={index===0?'true':'false'} />)}</div></>}
+</section>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-gallery]').forEach(root=>{
+    const slides=Array.from(root.querySelectorAll<HTMLElement>('[data-slide]'));let index=0;
+    root.querySelectorAll<HTMLElement>('[data-gallery-controls]').forEach(el=>el.hidden=false);
+    const show=(next:number)=>{index=(next+slides.length)%slides.length;slides.forEach((slide,i)=>slide.hidden=i!==index);root.querySelectorAll('[data-index]').forEach((button,i)=>button.setAttribute('aria-current',String(i===index)));};
+    root.querySelectorAll<HTMLButtonElement>('[data-step]').forEach(button=>button.addEventListener('click',()=>show(index+Number(button.dataset.step))));
+    root.querySelectorAll<HTMLButtonElement>('[data-index]').forEach(button=>button.addEventListener('click',()=>show(Number(button.dataset.index))));
+  });
+</script>

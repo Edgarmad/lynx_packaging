@@ -1,0 +1,14 @@
+---
+import type { Language, Media } from '../../types/content';
+import MediaPlaceholder from '../ui/MediaPlaceholder.astro';
+interface Props { lang: Language; title: string; description: string; media?: Media; reverse?: boolean; href?: string; cta?: string; number?: string; }
+const {lang,title,description,media,reverse=false,href,cta,number} = Astro.props;
+---
+<article class:list={['editorial-block', {reverse}]}>
+  <MediaPlaceholder lang={lang} media={media} ratio={1.65} />
+  <div class="editorial-panel">
+    {number && <span class="eyebrow">{number}</span>}
+    <h2>{title}</h2><p>{description}</p>
+    {href && <a class="text-link" href={href}>{cta}<span aria-hidden="true">→</span></a>}
+  </div>
+</article>

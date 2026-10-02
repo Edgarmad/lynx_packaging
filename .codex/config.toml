@@ -1,0 +1,4 @@
+# Permisos de ejecución para este proyecto de confianza.
+# La aprobación del cambio y del push se rige por AGENTS.MD.
+approval_policy = "never"
+sandbox_mode = "danger-full-access"

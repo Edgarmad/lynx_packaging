@@ -1,0 +1,11 @@
+---
+import MediaPlaceholder from '../ui/MediaPlaceholder.astro';
+import Breadcrumbs from '../ui/Breadcrumbs.astro';
+import type { Language } from '../../types/content';
+interface Props { lang: Language; title: string; parent?: {title: string; path: string}; }
+const {lang, title, parent} = Astro.props;
+---
+<section class="interior-banner">
+  <MediaPlaceholder lang={lang} ratio={3.6} class="banner-media" />
+  <div class="site-container banner-content"><Breadcrumbs lang={lang} items={[...(parent ? [parent] : []),{title}]} /><h1>{title}</h1></div>
+</section>

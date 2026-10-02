@@ -1,0 +1,144 @@
+{
+  "title": {
+    "es": "Servicio integral",
+    "en": "One-stop Service"
+  },
+  "intro": {
+    "es": "Desde la idea inicial hasta recibir tus productos. Un solo socio de cadena de suministro gestiona diseño, muestras, producción, inspección de calidad, logística internacional, almacenamiento local y entrega.",
+    "en": "From the initial idea to receiving your products. One supply chain partner manages design, samples, production, quality inspection, international logistics, local warehousing and delivery."
+  },
+  "stages": [
+    {
+      "id": "creative-design",
+      "order": 1,
+      "title": {
+        "es": "Diseño creativo",
+        "en": "Creative Design"
+      },
+      "description": {
+        "es": "Traducimos los requisitos de tu marca en soluciones de packaging fabricables. Partimos de la estrategia y el posicionamiento de marca, las características del producto y sus escenarios de uso. Ofrecemos planificación desde el diseño conceptual hasta familias de empaques, cubriendo gráficos, estructura, forma, materiales y acabados para aportar valor comercial y atender tus objetivos de costo.",
+        "en": "We translate your brand requirements into manufacturable packaging solutions. Centered on brand strategy, we develop visually appealing and commercially valuable designs based on brand positioning, product features and application scenarios. We offer full-service planning from conceptual design to series product packaging, covering graphics, structure, shape, materials and craftsmanship to increase product added value while meeting your cost targets."
+      },
+      "media": {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 1.5
+      },
+      "caseIds": []
+    },
+    {
+      "id": "efficient-production",
+      "order": 2,
+      "title": {
+        "es": "Producción eficiente",
+        "en": "Efficient Production"
+      },
+      "description": {
+        "es": "Seleccionamos fábricas adecuadas según los requisitos del producto, los estándares de calidad, el volumen del pedido y el presupuesto. Damos seguimiento a la producción para fabricar conforme a las especificaciones aprobadas.",
+        "en": "We match you with suitable manufacturing factories according to your product requirements, quality standards, order volume and budget. We follow production to manufacture goods to approved specifications."
+      },
+      "media": {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 1.5
+      },
+      "caseIds": []
+    },
+    {
+      "id": "strict-quality-control",
+      "order": 3,
+      "title": {
+        "es": "Control de calidad estricto",
+        "en": "Strict Quality Control"
+      },
+      "description": {
+        "es": "Supervisamos las etapas clave del proceso: confirmación previa a producción, verificación de materiales y colores, seguimiento de producción, inspección de producto terminado y control de calidad previo al embarque, para que los productos se fabriquen conforme a las especificaciones aprobadas.",
+        "en": "We oversee key stages throughout the whole process: pre-production confirmation, material and color verification, production follow-up, finished product inspection and pre-shipment quality control, to ensure goods are manufactured to approved specifications."
+      },
+      "media": {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 1.5
+      },
+      "caseIds": []
+    },
+    {
+      "id": "international-logistics",
+      "order": 4,
+      "title": {
+        "es": "Logística internacional",
+        "en": "International Logistics"
+      },
+      "description": {
+        "es": "Coordinamos el traslado desde las fábricas proveedoras hacia México. Organizamos transporte marítimo, terrestre y procedimientos relacionados según producto, cantidad, calendario y destino.",
+        "en": "We coordinate transport from supplier factories to Mexico. We arrange sea and land transport and related procedures according to product type, quantity, schedule and destination."
+      },
+      "media": {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 1.5
+      },
+      "caseIds": []
+    },
+    {
+      "id": "local-storage",
+      "order": 5,
+      "title": {
+        "es": "Almacenamiento local",
+        "en": "Local Warehousing"
+      },
+      "description": {
+        "es": "El almacenamiento y la gestión de inventario acercan la cadena de suministro a tu negocio. Ajustamos a los ciclos de compra y demanda para apoyar la reposición, los tiempos de respuesta y la continuidad de pedidos.",
+        "en": "Warehousing and inventory management bring the supply chain closer to your business. We adapt to purchasing and demand cycles to support replenishment, response times and order continuity."
+      },
+      "media": {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 1.5
+      },
+      "caseIds": []
+    },
+    {
+      "id": "last-mile",
+      "order": 6,
+      "title": {
+        "es": "Entrega de última milla",
+        "en": "Last-mile Delivery"
+      },
+      "description": {
+        "es": "Coordinamos la entrega desde almacenes locales en México hasta las instalaciones del cliente, según volumen, frecuencia y destinos: restaurantes, hoteles, cafeterías, tiendas y otros negocios.",
+        "en": "We coordinate delivery from local warehouses in Mexico to client facilities, according to volume, frequency and destinations: restaurants, hotels, cafés, stores and other businesses."
+      },
+      "media": {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 1.5
+      },
+      "caseIds": []
+    }
+  ]
+}

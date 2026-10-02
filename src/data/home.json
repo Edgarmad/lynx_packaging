@@ -1,0 +1,23 @@
+{
+  "title": {
+    "es": "Packaging para\ntu marca.",
+    "en": "Packaging for\nyour brand."
+  },
+  "introTitle": {
+    "es": "Acerca de Lynx Packaging",
+    "en": "About Lynx Packaging"
+  },
+  "intro": {
+    "es": "Lynx es un proveedor de soluciones integrales de packaging y servicios de cadena de suministro de origen chino, con 20 años de experiencia en la industria. Con una red de proveedores consolidada y un equipo local en México, acompañamos cada etapa: diseño, muestras, producción, control de calidad, almacenamiento y distribución, para atender de cerca a nuestros clientes de América Latina.",
+    "en": "Lynx is a one-stop packaging solution and supply chain service provider from China with 20 years of packaging industry experience. Backed by a mature supplier network and a local team in Mexico, we support every stage: design, sampling, production, quality control, warehousing and distribution, serving Latin American clients with proximity."
+  },
+  "hero": {
+    "type": "video",
+    "placeholder": true,
+    "alt": {
+      "es": "Material visual pendiente",
+      "en": "Visual asset pending"
+    },
+    "ratio": 1.8
+  }
+}

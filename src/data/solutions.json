@@ -1,0 +1,170 @@
+[
+  {
+    "id": "food-beverage",
+    "slug": "food-beverage",
+    "title": {
+      "es": "Empaques para alimentos y bebidas",
+      "en": "Food & Beverage Packaging"
+    },
+    "description": {
+      "es": "Sector confirmado de la oferta de Lynx. Los ejemplos, productos aplicables y condiciones comerciales de esta solución están pendientes de incorporar.",
+      "en": "Confirmed sector within the Lynx offering. Examples, applicable products and commercial terms for this solution are pending."
+    },
+    "status": "published",
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "alt": {
+        "es": "Material visual pendiente",
+        "en": "Visual asset pending"
+      },
+      "ratio": 1.6
+    },
+    "productIds": [],
+    "caseIds": []
+  },
+  {
+    "id": "personal-care",
+    "slug": "personal-care",
+    "title": {
+      "es": "Empaques para cosmética y cuidado personal",
+      "en": "Cosmetics & Personal Care Packaging"
+    },
+    "description": {
+      "es": "Sector confirmado de la oferta de Lynx. Los ejemplos, productos aplicables y condiciones comerciales de esta solución están pendientes de incorporar.",
+      "en": "Confirmed sector within the Lynx offering. Examples, applicable products and commercial terms for this solution are pending."
+    },
+    "status": "published",
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "alt": {
+        "es": "Material visual pendiente",
+        "en": "Visual asset pending"
+      },
+      "ratio": 1.6
+    },
+    "productIds": [],
+    "caseIds": []
+  },
+  {
+    "id": "electronics",
+    "slug": "electronics",
+    "title": {
+      "es": "Empaques para electrónica",
+      "en": "Electronics Packaging"
+    },
+    "description": {
+      "es": "Sector confirmado de la oferta de Lynx. Los ejemplos, productos aplicables y condiciones comerciales de esta solución están pendientes de incorporar.",
+      "en": "Confirmed sector within the Lynx offering. Examples, applicable products and commercial terms for this solution are pending."
+    },
+    "status": "published",
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "alt": {
+        "es": "Material visual pendiente",
+        "en": "Visual asset pending"
+      },
+      "ratio": 1.6
+    },
+    "productIds": [],
+    "caseIds": []
+  },
+  {
+    "id": "retail",
+    "slug": "retail",
+    "title": {
+      "es": "Empaques para comercio electrónico y retail",
+      "en": "E-commerce & Retail Packaging"
+    },
+    "description": {
+      "es": "Sector confirmado de la oferta de Lynx. Los ejemplos, productos aplicables y condiciones comerciales de esta solución están pendientes de incorporar.",
+      "en": "Confirmed sector within the Lynx offering. Examples, applicable products and commercial terms for this solution are pending."
+    },
+    "status": "published",
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "alt": {
+        "es": "Material visual pendiente",
+        "en": "Visual asset pending"
+      },
+      "ratio": 1.6
+    },
+    "productIds": [],
+    "caseIds": []
+  },
+  {
+    "id": "premium-gifts",
+    "slug": "premium-gifts",
+    "title": {
+      "es": "Empaques premium para regalos",
+      "en": "Premium Gift Packaging"
+    },
+    "description": {
+      "es": "Sector confirmado de la oferta de Lynx. Los ejemplos, productos aplicables y condiciones comerciales de esta solución están pendientes de incorporar.",
+      "en": "Confirmed sector within the Lynx offering. Examples, applicable products and commercial terms for this solution are pending."
+    },
+    "status": "published",
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "alt": {
+        "es": "Material visual pendiente",
+        "en": "Visual asset pending"
+      },
+      "ratio": 1.6
+    },
+    "productIds": [],
+    "caseIds": []
+  },
+  {
+    "id": "industrial",
+    "slug": "industrial",
+    "title": {
+      "es": "Empaques industriales",
+      "en": "Industrial Packaging"
+    },
+    "description": {
+      "es": "Sector confirmado de la oferta de Lynx. Los ejemplos, productos aplicables y condiciones comerciales de esta solución están pendientes de incorporar.",
+      "en": "Confirmed sector within the Lynx offering. Examples, applicable products and commercial terms for this solution are pending."
+    },
+    "status": "published",
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "alt": {
+        "es": "Material visual pendiente",
+        "en": "Visual asset pending"
+      },
+      "ratio": 1.6
+    },
+    "productIds": [],
+    "caseIds": []
+  },
+  {
+    "id": "custom",
+    "slug": "custom",
+    "title": {
+      "es": "Otros empaques personalizados",
+      "en": "Other Custom Packaging"
+    },
+    "description": {
+      "es": "Sector confirmado de la oferta de Lynx. Los ejemplos, productos aplicables y condiciones comerciales de esta solución están pendientes de incorporar.",
+      "en": "Confirmed sector within the Lynx offering. Examples, applicable products and commercial terms for this solution are pending."
+    },
+    "status": "published",
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "alt": {
+        "es": "Material visual pendiente",
+        "en": "Visual asset pending"
+      },
+      "ratio": 1.6
+    },
+    "productIds": [],
+    "caseIds": []
+  }
+]

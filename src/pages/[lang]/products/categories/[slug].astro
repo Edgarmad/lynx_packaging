@@ -1,0 +1,15 @@
+---
+import { languages, type Language, type Category } from '../../../../types/content';
+import { visibleCategories, visibleProducts } from '../../../../lib/data';
+import { ui } from '../../../../i18n/ui';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../../components/ui/Breadcrumbs.astro';
+import CategoryListing from '../../../../components/products/CategoryListing.astro';
+export function getStaticPaths(){return languages.flatMap(lang=>visibleCategories.map(category=>({params:{lang,slug:category.slug},props:{category}})));}
+interface Props { category: Category; }
+const lang=Astro.params.lang as Language;const {category}=Astro.props;const t=ui(lang);
+---
+<BaseLayout lang={lang} path={`products/categories/${category.slug}`} title={category.title[lang]} description={category.description[lang]} noindex={category.status!=='published'}>
+  <section class="page-heading site-container"><Breadcrumbs lang={lang} items={[{title:t.products,path:'products'},{title:category.title[lang]}]}/><div class="centered-intro"><h1>{category.title[lang]}</h1><p>{category.description[lang]}</p>{category.status==='demo'&&<p class="demo-note">{t.categoryDemo}</p>}</div></section>
+  <CategoryListing lang={lang} category={category} products={visibleProducts.filter(p=>p.categoryIds.includes(category.id))}/>
+</BaseLayout>

@@ -1,0 +1,974 @@
+[
+  {
+    "id": "demo-product-1-1",
+    "slug": "demo-product-1-1",
+    "title": {
+      "es": "Producto 01",
+      "en": "Product 01"
+    },
+    "description": {
+      "es": "Ficha de demostración del diseño. Este registro no representa un producto real de Lynx. La descripción, imágenes y especificaciones se incorporarán desde los catálogos recibidos.",
+      "en": "Design demonstration page. This record does not represent an actual Lynx product. Description, images and specifications will be added from the supplied catalogs."
+    },
+    "status": "demo",
+    "categoryIds": [
+      "demo-category-1"
+    ],
+    "solutionIds": [],
+    "caseIds": [],
+    "gallery": [
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      }
+    ],
+    "attributes": {
+      "sample": [
+        "a"
+      ]
+    },
+    "specifications": [],
+    "source": "Muestra de layout basada en mockup páginas 6 y 7; sin información comercial."
+  },
+  {
+    "id": "demo-product-1-2",
+    "slug": "demo-product-1-2",
+    "title": {
+      "es": "Producto 02",
+      "en": "Product 02"
+    },
+    "description": {
+      "es": "Ficha de demostración del diseño. Este registro no representa un producto real de Lynx. La descripción, imágenes y especificaciones se incorporarán desde los catálogos recibidos.",
+      "en": "Design demonstration page. This record does not represent an actual Lynx product. Description, images and specifications will be added from the supplied catalogs."
+    },
+    "status": "demo",
+    "categoryIds": [
+      "demo-category-1"
+    ],
+    "solutionIds": [],
+    "caseIds": [],
+    "gallery": [
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      }
+    ],
+    "attributes": {
+      "sample": [
+        "b"
+      ]
+    },
+    "specifications": [],
+    "source": "Muestra de layout basada en mockup páginas 6 y 7; sin información comercial."
+  },
+  {
+    "id": "demo-product-1-3",
+    "slug": "demo-product-1-3",
+    "title": {
+      "es": "Producto 03",
+      "en": "Product 03"
+    },
+    "description": {
+      "es": "Ficha de demostración del diseño. Este registro no representa un producto real de Lynx. La descripción, imágenes y especificaciones se incorporarán desde los catálogos recibidos.",
+      "en": "Design demonstration page. This record does not represent an actual Lynx product. Description, images and specifications will be added from the supplied catalogs."
+    },
+    "status": "demo",
+    "categoryIds": [
+      "demo-category-1"
+    ],
+    "solutionIds": [],
+    "caseIds": [],
+    "gallery": [
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      }
+    ],
+    "attributes": {
+      "sample": [
+        "a"
+      ]
+    },
+    "specifications": [],
+    "source": "Muestra de layout basada en mockup páginas 6 y 7; sin información comercial."
+  },
+  {
+    "id": "demo-product-1-4",
+    "slug": "demo-product-1-4",
+    "title": {
+      "es": "Producto 04",
+      "en": "Product 04"
+    },
+    "description": {
+      "es": "Ficha de demostración del diseño. Este registro no representa un producto real de Lynx. La descripción, imágenes y especificaciones se incorporarán desde los catálogos recibidos.",
+      "en": "Design demonstration page. This record does not represent an actual Lynx product. Description, images and specifications will be added from the supplied catalogs."
+    },
+    "status": "demo",
+    "categoryIds": [
+      "demo-category-1"
+    ],
+    "solutionIds": [],
+    "caseIds": [],
+    "gallery": [
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      }
+    ],
+    "attributes": {
+      "sample": [
+        "b"
+      ]
+    },
+    "specifications": [],
+    "source": "Muestra de layout basada en mockup páginas 6 y 7; sin información comercial."
+  },
+  {
+    "id": "demo-product-1-5",
+    "slug": "demo-product-1-5",
+    "title": {
+      "es": "Producto 05",
+      "en": "Product 05"
+    },
+    "description": {
+      "es": "Ficha de demostración del diseño. Este registro no representa un producto real de Lynx. La descripción, imágenes y especificaciones se incorporarán desde los catálogos recibidos.",
+      "en": "Design demonstration page. This record does not represent an actual Lynx product. Description, images and specifications will be added from the supplied catalogs."
+    },
+    "status": "demo",
+    "categoryIds": [
+      "demo-category-1"
+    ],
+    "solutionIds": [],
+    "caseIds": [],
+    "gallery": [
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      }
+    ],
+    "attributes": {
+      "sample": [
+        "a"
+      ]
+    },
+    "specifications": [],
+    "source": "Muestra de layout basada en mockup páginas 6 y 7; sin información comercial."
+  },
+  {
+    "id": "demo-product-1-6",
+    "slug": "demo-product-1-6",
+    "title": {
+      "es": "Producto 06",
+      "en": "Product 06"
+    },
+    "description": {
+      "es": "Ficha de demostración del diseño. Este registro no representa un producto real de Lynx. La descripción, imágenes y especificaciones se incorporarán desde los catálogos recibidos.",
+      "en": "Design demonstration page. This record does not represent an actual Lynx product. Description, images and specifications will be added from the supplied catalogs."
+    },
+    "status": "demo",
+    "categoryIds": [
+      "demo-category-1"
+    ],
+    "solutionIds": [],
+    "caseIds": [],
+    "gallery": [
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      }
+    ],
+    "attributes": {
+      "sample": [
+        "b"
+      ]
+    },
+    "specifications": [],
+    "source": "Muestra de layout basada en mockup páginas 6 y 7; sin información comercial."
+  },
+  {
+    "id": "demo-product-2-1",
+    "slug": "demo-product-2-1",
+    "title": {
+      "es": "Producto 01",
+      "en": "Product 01"
+    },
+    "description": {
+      "es": "Ficha de demostración del diseño. Este registro no representa un producto real de Lynx. La descripción, imágenes y especificaciones se incorporarán desde los catálogos recibidos.",
+      "en": "Design demonstration page. This record does not represent an actual Lynx product. Description, images and specifications will be added from the supplied catalogs."
+    },
+    "status": "demo",
+    "categoryIds": [
+      "demo-category-2"
+    ],
+    "solutionIds": [],
+    "caseIds": [],
+    "gallery": [
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      }
+    ],
+    "attributes": {
+      "sample": [
+        "a"
+      ]
+    },
+    "specifications": [],
+    "source": "Muestra de layout basada en mockup páginas 6 y 7; sin información comercial."
+  },
+  {
+    "id": "demo-product-2-2",
+    "slug": "demo-product-2-2",
+    "title": {
+      "es": "Producto 02",
+      "en": "Product 02"
+    },
+    "description": {
+      "es": "Ficha de demostración del diseño. Este registro no representa un producto real de Lynx. La descripción, imágenes y especificaciones se incorporarán desde los catálogos recibidos.",
+      "en": "Design demonstration page. This record does not represent an actual Lynx product. Description, images and specifications will be added from the supplied catalogs."
+    },
+    "status": "demo",
+    "categoryIds": [
+      "demo-category-2"
+    ],
+    "solutionIds": [],
+    "caseIds": [],
+    "gallery": [
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      }
+    ],
+    "attributes": {
+      "sample": [
+        "b"
+      ]
+    },
+    "specifications": [],
+    "source": "Muestra de layout basada en mockup páginas 6 y 7; sin información comercial."
+  },
+  {
+    "id": "demo-product-2-3",
+    "slug": "demo-product-2-3",
+    "title": {
+      "es": "Producto 03",
+      "en": "Product 03"
+    },
+    "description": {
+      "es": "Ficha de demostración del diseño. Este registro no representa un producto real de Lynx. La descripción, imágenes y especificaciones se incorporarán desde los catálogos recibidos.",
+      "en": "Design demonstration page. This record does not represent an actual Lynx product. Description, images and specifications will be added from the supplied catalogs."
+    },
+    "status": "demo",
+    "categoryIds": [
+      "demo-category-2"
+    ],
+    "solutionIds": [],
+    "caseIds": [],
+    "gallery": [
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      }
+    ],
+    "attributes": {
+      "sample": [
+        "a"
+      ]
+    },
+    "specifications": [],
+    "source": "Muestra de layout basada en mockup páginas 6 y 7; sin información comercial."
+  },
+  {
+    "id": "demo-product-2-4",
+    "slug": "demo-product-2-4",
+    "title": {
+      "es": "Producto 04",
+      "en": "Product 04"
+    },
+    "description": {
+      "es": "Ficha de demostración del diseño. Este registro no representa un producto real de Lynx. La descripción, imágenes y especificaciones se incorporarán desde los catálogos recibidos.",
+      "en": "Design demonstration page. This record does not represent an actual Lynx product. Description, images and specifications will be added from the supplied catalogs."
+    },
+    "status": "demo",
+    "categoryIds": [
+      "demo-category-2"
+    ],
+    "solutionIds": [],
+    "caseIds": [],
+    "gallery": [
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      }
+    ],
+    "attributes": {
+      "sample": [
+        "b"
+      ]
+    },
+    "specifications": [],
+    "source": "Muestra de layout basada en mockup páginas 6 y 7; sin información comercial."
+  },
+  {
+    "id": "demo-product-2-5",
+    "slug": "demo-product-2-5",
+    "title": {
+      "es": "Producto 05",
+      "en": "Product 05"
+    },
+    "description": {
+      "es": "Ficha de demostración del diseño. Este registro no representa un producto real de Lynx. La descripción, imágenes y especificaciones se incorporarán desde los catálogos recibidos.",
+      "en": "Design demonstration page. This record does not represent an actual Lynx product. Description, images and specifications will be added from the supplied catalogs."
+    },
+    "status": "demo",
+    "categoryIds": [
+      "demo-category-2"
+    ],
+    "solutionIds": [],
+    "caseIds": [],
+    "gallery": [
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      }
+    ],
+    "attributes": {
+      "sample": [
+        "a"
+      ]
+    },
+    "specifications": [],
+    "source": "Muestra de layout basada en mockup páginas 6 y 7; sin información comercial."
+  },
+  {
+    "id": "demo-product-2-6",
+    "slug": "demo-product-2-6",
+    "title": {
+      "es": "Producto 06",
+      "en": "Product 06"
+    },
+    "description": {
+      "es": "Ficha de demostración del diseño. Este registro no representa un producto real de Lynx. La descripción, imágenes y especificaciones se incorporarán desde los catálogos recibidos.",
+      "en": "Design demonstration page. This record does not represent an actual Lynx product. Description, images and specifications will be added from the supplied catalogs."
+    },
+    "status": "demo",
+    "categoryIds": [
+      "demo-category-2"
+    ],
+    "solutionIds": [],
+    "caseIds": [],
+    "gallery": [
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      }
+    ],
+    "attributes": {
+      "sample": [
+        "b"
+      ]
+    },
+    "specifications": [],
+    "source": "Muestra de layout basada en mockup páginas 6 y 7; sin información comercial."
+  },
+  {
+    "id": "demo-product-3-1",
+    "slug": "demo-product-3-1",
+    "title": {
+      "es": "Producto 01",
+      "en": "Product 01"
+    },
+    "description": {
+      "es": "Ficha de demostración del diseño. Este registro no representa un producto real de Lynx. La descripción, imágenes y especificaciones se incorporarán desde los catálogos recibidos.",
+      "en": "Design demonstration page. This record does not represent an actual Lynx product. Description, images and specifications will be added from the supplied catalogs."
+    },
+    "status": "demo",
+    "categoryIds": [
+      "demo-category-3"
+    ],
+    "solutionIds": [],
+    "caseIds": [],
+    "gallery": [
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      }
+    ],
+    "attributes": {
+      "sample": [
+        "a"
+      ]
+    },
+    "specifications": [],
+    "source": "Muestra de layout basada en mockup páginas 6 y 7; sin información comercial."
+  },
+  {
+    "id": "demo-product-3-2",
+    "slug": "demo-product-3-2",
+    "title": {
+      "es": "Producto 02",
+      "en": "Product 02"
+    },
+    "description": {
+      "es": "Ficha de demostración del diseño. Este registro no representa un producto real de Lynx. La descripción, imágenes y especificaciones se incorporarán desde los catálogos recibidos.",
+      "en": "Design demonstration page. This record does not represent an actual Lynx product. Description, images and specifications will be added from the supplied catalogs."
+    },
+    "status": "demo",
+    "categoryIds": [
+      "demo-category-3"
+    ],
+    "solutionIds": [],
+    "caseIds": [],
+    "gallery": [
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      }
+    ],
+    "attributes": {
+      "sample": [
+        "b"
+      ]
+    },
+    "specifications": [],
+    "source": "Muestra de layout basada en mockup páginas 6 y 7; sin información comercial."
+  },
+  {
+    "id": "demo-product-3-3",
+    "slug": "demo-product-3-3",
+    "title": {
+      "es": "Producto 03",
+      "en": "Product 03"
+    },
+    "description": {
+      "es": "Ficha de demostración del diseño. Este registro no representa un producto real de Lynx. La descripción, imágenes y especificaciones se incorporarán desde los catálogos recibidos.",
+      "en": "Design demonstration page. This record does not represent an actual Lynx product. Description, images and specifications will be added from the supplied catalogs."
+    },
+    "status": "demo",
+    "categoryIds": [
+      "demo-category-3"
+    ],
+    "solutionIds": [],
+    "caseIds": [],
+    "gallery": [
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      }
+    ],
+    "attributes": {
+      "sample": [
+        "a"
+      ]
+    },
+    "specifications": [],
+    "source": "Muestra de layout basada en mockup páginas 6 y 7; sin información comercial."
+  },
+  {
+    "id": "demo-product-3-4",
+    "slug": "demo-product-3-4",
+    "title": {
+      "es": "Producto 04",
+      "en": "Product 04"
+    },
+    "description": {
+      "es": "Ficha de demostración del diseño. Este registro no representa un producto real de Lynx. La descripción, imágenes y especificaciones se incorporarán desde los catálogos recibidos.",
+      "en": "Design demonstration page. This record does not represent an actual Lynx product. Description, images and specifications will be added from the supplied catalogs."
+    },
+    "status": "demo",
+    "categoryIds": [
+      "demo-category-3"
+    ],
+    "solutionIds": [],
+    "caseIds": [],
+    "gallery": [
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      }
+    ],
+    "attributes": {
+      "sample": [
+        "b"
+      ]
+    },
+    "specifications": [],
+    "source": "Muestra de layout basada en mockup páginas 6 y 7; sin información comercial."
+  },
+  {
+    "id": "demo-product-3-5",
+    "slug": "demo-product-3-5",
+    "title": {
+      "es": "Producto 05",
+      "en": "Product 05"
+    },
+    "description": {
+      "es": "Ficha de demostración del diseño. Este registro no representa un producto real de Lynx. La descripción, imágenes y especificaciones se incorporarán desde los catálogos recibidos.",
+      "en": "Design demonstration page. This record does not represent an actual Lynx product. Description, images and specifications will be added from the supplied catalogs."
+    },
+    "status": "demo",
+    "categoryIds": [
+      "demo-category-3"
+    ],
+    "solutionIds": [],
+    "caseIds": [],
+    "gallery": [
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      }
+    ],
+    "attributes": {
+      "sample": [
+        "a"
+      ]
+    },
+    "specifications": [],
+    "source": "Muestra de layout basada en mockup páginas 6 y 7; sin información comercial."
+  },
+  {
+    "id": "demo-product-3-6",
+    "slug": "demo-product-3-6",
+    "title": {
+      "es": "Producto 06",
+      "en": "Product 06"
+    },
+    "description": {
+      "es": "Ficha de demostración del diseño. Este registro no representa un producto real de Lynx. La descripción, imágenes y especificaciones se incorporarán desde los catálogos recibidos.",
+      "en": "Design demonstration page. This record does not represent an actual Lynx product. Description, images and specifications will be added from the supplied catalogs."
+    },
+    "status": "demo",
+    "categoryIds": [
+      "demo-category-3"
+    ],
+    "solutionIds": [],
+    "caseIds": [],
+    "gallery": [
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      },
+      {
+        "type": "image",
+        "placeholder": true,
+        "alt": {
+          "es": "Material visual pendiente",
+          "en": "Visual asset pending"
+        },
+        "ratio": 2
+      }
+    ],
+    "attributes": {
+      "sample": [
+        "b"
+      ]
+    },
+    "specifications": [],
+    "source": "Muestra de layout basada en mockup páginas 6 y 7; sin información comercial."
+  }
+]

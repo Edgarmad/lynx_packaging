@@ -1,0 +1,56 @@
+[
+  {
+    "id": "about",
+    "title": {
+      "es": "Acerca de nosotros",
+      "en": "About"
+    },
+    "path": "about/overview",
+    "group": "about"
+  },
+  {
+    "id": "catalogs",
+    "title": {
+      "es": "Catálogos",
+      "en": "Catalogs"
+    },
+    "path": null,
+    "group": "catalogs"
+  },
+  {
+    "id": "products",
+    "title": {
+      "es": "Productos",
+      "en": "Products"
+    },
+    "path": "products",
+    "group": "products"
+  },
+  {
+    "id": "solutions",
+    "title": {
+      "es": "Soluciones",
+      "en": "Solutions"
+    },
+    "path": "solutions",
+    "group": "solutions"
+  },
+  {
+    "id": "case-studies",
+    "title": {
+      "es": "Casos de estudio",
+      "en": "Case Studies"
+    },
+    "path": "case-studies",
+    "group": null
+  },
+  {
+    "id": "contact",
+    "title": {
+      "es": "Contacto",
+      "en": "Contact"
+    },
+    "path": "contact",
+    "group": null
+  }
+]

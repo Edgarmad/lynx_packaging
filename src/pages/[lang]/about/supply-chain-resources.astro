@@ -1,0 +1,16 @@
+---
+import { languages, type Language } from '../../../types/content';
+import { supply } from '../../../lib/data';
+import { ui } from '../../../i18n/ui';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import InteriorBanner from '../../../components/sections/InteriorBanner.astro';
+import MediaPlaceholder from '../../../components/ui/MediaPlaceholder.astro';
+export function getStaticPaths(){return languages.map(lang=>({params:{lang}}));}
+const lang=Astro.params.lang as Language;const t=ui(lang);
+---
+<BaseLayout lang={lang} path="about/supply-chain-resources" title={supply.title[lang]} description={supply.intro[lang]}>
+  <InteriorBanner lang={lang} title={supply.title[lang]} parent={{title:lang==='es'?'Acerca de nosotros':'About',path:'about/overview'}}/>
+  <section class="section site-container"><div class="centered-intro"><h2>{lang==='es'?'Recursos para distintas necesidades':'Resources for different needs'}</h2><p>{supply.intro[lang]}</p></div>
+    {supply.resources.length?supply.resources.map(resource=><article class="section"><p>{resource.description[lang]}</p><div class="product-grid">{resource.gallery.map(media=><MediaPlaceholder lang={lang} media={media}/>)}</div></article>):<div class="empty-section mt-16"><MediaPlaceholder lang={lang} ratio={2}/><p class="mt-6">{t.supplyPending}</p></div>}
+  </section>
+</BaseLayout>

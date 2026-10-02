@@ -1,0 +1,21 @@
+---
+import type { Language } from '../../types/content';
+import { ui } from '../../i18n/ui';
+interface Props { lang: Language; }
+const {lang}=Astro.props;const t=ui(lang);
+const fields=[{id:'first-name',label:t.firstName,required:true,autocomplete:'given-name',type:'text'},{id:'last-name',label:t.lastName,required:false,autocomplete:'family-name',type:'text'},{id:'email',label:t.email,required:true,autocomplete:'email',type:'email'},{id:'phone',label:t.phone,required:false,autocomplete:'tel',type:'tel'},{id:'company',label:t.companyField,required:false,autocomplete:'organization',type:'text'},{id:'country',label:t.country,required:false,autocomplete:'country-name',type:'text'}] as const;
+---
+<form class="contact-form" data-contact-form data-valid-message={t.formValid} aria-describedby="form-demo" method="dialog">
+  <p class="form-full form-notice" id="form-demo">{t.formDemo}</p><p class="form-full">{t.required}</p>
+  {fields.map(field=><label for={field.id}>{field.label}{field.required?'*':''}<input id={field.id} name={field.id} type={field.type} autocomplete={field.autocomplete} required={field.required} maxlength="200"/></label>)}
+  <label for="message" class="form-full">{t.message}*<textarea id="message" name="message" required maxlength="5000" rows="6"/></label>
+  <button class="button form-full" type="button" data-validate-form>{t.send}</button>
+  <p role="status" class="form-full" data-form-status></p>
+  <noscript><p class="form-full">{t.formDemo}</p></noscript>
+</form>
+<script>
+  document.querySelectorAll<HTMLFormElement>('[data-contact-form]').forEach(form=>{
+    const validate=()=>{if(form.reportValidity()){const status=form.querySelector<HTMLElement>('[data-form-status]');if(status)status.textContent=form.dataset.validMessage??'';}};
+    form.addEventListener('submit',event=>{event.preventDefault();validate();});form.querySelector('[data-validate-form]')?.addEventListener('click',validate);
+  });
+</script>

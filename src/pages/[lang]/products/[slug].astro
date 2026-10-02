@@ -1,0 +1,20 @@
+---
+import { languages, type Language, type Product } from '../../../types/content';
+import { visibleProducts, visibleCategories } from '../../../lib/data';
+import { ui } from '../../../i18n/ui';
+import { route } from '../../../lib/routes';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/ui/Breadcrumbs.astro';
+import Gallery from '../../../components/products/Gallery.astro';
+import ProductCarousel from '../../../components/products/ProductCarousel.astro';
+export function getStaticPaths(){return languages.flatMap(lang=>visibleProducts.map(product=>({params:{lang,slug:product.slug},props:{product}})));}
+interface Props { product: Product; }
+const lang=Astro.params.lang as Language;const {product}=Astro.props;const t=ui(lang);const category=visibleCategories.find(c=>product.categoryIds.includes(c.id));
+const related=visibleProducts.filter(p=>p.id!==product.id&&p.categoryIds.some(id=>product.categoryIds.includes(id)));
+---
+<BaseLayout lang={lang} path={`products/${product.slug}`} title={product.title[lang]} description={product.description[lang]} noindex={product.status!=='published'}>
+  <section class="product-intro"><div class="page-heading site-container"><Breadcrumbs lang={lang} items={[{title:t.products,path:'products'},...(category?[{title:category.title[lang],path:`products/categories/${category.slug}`}]:[]),{title:product.title[lang]}]}/><div class="centered-intro"><h1>{product.title[lang]}</h1><p>{product.description[lang]}</p>{product.status==='demo'&&<p class="demo-note">{t.demo}</p>}</div></div></section>
+  <div class="site-container"><Gallery lang={lang} gallery={product.gallery}/></div>
+  <section class="section site-container specifications"><h2>{t.specs}</h2>{product.specifications.length?<table><tbody>{product.specifications.map(spec=><tr><th scope="row">{spec.label[lang]}</th><td>{spec.value[lang]}</td></tr>)}</tbody></table>:<p>{t.specsPending}</p>}<a class="button" href={route(lang,'contact')}>{t.contact}</a></section>
+  {related.length>0&&<section class="section site-container related"><h2>{t.related}</h2><ProductCarousel lang={lang} products={related} id="related-products"/></section>}
+</BaseLayout>

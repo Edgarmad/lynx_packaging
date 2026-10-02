@@ -1,0 +1,19 @@
+---
+import { languages, type Language, type Solution } from '../../../types/content';
+import { visibleSolutions, visibleProducts } from '../../../lib/data';
+import { ui } from '../../../i18n/ui';
+import { route } from '../../../lib/routes';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/ui/Breadcrumbs.astro';
+import MediaPlaceholder from '../../../components/ui/MediaPlaceholder.astro';
+import ProductCard from '../../../components/products/ProductCard.astro';
+export function getStaticPaths(){return languages.flatMap(lang=>visibleSolutions.map(solution=>({params:{lang,slug:solution.slug},props:{solution}})));}
+interface Props { solution: Solution; }
+const lang=Astro.params.lang as Language;const {solution}=Astro.props;const t=ui(lang);const related=visibleProducts.filter(p=>solution.productIds.includes(p.id));
+---
+<BaseLayout lang={lang} path={`solutions/${solution.slug}`} title={solution.title[lang]} description={solution.description[lang]}>
+  <section class="page-heading site-container"><Breadcrumbs lang={lang} items={[{title:t.solutions,path:'solutions'},{title:solution.title[lang]}]}/><div class="centered-intro"><h1>{solution.title[lang]}</h1><p>{solution.description[lang]}</p></div></section>
+  <section class="site-container"><MediaPlaceholder lang={lang} media={solution.media} /></section>
+  {related.length>0&&<section class="section site-container"><h2 class="mb-10">{t.products}</h2><div class="product-grid">{related.map(product=><ProductCard lang={lang} product={product}/>)}</div></section>}
+  <section class="section site-container centered-intro"><h2>{t.contactIntro}</h2><a class="button" href={route(lang,'contact')}>{t.contact}</a></section>
+</BaseLayout>

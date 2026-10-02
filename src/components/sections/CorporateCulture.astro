@@ -1,0 +1,12 @@
+---
+import { about } from '../../lib/data';
+import type { Language } from '../../types/content';
+interface Props { lang: Language; }
+const { lang } = Astro.props;
+---
+<section class="corporate-culture" aria-labelledby="culture-title">
+  <h2 id="culture-title">{about.culture.title[lang]}</h2>
+  <ul class="culture-values">
+    {about.culture.values.map(value => <li><h3>{value.title[lang]}</h3></li>)}
+  </ul>
+</section>
