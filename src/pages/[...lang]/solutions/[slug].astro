@@ -7,9 +7,9 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../../components/ui/Breadcrumbs.astro';
 import MediaPlaceholder from '../../../components/ui/MediaPlaceholder.astro';
 import ProductCard from '../../../components/products/ProductCard.astro';
-export function getStaticPaths(){return languages.flatMap(lang=>visibleSolutions.map(solution=>({params:{lang,slug:solution.slug},props:{solution}})));}
+export function getStaticPaths(){return languages.flatMap(lang=>visibleSolutions.map(solution=>({params:{lang:lang==='es'?undefined:lang,slug:solution.slug},props:{solution}})));}
 interface Props { solution: Solution; }
-const lang=Astro.params.lang as Language;const {solution}=Astro.props;const t=ui(lang);const related=visibleProducts.filter(p=>solution.productIds.includes(p.id));
+const lang=(Astro.params.lang ?? 'es') as Language;const {solution}=Astro.props;const t=ui(lang);const related=visibleProducts.filter(p=>solution.productIds.includes(p.id));
 ---
 <BaseLayout lang={lang} path={`solutions/${solution.slug}`} title={solution.title[lang]} description={solution.description[lang]}>
   <section class="page-heading site-container"><Breadcrumbs lang={lang} items={[{title:t.solutions,path:'solutions'},{title:solution.title[lang]}]}/><div class="centered-intro"><h1>{solution.title[lang]}</h1><p>{solution.description[lang]}</p></div></section>

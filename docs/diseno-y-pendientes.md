@@ -72,3 +72,7 @@ El sitemap se genera en build únicamente para producción con dominio real; el 
 - Corregidos durante QA: limpieza de filtros antes del reset del navegador; colisión de `.container` con la utilidad Tailwind (ahora `.site-container`); campos de contacto apilados en móvil.
 
 La preview de esta sesión está en `http://127.0.0.1:4322/es/`, porque el puerto 4321 estaba ocupado. Esto es un servidor local de revisión; no un despliegue remoto.
+
+## Rutas de idiomas — 2 de octubre de 2026
+
+Por instrucción de Luis, español se sirve directamente en / y sus páginas no llevan prefijo de idioma. Inglés conserva /en/. Esta decisión sustituye la propuesta anterior de /es/. Se elimina la página de redirección de la raíz y el selector ES/EN conserva la misma entidad. Los enlaces antiguos con /es/ deben actualizarse a las nuevas rutas.

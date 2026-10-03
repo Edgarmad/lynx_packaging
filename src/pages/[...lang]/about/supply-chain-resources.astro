@@ -5,8 +5,8 @@ import { ui } from '../../../i18n/ui';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import InteriorBanner from '../../../components/sections/InteriorBanner.astro';
 import MediaPlaceholder from '../../../components/ui/MediaPlaceholder.astro';
-export function getStaticPaths(){return languages.map(lang=>({params:{lang}}));}
-const lang=Astro.params.lang as Language;const t=ui(lang);
+export function getStaticPaths(){return languages.map(lang=>({params:{lang:lang==='es'?undefined:lang}}));}
+const lang=(Astro.params.lang ?? 'es') as Language;const t=ui(lang);
 ---
 <BaseLayout lang={lang} path="about/supply-chain-resources" title={supply.title[lang]} description={supply.intro[lang]}>
   <InteriorBanner lang={lang} title={supply.title[lang]} parent={{title:lang==='es'?'Acerca de nosotros':'About',path:'about/overview'}}/>

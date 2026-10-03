@@ -14,6 +14,10 @@ test('restauración ignora valores y claves ajenos al catálogo', () => {
 });
 test('ES/EN conserva entidad y normaliza delimitadores', () => {
   assert.equal(alternate('es', 'products/categories/sample'), '/en/products/categories/sample/');
-  assert.equal(route('es', '/contact/'), '/es/contact/');
+  assert.equal(route('es', '/contact/'), '/contact/');
+  assert.equal(route('es'), '/');
+  assert.equal(route('es', '/'), '/');
+  assert.equal(alternate('en', 'products/categories/sample'), '/products/categories/sample/');
+  assert.equal(alternate('en', ''), '/');
   assert.equal(route('en'), '/en/');
 });

@@ -11,7 +11,7 @@ npm ci
 npm run dev
 ```
 
-Abrir `http://127.0.0.1:4321/es/`. La raíz dirige a español. ES/EN conserva la entidad con los mismos segmentos técnicos.
+Abrir `http://127.0.0.1:4321/`. Español se sirve directamente en la raíz e inglés bajo `/en/`. ES/EN conserva la entidad con los mismos segmentos técnicos.
 
 ```sh
 npm run validate:data
@@ -31,7 +31,7 @@ npm run preview
 - `src/i18n/ui.ts`: interfaz traducida.
 - `src/styles/global.css`: tokens Tailwind y patrones visuales.
 - `src/components/`: navegación, patrones de sección, media, filtros y galerías.
-- `src/pages/[lang]/`: plantillas. Productos, categorías y soluciones usan `getStaticPaths()`.
+- `src/pages/[...lang]/`: plantillas. Productos, categorías y soluciones usan `getStaticPaths()`.
 - `docs/diseno-y-pendientes.md`: análisis, fuentes, propuestas y pendientes.
 
 Para agregar un producto, incorporar registro y assets locales, enlazar IDs de categorías y soluciones, completar ES/EN y validar. Un producto publicado no puede referenciar borradores o muestras. No crear un archivo Astro por producto.

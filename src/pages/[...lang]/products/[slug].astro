@@ -7,9 +7,9 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../../components/ui/Breadcrumbs.astro';
 import Gallery from '../../../components/products/Gallery.astro';
 import ProductCarousel from '../../../components/products/ProductCarousel.astro';
-export function getStaticPaths(){return languages.flatMap(lang=>visibleProducts.map(product=>({params:{lang,slug:product.slug},props:{product}})));}
+export function getStaticPaths(){return languages.flatMap(lang=>visibleProducts.map(product=>({params:{lang:lang==='es'?undefined:lang,slug:product.slug},props:{product}})));}
 interface Props { product: Product; }
-const lang=Astro.params.lang as Language;const {product}=Astro.props;const t=ui(lang);const category=visibleCategories.find(c=>product.categoryIds.includes(c.id));
+const lang=(Astro.params.lang ?? 'es') as Language;const {product}=Astro.props;const t=ui(lang);const category=visibleCategories.find(c=>product.categoryIds.includes(c.id));
 const related=visibleProducts.filter(p=>p.id!==product.id&&p.categoryIds.some(id=>product.categoryIds.includes(id)));
 ---
 <BaseLayout lang={lang} path={`products/${product.slug}`} title={product.title[lang]} description={product.description[lang]} noindex={product.status!=='published'}>
