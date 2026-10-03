@@ -7,5 +7,134 @@
     "es": "Contamos con una red consolidada de proveedores de largo plazo y años de cooperación para distintas categorías de packaging. Esta red nos permite responder con flexibilidad a diversas necesidades: empaques de papel, plástico y consumibles complementarios. Buscamos recursos de producción adecuados y equilibramos calidad, plazo y costo para ofrecer soluciones integrales de empaque.",
     "en": "We have robust supply chain resources, with long-term suppliers and years of cooperation across packaging categories. Our mature supplier network allows us to respond flexibly to diverse packaging requirements. For paper packaging, plastic packaging and supporting consumables, we source suitable production resources, balancing quality, lead time and cost to deliver one-stop packaging solutions."
   },
-  "resources": []
+  "resources": [
+    {
+      "id": "jihong-facilities",
+      "description": {
+        "es": "Instalaciones presentadas en los catálogos de Jihong. Estas fotografías documentan recursos del proveedor; no implican propiedad de Lynx.",
+        "en": "Facilities presented in the Jihong catalogues. These photographs document supplier resources; they do not imply Lynx ownership."
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/editorial/supplier-campus.webp",
+          "alt": {
+            "es": "Vista aérea de instalaciones de Jihong",
+            "en": "Aerial view of Jihong facilities"
+          },
+          "ratio": 1.3352,
+          "caption": {
+            "es": "Fuente: catálogo de Jihong · material del proveedor.",
+            "en": "Source: Jihong catalogue · supplier imagery."
+          }
+        },
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/editorial/supplier-building.webp",
+          "alt": {
+            "es": "Edificio de Jihong",
+            "en": "Jihong building"
+          },
+          "ratio": 1.5,
+          "caption": {
+            "es": "Fuente: catálogo de Jihong · material del proveedor.",
+            "en": "Source: Jihong catalogue · supplier imagery."
+          }
+        }
+      ],
+      "source": "厦门吉宏股份-电子英文版画册.pdf — página 4; 厦门吉宏股份-电子英文版画册.pdf — página 4"
+    },
+    {
+      "id": "jihong-production",
+      "description": {
+        "es": "Escenas de talleres y líneas de impresión del catálogo de Jihong.",
+        "en": "Workshop and printing-line scenes from the Jihong catalogue."
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/editorial/production.webp",
+          "alt": {
+            "es": "Taller de producción de Jihong",
+            "en": "Jihong production workshop"
+          },
+          "ratio": 1.4977,
+          "caption": {
+            "es": "Fuente: catálogo de Jihong · material del proveedor.",
+            "en": "Source: Jihong catalogue · supplier imagery."
+          }
+        },
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/editorial/printing.webp",
+          "alt": {
+            "es": "Línea de impresión de Jihong",
+            "en": "Jihong printing line"
+          },
+          "ratio": 1.5023,
+          "caption": {
+            "es": "Fuente: catálogo de Jihong · material del proveedor.",
+            "en": "Source: Jihong catalogue · supplier imagery."
+          }
+        }
+      ],
+      "source": "厦门吉宏股份-电子英文版画册.pdf — página 8; 厦门吉宏股份-电子英文版画册.pdf — página 7"
+    },
+    {
+      "id": "jihong-quality-storage",
+      "description": {
+        "es": "Escenas de laboratorio y almacenamiento del catálogo de Jihong. El almacén fotografiado no se presenta como almacén local de Lynx en México.",
+        "en": "Laboratory and storage scenes from the Jihong catalogue. The photographed warehouse is not presented as a local Lynx warehouse in Mexico."
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/editorial/quality.webp",
+          "alt": {
+            "es": "Personal de laboratorio en el catálogo de Jihong",
+            "en": "Laboratory staff in the Jihong catalogue"
+          },
+          "ratio": 1.502,
+          "caption": {
+            "es": "Fuente: catálogo de Jihong · material del proveedor.",
+            "en": "Source: Jihong catalogue · supplier imagery."
+          }
+        },
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/editorial/laboratory.webp",
+          "alt": {
+            "es": "Laboratorio mostrado en el catálogo de Jihong",
+            "en": "Laboratory shown in the Jihong catalogue"
+          },
+          "ratio": 1.5,
+          "caption": {
+            "es": "Fuente: catálogo de Jihong · material del proveedor.",
+            "en": "Source: Jihong catalogue · supplier imagery."
+          }
+        },
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/editorial/warehouse.webp",
+          "alt": {
+            "es": "Almacén mostrado en el catálogo de Jihong",
+            "en": "Warehouse shown in the Jihong catalogue"
+          },
+          "ratio": 1.5,
+          "caption": {
+            "es": "Fuente: catálogo de Jihong · material del proveedor.",
+            "en": "Source: Jihong catalogue · supplier imagery."
+          }
+        }
+      ],
+      "source": "厦门吉宏股份-电子中文版画册.pdf — página 10; 厦门吉宏股份-电子中文版画册.pdf — página 9; 厦门吉宏股份-电子英文版画册.pdf — página 5"
+    }
+  ]
 }

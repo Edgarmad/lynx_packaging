@@ -13,6 +13,7 @@ export const mediaSchema = z.object({
   poster: z.string().optional(),
   alt: localized,
   ratio: z.number().positive(),
+  caption: localized.optional(),
 }).superRefine((media, ctx) => {
   if (!media.placeholder && !media.src) ctx.addIssue({ code: 'custom', message: 'Media real requiere src' });
   if (media.src && !media.src.startsWith('/images/')) ctx.addIssue({ code: 'custom', message: 'Asset debe ser local en /images/' });

@@ -21,12 +21,17 @@
       },
       "media": {
         "type": "image",
-        "placeholder": true,
+        "placeholder": false,
+        "src": "/images/editorial/design.webp",
         "alt": {
-          "es": "Material visual pendiente",
-          "en": "Visual asset pending"
+          "es": "Equipo trabajando en diseño estructural (escena ilustrativa)",
+          "en": "Team working on structural design (illustrative scene)"
         },
-        "ratio": 1.5
+        "ratio": 1.7768,
+        "caption": {
+          "es": "Imagen ilustrativa generada con IA.",
+          "en": "AI-generated illustrative image."
+        }
       },
       "caseIds": []
     },
@@ -43,12 +48,17 @@
       },
       "media": {
         "type": "image",
-        "placeholder": true,
+        "placeholder": false,
+        "src": "/images/editorial/production.webp",
         "alt": {
-          "es": "Material visual pendiente",
-          "en": "Visual asset pending"
+          "es": "Taller de producción de Jihong",
+          "en": "Jihong production workshop"
         },
-        "ratio": 1.5
+        "ratio": 1.4977,
+        "caption": {
+          "es": "Fuente: catálogo de Jihong · material del proveedor.",
+          "en": "Source: Jihong catalogue · supplier imagery."
+        }
       },
       "caseIds": []
     },
@@ -65,12 +75,17 @@
       },
       "media": {
         "type": "image",
-        "placeholder": true,
+        "placeholder": false,
+        "src": "/images/editorial/quality.webp",
         "alt": {
-          "es": "Material visual pendiente",
-          "en": "Visual asset pending"
+          "es": "Personal de laboratorio en el catálogo de Jihong",
+          "en": "Laboratory staff in the Jihong catalogue"
         },
-        "ratio": 1.5
+        "ratio": 1.502,
+        "caption": {
+          "es": "Fuente: catálogo de Jihong · material del proveedor.",
+          "en": "Source: Jihong catalogue · supplier imagery."
+        }
       },
       "caseIds": []
     },
@@ -87,12 +102,17 @@
       },
       "media": {
         "type": "image",
-        "placeholder": true,
+        "placeholder": false,
+        "src": "/images/editorial/logistics.webp",
         "alt": {
-          "es": "Material visual pendiente",
-          "en": "Visual asset pending"
+          "es": "Transporte marítimo en un puerto (escena ilustrativa)",
+          "en": "Maritime transport at a port (illustrative scene)"
         },
-        "ratio": 1.5
+        "ratio": 2.2665,
+        "caption": {
+          "es": "Imagen ilustrativa generada con IA.",
+          "en": "AI-generated illustrative image."
+        }
       },
       "caseIds": []
     },
@@ -109,12 +129,17 @@
       },
       "media": {
         "type": "image",
-        "placeholder": true,
+        "placeholder": false,
+        "src": "/images/editorial/local-storage.webp",
         "alt": {
-          "es": "Material visual pendiente",
-          "en": "Visual asset pending"
+          "es": "Gestión de inventario en un almacén (escena ilustrativa)",
+          "en": "Inventory management in a warehouse (illustrative scene)"
         },
-        "ratio": 1.5
+        "ratio": 2.0,
+        "caption": {
+          "es": "Imagen ilustrativa generada con IA.",
+          "en": "AI-generated illustrative image."
+        }
       },
       "caseIds": []
     },
@@ -131,12 +156,17 @@
       },
       "media": {
         "type": "image",
-        "placeholder": true,
+        "placeholder": false,
+        "src": "/images/editorial/delivery.webp",
         "alt": {
-          "es": "Material visual pendiente",
-          "en": "Visual asset pending"
+          "es": "Entrega a un comercio (escena ilustrativa)",
+          "en": "Delivery to a business (illustrative scene)"
         },
-        "ratio": 1.5
+        "ratio": 1.7768,
+        "caption": {
+          "es": "Imagen ilustrativa generada con IA.",
+          "en": "AI-generated illustrative image."
+        }
       },
       "caseIds": []
     }

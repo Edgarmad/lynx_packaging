@@ -13,12 +13,17 @@
     "status": "published",
     "media": {
       "type": "image",
-      "placeholder": true,
+      "placeholder": false,
+      "src": "/images/editorial/food-beverage.webp",
       "alt": {
-        "es": "Material visual pendiente",
-        "en": "Visual asset pending"
+        "es": "Personal trabajando en una cafetería (escena ilustrativa)",
+        "en": "Staff working at a cafe (illustrative scene)"
       },
-      "ratio": 1.6
+      "ratio": 2.0,
+      "caption": {
+        "es": "Imagen ilustrativa generada con IA.",
+        "en": "AI-generated illustrative image."
+      }
     },
     "productIds": [],
     "caseIds": []
@@ -37,12 +42,17 @@
     "status": "published",
     "media": {
       "type": "image",
-      "placeholder": true,
+      "placeholder": false,
+      "src": "/images/editorial/personal-care.webp",
       "alt": {
-        "es": "Material visual pendiente",
-        "en": "Visual asset pending"
+        "es": "Profesionales en un laboratorio de cosmética (escena ilustrativa)",
+        "en": "Professionals in a cosmetics laboratory (illustrative scene)"
       },
-      "ratio": 1.6
+      "ratio": 1.7768,
+      "caption": {
+        "es": "Imagen ilustrativa generada con IA.",
+        "en": "AI-generated illustrative image."
+      }
     },
     "productIds": [],
     "caseIds": []
@@ -61,12 +71,17 @@
     "status": "published",
     "media": {
       "type": "image",
-      "placeholder": true,
+      "placeholder": false,
+      "src": "/images/editorial/electronics.webp",
       "alt": {
-        "es": "Material visual pendiente",
-        "en": "Visual asset pending"
+        "es": "Personal ensamblando componentes electrónicos (escena ilustrativa)",
+        "en": "Staff assembling electronic components (illustrative scene)"
       },
-      "ratio": 1.6
+      "ratio": 1.7787,
+      "caption": {
+        "es": "Imagen ilustrativa generada con IA.",
+        "en": "AI-generated illustrative image."
+      }
     },
     "productIds": [],
     "caseIds": []
@@ -85,12 +100,17 @@
     "status": "published",
     "media": {
       "type": "image",
-      "placeholder": true,
+      "placeholder": false,
+      "src": "/images/editorial/retail.webp",
       "alt": {
-        "es": "Material visual pendiente",
-        "en": "Visual asset pending"
+        "es": "Gestión de pedidos en un espacio de distribución (escena ilustrativa)",
+        "en": "Order management at a fulfillment workspace (illustrative scene)"
       },
-      "ratio": 1.6
+      "ratio": 2.0,
+      "caption": {
+        "es": "Imagen ilustrativa generada con IA.",
+        "en": "AI-generated illustrative image."
+      }
     },
     "productIds": [],
     "caseIds": []
@@ -109,12 +129,17 @@
     "status": "published",
     "media": {
       "type": "image",
-      "placeholder": true,
+      "placeholder": false,
+      "src": "/images/editorial/premium-gifts.webp",
       "alt": {
-        "es": "Material visual pendiente",
-        "en": "Visual asset pending"
+        "es": "Trabajo artesanal en una boutique de regalos (escena ilustrativa)",
+        "en": "Craft work in a gift boutique (illustrative scene)"
       },
-      "ratio": 1.6
+      "ratio": 1.5,
+      "caption": {
+        "es": "Imagen ilustrativa generada con IA.",
+        "en": "AI-generated illustrative image."
+      }
     },
     "productIds": [],
     "caseIds": []
@@ -133,12 +158,17 @@
     "status": "published",
     "media": {
       "type": "image",
-      "placeholder": true,
+      "placeholder": false,
+      "src": "/images/editorial/printing.webp",
       "alt": {
-        "es": "Material visual pendiente",
-        "en": "Visual asset pending"
+        "es": "Línea de impresión de Jihong",
+        "en": "Jihong printing line"
       },
-      "ratio": 1.6
+      "ratio": 1.5023,
+      "caption": {
+        "es": "Fuente: catálogo de Jihong · material del proveedor.",
+        "en": "Source: Jihong catalogue · supplier imagery."
+      }
     },
     "productIds": [],
     "caseIds": []
@@ -157,12 +187,17 @@
     "status": "published",
     "media": {
       "type": "image",
-      "placeholder": true,
+      "placeholder": false,
+      "src": "/images/editorial/design.webp",
       "alt": {
-        "es": "Material visual pendiente",
-        "en": "Visual asset pending"
+        "es": "Equipo trabajando en diseño estructural (escena ilustrativa)",
+        "en": "Team working on structural design (illustrative scene)"
       },
-      "ratio": 1.6
+      "ratio": 1.7768,
+      "caption": {
+        "es": "Imagen ilustrativa generada con IA.",
+        "en": "AI-generated illustrative image."
+      }
     },
     "productIds": [],
     "caseIds": []

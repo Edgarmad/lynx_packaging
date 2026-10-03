@@ -145,3 +145,4 @@ vite.config.ts.timestamp-*
 # Astro and local review artifacts
 .astro/
 tmp/
+.codex/pdf-review/

@@ -1,0 +1,226 @@
+{
+  "supplier-campus": {
+    "type": "image",
+    "placeholder": false,
+    "src": "/images/editorial/supplier-campus.webp",
+    "alt": {
+      "es": "Vista aérea de instalaciones de Jihong",
+      "en": "Aerial view of Jihong facilities"
+    },
+    "ratio": 1.3352,
+    "caption": {
+      "es": "Fuente: catálogo de Jihong · material del proveedor.",
+      "en": "Source: Jihong catalogue · supplier imagery."
+    }
+  },
+  "supplier-building": {
+    "type": "image",
+    "placeholder": false,
+    "src": "/images/editorial/supplier-building.webp",
+    "alt": {
+      "es": "Edificio de Jihong",
+      "en": "Jihong building"
+    },
+    "ratio": 1.5,
+    "caption": {
+      "es": "Fuente: catálogo de Jihong · material del proveedor.",
+      "en": "Source: Jihong catalogue · supplier imagery."
+    }
+  },
+  "production": {
+    "type": "image",
+    "placeholder": false,
+    "src": "/images/editorial/production.webp",
+    "alt": {
+      "es": "Taller de producción de Jihong",
+      "en": "Jihong production workshop"
+    },
+    "ratio": 1.4977,
+    "caption": {
+      "es": "Fuente: catálogo de Jihong · material del proveedor.",
+      "en": "Source: Jihong catalogue · supplier imagery."
+    }
+  },
+  "printing": {
+    "type": "image",
+    "placeholder": false,
+    "src": "/images/editorial/printing.webp",
+    "alt": {
+      "es": "Línea de impresión de Jihong",
+      "en": "Jihong printing line"
+    },
+    "ratio": 1.5023,
+    "caption": {
+      "es": "Fuente: catálogo de Jihong · material del proveedor.",
+      "en": "Source: Jihong catalogue · supplier imagery."
+    }
+  },
+  "warehouse": {
+    "type": "image",
+    "placeholder": false,
+    "src": "/images/editorial/warehouse.webp",
+    "alt": {
+      "es": "Almacén mostrado en el catálogo de Jihong",
+      "en": "Warehouse shown in the Jihong catalogue"
+    },
+    "ratio": 1.5,
+    "caption": {
+      "es": "Fuente: catálogo de Jihong · material del proveedor.",
+      "en": "Source: Jihong catalogue · supplier imagery."
+    }
+  },
+  "quality": {
+    "type": "image",
+    "placeholder": false,
+    "src": "/images/editorial/quality.webp",
+    "alt": {
+      "es": "Personal de laboratorio en el catálogo de Jihong",
+      "en": "Laboratory staff in the Jihong catalogue"
+    },
+    "ratio": 1.502,
+    "caption": {
+      "es": "Fuente: catálogo de Jihong · material del proveedor.",
+      "en": "Source: Jihong catalogue · supplier imagery."
+    }
+  },
+  "laboratory": {
+    "type": "image",
+    "placeholder": false,
+    "src": "/images/editorial/laboratory.webp",
+    "alt": {
+      "es": "Laboratorio mostrado en el catálogo de Jihong",
+      "en": "Laboratory shown in the Jihong catalogue"
+    },
+    "ratio": 1.5,
+    "caption": {
+      "es": "Fuente: catálogo de Jihong · material del proveedor.",
+      "en": "Source: Jihong catalogue · supplier imagery."
+    }
+  },
+  "design": {
+    "type": "image",
+    "placeholder": false,
+    "src": "/images/editorial/design.webp",
+    "alt": {
+      "es": "Equipo trabajando en diseño estructural (escena ilustrativa)",
+      "en": "Team working on structural design (illustrative scene)"
+    },
+    "ratio": 1.7768,
+    "caption": {
+      "es": "Imagen ilustrativa generada con IA.",
+      "en": "AI-generated illustrative image."
+    }
+  },
+  "logistics": {
+    "type": "image",
+    "placeholder": false,
+    "src": "/images/editorial/logistics.webp",
+    "alt": {
+      "es": "Transporte marítimo en un puerto (escena ilustrativa)",
+      "en": "Maritime transport at a port (illustrative scene)"
+    },
+    "ratio": 2.2665,
+    "caption": {
+      "es": "Imagen ilustrativa generada con IA.",
+      "en": "AI-generated illustrative image."
+    }
+  },
+  "delivery": {
+    "type": "image",
+    "placeholder": false,
+    "src": "/images/editorial/delivery.webp",
+    "alt": {
+      "es": "Entrega a un comercio (escena ilustrativa)",
+      "en": "Delivery to a business (illustrative scene)"
+    },
+    "ratio": 1.7768,
+    "caption": {
+      "es": "Imagen ilustrativa generada con IA.",
+      "en": "AI-generated illustrative image."
+    }
+  },
+  "food-beverage": {
+    "type": "image",
+    "placeholder": false,
+    "src": "/images/editorial/food-beverage.webp",
+    "alt": {
+      "es": "Personal trabajando en una cafetería (escena ilustrativa)",
+      "en": "Staff working at a cafe (illustrative scene)"
+    },
+    "ratio": 2.0,
+    "caption": {
+      "es": "Imagen ilustrativa generada con IA.",
+      "en": "AI-generated illustrative image."
+    }
+  },
+  "personal-care": {
+    "type": "image",
+    "placeholder": false,
+    "src": "/images/editorial/personal-care.webp",
+    "alt": {
+      "es": "Profesionales en un laboratorio de cosmética (escena ilustrativa)",
+      "en": "Professionals in a cosmetics laboratory (illustrative scene)"
+    },
+    "ratio": 1.7768,
+    "caption": {
+      "es": "Imagen ilustrativa generada con IA.",
+      "en": "AI-generated illustrative image."
+    }
+  },
+  "electronics": {
+    "type": "image",
+    "placeholder": false,
+    "src": "/images/editorial/electronics.webp",
+    "alt": {
+      "es": "Personal ensamblando componentes electrónicos (escena ilustrativa)",
+      "en": "Staff assembling electronic components (illustrative scene)"
+    },
+    "ratio": 1.7787,
+    "caption": {
+      "es": "Imagen ilustrativa generada con IA.",
+      "en": "AI-generated illustrative image."
+    }
+  },
+  "retail": {
+    "type": "image",
+    "placeholder": false,
+    "src": "/images/editorial/retail.webp",
+    "alt": {
+      "es": "Gestión de pedidos en un espacio de distribución (escena ilustrativa)",
+      "en": "Order management at a fulfillment workspace (illustrative scene)"
+    },
+    "ratio": 2.0,
+    "caption": {
+      "es": "Imagen ilustrativa generada con IA.",
+      "en": "AI-generated illustrative image."
+    }
+  },
+  "premium-gifts": {
+    "type": "image",
+    "placeholder": false,
+    "src": "/images/editorial/premium-gifts.webp",
+    "alt": {
+      "es": "Trabajo artesanal en una boutique de regalos (escena ilustrativa)",
+      "en": "Craft work in a gift boutique (illustrative scene)"
+    },
+    "ratio": 1.5,
+    "caption": {
+      "es": "Imagen ilustrativa generada con IA.",
+      "en": "AI-generated illustrative image."
+    }
+  },
+  "local-storage": {
+    "type": "image",
+    "placeholder": false,
+    "src": "/images/editorial/local-storage.webp",
+    "alt": {
+      "es": "Gestión de inventario en un almacén (escena ilustrativa)",
+      "en": "Inventory management in a warehouse (illustrative scene)"
+    },
+    "ratio": 2.0,
+    "caption": {
+      "es": "Imagen ilustrativa generada con IA.",
+      "en": "AI-generated illustrative image."
+    }
+  }
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "supplier-campus",
+    "file": "d1-p4-x1827.jpeg",
+    "pdf": "厦门吉宏股份-电子英文版画册.pdf",
+    "page": 4,
+    "width": 2625,
+    "height": 1966,
+    "output": "/images/editorial/supplier-campus.webp"
+  },
+  {
+    "id": "supplier-building",
+    "file": "d1-p4-x1735.jpeg",
+    "pdf": "厦门吉宏股份-电子英文版画册.pdf",
+    "page": 4,
+    "width": 1248,
+    "height": 832,
+    "output": "/images/editorial/supplier-building.webp"
+  },
+  {
+    "id": "production",
+    "file": "d1-p8-x1250.jpeg",
+    "pdf": "厦门吉宏股份-电子英文版画册.pdf",
+    "page": 8,
+    "width": 981,
+    "height": 655,
+    "output": "/images/editorial/production.webp"
+  },
+  {
+    "id": "printing",
+    "file": "d1-p7-x1280.jpeg",
+    "pdf": "厦门吉宏股份-电子英文版画册.pdf",
+    "page": 7,
+    "width": 969,
+    "height": 645,
+    "output": "/images/editorial/printing.webp"
+  },
+  {
+    "id": "warehouse",
+    "file": "d1-p5-x1579.jpeg",
+    "pdf": "厦门吉宏股份-电子英文版画册.pdf",
+    "page": 5,
+    "width": 963,
+    "height": 642,
+    "output": "/images/editorial/warehouse.webp"
+  },
+  {
+    "id": "quality",
+    "file": "d0-p10-x941.jpeg",
+    "pdf": "厦门吉宏股份-电子中文版画册.pdf",
+    "page": 10,
+    "width": 1146,
+    "height": 763,
+    "output": "/images/editorial/quality.webp"
+  },
+  {
+    "id": "laboratory",
+    "file": "d0-p9-x1007.jpeg",
+    "pdf": "厦门吉宏股份-电子中文版画册.pdf",
+    "page": 9,
+    "width": 4134,
+    "height": 2755,
+    "output": "/images/editorial/laboratory.webp"
+  },
+  {
+    "id": "design",
+    "origin": "image_gen built-in",
+    "output": "/images/editorial/design.webp",
+    "original": "exec-137cae47-dd5c-494c-9dab-e784c65aaae9.png",
+    "fictional": true
+  },
+  {
+    "id": "logistics",
+    "origin": "image_gen built-in",
+    "output": "/images/editorial/logistics.webp",
+    "original": "exec-7702f25c-f82e-4661-a090-f45fb137f580.png",
+    "fictional": true
+  },
+  {
+    "id": "delivery",
+    "origin": "image_gen built-in",
+    "output": "/images/editorial/delivery.webp",
+    "original": "exec-51bd6bde-babf-4cd1-b833-1c7bfa13a252.png",
+    "fictional": true
+  },
+  {
+    "id": "food-beverage",
+    "origin": "image_gen built-in",
+    "output": "/images/editorial/food-beverage.webp",
+    "original": "exec-6edbc619-4209-48f7-9c03-824f57bceca6.png",
+    "fictional": true
+  },
+  {
+    "id": "personal-care",
+    "origin": "image_gen built-in",
+    "output": "/images/editorial/personal-care.webp",
+    "original": "exec-6028dcdb-7860-40a2-8f47-e57eb123395e.png",
+    "fictional": true
+  },
+  {
+    "id": "electronics",
+    "origin": "image_gen built-in",
+    "output": "/images/editorial/electronics.webp",
+    "original": "exec-07fb3a9c-9d6c-4f39-9d9c-abc1c8871a78.png",
+    "fictional": true
+  },
+  {
+    "id": "retail",
+    "origin": "image_gen built-in",
+    "output": "/images/editorial/retail.webp",
+    "original": "exec-36899917-0768-450f-aad0-70f94f543c69.png",
+    "fictional": true
+  },
+  {
+    "id": "premium-gifts",
+    "origin": "image_gen built-in",
+    "output": "/images/editorial/premium-gifts.webp",
+    "original": "exec-0615d227-458c-4fcf-b661-25ae12481df1.png",
+    "fictional": true
+  },
+  {
+    "id": "local-storage",
+    "origin": "image_gen built-in",
+    "output": "/images/editorial/local-storage.webp",
+    "original": "exec-1b56f582-8093-47bd-be98-bcd1a30fce50.png",
+    "fictional": true
+  }
+]

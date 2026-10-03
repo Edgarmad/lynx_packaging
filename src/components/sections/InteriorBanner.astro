@@ -1,11 +1,14 @@
 ---
 import MediaPlaceholder from '../ui/MediaPlaceholder.astro';
 import Breadcrumbs from '../ui/Breadcrumbs.astro';
-import type { Language } from '../../types/content';
-interface Props { lang: Language; title: string; parent?: {title: string; path: string}; }
-const {lang, title, parent} = Astro.props;
+import type { Language, Media } from '../../types/content';
+import { editorialMedia } from '../../lib/editorial-media';
+interface Props { lang: Language; title: string; media?: Media; parent?: {title: string; path: string}; }
+const {lang, title, parent, media} = Astro.props;
+const path = Astro.url.pathname;
+const banner = media ?? (path.includes('/products') ? undefined : editorialMedia[path.includes('supply-chain') ? 'supplier-campus' : path.includes('/about/overview') ? 'supplier-building' : path.includes('/solutions') ? 'production' : 'design']);
 ---
-<section class="interior-banner">
-  <MediaPlaceholder lang={lang} ratio={3.6} class="banner-media" />
+<section class:list={['interior-banner', {'has-image': Boolean(banner)}]}>
+  <MediaPlaceholder lang={lang} media={banner} ratio={3.6} class="banner-media" />
   <div class="site-container banner-content"><Breadcrumbs lang={lang} items={[...(parent ? [parent] : []),{title}]} /><h1>{title}</h1></div>
 </section>
