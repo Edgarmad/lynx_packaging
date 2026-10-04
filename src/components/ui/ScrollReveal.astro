@@ -1,0 +1,17 @@
+<script>
+  // Progressive enhancement: content stays visible without JavaScript or motion.
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.remove('reveal-pending');
+        observer.unobserve(entry.target);
+      });
+    }, { threshold: 0.08 });
+    document.querySelectorAll<HTMLElement>('.centered-intro, .editorial-block, .alternating-section, .solution-links').forEach(element => {
+      if (element.getBoundingClientRect().top <= window.innerHeight) return;
+      element.classList.add('reveal', 'reveal-pending');
+      observer.observe(element);
+    });
+  }
+</script>

@@ -1,5 +1,5 @@
 ---
-import { navigation, visibleCategories, visibleSolutions, publishedCatalogs } from '../../lib/data';
+import { navigation, visibleCategories, visibleSolutions, publishedCatalogs, site } from '../../lib/data';
 import { route, alternate } from '../../lib/routes';
 import { ui } from '../../i18n/ui';
 import type { Language } from '../../types/content';
@@ -18,12 +18,12 @@ function children(group: string | null): {title:string;href:string;external?:boo
 ---
 <header class:list={['site-header', {'home-header':home}]} id="site-header">
   <div class="header-inner">
-    <a href={route(lang)} class="logo-link" aria-label="Lynx Packaging"><img src="/images/lynx-logo.png" alt="Lynx Packaging — Packaging Solutions" width="2000" height="2000" /></a>
+    <a href={route(lang)} class="logo-link" aria-label="Lynx Packaging"><img src={site.logo} alt="Lynx Packaging — Packaging Solutions" width="2000" height="2000" /></a>
     <nav class="desktop-nav" aria-label={lang==='es'?'Navegación principal':'Main navigation'}>
       {navigation.map(item => <div class:list={['nav-item',{active:item.path && path.startsWith(item.path.split('/')[0])}]}>
         <div class="nav-item-controls">
-          {item.path ? <a href={route(lang,item.path)}>{item.title[lang]}</a> : <span>{item.title[lang]}</span>}
-          {item.group && <button class="menu-disclosure" aria-expanded="false" aria-controls={`mega-${item.id}`} aria-label={`${item.title[lang]}: ${lang==='es'?'abrir submenú':'open submenu'}`}><span aria-hidden="true">⌄</span></button>}
+          {item.path && <a href={route(lang,item.path)} aria-current={path===item.path?'page':undefined}>{item.title[lang]}</a>}
+          {item.group && <button class:list={['menu-disclosure',{'menu-label':!item.path}]} aria-expanded="false" aria-controls={`mega-${item.id}`} aria-label={`${item.title[lang]}: ${lang==='es'?'abrir submenú':'open submenu'}`}>{!item.path&&item.title[lang]}<span aria-hidden="true">⌄</span></button>}
         </div>
         {item.group && <div id={`mega-${item.id}`} class="mega-menu" hidden>
           <div class="site-container mega-inner"><p class="mega-title">{item.title[lang]}</p><div class="mega-links">
@@ -51,13 +51,23 @@ function children(group: string | null): {title:string;href:string;external?:boo
   if(header){
     const toggles=Array.from(header.querySelectorAll<HTMLButtonElement>('.menu-disclosure'));
     function closeMenus(){toggles.forEach(button=>{button.setAttribute('aria-expanded','false');const panel=document.getElementById(button.getAttribute('aria-controls')??'');if(panel)panel.hidden=true;});}
-    toggles.forEach(button=>button.addEventListener('click',()=>{const open=button.getAttribute('aria-expanded')==='true';closeMenus();if(!open){button.setAttribute('aria-expanded','true');const panel=document.getElementById(button.getAttribute('aria-controls')??'');if(panel)panel.hidden=false;}}));
+    let hoverTimer:ReturnType<typeof setTimeout>|undefined;
+    toggles.forEach(button=>button.addEventListener('click',()=>{clearTimeout(hoverTimer);const open=button.getAttribute('aria-expanded')==='true';closeMenus();if(!open){button.setAttribute('aria-expanded','true');const panel=document.getElementById(button.getAttribute('aria-controls')??'');if(panel)panel.hidden=false;}}));
     document.addEventListener('click',event=>{if(event.target instanceof Node&&!header.contains(event.target))closeMenus();});
     header.addEventListener('focusout',event=>{if(event.relatedTarget instanceof Node&&!header.contains(event.relatedTarget))closeMenus();});
+    const openMenu=(button:HTMLButtonElement)=>{closeMenus();button.setAttribute('aria-expanded','true');const panel=document.getElementById(button.getAttribute('aria-controls')??'');if(panel)panel.hidden=false;};
+    const hover=window.matchMedia('(hover: hover) and (pointer: fine)');
+    let leaveTimer:ReturnType<typeof setTimeout>|undefined;
+    header.querySelectorAll<HTMLElement>('.nav-item').forEach(item=>{
+      item.addEventListener('pointerenter',()=>{if(!hover.matches)return;clearTimeout(leaveTimer);clearTimeout(hoverTimer);const button=item.querySelector<HTMLButtonElement>('.menu-disclosure');hoverTimer=setTimeout(()=>{if(button)openMenu(button);else closeMenus();},120);});
+    });
+    header.addEventListener('pointerenter',()=>clearTimeout(leaveTimer));
+    header.addEventListener('pointerleave',()=>{clearTimeout(hoverTimer);if(hover.matches)leaveTimer=setTimeout(()=>{if(!header.contains(document.activeElement))closeMenus();},180);});
     const toggle=header.querySelector<HTMLButtonElement>('.mobile-toggle');
     const mobile=header.querySelector<HTMLElement>('#mobile-menu');
     const closeMobile=()=>{if(mobile)mobile.hidden=true;toggle?.setAttribute('aria-expanded','false');document.body.classList.remove('menu-open');};
-    toggle?.addEventListener('click',()=>{if(!mobile)return;const open=!mobile.hidden;closeMobile();if(!open){mobile.hidden=false;toggle.setAttribute('aria-expanded','true');document.body.classList.add('menu-open');mobile.querySelector<HTMLButtonElement>('button')?.focus();}});
+    toggle?.addEventListener('click',()=>{if(!mobile)return;const open=!mobile.hidden;closeMobile();closeMenus();if(!open){mobile.hidden=false;toggle.setAttribute('aria-expanded','true');document.body.classList.add('menu-open');mobile.querySelector<HTMLButtonElement>('button')?.focus();}});
+    mobile?.querySelectorAll('details').forEach(detail=>detail.addEventListener('toggle',()=>{if(detail.open)mobile.querySelectorAll('details').forEach(other=>{if(other!==detail)other.open=false;});}));
     header.querySelector('[data-mobile-close]')?.addEventListener('click',()=>{closeMobile();toggle?.focus();});
     document.addEventListener('keydown',event=>{
       if(event.key==='Escape'){const active=toggles.find(b=>b.getAttribute('aria-expanded')==='true');closeMenus();active?.focus();if(mobile&&!mobile.hidden){closeMobile();toggle?.focus();}}

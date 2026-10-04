@@ -1,0 +1,27 @@
+<script>
+  document.querySelectorAll<HTMLElement>('[data-tabs]').forEach(root=>{
+    const tabs=Array.from(root.querySelectorAll<HTMLButtonElement>('[role="tab"]'));
+    const panels=Array.from(root.querySelectorAll<HTMLElement>('[data-tab-panel]'));
+    if(!tabs.length||tabs.length!==panels.length)return;
+    const bar=root.querySelector<HTMLElement>('[data-tab-bar]');
+    if(bar)bar.hidden=false;
+    root.querySelectorAll<HTMLElement>('[data-nojs-title]').forEach(element=>element.hidden=true);
+    panels.forEach((panel,index)=>{panel.setAttribute('role','tabpanel');panel.setAttribute('aria-labelledby',tabs[index]!.id);});
+    const select=(index:number)=>{
+      tabs.forEach((tab,i)=>{tab.setAttribute('aria-selected',String(i===index));tab.tabIndex=i===index?0:-1;});
+      panels.forEach((panel,i)=>panel.hidden=i!==index);
+    };
+    tabs.forEach((tab,index)=>{
+      tab.addEventListener('click',()=>select(index));
+      tab.addEventListener('keydown',event=>{
+        let next=index;
+        if(event.key==='ArrowRight')next=(index+1)%tabs.length;
+        else if(event.key==='ArrowLeft')next=(index-1+tabs.length)%tabs.length;
+        else if(event.key==='Home')next=0;
+        else if(event.key==='End')next=tabs.length-1;
+        else return;
+        event.preventDefault();select(next);tabs[next]?.focus();
+      });
+    });select(0);
+  });
+</script>

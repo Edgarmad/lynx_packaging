@@ -1,0 +1,22 @@
+---
+import { service } from '../../lib/data';
+import { route } from '../../lib/routes';
+import { ui } from '../../i18n/ui';
+import type { Language } from '../../types/content';
+import MediaPlaceholder from '../ui/MediaPlaceholder.astro';
+import TabsController from '../ui/TabsController.astro';
+interface Props { lang: Language; }
+const { lang } = Astro.props;
+---
+<section class="ability-showcase" data-tabs aria-labelledby="ability-heading">
+  <div class="site-container ability-heading"><h2 id="ability-heading">{service.title[lang]}</h2><p>{service.intro[lang]}</p></div>
+  {service.stages.map((stage,index)=><div class="ability-panel" id={`ability-${stage.id}`} data-tab-panel>
+    <MediaPlaceholder lang={lang} media={stage.media}/>
+    <div class="ability-copy"><span class="eyebrow">{String(index+1).padStart(2,'0')}</span><h3>{stage.title[lang]}</h3><p>{stage.description[lang]}</p><a class="text-link" href={route(lang,'about/one-stop-service')}>{ui(lang).learn}<span aria-hidden="true">→</span></a></div>
+  </div>)}
+  <div class="site-container ability-tabs" hidden data-tab-bar role="tablist" aria-label={service.title[lang]}>
+    {service.stages.map((stage,index)=><button id={`ability-tab-${stage.id}`} role="tab" aria-selected={index===0?'true':'false'} aria-controls={`ability-${stage.id}`} tabindex={index===0?0:-1}><span aria-hidden="true">{String(index+1).padStart(2,'0')}</span>{stage.title[lang]}</button>)}
+  </div>
+</section>
+<TabsController/>
+
