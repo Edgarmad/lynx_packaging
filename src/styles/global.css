@@ -77,7 +77,8 @@
   .menu-disclosure { width:24px; height:32px; background:none; border:0; border-radius:3px; }
   .menu-disclosure[aria-expanded='true'] { background:var(--color-accent); color:var(--color-brand); }
   .language-switch { display:flex; align-items:center; gap:.5rem; border-radius:2rem; padding:.8rem 1.1rem; background:var(--color-accent); color:var(--color-brand); font-size:.8rem; white-space:nowrap; }
-  .current-language { font-weight:700; }
+  .language-globe { width:1.4em; height:1.4em; flex-shrink:0; }
+  .language-switch:hover { text-decoration:none; }
   .mega-menu { position:absolute; top:100%; left:0; right:0; background:var(--color-paper); color:var(--color-brand); border-bottom:1px solid var(--color-line); box-shadow:0 16px 24px #18203712; }
   .mega-inner { display:grid; grid-template-columns:1fr 2fr; gap:4rem; padding-block:3rem; }
   .mega-title { font-size:2rem; color:var(--color-brand); font-weight:700; }
