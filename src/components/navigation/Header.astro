@@ -76,7 +76,7 @@ function children(group: string | null): {title:string;href:string;external?:boo
       if(event.key==='Escape'){const active=toggles.find(b=>b.getAttribute('aria-expanded')==='true');closeMenus();active?.focus();if(mobile&&!mobile.hidden){closeMobile();toggle?.focus();}}
       if(event.key==='Tab'&&mobile&&!mobile.hidden){const focusable=Array.from(mobile.querySelectorAll<HTMLElement>('a,button,summary')).filter(el=>el.getClientRects().length>0);const first=focusable[0];const last=focusable.at(-1);if(event.shiftKey&&document.activeElement===first){event.preventDefault();last?.focus();}else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first?.focus();}}
     });
-    const onScroll=()=>header.classList.toggle('scrolled',window.scrollY>32);onScroll();window.addEventListener('scroll',onScroll,{passive:true});
+    const onScroll=()=>header.classList.toggle('scrolled',window.scrollY>0);onScroll();window.addEventListener('scroll',onScroll,{passive:true});
     const breakpoint=window.matchMedia('(min-width: 1100px)');breakpoint.addEventListener('change',()=>{closeMobile();closeMenus();});
   }
 </script>

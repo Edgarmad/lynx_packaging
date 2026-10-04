@@ -314,14 +314,14 @@
 @media(prefers-reduced-motion:reduce) { .reveal-pending { opacity:1; transform:none; } }
 @media(min-width:1100px) {
   .site-header,.home-header,.site-header.scrolled { background:transparent; color:var(--color-paper); box-shadow:none; transition:background var(--duration-ui),color var(--duration-ui); }
-  .site-header:is(:hover,:focus-within,:has(.menu-disclosure[aria-expanded='true'])) { background:var(--color-paper); color:var(--color-brand); }
-  .site-header:is(:hover,:focus-within,:has(.menu-disclosure[aria-expanded='true'])) .logo-default { display:none; }
-  .site-header:is(:hover,:focus-within,:has(.menu-disclosure[aria-expanded='true'])) .logo-on-white { display:block; }
+  .site-header:is(.scrolled,:hover,:focus-within,:has(.menu-disclosure[aria-expanded='true'])) { background:var(--color-paper); color:var(--color-brand); }
+  .site-header:is(.scrolled,:hover,:focus-within,:has(.menu-disclosure[aria-expanded='true'])) .logo-default { display:none; }
+  .site-header:is(.scrolled,:hover,:focus-within,:has(.menu-disclosure[aria-expanded='true'])) .logo-on-white { display:block; }
   .nav-item-controls { border-color:transparent; transition:color var(--duration-ui),border-color var(--duration-ui); }
   .nav-item.active .nav-item-controls { border-color:transparent; }
-  .site-header:is(:hover,:focus-within,:has(.menu-disclosure[aria-expanded='true'])) .nav-item-controls { border-color:var(--color-gold); }
+  .site-header:is(.scrolled,:hover,:focus-within,:has(.menu-disclosure[aria-expanded='true'])) .nav-item-controls { border-color:var(--color-gold); }
   .nav-item:is(:hover,:focus-within,:has(.menu-disclosure[aria-expanded='true'])) .nav-item-controls,
-  .site-header:is(:hover,:focus-within,:has(.menu-disclosure[aria-expanded='true'])) .nav-item.active .nav-item-controls { color:var(--color-gold); }
+  .site-header:is(.scrolled,:hover,:focus-within,:has(.menu-disclosure[aria-expanded='true'])) .nav-item.active .nav-item-controls { color:var(--color-gold); }
   .nav-item-controls>a:hover { text-decoration:none; }
   .menu-disclosure.menu-label { min-width:0; height:100%; padding:0; border-radius:0; }
   .menu-disclosure[aria-expanded='true'] { background:transparent; color:inherit; }
