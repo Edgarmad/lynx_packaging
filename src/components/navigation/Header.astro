@@ -23,12 +23,12 @@ function children(group: string | null): {title:string;href:string;external?:boo
       {navigation.map(item => <div class:list={['nav-item',{active:item.path && path.startsWith(item.path.split('/')[0])}]}>
         <div class="nav-item-controls">
           {item.path && <a href={route(lang,item.path)} aria-current={path===item.path?'page':undefined}>{item.title[lang]}</a>}
-          {item.group && <button class:list={['menu-disclosure',{'menu-label':!item.path}]} aria-expanded="false" aria-controls={`mega-${item.id}`} aria-label={`${item.title[lang]}: ${lang==='es'?'abrir submenú':'open submenu'}`}>{!item.path&&item.title[lang]}<span aria-hidden="true">⌄</span></button>}
+          {item.group && <button class:list={['menu-disclosure',{'menu-label':!item.path}]} aria-expanded="false" aria-controls={`mega-${item.id}`} aria-label={`${item.title[lang]}: ${lang==='es'?'abrir submenú':'open submenu'}`}>{item.path ? <span class="disclosure-text">{lang==='es'?'Abrir submenú':'Open submenu'}</span> : item.title[lang]}</button>}
         </div>
         {item.group && <div id={`mega-${item.id}`} class="mega-menu" hidden>
           <div class="site-container mega-inner"><p class="mega-title">{item.title[lang]}</p><div class="mega-links">
-            {item.path && <a class="text-link" href={route(lang,item.path)}>{lang==='es'?'Ver resumen':'View overview'} <span aria-hidden="true">→</span></a>}
-            {children(item.group).map(child=><a href={child.href} target={child.external?'_blank':undefined} rel={child.external?'noopener noreferrer':undefined}>{child.title}<span aria-hidden="true">{child.external?'↗':'→'}</span></a>)}
+            {item.path && <a class="text-link" href={route(lang,item.path)}>{lang==='es'?'Ver resumen':'View overview'}</a>}
+            {children(item.group).map(child=><a href={child.href} target={child.external?'_blank':undefined} rel={child.external?'noopener noreferrer':undefined}>{child.title}</a>)}
             {item.group==='catalogs' && !publishedCatalogs.length && <p>{t.catalogsPending}</p>}
           </div></div>
         </div>}
