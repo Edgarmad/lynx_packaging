@@ -11,7 +11,7 @@ export function getStaticPaths(){return languages.map(lang=>({params:{lang:lang=
 const lang=(Astro.params.lang ?? 'es') as Language;const t=ui(lang);
 ---
 <BaseLayout lang={lang} path="about/overview" title={about.title[lang]} description={about.description[lang]}>
-  <InteriorBanner lang={lang} title={lang==='es'?'Acerca de nosotros':'About'}/>
+  <InteriorBanner lang={lang} title={lang==='es'?'Nosotros':'About'}/>
   <section class="section site-container"><div class="centered-intro"><h2>{about.title[lang]}</h2>{about.paragraphs.map(paragraph => <p>{paragraph[lang]}</p>)}</div><CorporateCulture lang={lang}/><div class="mt-16"><MediaPlaceholder lang={lang} kind="video" ratio={2.4}/></div></section>
   <section class="section site-container"><h2 class="text-center">{lang==='es'?'De la idea a la entrega':'From idea to delivery'}</h2><div class="solution-links"><a class="text-link" href={route(lang,'about/one-stop-service')}>{t.service}<span aria-hidden="true">→</span></a><a class="text-link" href={route(lang,'about/supply-chain-resources')}>{t.supply}<span aria-hidden="true">→</span></a></div><p class="demo-note">{lang==='es'?'Agrupación de estas páginas dentro de About propuesta para revisión.':'Grouping these pages within About is proposed for review.'}</p></section>
 </BaseLayout>

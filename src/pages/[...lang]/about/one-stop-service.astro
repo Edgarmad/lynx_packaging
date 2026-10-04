@@ -10,7 +10,7 @@ export function getStaticPaths(){return languages.map(lang=>({params:{lang:lang=
 const lang=(Astro.params.lang ?? 'es') as Language;const t=ui(lang);
 ---
 <BaseLayout lang={lang} path="about/one-stop-service" title={service.title[lang]} description={service.intro[lang]}>
-  <InteriorBanner lang={lang} title={service.title[lang]} parent={{title:lang==='es'?'Acerca de nosotros':'About',path:'about/overview'}}/>
+  <InteriorBanner lang={lang} title={service.title[lang]} parent={{title:lang==='es'?'Nosotros':'About',path:'about/overview'}}/>
   <section class="section site-container"><div class="centered-intro"><h2>{lang==='es'?'Un socio. Todo el proceso.':'One partner. The entire process.'}</h2><p>{service.intro[lang]}</p></div>{service.stages.map((stage,index)=><article class:list={['alternating-section',{reverse:index%2!==0}]}><div class="section-copy"><span class="eyebrow">{String(index+1).padStart(2,'0')} / {String(service.stages.length).padStart(2,'0')}</span><h2>{stage.title[lang]}</h2><p>{stage.description[lang]}</p></div><MediaPlaceholder lang={lang} media={stage.media}/></article>)}</section>
   <section class="section site-container centered-intro"><h2>{t.contactIntro}</h2><a class="button" href={route(lang,'contact')}>{t.contact}</a></section>
 </BaseLayout>

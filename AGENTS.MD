@@ -80,7 +80,7 @@ La tipografía exacta todavía no está aprobada. Elegir una sans serif corporat
 
 | Elemento del header | Comportamiento y contenido |
 | --- | --- |
-| Acerca de nosotros / About | General. Se propone agrupar Ability aquí, con Servicio integral y Recursos de la cadena de suministro |
+| Nosotros / About | General. Se propone agrupar Ability aquí, con Servicio integral y Recursos de la cadena de suministro |
 | Catálogos / Catalogs | Despliega lista de catálogos; cada entrada abre directamente su enlace de Drive |
 | Productos / Products | Acceso al resumen general y submenú de categorías; categoría → producto individual |
 | Soluciones / Solutions | Resumen general y submenú de las siete soluciones por sector |
