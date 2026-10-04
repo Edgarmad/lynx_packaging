@@ -13,7 +13,7 @@ import aboutData from '../data/about.json';
 import supplyData from '../data/supply-chain-resources.json';
 import { mediaSchema } from '../types/content';
 
-export const site = z.object({ name: z.string(), preview: z.boolean(), publicUrl: z.url().nullable(), logo: z.string(), contact: z.object({ endpoint: z.url().nullable() }) }).parse(siteData);
+export const site = z.object({ name: z.string(), preview: z.boolean(), publicUrl: z.url().nullable(), logo: z.string(), logoOnWhite: z.string(), contact: z.object({ endpoint: z.url().nullable() }) }).parse(siteData);
 export const categories = z.array(categorySchema).parse(categoryData);
 export const products = z.array(productSchema).parse(productData);
 export const solutions = z.array(solutionSchema).parse(solutionData);

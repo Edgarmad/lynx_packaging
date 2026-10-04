@@ -18,7 +18,10 @@ function children(group: string | null): {title:string;href:string;external?:boo
 ---
 <header class:list={['site-header', {'home-header':home}]} id="site-header">
   <div class="header-inner">
-    <a href={route(lang)} class="logo-link" aria-label="Lynx Packaging"><img src={site.logo} alt="Lynx Packaging — Packaging Solutions" width="2000" height="2000" /></a>
+    <a href={route(lang)} class="logo-link" aria-label="Lynx Packaging">
+      <img class="logo-default" src={site.logo} alt="" width="2000" height="2000" />
+      <img class="logo-on-white" src={site.logoOnWhite} alt="" width="2000" height="2000" />
+    </a>
     <nav class="desktop-nav" aria-label={lang==='es'?'Navegación principal':'Main navigation'}>
       {navigation.map(item => <div class:list={['nav-item',{active:item.path && path.startsWith(item.path.split('/')[0])}]}>
         <div class="nav-item-controls">
