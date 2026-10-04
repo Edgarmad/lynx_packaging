@@ -313,16 +313,21 @@
 }
 @media(prefers-reduced-motion:reduce) { .reveal-pending { opacity:1; transform:none; } }
 @media(min-width:1100px) {
+  /* Extend interior imagery behind the transparent header, retaining content clearance. */
+  #main:has(>.interior-banner.has-image:first-child) { margin-top:-100px; }
+  #main>.interior-banner.has-image:first-child { height:calc(clamp(320px,31vw,480px) + 100px); }
+  #main>.interior-banner.has-image:first-child .banner-content { padding-top:calc(100px + 2rem); }
   .site-header,.home-header,.site-header.scrolled { background:transparent; color:var(--color-paper); box-shadow:none; transition:background var(--duration-ui),color var(--duration-ui); }
   .site-header:is(.scrolled,:hover,:focus-within,:has(.menu-disclosure[aria-expanded='true'])) { background:var(--color-paper); color:var(--color-brand); }
   .site-header:is(.scrolled,:hover,:focus-within,:has(.menu-disclosure[aria-expanded='true'])) .logo-default { display:none; }
   .site-header:is(.scrolled,:hover,:focus-within,:has(.menu-disclosure[aria-expanded='true'])) .logo-on-white { display:block; }
-  .nav-item-controls { border-color:transparent; transition:color var(--duration-ui),border-color var(--duration-ui); }
-  .nav-item.active .nav-item-controls { border-color:transparent; }
-  .site-header:is(.scrolled,:hover,:focus-within,:has(.menu-disclosure[aria-expanded='true'])) .nav-item-controls { border-color:var(--color-gold); }
+  .nav-item-controls,.nav-item.active .nav-item-controls { border-bottom:0; transition:color var(--duration-ui); }
   .nav-item:is(:hover,:focus-within,:has(.menu-disclosure[aria-expanded='true'])) .nav-item-controls,
   .site-header:is(.scrolled,:hover,:focus-within,:has(.menu-disclosure[aria-expanded='true'])) .nav-item.active .nav-item-controls { color:var(--color-gold); }
-  .nav-item-controls>a:hover { text-decoration:none; }
+  .nav-item-controls>a,.menu-disclosure.menu-label { text-decoration:none; text-decoration-color:var(--color-gold); text-decoration-thickness:2px; text-underline-offset:.35em; }
+  .nav-item:is(:hover,:focus-within,:has(.menu-disclosure[aria-expanded='true'])) .nav-item-controls>a,
+  .nav-item:is(:hover,:focus-within,:has(.menu-disclosure[aria-expanded='true'])) .menu-label,
+  .site-header:is(.scrolled,:hover,:focus-within,:has(.menu-disclosure[aria-expanded='true'])) .nav-item.active .nav-item-controls>a { text-decoration-line:underline; }
   .menu-disclosure.menu-label { min-width:0; height:100%; padding:0; border-radius:0; }
   .menu-disclosure[aria-expanded='true'] { background:transparent; color:inherit; }
   /* Keep a keyboard/touch submenu control while removing decorative arrows. */
