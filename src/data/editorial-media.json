@@ -1,4 +1,14 @@
 {
+  "lynx-about": {
+    "type": "image",
+    "placeholder": false,
+    "src": "/images/editorial/lynx-about.webp",
+    "alt": {
+      "es": "Edificio con el logotipo de Lynx Packaging y un camión de carga",
+      "en": "Building displaying the Lynx Packaging logo and a freight truck"
+    },
+    "ratio": 0.8002853067
+  },
   "supplier-campus": {
     "type": "image",
     "placeholder": false,
