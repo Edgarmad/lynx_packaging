@@ -5,6 +5,7 @@ import { route } from '../../lib/routes';
 import { ui } from '../../i18n/ui';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import HomeHero from '../../components/sections/HomeHero.astro';
+import CorporateCulture from '../../components/sections/CorporateCulture.astro';
 import ProductCarousel from '../../components/products/ProductCarousel.astro';
 import AbilityShowcase from '../../components/sections/AbilityShowcase.astro';
 export function getStaticPaths(){return languages.map(lang=>({params:{lang:lang==='es'?undefined:lang}}));}
@@ -12,7 +13,7 @@ const lang=(Astro.params.lang ?? 'es') as Language;const t=ui(lang);
 ---
 <BaseLayout lang={lang} path="" title={lang==='es'?'Inicio':'Home'} description={home.intro[lang]} home>
   <HomeHero lang={lang} media={home.hero} title={home.title[lang]}/>
-  <section class="section site-container"><div class="centered-intro"><h2>{home.introTitle[lang]}</h2><p>{home.intro[lang]}</p><a class="button" href={route(lang,'about/overview')}>{t.learn}<span aria-hidden="true">→</span></a></div></section>
+  <section class="section site-container"><div class="centered-intro"><h2>{home.introTitle[lang]}</h2><p>{home.intro[lang]}</p><a class="button" href={route(lang,'about/overview')}>{t.learn}<span aria-hidden="true">→</span></a></div><CorporateCulture lang={lang} media={home.hero}/></section>
   <section class="section home-product-section site-container" data-tabs>
     <h2 class="text-center">{t.products}</h2><p class="demo-note">{t.categoryDemo}</p>
     <div class="category-tabs" role="tablist" aria-label={t.products} hidden data-tab-bar>{visibleCategories.map((category,index)=><button id={`tab-${category.id}`} role="tab" aria-selected={index===0?'true':'false'} aria-controls={`panel-${category.id}`} tabindex={index===0?0:-1}>{category.title[lang]}</button>)}</div>

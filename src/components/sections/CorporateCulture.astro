@@ -1,12 +1,14 @@
 ---
 import { about } from '../../lib/data';
-import type { Language } from '../../types/content';
-interface Props { lang: Language; }
-const { lang } = Astro.props;
+import type { Language, Media } from '../../types/content';
+import MediaPlaceholder from '../ui/MediaPlaceholder.astro';
+interface Props { lang: Language; media?: Media; }
+const { lang, media } = Astro.props;
 ---
 <section class="corporate-culture" aria-labelledby="culture-title">
   <h2 id="culture-title">{about.culture.title[lang]}</h2>
   <ul class="culture-values">
     {about.culture.values.map(value => <li><h3>{value.title[lang]}</h3></li>)}
   </ul>
+  {media && <div class="mt-8"><MediaPlaceholder lang={lang} media={media}/></div>}
 </section>
