@@ -93,6 +93,11 @@
   .menu-open { overflow:hidden; }
   .hero { position:relative; min-height:90svh; padding-top:100px; }
   .hero .hero-media { position:absolute; inset:0; height:100%; width:100%; aspect-ratio:auto; border-radius:0; }
+  .hero video.hero-media { object-fit:cover; }
+  .hero.has-video::after { content:''; position:absolute; inset:0; background:linear-gradient(90deg,var(--color-brand),transparent); opacity:.65; pointer-events:none; }
+  .hero.has-video .hero-content { z-index:1; color:var(--color-paper); }
+  .hero-video-toggle { position:absolute; right:4vw; bottom:2rem; z-index:2; }
+  .hero-video-toggle:focus-visible { outline-color:var(--color-accent); }
   .hero .media-label { position:absolute; bottom:4rem; left:50%; transform:translateX(-50%); }
   .hero-content { position:relative; padding-top:clamp(7rem,16vh,13rem); pointer-events:none; }
   .hero h1 { font-size:clamp(3.1rem,5.3vw,5.8rem); white-space:pre-line; max-width:1000px; }

@@ -13,11 +13,13 @@
   },
   "hero": {
     "type": "video",
-    "placeholder": true,
+    "placeholder": false,
     "alt": {
-      "es": "Material visual pendiente",
-      "en": "Visual asset pending"
+      "es": "Video de presentación de Lynx Packaging",
+      "en": "Lynx Packaging introduction video"
     },
-    "ratio": 1.8
+    "ratio": 1.8,
+    "src": "/images/home/hero.mp4",
+    "poster": "/images/home/hero-poster.jpg"
   }
 }
