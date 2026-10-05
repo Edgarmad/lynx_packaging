@@ -56,6 +56,8 @@ function children(group: string | null): {title:string;href:string;external?:boo
   </nav>
 </header>
 <script>
+  // The entity route is rendered statically; preserve catalog filters on switch.
+  document.querySelectorAll<HTMLAnchorElement>('.language-switch, [data-language-switch]').forEach(link=>link.addEventListener('click',()=>{const target=new URL(link.href);target.search=location.search;link.href=target.href;}));
   const header=document.querySelector<HTMLElement>('#site-header');
   if(header){
     const toggles=Array.from(header.querySelectorAll<HTMLButtonElement>('.menu-disclosure'));

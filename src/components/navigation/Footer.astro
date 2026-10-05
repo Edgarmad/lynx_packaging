@@ -15,6 +15,6 @@ const {lang,path}=Astro.props;const t=ui(lang);
       <div><h2>{t.discover}</h2>{navigation.filter(n=>['products','solutions','case-studies'].includes(n.id)).map(n=><a href={route(lang,n.path??'')}>{n.title[lang]}</a>)}</div>
       <div><h2>{lang==='es'?'Catálogos':'Catalogs'}</h2>{publishedCatalogs.length?publishedCatalogs.map(c=><a href={c.url} target="_blank" rel="noopener noreferrer">{c.title[lang]} ↗</a>):<p>{t.catalogsPending}</p>}</div>
     </div>
-    <div class="footer-bottom"><span>© {new Date().getFullYear()} Lynx Packaging</span><a href={alternate(lang,path)}>ESPAÑOL / ENGLISH</a></div>
+    <div class="footer-bottom"><span>© {new Date().getFullYear()} Lynx Packaging</span><a data-language-switch href={alternate(lang,path)}>ESPAÑOL / ENGLISH</a></div>
   </div>
 </footer>

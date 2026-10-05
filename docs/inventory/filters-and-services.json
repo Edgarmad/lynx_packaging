@@ -1,0 +1,401 @@
+{
+  "status": "proposal-not-implemented",
+  "currentProject": {
+    "categoryFilters": [
+      "sample"
+    ],
+    "solutionFilters": [],
+    "serviceFilters": [],
+    "logic": "OR between values of one attribute; AND between attributes",
+    "sources": [
+      "src/data/categories.json",
+      "src/components/products/CategoryListing.astro",
+      "src/lib/filters.ts",
+      "src/types/content.ts",
+      "src/data/solutions.json",
+      "src/data/capabilities.json"
+    ]
+  },
+  "productFacets": [
+    {
+      "key": "material",
+      "type": "enum",
+      "values": [
+        "pet",
+        "pp",
+        "ps",
+        "pla",
+        "pvc",
+        "as",
+        "pe",
+        "paper",
+        "kraft-paper",
+        "paperboard",
+        "corrugated-board"
+      ],
+      "rule": "Use direct per-product specification, explicit product title or unambiguous single-material table. PP/PET options remain unresolved. Separate body, lid and coating when supplied."
+    },
+    {
+      "key": "product-type",
+      "type": "enum",
+      "source": "categories-proposed.json",
+      "rule": "Inventory categories are proposed; supplier catalogs and sector solutions are not category identities."
+    },
+    {
+      "key": "capacity-ml",
+      "type": "number",
+      "unit": "ml",
+      "rule": "Use explicit ml or L; retain nominal oz separately. Do not replace catalog ml with an oz conversion."
+    },
+    {
+      "key": "rim-diameter-mm",
+      "type": "number",
+      "unit": "mm",
+      "rule": "Useful for cups/lids; do not equate nominal 89 vs measured 90 mm without compatibility evidence."
+    },
+    {
+      "key": "dimensions-mm",
+      "type": "tuple",
+      "rule": "Keep axis meaning per family; W+G×H for bags, L×W×H for boxes, top×bottom×height for cups. Do not enable named-axis range filters until confirmed."
+    },
+    {
+      "key": "color",
+      "type": "enum",
+      "rule": "Normalize explicit colors; alternate lid colors are options, not separate body colors."
+    },
+    {
+      "key": "compartments",
+      "type": "integer",
+      "rule": "Read the Compartments column or explicit 2/3-compartment model label; table cells remain in variants.rowCells."
+    },
+    {
+      "key": "application",
+      "type": "enum",
+      "values": [
+        "beverages",
+        "takeaway",
+        "soup",
+        "ice-cream",
+        "bakery",
+        "fresh-meat",
+        "vacuum-skin-pack",
+        "modified-atmosphere",
+        "frozen-food",
+        "whole-fruit",
+        "cut-fruit",
+        "salad",
+        "eggs"
+      ],
+      "rule": "Derive from documented catalog section and model-specific use. Section evidence is retained."
+    },
+    {
+      "key": "customizable",
+      "type": "boolean",
+      "rule": "Per-model Yes/No where available. Family ranges describe options, not each standard SKU."
+    },
+    {
+      "key": "finish",
+      "type": "enum",
+      "values": [
+        "single-wall",
+        "double-wall",
+        "ripple-wall",
+        "embossed",
+        "glossy",
+        "matte",
+        "clear",
+        "frosted",
+        "iml"
+      ],
+      "rule": "Only explicit names/sections; proposed secondary normalization."
+    },
+    {
+      "key": "temperature-c",
+      "type": "range",
+      "rule": "Use stated range or stated limit. Never infer microwave, dishwasher or compost suitability from it."
+    },
+    {
+      "key": "quantity-per-carton",
+      "type": "integer",
+      "rule": "Packaging data, not stock on hand. Separate units/carton, carton dimensions, MOQ and container loading."
+    }
+  ],
+  "solutionsCoverage": [
+    {
+      "solutionId": "food-beverage",
+      "coverage": "strong",
+      "categories": "Most inventory categories",
+      "sources": [
+        {
+          "sourceId": "pdf-20",
+          "pages": [
+            2,
+            10,
+            18,
+            23,
+            32
+          ]
+        },
+        {
+          "sourceId": "pdf-24",
+          "pages": [
+            13,
+            39,
+            51,
+            74,
+            85
+          ]
+        },
+        {
+          "sourceId": "pdf-17",
+          "pages": [
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "suggestedFacets": [
+        "application",
+        "product-type",
+        "material",
+        "capacity-ml",
+        "dimensions-mm",
+        "rim-diameter-mm",
+        "compartments",
+        "customizable"
+      ]
+    },
+    {
+      "solutionId": "personal-care",
+      "coverage": "custom-family only; no dedicated cosmetic bottle or jar SKU confirmed",
+      "families": [
+        "jihong-family-d-2"
+      ],
+      "sources": [
+        {
+          "sourceId": "pdf-16",
+          "page": 21
+        }
+      ],
+      "suggestedFacets": [
+        "material",
+        "product-type",
+        "customizable",
+        "finish"
+      ]
+    },
+    {
+      "solutionId": "electronics",
+      "coverage": "custom-family only; no dedicated electronic protective insert SKU confirmed",
+      "families": [
+        "jihong-family-d-2"
+      ],
+      "sources": [
+        {
+          "sourceId": "pdf-16",
+          "page": 21
+        }
+      ],
+      "suggestedFacets": [
+        "material",
+        "product-type",
+        "customizable",
+        "finish"
+      ]
+    },
+    {
+      "solutionId": "retail",
+      "coverage": "retail paper bags documented; e-commerce suitability of corrugated cartons requires confirmation",
+      "families": [
+        "jihong-family-a-1-1",
+        "jihong-family-a-1-2",
+        "jihong-family-a-1-3",
+        "jihong-family-a-2-1",
+        "jihong-family-a-2-2",
+        "jihong-family-d-3"
+      ],
+      "sources": [
+        {
+          "sourceId": "pdf-16",
+          "pages": [
+            13,
+            14,
+            15,
+            21
+          ]
+        }
+      ],
+      "suggestedFacets": [
+        "product-type",
+        "material",
+        "dimensions-mm",
+        "customizable"
+      ]
+    },
+    {
+      "solutionId": "premium-gifts",
+      "coverage": "insufficient for a dedicated gift SKU inventory",
+      "sources": [
+        {
+          "sourceId": "pdf-16",
+          "page": 15
+        }
+      ],
+      "note": "High-end-brand paper bags are documented; the reference images show gift compositions but do not establish SKUs or specifications."
+    },
+    {
+      "solutionId": "industrial",
+      "coverage": "corrugated transport cartons documented as a custom family; industrial application not established per SKU",
+      "families": [
+        "jihong-family-d-3"
+      ],
+      "sources": [
+        {
+          "sourceId": "pdf-16",
+          "page": 21
+        }
+      ]
+    },
+    {
+      "solutionId": "custom",
+      "coverage": "custom paper families and explicit customizable accessories",
+      "families": "See product-families.json",
+      "note": "Project solution ID is custom; conditions and quotes require confirmation."
+    }
+  ],
+  "oneStopServiceEvidence": [
+    {
+      "stageId": "creative-design",
+      "available": [
+        "custom printing",
+        "colors",
+        "materials",
+        "structures",
+        "finishes",
+        "standard and custom dimensions"
+      ],
+      "sources": [
+        {
+          "sourceId": "pdf-16",
+          "pages": [
+            13,
+            14,
+            15,
+            18,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "sourceId": "pdf-17",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "stageId": "efficient-production",
+      "available": [
+        "product material",
+        "manufacturing method",
+        "weight/gsm",
+        "MOQ in Jihong paper-bag rows",
+        "packing quantities"
+      ],
+      "sources": [
+        {
+          "sourceId": "pdf-15",
+          "pages": [
+            13,
+            14,
+            15,
+            17
+          ]
+        },
+        {
+          "sourceId": "pdf-09",
+          "page": 2
+        }
+      ],
+      "missing": [
+        "Lynx-specific pricing",
+        "lead time",
+        "confirmed supply conditions"
+      ]
+    },
+    {
+      "stageId": "strict-quality-control",
+      "available": [
+        "supplier test methods and equipment",
+        "product temperature/usage statements"
+      ],
+      "sources": [
+        {
+          "sourceId": "pdf-16",
+          "pages": [
+            6,
+            9,
+            10
+          ]
+        }
+      ],
+      "rule": "Supplier certifications, test equipment and performance claims do not certify every product or Lynx. Verify current certificates separately."
+    },
+    {
+      "stageId": "international-logistics",
+      "available": [
+        "carton dimensions",
+        "pcs/carton",
+        "cartons per 20GP/40GP/40HQ for ice cream series"
+      ],
+      "sources": [
+        {
+          "sourceId": "pdf-17",
+          "pages": [
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "missing": [
+        "Lynx routes",
+        "Incoterms",
+        "transit time",
+        "shipping quote"
+      ]
+    },
+    {
+      "stageId": "local-storage",
+      "available": [
+        "carton volume inputs",
+        "packing quantities"
+      ],
+      "missing": [
+        "Mexican stock availability",
+        "warehouse locations",
+        "replenishment commitments"
+      ]
+    },
+    {
+      "stageId": "last-mile",
+      "available": [
+        "pack/carton quantities"
+      ],
+      "missing": [
+        "delivery coverage",
+        "frequency",
+        "cost",
+        "service level"
+      ]
+    }
+  ],
+  "implementationNotes": [
+    "No website changes in this task.",
+    "Current category schema accepts enumerated string values; numeric ranges and variant-level attributes require a deliberate schema/UI extension later.",
+    "Avoid filters for services merely because catalog product attributes exist. These data principally filter products within a sector solution.",
+    "Sustainable products should be a transversal collection with documented claims/conditions, not all paper products or all PLA products by default."
+  ]
+}

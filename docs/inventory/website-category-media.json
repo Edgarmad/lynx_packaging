@@ -1,0 +1,44 @@
+[
+  {
+    "categoryId": "cups",
+    "src": "/images/products/category-cups.webp",
+    "sourcePath": "C:\\Users\\edmad\\Downloads\\images\\e0182cca-0bd0-447e-a7d6-510b44528e63.jpg",
+    "sourceSha256": "b4527e69ccf9511947868fc538a9c406583e65b03789080c14e0bdb347e1529a",
+    "usage": "User-supplied illustrative category composition; not individual model evidence"
+  },
+  {
+    "categoryId": "food-containers",
+    "src": "/images/products/category-food-containers.webp",
+    "sourcePath": "C:\\Users\\edmad\\Downloads\\images\\8161abd8-17a3-4690-a437-e973a2737d6b.jpg",
+    "sourceSha256": "8b7c6cdca9c0219e4b50a6e221d86d63a9067ecdc6dc508ef1e49ae459e99ad6",
+    "usage": "User-supplied illustrative category composition; not individual model evidence"
+  },
+  {
+    "categoryId": "bags",
+    "src": "/images/products/category-bags.webp",
+    "sourcePath": "C:\\Users\\edmad\\Downloads\\images\\a2767877-c86f-4729-a308-527c9eeac12d.jpg",
+    "sourceSha256": "83edc318744ef7f1b82123d0491006a2f67de0a8458399af3d05c843cf7acec4",
+    "usage": "User-supplied illustrative category composition; not individual model evidence"
+  },
+  {
+    "categoryId": "boxes",
+    "src": "/images/products/category-boxes.webp",
+    "sourcePath": "C:\\Users\\edmad\\Downloads\\images\\637fc052-d61e-4bf6-b433-938bbf465298.jpg",
+    "sourceSha256": "babe26cc73051b1857ac2590167bce71c4690d01cf3f95d2e888aa5e2dceb529",
+    "usage": "User-supplied illustrative category composition; not individual model evidence"
+  },
+  {
+    "categoryId": "accessories",
+    "src": "/images/products/category-accessories.webp",
+    "sourcePath": "C:\\Users\\edmad\\Downloads\\images\\7a3b4667-2cc5-4208-80e8-aa5373a51b05.jpg",
+    "sourceSha256": "2b4dd2f6b447a3ad18e48a50f6c08e0a88a4ad19bcdf69c3f61f905f08ee8ebb",
+    "usage": "User-supplied illustrative category composition; not individual model evidence"
+  },
+  {
+    "categoryId": "bakery",
+    "src": "/images/products/category-bakery.webp",
+    "sourcePath": "C:\\Users\\edmad\\Downloads\\images\\d5b92079-fe6a-4644-8fa4-02edac44a974.jpg",
+    "sourceSha256": "29ca10d5a774d32bc423c66b903bc21b736961b8f524e3cc7db618f0c420c436",
+    "usage": "User-supplied illustrative category composition; not individual model evidence"
+  }
+]

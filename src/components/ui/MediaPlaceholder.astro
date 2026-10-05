@@ -6,7 +6,7 @@ const { lang, media, kind = 'image', ratio = 1.5, class: className = '', label }
 const type = media?.type ?? kind;
 ---
 {media && !media.placeholder && media.src ? (
-  type === 'image' ? <figure class:list={['media-asset', className]}><img src={media.src} alt={media.alt[lang]} loading="lazy" style={`aspect-ratio: ${media.ratio}`} />{media.caption && <figcaption>{media.caption[lang]}</figcaption>}</figure> :
+  type === 'image' ? <figure class:list={['media-asset', {'media-contain':media.fit==='contain'}, className]}><img src={media.src} alt={media.alt[lang]} loading="lazy" width={media.width} height={media.height} style={`aspect-ratio: ${media.ratio}`} />{media.caption && <figcaption>{media.caption[lang]}</figcaption>}</figure> :
     <video class:list={['media-asset', className]} src={media.src} poster={media.poster} preload="none" controls muted playsinline aria-label={media.alt[lang]} style={`aspect-ratio: ${media.ratio}`} />
 ) : (
   <div class:list={['media-placeholder', className]} style={`--media-ratio: ${media?.ratio ?? ratio}`} role="img" aria-label={label ?? ui(lang)[type]}>

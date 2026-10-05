@@ -47,6 +47,7 @@ export function validateRelations(): void {
     }
   };
   for (const product of products) {
+    if(product.status==='published'&&(!product.provenance?.length||product.gallery.some(media=>media.placeholder))) throw new Error(`${product.id}: producto publicado requiere procedencia e imágenes reales`);
     requireRefs(product.categoryIds, categories, product.id, product.status);
     requireRefs(product.solutionIds, solutions, product.id, product.status);
     requireRefs(product.caseIds, cases, product.id, product.status);
@@ -61,6 +62,7 @@ export function validateRelations(): void {
   for (const solution of solutions) {
     requireRefs(solution.productIds, products, solution.id, solution.status);
     requireRefs(solution.caseIds, cases, solution.id, solution.status);
+    for(const product of products) if(product.solutionIds.includes(solution.id)!==solution.productIds.includes(product.id)) throw new Error(`${product.id}: relación de solución asimétrica ${solution.id}`);
   }
   for (const stage of service.stages) requireRefs(stage.caseIds, cases, stage.id);
   for (const item of cases) if (item.status === 'published' && !item.permission) throw new Error(`${item.id}: falta autorización`);

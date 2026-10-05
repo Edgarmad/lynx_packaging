@@ -13,6 +13,9 @@ export const mediaSchema = z.object({
   poster: z.string().optional(),
   alt: localized,
   ratio: z.number().positive(),
+  fit: z.enum(['cover', 'contain']).optional(),
+  width: z.number().int().positive().optional(),
+  height: z.number().int().positive().optional(),
   caption: localized.optional(),
 }).superRefine((media, ctx) => {
   if (!media.placeholder && !media.src) ctx.addIssue({ code: 'custom', message: 'Media real requiere src' });
@@ -26,6 +29,10 @@ export const productSchema = z.object({
   gallery: z.array(mediaSchema).min(1), attributes: z.record(z.string(), z.array(z.string())),
   specifications: z.array(z.object({ label: localized, value: localized })),
   source: z.string().min(1),
+  kind: z.enum(['model', 'family']).optional(),
+  modelCode: z.string().min(1).optional(),
+  dimensions: z.object({ raw: z.string().min(1), axisOrder: z.string().min(1) }).optional(),
+  provenance: z.array(z.object({ sourceId: id, page: z.number().int().positive(), language: z.enum(languages) })).optional(),
 });
 export const solutionSchema = z.object({ ...base, media: mediaSchema, productIds: z.array(id), caseIds: z.array(id) });
 export const stageSchema = z.object({ id, order: z.number(), title: localized, description: localized, media: mediaSchema, caseIds: z.array(id) });

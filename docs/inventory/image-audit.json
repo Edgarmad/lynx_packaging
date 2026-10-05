@@ -1,0 +1,493 @@
+[
+  {
+    "sourceId": "pdf-01",
+    "distinctEmbeddedImages": 11,
+    "imageOccurrences": 22,
+    "minImageDimensions": [
+      2480,
+      3508
+    ],
+    "maxImageDimensions": [
+      2480,
+      3508
+    ],
+    "samplePageImages": [
+      {
+        "width": 2480,
+        "height": 3508
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-02",
+    "distinctEmbeddedImages": 4,
+    "imageOccurrences": 8,
+    "minImageDimensions": [
+      2480,
+      3508
+    ],
+    "maxImageDimensions": [
+      2480,
+      3508
+    ],
+    "samplePageImages": [
+      {
+        "width": 2480,
+        "height": 3508
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-03",
+    "distinctEmbeddedImages": 16,
+    "imageOccurrences": 32,
+    "minImageDimensions": [
+      2480,
+      3508
+    ],
+    "maxImageDimensions": [
+      2480,
+      3508
+    ],
+    "samplePageImages": [
+      {
+        "width": 2480,
+        "height": 3508
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-04",
+    "distinctEmbeddedImages": 4,
+    "imageOccurrences": 8,
+    "minImageDimensions": [
+      2480,
+      3508
+    ],
+    "maxImageDimensions": [
+      2480,
+      3508
+    ],
+    "samplePageImages": [
+      {
+        "width": 2480,
+        "height": 3508
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-05",
+    "distinctEmbeddedImages": 14,
+    "imageOccurrences": 28,
+    "minImageDimensions": [
+      2480,
+      3508
+    ],
+    "maxImageDimensions": [
+      2480,
+      3508
+    ],
+    "samplePageImages": [
+      {
+        "width": 2480,
+        "height": 3508
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-06",
+    "distinctEmbeddedImages": 7,
+    "imageOccurrences": 14,
+    "minImageDimensions": [
+      2480,
+      3508
+    ],
+    "maxImageDimensions": [
+      2480,
+      3508
+    ],
+    "samplePageImages": [
+      {
+        "width": 2480,
+        "height": 3508
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-07",
+    "distinctEmbeddedImages": 8,
+    "imageOccurrences": 16,
+    "minImageDimensions": [
+      2480,
+      3508
+    ],
+    "maxImageDimensions": [
+      2480,
+      3508
+    ],
+    "samplePageImages": [
+      {
+        "width": 2480,
+        "height": 3508
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-08",
+    "distinctEmbeddedImages": 10,
+    "imageOccurrences": 20,
+    "minImageDimensions": [
+      2480,
+      3508
+    ],
+    "maxImageDimensions": [
+      2480,
+      3508
+    ],
+    "samplePageImages": [
+      {
+        "width": 2480,
+        "height": 3508
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-09",
+    "distinctEmbeddedImages": 22,
+    "imageOccurrences": 44,
+    "minImageDimensions": [
+      1240,
+      1754
+    ],
+    "maxImageDimensions": [
+      3174,
+      4490
+    ],
+    "samplePageImages": [
+      {
+        "width": 1240,
+        "height": 1754
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-10",
+    "distinctEmbeddedImages": 6,
+    "imageOccurrences": 12,
+    "minImageDimensions": [
+      2480,
+      3508
+    ],
+    "maxImageDimensions": [
+      2480,
+      3508
+    ],
+    "samplePageImages": [
+      {
+        "width": 2480,
+        "height": 3508
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-11",
+    "distinctEmbeddedImages": 8,
+    "imageOccurrences": 16,
+    "minImageDimensions": [
+      2480,
+      3508
+    ],
+    "maxImageDimensions": [
+      2480,
+      3508
+    ],
+    "samplePageImages": [
+      {
+        "width": 2480,
+        "height": 3508
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-12",
+    "distinctEmbeddedImages": 16,
+    "imageOccurrences": 32,
+    "minImageDimensions": [
+      909,
+      1286
+    ],
+    "maxImageDimensions": [
+      909,
+      1286
+    ],
+    "samplePageImages": [
+      {
+        "width": 909,
+        "height": 1286
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-13",
+    "distinctEmbeddedImages": 8,
+    "imageOccurrences": 16,
+    "minImageDimensions": [
+      2480,
+      3508
+    ],
+    "maxImageDimensions": [
+      2480,
+      3508
+    ],
+    "samplePageImages": [
+      {
+        "width": 2480,
+        "height": 3508
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-14",
+    "distinctEmbeddedImages": 13,
+    "imageOccurrences": 26,
+    "minImageDimensions": [
+      1323,
+      1871
+    ],
+    "maxImageDimensions": [
+      1323,
+      1871
+    ],
+    "samplePageImages": [
+      {
+        "width": 1323,
+        "height": 1871
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-15",
+    "distinctEmbeddedImages": 22,
+    "imageOccurrences": 44,
+    "minImageDimensions": [
+      2414,
+      1648
+    ],
+    "maxImageDimensions": [
+      2414,
+      1648
+    ],
+    "samplePageImages": [
+      {
+        "width": 2414,
+        "height": 1648
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-16",
+    "distinctEmbeddedImages": 22,
+    "imageOccurrences": 44,
+    "minImageDimensions": [
+      2410,
+      1645
+    ],
+    "maxImageDimensions": [
+      2410,
+      1645
+    ],
+    "samplePageImages": [
+      {
+        "width": 2410,
+        "height": 1645
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-17",
+    "distinctEmbeddedImages": 38,
+    "imageOccurrences": 92,
+    "minImageDimensions": [
+      171,
+      171
+    ],
+    "maxImageDimensions": [
+      1535,
+      2732
+    ],
+    "samplePageImages": [
+      {
+        "width": 1200,
+        "height": 1748
+      },
+      {
+        "width": 1080,
+        "height": 2200
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-18",
+    "distinctEmbeddedImages": 38,
+    "imageOccurrences": 85,
+    "minImageDimensions": [
+      171,
+      171
+    ],
+    "maxImageDimensions": [
+      1536,
+      2730
+    ],
+    "samplePageImages": [
+      {
+        "width": 1080,
+        "height": 2200
+      },
+      {
+        "width": 1004,
+        "height": 1788
+      },
+      {
+        "width": 847,
+        "height": 1255
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-19",
+    "distinctEmbeddedImages": 37,
+    "imageOccurrences": 37,
+    "minImageDimensions": [
+      4961,
+      3508
+    ],
+    "maxImageDimensions": [
+      5001,
+      3508
+    ],
+    "samplePageImages": [
+      {
+        "width": 4961,
+        "height": 3508
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-20",
+    "distinctEmbeddedImages": 37,
+    "imageOccurrences": 148,
+    "minImageDimensions": [
+      3000,
+      2104
+    ],
+    "maxImageDimensions": [
+      3000,
+      2121
+    ],
+    "samplePageImages": [
+      {
+        "width": 3000,
+        "height": 2121
+      },
+      {
+        "width": 3000,
+        "height": 2121
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-21",
+    "distinctEmbeddedImages": 16,
+    "imageOccurrences": 32,
+    "minImageDimensions": [
+      4961,
+      3508
+    ],
+    "maxImageDimensions": [
+      4961,
+      3508
+    ],
+    "samplePageImages": [
+      {
+        "width": 4961,
+        "height": 3508
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-22",
+    "distinctEmbeddedImages": 14,
+    "imageOccurrences": 28,
+    "minImageDimensions": [
+      4961,
+      3508
+    ],
+    "maxImageDimensions": [
+      4963,
+      3510
+    ],
+    "samplePageImages": [
+      {
+        "width": 4961,
+        "height": 3508
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-23",
+    "distinctEmbeddedImages": 1,
+    "imageOccurrences": 1,
+    "minImageDimensions": [
+      7442,
+      3508
+    ],
+    "maxImageDimensions": [
+      7442,
+      3508
+    ],
+    "samplePageImages": [
+      {
+        "width": 7442,
+        "height": 3508
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-24",
+    "distinctEmbeddedImages": 87,
+    "imageOccurrences": 87,
+    "minImageDimensions": [
+      4961,
+      3508
+    ],
+    "maxImageDimensions": [
+      5001,
+      3508
+    ],
+    "samplePageImages": [
+      {
+        "width": 4961,
+        "height": 3508
+      }
+    ]
+  },
+  {
+    "sourceId": "pdf-25",
+    "distinctEmbeddedImages": 87,
+    "imageOccurrences": 87,
+    "minImageDimensions": [
+      4961,
+      3508
+    ],
+    "maxImageDimensions": [
+      5001,
+      3508
+    ],
+    "samplePageImages": [
+      {
+        "width": 4961,
+        "height": 3508
+      }
+    ]
+  }
+]

@@ -8,8 +8,9 @@ import MediaPlaceholder from '../../../components/ui/MediaPlaceholder.astro';
 import EditorialBlock from '../../../components/sections/EditorialBlock.astro';
 export function getStaticPaths(){return languages.map(lang=>({params:{lang:lang==='es'?undefined:lang}}));}
 const lang=(Astro.params.lang ?? 'es') as Language;const t=ui(lang);
+const banner=visibleCategories.find(category=>category.id==='food-containers')?.media;
 ---
 <BaseLayout lang={lang} path="products" title={t.products} description={t.productsIntro}>
-  <section class="product-banner"><MediaPlaceholder lang={lang} ratio={3}/><div class="site-container"><div class="product-banner-panel"><h1>{t.products}</h1><p>{lang==='es'?'Explora las categorías y encuentra el punto de partida para tu proyecto.':'Explore the categories and find a starting point for your project.'}</p><a class="button" href="#categories">{t.explore}</a></div></div></section>
-  <section class="section site-container" id="categories"><h2 class="text-center">{t.productsIntro}</h2><p class="demo-note">{t.categoryDemo}</p>{visibleCategories.map((category,index)=><EditorialBlock lang={lang} title={category.title[lang]} description={category.description[lang]} media={category.media} reverse={index%2!==0} href={route(lang,`products/categories/${category.slug}`)} cta={t.explore}/>)}</section>
+  <section class="product-banner"><MediaPlaceholder lang={lang} media={banner} ratio={3}/><div class="site-container"><div class="product-banner-panel"><h1>{t.products}</h1><p>{lang==='es'?'Explora las categorías y encuentra el punto de partida para tu proyecto.':'Explore the categories and find a starting point for your project.'}</p><a class="button" href="#categories">{t.explore}</a></div></div></section>
+  <section class="section site-container" id="categories"><h2 class="text-center">{t.productsIntro}</h2>{visibleCategories.some(c=>c.status==='demo')&&<p class="demo-note">{t.categoryDemo}</p>}{visibleCategories.map((category,index)=><EditorialBlock lang={lang} title={category.title[lang]} description={category.description[lang]} media={category.media} reverse={index%2!==0} href={route(lang,`products/categories/${category.slug}`)} cta={t.explore}/>)}</section>
 </BaseLayout>

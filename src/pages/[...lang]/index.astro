@@ -3,6 +3,7 @@ import { languages, type Language } from '../../types/content';
 import { home, visibleCategories, visibleProducts, visibleSolutions } from '../../lib/data';
 import { route } from '../../lib/routes';
 import { ui } from '../../i18n/ui';
+import { catalogHighlights } from '../../lib/catalog';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import HomeHero from '../../components/sections/HomeHero.astro';
 import CorporateCulture from '../../components/sections/CorporateCulture.astro';
@@ -15,9 +16,9 @@ const lang=(Astro.params.lang ?? 'es') as Language;const t=ui(lang);
   <HomeHero lang={lang} media={home.hero} title={home.title[lang]}/>
   <section class="section site-container"><div class="centered-intro"><h2>{home.introTitle[lang]}</h2><p>{home.intro[lang]}</p><a class="button" href={route(lang,'about/overview')}>{t.learn}<span aria-hidden="true">→</span></a></div><CorporateCulture lang={lang} media={home.hero}/></section>
   <section class="section home-product-section site-container" data-tabs>
-    <h2 class="text-center">{t.products}</h2><p class="demo-note">{t.categoryDemo}</p>
+    <h2 class="text-center">{t.products}</h2>{visibleCategories.some(c=>c.status==='demo')&&<p class="demo-note">{t.categoryDemo}</p>}
     <div class="category-tabs" role="tablist" aria-label={t.products} hidden data-tab-bar>{visibleCategories.map((category,index)=><button id={`tab-${category.id}`} role="tab" aria-selected={index===0?'true':'false'} aria-controls={`panel-${category.id}`} tabindex={index===0?0:-1}>{category.title[lang]}</button>)}</div>
-    {visibleCategories.map(category=><div id={`panel-${category.id}`} role="tabpanel" aria-labelledby={`tab-${category.id}`} data-tab-panel><h3 data-nojs-title>{category.title[lang]}</h3><ProductCarousel lang={lang} products={visibleProducts.filter(p=>p.categoryIds.includes(category.id))} id={`carousel-${category.id}`}/><a class="text-link mt-6" href={route(lang,`products/categories/${category.slug}`)}>{t.explore}<span aria-hidden="true">→</span></a></div>)}
+    {visibleCategories.map(category=><div id={`panel-${category.id}`} role="tabpanel" aria-labelledby={`tab-${category.id}`} data-tab-panel><h3 data-nojs-title>{category.title[lang]}</h3><ProductCarousel lang={lang} products={catalogHighlights(visibleProducts.filter(p=>p.categoryIds.includes(category.id)))} id={`carousel-${category.id}`}/><a class="text-link mt-6" href={route(lang,`products/categories/${category.slug}`)}>{t.explore}<span aria-hidden="true">→</span></a></div>)}
   </section>
   <AbilityShowcase lang={lang}/>
   <section class="section site-container"><div class="centered-intro"><h2>{t.solutions}</h2></div><div class="solution-links">{visibleSolutions.map(solution=><a class="text-link" href={route(lang,`solutions/${solution.slug}`)}>{solution.title[lang]}<span aria-hidden="true">→</span></a>)}</div></section>

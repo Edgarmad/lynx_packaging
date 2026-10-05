@@ -10,7 +10,7 @@ import ProductCarousel from '../../../components/products/ProductCarousel.astro'
 export function getStaticPaths(){return languages.flatMap(lang=>visibleProducts.map(product=>({params:{lang:lang==='es'?undefined:lang,slug:product.slug},props:{product}})));}
 interface Props { product: Product; }
 const lang=(Astro.params.lang ?? 'es') as Language;const {product}=Astro.props;const t=ui(lang);const category=visibleCategories.find(c=>product.categoryIds.includes(c.id));
-const related=visibleProducts.filter(p=>p.id!==product.id&&p.categoryIds.some(id=>product.categoryIds.includes(id)));
+const related=visibleProducts.filter(p=>p.id!==product.id&&p.categoryIds.includes(product.categoryIds[0])).slice(0,6);
 ---
 <BaseLayout lang={lang} path={`products/${product.slug}`} title={product.title[lang]} description={product.description[lang]} noindex={product.status!=='published'}>
   <section class="product-intro"><div class="page-heading site-container"><Breadcrumbs lang={lang} items={[{title:t.products,path:'products'},...(category?[{title:category.title[lang],path:`products/categories/${category.slug}`}]:[]),{title:product.title[lang]}]}/><div class="centered-intro"><h1>{product.title[lang]}</h1><p>{product.description[lang]}</p>{product.status==='demo'&&<p class="demo-note">{t.demo}</p>}</div></div></section>
