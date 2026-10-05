@@ -1,5 +1,5 @@
 ---
-import { site, navigation, publishedCatalogs } from '../../lib/data';
+import { site, navigation, publishedCatalogs, visibleCategories, visibleSolutions } from '../../lib/data';
 import { route, alternate } from '../../lib/routes';
 import { ui } from '../../i18n/ui';
 import type { Language } from '../../types/content';
@@ -8,11 +8,12 @@ const {lang,path}=Astro.props;const t=ui(lang);
 ---
 <footer class="site-footer">
   <div class="site-container">
-    <div class="footer-top"><a href={route(lang)} class="footer-logo"><img src={site.logo} alt="Lynx Packaging" width="1249" height="1102" loading="lazy" /></a><p>{t.packaging}</p></div>
+    <div class="footer-top"><a href={route(lang)} class="footer-logo"><img src={site.logoOnWhite} alt="Lynx Packaging" width="2000" height="2000" loading="lazy" /></a><p>{t.packaging}</p></div>
     <div class="footer-columns">
       <div><h2>{t.contact}</h2><a href={route(lang,'contact')}>{t.contactIntro} →</a></div>
-      <div><h2>{t.company}</h2><a href={route(lang,'about/overview')}>{t.overview}</a></div>
-      <div><h2>{t.discover}</h2>{navigation.filter(n=>['products','solutions','case-studies'].includes(n.id)).map(n=><a href={route(lang,n.path??'')}>{n.title[lang]}</a>)}</div>
+      <div><h2>{t.company}</h2><a href={route(lang,'about/overview')}>{t.overview}</a><a href={route(lang,'case-studies')}>{t.cases}</a></div>
+      <div><h2><a href={route(lang,'products')}>{navigation.find(n=>n.id==='products')?.title[lang]}</a></h2>{visibleCategories.map(c=><a href={route(lang,`products/categories/${c.slug}`)}>{c.title[lang]}</a>)}</div>
+      <div><h2><a href={route(lang,'solutions')}>{navigation.find(n=>n.id==='solutions')?.title[lang]}</a></h2>{visibleSolutions.map(s=><a href={route(lang,`solutions/${s.slug}`)}>{s.title[lang]}</a>)}</div>
       <div><h2>{lang==='es'?'Catálogos':'Catalogs'}</h2>{publishedCatalogs.length?publishedCatalogs.map(c=><a href={c.url} target="_blank" rel="noopener noreferrer">{c.title[lang]} ↗</a>):<p>{t.catalogsPending}</p>}</div>
     </div>
     <div class="footer-bottom"><span>© {new Date().getFullYear()} Lynx Packaging</span><a data-language-switch href={alternate(lang,path)}>ESPAÑOL / ENGLISH</a></div>
