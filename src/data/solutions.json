@@ -7,8 +7,8 @@
       "en": "Food & Beverage Packaging"
     },
     "description": {
-      "es": "Vasos, botellas, envases, bandejas y consumibles para alimentos y bebidas. Compara materiales y medidas de catálogo y consulta las opciones de fabricación personalizada para tu negocio.",
-      "en": "Cups, bottles, containers, trays and consumables for food and beverages. Compare catalog materials and dimensions, and explore custom manufacturing options for your business."
+      "es": "Vasos de papel, envases plásticos para alimentos y vajilla de origen vegetal. Explora las opciones y medidas disponibles para tu proyecto.",
+      "en": "Paper cups, plastic food containers and plant-based tableware. Explore available options and sizes for your project."
     },
     "status": "published",
     "media": {
@@ -1221,7 +1221,10 @@
       "jihong-family-c-3",
       "jihong-family-c-4",
       "jihong-family-c-5",
-      "jihong-family-c-6"
+      "jihong-family-c-6",
+      "jihong-family-d-1",
+      "jihong-family-d-2",
+      "jihong-family-d-3"
     ],
     "caseIds": []
   },
@@ -1291,8 +1294,8 @@
       "en": "E-commerce & Retail Packaging"
     },
     "description": {
-      "es": "Bolsas y cajas de papel y cartón con opciones de fabricación personalizada. El tamaño, material y diseño se definen según los requisitos de cada proyecto.",
-      "en": "Paper and board bags and boxes with custom manufacturing options. Size, material and design are defined according to each project’s requirements."
+      "es": "Consulta las necesidades de tu proyecto y las opciones de empaque dentro de nuestro catálogo actual.",
+      "en": "Discuss your project requirements and packaging options within our current catalog."
     },
     "status": "published",
     "media": {
@@ -1309,19 +1312,7 @@
         "en": "AI-generated illustrative image."
       }
     },
-    "productIds": [
-      "jihong-family-a-1-1",
-      "jihong-family-a-1-2",
-      "jihong-family-a-1-3",
-      "jihong-family-a-2-1",
-      "jihong-family-a-2-2",
-      "jihong-family-a-3",
-      "jihong-family-b-1",
-      "jihong-family-b-2",
-      "jihong-family-d-1",
-      "jihong-family-d-2",
-      "jihong-family-d-3"
-    ],
+    "productIds": [],
     "caseIds": []
   },
   {
@@ -1390,8 +1381,8 @@
       "en": "Other Custom Packaging"
     },
     "description": {
-      "es": "Bolsas y cajas de papel y cartón con opciones de fabricación personalizada. El tamaño, material y diseño se definen según los requisitos de cada proyecto.",
-      "en": "Paper and board bags and boxes with custom manufacturing options. Size, material and design are defined according to each project’s requirements."
+      "es": "Consulta las necesidades de tu proyecto y las opciones de empaque dentro de nuestro catálogo actual.",
+      "en": "Discuss your project requirements and packaging options within our current catalog."
     },
     "status": "published",
     "media": {
@@ -1408,25 +1399,7 @@
         "en": "AI-generated illustrative image."
       }
     },
-    "productIds": [
-      "jihong-family-a-1-1",
-      "jihong-family-a-1-2",
-      "jihong-family-a-1-3",
-      "jihong-family-a-2-1",
-      "jihong-family-a-2-2",
-      "jihong-family-a-3",
-      "jihong-family-b-1",
-      "jihong-family-b-2",
-      "jihong-family-c-1",
-      "jihong-family-c-2",
-      "jihong-family-c-3",
-      "jihong-family-c-4",
-      "jihong-family-c-5",
-      "jihong-family-c-6",
-      "jihong-family-d-1",
-      "jihong-family-d-2",
-      "jihong-family-d-3"
-    ],
+    "productIds": [],
     "caseIds": []
   }
 ]

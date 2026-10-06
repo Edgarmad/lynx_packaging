@@ -1,0 +1,20 @@
+---
+import { visibleCategories, allVisibleCategories } from '../../lib/data';
+import { route } from '../../lib/routes';
+import type { Language } from '../../types/content';
+interface Props { lang: Language; }
+const {lang}=Astro.props;
+const children=(id:string)=>allVisibleCategories.filter(c=>c.parentId===id);
+const href=(slug:string)=>route(lang,`products/categories/${slug}`);
+---
+<div class="product-menu-tree">
+  {visibleCategories.map(root=><section>
+    <h3><a href={href(root.slug)}>{root.title[lang]}</a></h3>
+    {children(root.id).map(branch=>children(branch.id).length?
+      <details><summary>{branch.title[lang]}</summary><div class="product-menu-children">
+        <a class="menu-overview" href={href(branch.slug)}>{lang==='es'?'Ver todos':'View all'} →</a>
+        {children(branch.id).map(leaf=><a href={href(leaf.slug)}>{leaf.title[lang]}</a>)}
+      </div></details>:
+      <a href={href(branch.slug)}>{branch.title[lang]}</a>)}
+  </section>)}
+</div>

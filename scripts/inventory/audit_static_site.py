@@ -27,6 +27,7 @@ errors = []
 pages = list(DIST.rglob('*.html'))
 references = 0
 anchor_cache = {}
+target_cache = {}
 for path in pages:
     page = Page()
     page.feed(path.read_text(encoding='utf-8'))
@@ -41,8 +42,11 @@ for path in pages:
         references += 1
         target = (DIST / unquote(url.path).lstrip('/')) if url.path.startswith('/') else (path.parent / unquote(url.path))
         if not url.path: target = path
-        if target.is_dir(): target = target / 'index.html'
-        if not target.exists(): errors.append([rel, 'missing target', link])
+        if target not in target_cache:
+            resolved = target / 'index.html' if target.is_dir() else target
+            target_cache[target] = (resolved, resolved.exists())
+        target, exists = target_cache[target]
+        if not exists: errors.append([rel, 'missing target', link])
         elif url.fragment and target.suffix == '.html':
             if target not in anchor_cache:
                 other = Page()

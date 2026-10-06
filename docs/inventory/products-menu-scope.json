@@ -1,0 +1,14 @@
+{
+  "source": "Client scope confirmed by user from yellow highlights, 2026-10-05",
+  "sourceImage": "C:/Users/edmad/AppData/Local/Temp/codex-clipboard-b64b436c-11a8-4b38-918a-e8a86535460d.png",
+  "offeredLeafIds": [
+    "paper-cups",
+    "salad-containers", "bakery-containers", "bento-boxes", "fruit-containers",
+    "pet-cups", "fruit-cups", "cut-fruit-containers", "golen-container",
+    "egg-boxes", "meat-containers",
+    "sugarcane-tableware", "corn-starch-tableware", "kraft-tableware"
+  ],
+  "rootIds": ["paper", "plastic", "plant"],
+  "excludedCell": "E37 (Others is not yellow)",
+  "policy": "Publish all 1199 existing verified entries, assigned commercially to the closest highlighted leaf without changing factual materials or types. All 54 Excel categories stay public; non-highlighted branches are empty and show coming-soon messaging. Research-only candidates remain deferred."
+}

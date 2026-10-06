@@ -18,4 +18,4 @@ for (const item of media) for (const path of [item.src, item.poster]) {
   if (path && !existsSync(`public${path}`)) throw new Error(`Asset inexistente: ${path}`);
 }
 if (!existsSync(`public${site.logo}`)) throw new Error('Logo inexistente');
-console.log(`Datos válidos: ${products.length} productos, ${categories.length} categorías, ${solutions.length} soluciones. Modo ${site.preview ? 'prototipo (noindex)' : 'producción'}.`);
+console.log(`Datos válidos: ${products.filter(p=>p.status==='published').length} productos publicados (${products.length} en archivo), ${categories.filter(c=>c.status==='published').length} categorías públicas, ${solutions.length} soluciones. Modo ${site.preview ? 'prototipo (noindex)' : 'producción'}.`);

@@ -25,7 +25,8 @@ export const about = z.object({ title: localized, description: localized, paragr
 export const supply = z.object({ title: localized, intro: localized, resources: z.array(z.object({ id: z.string(), description: localized, gallery: z.array(mediaSchema), source: z.string() })) }).parse(supplyData);
 export const navigation = z.array(z.object({ id: z.string(), title: localized, path: z.string().nullable(), group: z.enum(['about', 'catalogs', 'products', 'solutions']).nullable() })).parse(navigationData);
 export function visible(status: string): boolean { return status === 'published' || (site.preview && status === 'demo'); }
-export const visibleCategories = categories.filter(item => visible(item.status)).sort((a,b) => a.order-b.order);
+export const allVisibleCategories = categories.filter(item => visible(item.status)).sort((a,b) => a.order-b.order);
+export const visibleCategories = allVisibleCategories.filter(item=>item.level===1);
 export const visibleProducts = products.filter(item => visible(item.status));
 export const visibleSolutions = solutions.filter(item => visible(item.status));
 export const publishedCatalogs = catalogs.filter(item => item.status === 'published').sort((a,b) => a.order-b.order);
@@ -46,12 +47,19 @@ export function validateRelations(): void {
       if (status === 'published' && target.status && target.status !== 'published') throw new Error(`${origin}: referencia publicada a borrador/demo ${id}`);
     }
   };
+  if(visibleCategories.length!==6) throw new Error('El menú 1 debe conservar los seis grupos del Excel');
+  for(const category of categories){
+    const parent=categories.find(c=>c.id===category.parentId);
+    if(category.level===1 ? category.parentId!==null : !parent||parent.level!==category.level-1) throw new Error(`${category.id}: jerarquía inválida`);
+  }
+  for(const catalog of catalogs) requireRefs(catalog.categoryIds,categories,catalog.id,catalog.status);
   for (const product of products) {
     if(product.status==='published'&&(!product.provenance?.length||product.gallery.some(media=>media.placeholder))) throw new Error(`${product.id}: producto publicado requiere procedencia e imágenes reales`);
     requireRefs(product.categoryIds, categories, product.id, product.status);
+    for(const categoryId of product.categoryIds){const category=categories.find(c=>c.id===categoryId);if(category?.parentId&&!product.categoryIds.includes(category.parentId))throw new Error(`${product.id}: falta categoría padre`);}
     requireRefs(product.solutionIds, solutions, product.id, product.status);
     requireRefs(product.caseIds, cases, product.id, product.status);
-    for (const category of categories.filter(c => product.categoryIds.includes(c.id))) {
+    for (const category of categories.filter(c => product.status==='published' && product.categoryIds.includes(c.id))) {
       for (const filter of category.filters) {
         for (const value of product.attributes[filter.key] ?? []) {
           if (!filter.values.some(option => option.id === value)) throw new Error(`${product.id}: valor de filtro inválido ${value}`);

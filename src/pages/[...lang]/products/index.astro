@@ -8,7 +8,7 @@ import MediaPlaceholder from '../../../components/ui/MediaPlaceholder.astro';
 import EditorialBlock from '../../../components/sections/EditorialBlock.astro';
 export function getStaticPaths(){return languages.map(lang=>({params:{lang:lang==='es'?undefined:lang}}));}
 const lang=(Astro.params.lang ?? 'es') as Language;const t=ui(lang);
-const banner=visibleCategories.find(category=>category.id==='food-containers')?.media;
+const banner=visibleCategories.find(category=>category.id==='plastic')?.media;
 ---
 <BaseLayout lang={lang} path="products" title={t.products} description={t.productsIntro}>
   <section class="product-banner"><MediaPlaceholder lang={lang} media={banner} ratio={3}/><div class="site-container"><div class="product-banner-panel"><h1>{t.products}</h1><p>{lang==='es'?'Explora las categorías y encuentra el punto de partida para tu proyecto.':'Explore the categories and find a starting point for your project.'}</p><a class="button" href="#categories">{t.explore}</a></div></div></section>

@@ -1,6 +1,6 @@
 ---
 import { languages, type Language, type Category } from '../../../../types/content';
-import { visibleCategories, visibleProducts } from '../../../../lib/data';
+import { allVisibleCategories as visibleCategories, visibleProducts } from '../../../../lib/data';
 import { ui } from '../../../../i18n/ui';
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../../../components/ui/Breadcrumbs.astro';
@@ -8,8 +8,14 @@ import CategoryListing from '../../../../components/products/CategoryListing.ast
 export function getStaticPaths(){return languages.flatMap(lang=>visibleCategories.map(category=>({params:{lang:lang==='es'?undefined:lang,slug:category.slug},props:{category}})));}
 interface Props { category: Category; }
 const lang=(Astro.params.lang ?? 'es') as Language;const {category}=Astro.props;const t=ui(lang);
+const children=visibleCategories.filter(c=>c.parentId===category.id);
+const ancestors:Category[]=[];let parent=visibleCategories.find(c=>c.id===category.parentId);
+while(parent){ancestors.unshift(parent);parent=visibleCategories.find(c=>c.id===parent?.parentId);}
+const items=visibleProducts.filter(p=>p.categoryIds.includes(category.id));
+import { route } from '../../../../lib/routes';
 ---
-<BaseLayout lang={lang} path={`products/categories/${category.slug}`} title={category.title[lang]} description={category.description[lang]} noindex={category.status!=='published'}>
-  <section class="page-heading site-container"><Breadcrumbs lang={lang} items={[{title:t.products,path:'products'},{title:category.title[lang]}]}/><div class="centered-intro"><h1>{category.title[lang]}</h1><p>{category.description[lang]}</p>{category.status==='demo'&&<p class="demo-note">{t.categoryDemo}</p>}</div></section>
-  <CategoryListing lang={lang} category={category} products={visibleProducts.filter(p=>p.categoryIds.includes(category.id))}/>
+<BaseLayout lang={lang} path={`products/categories/${category.slug}`} title={category.title[lang]} description={category.description[lang]} noindex={category.status!=='published'||items.length===0}>
+  <section class="page-heading site-container"><Breadcrumbs lang={lang} items={[{title:t.products,path:'products'},...ancestors.map(c=>({title:c.title[lang],path:`products/categories/${c.slug}`})),{title:category.title[lang]}]}/><div class="centered-intro"><h1>{category.title[lang]}</h1><p>{category.description[lang]}</p></div></section>
+  {children.length>0&&<nav class="site-container category-children" aria-label={lang==='es'?'Subcategorías':'Subcategories'}>{children.map(c=><a href={route(lang,`products/categories/${c.slug}`)}>{c.title[lang]} →</a>)}</nav>}
+  {items.length?<CategoryListing lang={lang} category={category} products={items}/>:<section class="section site-container"><p>{lang==='es'?'Próximamente encontrarás productos en esta categoría. Cuéntanos qué empaque necesitas.':'Products for this category are coming soon. Tell us what packaging you need.'}</p><a class="button" href={route(lang,'contact')}>{t.contact}</a></section>}
 </BaseLayout>

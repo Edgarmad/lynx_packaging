@@ -23,20 +23,21 @@ export const mediaSchema = z.object({
 });
 export type Media = z.infer<typeof mediaSchema>;
 export const filterSchema = z.object({ key: id, label: localized, values: z.array(z.object({ id, label: localized })).min(1) });
-export const categorySchema = z.object({ ...base, order: z.number().int(), media: mediaSchema, filters: z.array(filterSchema) });
+export const categorySchema = z.object({ ...base, order: z.number().int(), media: mediaSchema, filters: z.array(filterSchema), parentId: id.nullable(), level: z.number().int().min(1).max(3), sourceCell: z.string().min(1) });
 export const productSchema = z.object({
   ...base, categoryIds: z.array(id).min(1), solutionIds: z.array(id), caseIds: z.array(id),
   gallery: z.array(mediaSchema).min(1), attributes: z.record(z.string(), z.array(z.string())),
   specifications: z.array(z.object({ label: localized, value: localized })),
   source: z.string().min(1),
   kind: z.enum(['model', 'family']).optional(),
+  classification: z.object({basis:z.enum(['documented-match','nearest-excel-category']),reviewRecommended:z.boolean()}),
   modelCode: z.string().min(1).optional(),
   dimensions: z.object({ raw: z.string().min(1), axisOrder: z.string().min(1) }).optional(),
   provenance: z.array(z.object({ sourceId: id, page: z.number().int().positive(), language: z.enum(languages) })).optional(),
 });
 export const solutionSchema = z.object({ ...base, media: mediaSchema, productIds: z.array(id), caseIds: z.array(id) });
 export const stageSchema = z.object({ id, order: z.number(), title: localized, description: localized, media: mediaSchema, caseIds: z.array(id) });
-export const catalogSchema = z.object({ id, title: localized, url: z.url().refine(url => new URL(url).hostname === 'drive.google.com', 'El catálogo debe abrir Drive'), status: z.enum(['draft', 'published']), order: z.number() });
+export const catalogSchema = z.object({ id, title: localized, url: z.url().refine(url => new URL(url).hostname === 'drive.google.com', 'El catálogo debe abrir Drive'), status: z.enum(['draft', 'published']), order: z.number(), categoryIds:z.array(id).default([]) });
 export const caseSchema = z.object({ ...base, media: mediaSchema, permission: z.boolean() });
 export type Category = z.infer<typeof categorySchema>;
 export type Product = z.infer<typeof productSchema>;

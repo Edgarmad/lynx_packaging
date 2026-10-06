@@ -1,11 +1,11 @@
 import { writeFileSync } from 'node:fs';
-import { site, visibleCategories, visibleProducts, visibleSolutions } from '../src/lib/data';
+import { site, allVisibleCategories, visibleProducts, visibleSolutions } from '../src/lib/data';
 import { languages } from '../src/types/content';
 import { route } from '../src/lib/routes';
 
 if (!site.preview && site.publicUrl) {
-  const paths = ['', 'about/overview', 'about/one-stop-service', 'about/supply-chain-resources', 'products', 'solutions', 'contact',
-    ...visibleCategories.filter(c=>c.status==='published').map(c=>`products/categories/${c.slug}`),
+  const paths = ['', 'about/overview', 'about/one-stop-service', 'about/supply-chain-resources', 'products', 'catalogs', 'solutions', 'contact',
+    ...allVisibleCategories.filter(c=>c.status==='published'&&visibleProducts.some(p=>p.categoryIds.includes(c.id))).map(c=>`products/categories/${c.slug}`),
     ...visibleProducts.filter(p=>p.status==='published').map(p=>`products/${p.slug}`),
     ...visibleSolutions.filter(s=>s.status==='published').map(s=>`solutions/${s.slug}`)];
   const escape=(value:string)=>value.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');

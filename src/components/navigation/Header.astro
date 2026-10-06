@@ -3,6 +3,7 @@ import { navigation, visibleCategories, visibleSolutions, publishedCatalogs, sit
 import { route, alternate } from '../../lib/routes';
 import { ui } from '../../i18n/ui';
 import type { Language } from '../../types/content';
+import ProductMenu from './ProductMenu.astro';
 interface Props { lang: Language; path: string; home?: boolean; }
 const {lang,path,home=false} = Astro.props;
 const t=ui(lang);
@@ -11,7 +12,7 @@ function children(group: string | null): {title:string;href:string;external?:boo
     case 'about': return [{title:t.overview,href:route(lang,'about/overview')}];
     case 'products': return visibleCategories.map(c=>({title:c.title[lang]+(c.status==='demo' ? (lang==='es' ? ' · demo' : ' · demo') : ''),href:route(lang,`products/categories/${c.slug}`)}));
     case 'solutions': return visibleSolutions.map(s=>({title:s.title[lang],href:route(lang,`solutions/${s.slug}`)}));
-    case 'catalogs': return publishedCatalogs.map(c=>({title:c.title[lang],href:c.url,external:true}));
+    case 'catalogs': return visibleCategories.map(c=>({title:c.title[lang],href:route(lang,'catalogs')+`#${c.id}`}));
     default: return [];
   }
 }
@@ -32,9 +33,9 @@ function children(group: string | null): {title:string;href:string;external?:boo
           {item.group && <button class:list={['menu-disclosure',{'menu-label':!item.path}]} aria-expanded="false" aria-controls={`mega-${item.id}`} aria-label={`${item.title[lang]}: ${lang==='es'?'abrir submenú':'open submenu'}`}>{item.path ? <span class="disclosure-text">{lang==='es'?'Abrir submenú':'Open submenu'}</span> : item.title[lang]}</button>}
         </div>
         {item.group && <div id={`mega-${item.id}`} class="mega-menu" hidden>
-          <div class="site-container mega-inner"><p class="mega-title">{item.title[lang]}</p><div class="mega-links">
+          <div class:list={['site-container','mega-inner',{'product-mega':item.group==='products'}]}><p class="mega-title">{item.title[lang]}</p><div class={item.group==='products'?'product-mega-content':'mega-links'}>
             {item.path && <a class="text-link" href={route(lang,item.path)}>{lang==='es'?'Ver resumen':'View overview'}</a>}
-            {children(item.group).map(child=><a href={child.href} target={child.external?'_blank':undefined} rel={child.external?'noopener noreferrer':undefined}>{child.title}</a>)}
+            {item.group==='products'?<ProductMenu lang={lang}/>:children(item.group).map(child=><a href={child.href} target={child.external?'_blank':undefined} rel={child.external?'noopener noreferrer':undefined}>{child.title}</a>)}
             {item.group==='catalogs' && !publishedCatalogs.length && <p>{t.catalogsPending}</p>}
           </div></div>
         </div>}
@@ -53,7 +54,7 @@ function children(group: string | null): {title:string;href:string;external?:boo
     <div class="mobile-menu-heading"><span>{lang==='es'?'Menú':'Menu'}</span><button data-mobile-close aria-label={t.close}>×</button></div>
     {navigation.map(item=> item.group ? <details><summary>{item.title[lang]}</summary><div class="mobile-links">
       {item.path && <a href={route(lang,item.path)}>{lang==='es'?'Ver resumen':'View overview'} →</a>}
-      {children(item.group).map(child=><a href={child.href} target={child.external?'_blank':undefined} rel={child.external?'noopener noreferrer':undefined}>{child.title} {child.external?'↗':'→'}</a>)}
+      {item.group==='products'?<ProductMenu lang={lang}/>:children(item.group).map(child=><a href={child.href} target={child.external?'_blank':undefined} rel={child.external?'noopener noreferrer':undefined}>{child.title} {child.external?'↗':'→'}</a>)}
       {item.group==='catalogs'&&!publishedCatalogs.length&&<p>{t.catalogsPending}</p>}
     </div></details> : <a class="mobile-direct" href={route(lang,item.path??'')}>{item.title[lang]} →</a>)}
   </nav>
@@ -81,7 +82,7 @@ function children(group: string | null): {title:string;href:string;external?:boo
     const mobile=header.querySelector<HTMLElement>('#mobile-menu');
     const closeMobile=()=>{if(mobile)mobile.hidden=true;toggle?.setAttribute('aria-expanded','false');document.body.classList.remove('menu-open');};
     toggle?.addEventListener('click',()=>{if(!mobile)return;const open=!mobile.hidden;closeMobile();closeMenus();if(!open){mobile.hidden=false;toggle.setAttribute('aria-expanded','true');document.body.classList.add('menu-open');mobile.querySelector<HTMLButtonElement>('button')?.focus();}});
-    mobile?.querySelectorAll('details').forEach(detail=>detail.addEventListener('toggle',()=>{if(detail.open)mobile.querySelectorAll('details').forEach(other=>{if(other!==detail)other.open=false;});}));
+    mobile?.querySelectorAll('details').forEach(detail=>detail.addEventListener('toggle',()=>{if(detail.open)detail.parentElement?.querySelectorAll(':scope > details').forEach(other=>{if(other!==detail&&other instanceof HTMLDetailsElement)other.open=false;});}));
     header.querySelector('[data-mobile-close]')?.addEventListener('click',()=>{closeMobile();toggle?.focus();});
     document.addEventListener('keydown',event=>{
       if(event.key==='Escape'){const active=toggles.find(b=>b.getAttribute('aria-expanded')==='true');closeMenus();active?.focus();if(mobile&&!mobile.hidden){closeMobile();toggle?.focus();}}

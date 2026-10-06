@@ -1,25 +1,28 @@
 [
   {
-    "id": "cups",
-    "slug": "cups",
+    "id": "paper",
+    "slug": "paper",
+    "parentId": null,
+    "level": 1,
     "title": {
-      "es": "Vasos",
-      "en": "Cups"
+      "es": "Empaques de papel",
+      "en": "Paper packaging"
     },
     "description": {
-      "es": "Explora vasos y compara las opciones disponibles por material, tipo y medidas.",
-      "en": "Explore cups and compare available materials, product types and sizes."
+      "es": "Explora empaques de papel y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore paper packaging and available materials, types and sizes."
     },
     "status": "published",
-    "order": 1,
+    "order": 0,
     "media": {
       "type": "image",
       "placeholder": false,
       "src": "/images/products/category-cups.webp",
-      "ratio": 1,
+      "ratio": 1.8,
+      "fit": "cover",
       "alt": {
-        "es": "Composición de vasos",
-        "en": "Composition of cups"
+        "es": "Empaques de papel",
+        "en": "Paper packaging"
       },
       "caption": {
         "es": "Composición ilustrativa de packaging.",
@@ -35,20 +38,6 @@
         },
         "values": [
           {
-            "id": "pp",
-            "label": {
-              "es": "Polipropileno (PP)",
-              "en": "Polypropylene (PP)"
-            }
-          },
-          {
-            "id": "pet",
-            "label": {
-              "es": "PET",
-              "en": "PET"
-            }
-          },
-          {
             "id": "paper",
             "label": {
               "es": "Papel",
@@ -60,6 +49,20 @@
             "label": {
               "es": "Papel de bambú",
               "en": "Bamboo paper"
+            }
+          },
+          {
+            "id": "paperboard",
+            "label": {
+              "es": "Cartulina",
+              "en": "Paperboard"
+            }
+          },
+          {
+            "id": "kraft-paper",
+            "label": {
+              "es": "Papel kraft",
+              "en": "Kraft paper"
             }
           }
         ]
@@ -79,24 +82,24 @@
             }
           },
           {
-            "id": "plastic-cups",
+            "id": "straws",
             "label": {
-              "es": "Vasos de plástico",
-              "en": "Plastic cups"
+              "es": "Popotes",
+              "en": "Straws"
             }
           },
           {
-            "id": "iml-cups",
+            "id": "cup-carriers",
             "label": {
-              "es": "Vasos IML",
-              "en": "IML cups"
+              "es": "Portavasos y bandejas",
+              "en": "Cup carriers and trays"
             }
           },
           {
-            "id": "salad-containers",
+            "id": "cup-accessories",
             "label": {
-              "es": "Envases para ensaladas",
-              "en": "Salad containers"
+              "es": "Fundas y accesorios",
+              "en": "Sleeves and accessories"
             }
           }
         ]
@@ -153,17 +156,10 @@
             }
           },
           {
-            "id": "91-100",
+            "id": "up-to-60",
             "label": {
-              "es": "91–100 mm",
-              "en": "91–100 mm"
-            }
-          },
-          {
-            "id": "over-100",
-            "label": {
-              "es": "Más de 100 mm",
-              "en": "Over 100 mm"
+              "es": "Hasta 60 mm",
+              "en": "Up to 60 mm"
             }
           }
         ]
@@ -190,275 +186,50 @@
             }
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "lids",
-    "slug": "lids",
-    "title": {
-      "es": "Tapas",
-      "en": "Lids"
-    },
-    "description": {
-      "es": "Explora tapas y compara las opciones disponibles por material, tipo y medidas.",
-      "en": "Explore lids and compare available materials, product types and sizes."
-    },
-    "status": "published",
-    "order": 2,
-    "media": {
-      "type": "image",
-      "placeholder": false,
-      "src": "/images/products/pdf-07-p08-c01.webp",
-      "alt": {
-        "en": "Easy-open lid · Black tab, partial opening",
-        "es": "Tapa de apertura fácil · Anilla negra, apertura parcial"
       },
-      "ratio": 1,
-      "fit": "contain",
-      "width": 404,
-      "height": 467
-    },
-    "filters": [
       {
-        "key": "material",
+        "key": "customization",
         "label": {
-          "es": "Material",
-          "en": "Material"
+          "es": "Personalización",
+          "en": "Customization"
         },
         "values": [
           {
-            "id": "pet",
+            "id": "yes",
             "label": {
-              "es": "PET",
-              "en": "PET"
-            }
-          },
-          {
-            "id": "aluminum",
-            "label": {
-              "es": "Aluminio",
-              "en": "Aluminum"
-            }
-          }
-        ]
-      },
-      {
-        "key": "product-type",
-        "label": {
-          "es": "Tipo de producto",
-          "en": "Product type"
-        },
-        "values": [
-          {
-            "id": "cup-lids",
-            "label": {
-              "es": "Tapas para vasos",
-              "en": "Cup lids"
-            }
-          },
-          {
-            "id": "can-lids",
-            "label": {
-              "es": "Tapas de apertura fácil",
-              "en": "Easy-open lids"
-            }
-          }
-        ]
-      },
-      {
-        "key": "rim",
-        "label": {
-          "es": "Diámetro del borde",
-          "en": "Rim diameter"
-        },
-        "values": [
-          {
-            "id": "up-to-60",
-            "label": {
-              "es": "Hasta 60 mm",
-              "en": "Up to 60 mm"
-            }
-          },
-          {
-            "id": "61-80",
-            "label": {
-              "es": "61–80 mm",
-              "en": "61–80 mm"
-            }
-          },
-          {
-            "id": "81-90",
-            "label": {
-              "es": "81–90 mm",
-              "en": "81–90 mm"
-            }
-          },
-          {
-            "id": "91-100",
-            "label": {
-              "es": "91–100 mm",
-              "en": "91–100 mm"
-            }
-          },
-          {
-            "id": "over-100",
-            "label": {
-              "es": "Más de 100 mm",
-              "en": "Over 100 mm"
+              "es": "Disponible",
+              "en": "Available"
             }
           }
         ]
       }
-    ]
+    ],
+    "sourceCell": "C3"
   },
   {
-    "id": "bottles",
-    "slug": "bottles",
+    "id": "plastic",
+    "slug": "plastic",
+    "parentId": null,
+    "level": 1,
     "title": {
-      "es": "Botellas y envases para bebidas",
-      "en": "Bottles & beverage containers"
+      "es": "Empaques de plástico",
+      "en": "Plastic Packaging"
     },
     "description": {
-      "es": "Explora botellas y envases para bebidas y compara las opciones disponibles por material, tipo y medidas.",
-      "en": "Explore bottles & beverage containers and compare available materials, product types and sizes."
+      "es": "Explora empaques de plástico y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore plastic packaging and available materials, types and sizes."
     },
     "status": "published",
-    "order": 3,
-    "media": {
-      "type": "image",
-      "placeholder": false,
-      "src": "/images/products/pdf-02-p02-c01.webp",
-      "alt": {
-        "en": "250 ml AS bottle",
-        "es": "Botella AS de 250 ml"
-      },
-      "ratio": 1,
-      "fit": "contain",
-      "width": 400,
-      "height": 623
-    },
-    "filters": [
-      {
-        "key": "material",
-        "label": {
-          "es": "Material",
-          "en": "Material"
-        },
-        "values": [
-          {
-            "id": "pp",
-            "label": {
-              "es": "Polipropileno (PP)",
-              "en": "Polypropylene (PP)"
-            }
-          },
-          {
-            "id": "pet",
-            "label": {
-              "es": "PET",
-              "en": "PET"
-            }
-          },
-          {
-            "id": "ps",
-            "label": {
-              "es": "Poliestireno (PS)",
-              "en": "Polystyrene (PS)"
-            }
-          },
-          {
-            "id": "as",
-            "label": {
-              "es": "AS",
-              "en": "AS"
-            }
-          },
-          {
-            "id": "aluminum",
-            "label": {
-              "es": "Aluminio",
-              "en": "Aluminum"
-            }
-          }
-        ]
-      },
-      {
-        "key": "product-type",
-        "label": {
-          "es": "Tipo de producto",
-          "en": "Product type"
-        },
-        "values": [
-          {
-            "id": "beverage-bottles",
-            "label": {
-              "es": "Botellas para bebidas",
-              "en": "Beverage bottles"
-            }
-          },
-          {
-            "id": "beverage-cans",
-            "label": {
-              "es": "Envases para bebidas con apertura fácil",
-              "en": "Easy-open beverage containers"
-            }
-          }
-        ]
-      },
-      {
-        "key": "capacity",
-        "label": {
-          "es": "Capacidad",
-          "en": "Capacity"
-        },
-        "values": [
-          {
-            "id": "up-to-250",
-            "label": {
-              "es": "Hasta 250 ml",
-              "en": "Up to 250 ml"
-            }
-          },
-          {
-            "id": "251-500",
-            "label": {
-              "es": "251–500 ml",
-              "en": "251–500 ml"
-            }
-          },
-          {
-            "id": "501-1000",
-            "label": {
-              "es": "501–1,000 ml",
-              "en": "501–1,000 ml"
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "food-containers",
-    "slug": "food-containers",
-    "title": {
-      "es": "Envases para alimentos",
-      "en": "Food containers"
-    },
-    "description": {
-      "es": "Explora envases para alimentos y compara las opciones disponibles por material, tipo y medidas.",
-      "en": "Explore food containers and compare available materials, product types and sizes."
-    },
-    "status": "published",
-    "order": 4,
+    "order": 1,
     "media": {
       "type": "image",
       "placeholder": false,
       "src": "/images/products/category-food-containers.webp",
-      "ratio": 1,
+      "ratio": 1.8,
+      "fit": "cover",
       "alt": {
-        "es": "Composición de envases para alimentos",
-        "en": "Composition of food containers"
+        "es": "Empaques de plástico",
+        "en": "Plastic Packaging"
       },
       "caption": {
         "es": "Composición ilustrativa de packaging.",
@@ -488,17 +259,31 @@
             }
           },
           {
-            "id": "paper",
+            "id": "aluminum",
             "label": {
-              "es": "Papel",
-              "en": "Paper"
+              "es": "Aluminio",
+              "en": "Aluminum"
             }
           },
           {
-            "id": "paperboard",
+            "id": "ps",
             "label": {
-              "es": "Cartulina",
-              "en": "Paperboard"
+              "es": "Poliestireno (PS)",
+              "en": "Polystyrene (PS)"
+            }
+          },
+          {
+            "id": "as",
+            "label": {
+              "es": "AS",
+              "en": "AS"
+            }
+          },
+          {
+            "id": "pvc",
+            "label": {
+              "es": "PVC",
+              "en": "PVC"
             }
           }
         ]
@@ -511,10 +296,38 @@
         },
         "values": [
           {
+            "id": "straws",
+            "label": {
+              "es": "Popotes",
+              "en": "Straws"
+            }
+          },
+          {
+            "id": "cup-accessories",
+            "label": {
+              "es": "Fundas y accesorios",
+              "en": "Sleeves and accessories"
+            }
+          },
+          {
             "id": "food-containers",
             "label": {
               "es": "Recipientes para alimentos",
               "en": "Food containers"
+            }
+          },
+          {
+            "id": "plastic-cups",
+            "label": {
+              "es": "Vasos de plástico",
+              "en": "Plastic cups"
+            }
+          },
+          {
+            "id": "salad-containers",
+            "label": {
+              "es": "Envases para ensaladas",
+              "en": "Salad containers"
             }
           },
           {
@@ -525,17 +338,94 @@
             }
           },
           {
-            "id": "paper-bowls-buckets",
-            "label": {
-              "es": "Boles y cubetas de papel",
-              "en": "Paper bowls and buckets"
-            }
-          },
-          {
             "id": "cold-noodle-containers",
             "label": {
               "es": "Envases para fideos fríos y comidas",
               "en": "Cold noodle containers"
+            }
+          },
+          {
+            "id": "meat-trays",
+            "label": {
+              "es": "Envases para carnes y alimentos frescos",
+              "en": "Meat and fresh-food containers"
+            }
+          },
+          {
+            "id": "skin-pack-trays",
+            "label": {
+              "es": "Bandejas para envasado skin",
+              "en": "Vacuum skin-pack trays"
+            }
+          },
+          {
+            "id": "map-trays",
+            "label": {
+              "es": "Envases de atmósfera modificada",
+              "en": "Modified-atmosphere containers"
+            }
+          },
+          {
+            "id": "fruit-vegetable-containers",
+            "label": {
+              "es": "Envases para frutas y verduras",
+              "en": "Fruit and vegetable containers"
+            }
+          },
+          {
+            "id": "cut-fruit-containers",
+            "label": {
+              "es": "Envases para fruta cortada",
+              "en": "Cut-fruit containers"
+            }
+          },
+          {
+            "id": "bakery-containers",
+            "label": {
+              "es": "Envases para repostería",
+              "en": "Bakery containers"
+            }
+          },
+          {
+            "id": "can-lids",
+            "label": {
+              "es": "Tapas de apertura fácil",
+              "en": "Easy-open lids"
+            }
+          },
+          {
+            "id": "beverage-cans",
+            "label": {
+              "es": "Envases para bebidas con apertura fácil",
+              "en": "Easy-open beverage containers"
+            }
+          },
+          {
+            "id": "iml-cups",
+            "label": {
+              "es": "Vasos IML",
+              "en": "IML cups"
+            }
+          },
+          {
+            "id": "cup-lids",
+            "label": {
+              "es": "Tapas para vasos",
+              "en": "Cup lids"
+            }
+          },
+          {
+            "id": "beverage-bottles",
+            "label": {
+              "es": "Botellas para bebidas",
+              "en": "Beverage bottles"
+            }
+          },
+          {
+            "id": "plastic-bags",
+            "label": {
+              "es": "Bolsas de plástico",
+              "en": "Plastic bags"
             }
           }
         ]
@@ -578,6 +468,50 @@
         ]
       },
       {
+        "key": "rim",
+        "label": {
+          "es": "Diámetro del borde",
+          "en": "Rim diameter"
+        },
+        "values": [
+          {
+            "id": "61-80",
+            "label": {
+              "es": "61–80 mm",
+              "en": "61–80 mm"
+            }
+          },
+          {
+            "id": "81-90",
+            "label": {
+              "es": "81–90 mm",
+              "en": "81–90 mm"
+            }
+          },
+          {
+            "id": "up-to-60",
+            "label": {
+              "es": "Hasta 60 mm",
+              "en": "Up to 60 mm"
+            }
+          },
+          {
+            "id": "91-100",
+            "label": {
+              "es": "91–100 mm",
+              "en": "91–100 mm"
+            }
+          },
+          {
+            "id": "over-100",
+            "label": {
+              "es": "Más de 100 mm",
+              "en": "Over 100 mm"
+            }
+          }
+        ]
+      },
+      {
         "key": "size-mode",
         "label": {
           "es": "Tamaños",
@@ -590,44 +524,62 @@
               "es": "Medidas de catálogo",
               "en": "Catalog sizes"
             }
+          }
+        ]
+      },
+      {
+        "key": "customization",
+        "label": {
+          "es": "Personalización",
+          "en": "Customization"
+        },
+        "values": [
+          {
+            "id": "yes",
+            "label": {
+              "es": "Disponible",
+              "en": "Available"
+            }
           },
           {
-            "id": "custom",
+            "id": "no",
             "label": {
-              "es": "A medida",
-              "en": "Custom dimensions"
+              "es": "No disponible",
+              "en": "Unavailable"
             }
           }
         ]
       }
-    ]
+    ],
+    "sourceCell": "C27"
   },
   {
-    "id": "bags",
-    "slug": "bags",
+    "id": "plant",
+    "slug": "plant",
+    "parentId": null,
+    "level": 1,
     "title": {
-      "es": "Bolsas y portavasos",
-      "en": "Bags & cup carriers"
+      "es": "Vajilla de origen vegetal",
+      "en": "Plant-based tableware"
     },
     "description": {
-      "es": "Explora bolsas y portavasos y compara las opciones disponibles por material, tipo y medidas.",
-      "en": "Explore bags & cup carriers and compare available materials, product types and sizes."
+      "es": "Explora vajilla de origen vegetal y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore plant-based tableware and available materials, types and sizes."
     },
     "status": "published",
-    "order": 5,
+    "order": 2,
     "media": {
       "type": "image",
       "placeholder": false,
-      "src": "/images/products/category-bags.webp",
-      "ratio": 1,
+      "src": "/images/products/pdf-01-p09-c01.webp",
       "alt": {
-        "es": "Composición de bolsas y portavasos",
-        "en": "Composition of bags & cup carriers"
+        "es": "Vajilla de origen vegetal",
+        "en": "Plant-based tableware"
       },
-      "caption": {
-        "es": "Composición ilustrativa de packaging.",
-        "en": "Illustrative packaging composition."
-      }
+      "ratio": 1,
+      "fit": "contain",
+      "width": 429,
+      "height": 629
     },
     "filters": [
       {
@@ -638,31 +590,10 @@
         },
         "values": [
           {
-            "id": "pp",
-            "label": {
-              "es": "Polipropileno (PP)",
-              "en": "Polypropylene (PP)"
-            }
-          },
-          {
-            "id": "pvc",
-            "label": {
-              "es": "PVC",
-              "en": "PVC"
-            }
-          },
-          {
             "id": "paper",
             "label": {
               "es": "Papel",
               "en": "Paper"
-            }
-          },
-          {
-            "id": "kraft-paper",
-            "label": {
-              "es": "Papel kraft",
-              "en": "Kraft paper"
             }
           },
           {
@@ -673,10 +604,59 @@
             }
           },
           {
+            "id": "kraft-paper",
+            "label": {
+              "es": "Papel kraft",
+              "en": "Kraft paper"
+            }
+          },
+          {
+            "id": "pla",
+            "label": {
+              "es": "PLA",
+              "en": "PLA"
+            }
+          },
+          {
             "id": "greaseproof-paper",
             "label": {
               "es": "Papel antigrasa",
               "en": "Greaseproof paper"
+            }
+          },
+          {
+            "id": "waxed-paper",
+            "label": {
+              "es": "Papel encerado",
+              "en": "Waxed paper"
+            }
+          },
+          {
+            "id": "pe-coated-paper",
+            "label": {
+              "es": "Papel recubierto de PE",
+              "en": "PE-coated paper"
+            }
+          },
+          {
+            "id": "newsprint",
+            "label": {
+              "es": "Papel periódico",
+              "en": "Newsprint"
+            }
+          },
+          {
+            "id": "kraft-paperboard",
+            "label": {
+              "es": "Cartulina kraft",
+              "en": "Kraft paperboard"
+            }
+          },
+          {
+            "id": "corrugated-board",
+            "label": {
+              "es": "Cartón corrugado",
+              "en": "Corrugated board"
             }
           }
         ]
@@ -689,17 +669,10 @@
         },
         "values": [
           {
-            "id": "paper-bags",
+            "id": "straws",
             "label": {
-              "es": "Bolsas de papel",
-              "en": "Paper bags"
-            }
-          },
-          {
-            "id": "food-paper-bags",
-            "label": {
-              "es": "Bolsas de papel para alimentos",
-              "en": "Food paper bags"
+              "es": "Popotes",
+              "en": "Straws"
             }
           },
           {
@@ -710,10 +683,119 @@
             }
           },
           {
-            "id": "plastic-bags",
+            "id": "food-containers",
             "label": {
-              "es": "Bolsas de plástico",
-              "en": "Plastic bags"
+              "es": "Recipientes para alimentos",
+              "en": "Food containers"
+            }
+          },
+          {
+            "id": "cutlery",
+            "label": {
+              "es": "Cubiertos",
+              "en": "Cutlery"
+            }
+          },
+          {
+            "id": "paper-bags",
+            "label": {
+              "es": "Bolsas de papel",
+              "en": "Paper bags"
+            }
+          },
+          {
+            "id": "wrappers-sheets",
+            "label": {
+              "es": "Envolturas y manteles de papel",
+              "en": "Paper wrappers and placemats"
+            }
+          },
+          {
+            "id": "printed-cartons",
+            "label": {
+              "es": "Cajas de cartón impresas",
+              "en": "Printed cartons"
+            }
+          },
+          {
+            "id": "corrugated-cartons",
+            "label": {
+              "es": "Cajas de cartón corrugado",
+              "en": "Corrugated cartons"
+            }
+          },
+          {
+            "id": "multipacks",
+            "label": {
+              "es": "Empaques multipack",
+              "en": "Multipacks"
+            }
+          },
+          {
+            "id": "food-paper-boxes",
+            "label": {
+              "es": "Cajas de papel para alimentos",
+              "en": "Paper food cartons"
+            }
+          },
+          {
+            "id": "pizza-boxes",
+            "label": {
+              "es": "Cajas para pizza",
+              "en": "Pizza boxes"
+            }
+          },
+          {
+            "id": "paper-bowls-buckets",
+            "label": {
+              "es": "Boles y cubetas de papel",
+              "en": "Paper bowls and buckets"
+            }
+          },
+          {
+            "id": "food-paper-bags",
+            "label": {
+              "es": "Bolsas de papel para alimentos",
+              "en": "Food paper bags"
+            }
+          }
+        ]
+      },
+      {
+        "key": "capacity",
+        "label": {
+          "es": "Capacidad",
+          "en": "Capacity"
+        },
+        "values": [
+          {
+            "id": "251-500",
+            "label": {
+              "es": "251–500 ml",
+              "en": "251–500 ml"
+            }
+          },
+          {
+            "id": "501-1000",
+            "label": {
+              "es": "501–1,000 ml",
+              "en": "501–1,000 ml"
+            }
+          }
+        ]
+      },
+      {
+        "key": "rim",
+        "label": {
+          "es": "Diámetro del borde",
+          "en": "Rim diameter"
+        },
+        "values": [
+          {
+            "id": "up-to-60",
+            "label": {
+              "es": "Hasta 60 mm",
+              "en": "Up to 60 mm"
             }
           }
         ]
@@ -754,44 +836,352 @@
               "es": "Disponible",
               "en": "Available"
             }
-          },
-          {
-            "id": "no",
-            "label": {
-              "es": "No disponible",
-              "en": "Unavailable"
-            }
           }
         ]
       }
-    ]
+    ],
+    "sourceCell": "C40"
   },
   {
-    "id": "accessories",
-    "slug": "accessories",
+    "id": "metal",
+    "slug": "metal",
+    "parentId": null,
+    "level": 1,
     "title": {
-      "es": "Accesorios y consumibles",
-      "en": "Accessories & consumables"
+      "es": "Empaques de metal",
+      "en": "Metal Packaging"
     },
     "description": {
-      "es": "Explora accesorios y consumibles y compara las opciones disponibles por material, tipo y medidas.",
-      "en": "Explore accessories & consumables and compare available materials, product types and sizes."
+      "es": "Explora empaques de metal y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore metal packaging and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 3,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Empaques de metal",
+        "en": "Metal Packaging"
+      }
+    },
+    "filters": [],
+    "sourceCell": "C43"
+  },
+  {
+    "id": "glass",
+    "slug": "glass",
+    "parentId": null,
+    "level": 1,
+    "title": {
+      "es": "Empaques de vidrio",
+      "en": "Glass Packaging"
+    },
+    "description": {
+      "es": "Explora empaques de vidrio y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore glass packaging and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 4,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Empaques de vidrio",
+        "en": "Glass Packaging"
+      }
+    },
+    "filters": [],
+    "sourceCell": "C44"
+  },
+  {
+    "id": "packaging-accessories",
+    "slug": "packaging-accessories",
+    "parentId": null,
+    "level": 1,
+    "title": {
+      "es": "Accesorios de empaque",
+      "en": "Packaging Accessories"
+    },
+    "description": {
+      "es": "Explora accesorios de empaque y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore packaging accessories and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 5,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Accesorios de empaque",
+        "en": "Packaging Accessories"
+      }
+    },
+    "filters": [],
+    "sourceCell": "C45"
+  },
+  {
+    "id": "paper-food",
+    "slug": "paper-food",
+    "parentId": "paper",
+    "level": 2,
+    "title": {
+      "es": "Empaques de papel para alimentos",
+      "en": "Food packaging"
+    },
+    "description": {
+      "es": "Explora empaques de papel para alimentos y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore food packaging and available materials, types and sizes."
     },
     "status": "published",
     "order": 6,
     "media": {
       "type": "image",
       "placeholder": false,
-      "src": "/images/products/category-accessories.webp",
-      "ratio": 1,
+      "src": "/images/products/pdf-01-p11-c01.webp",
       "alt": {
-        "es": "Composición de accesorios y consumibles",
-        "en": "Composition of accessories & consumables"
+        "es": "Empaques de papel para alimentos",
+        "en": "Food packaging"
       },
-      "caption": {
-        "es": "Composición ilustrativa de packaging.",
-        "en": "Illustrative packaging composition."
+      "ratio": 1,
+      "fit": "contain",
+      "width": 417,
+      "height": 610
+    },
+    "filters": [
+      {
+        "key": "material",
+        "label": {
+          "es": "Material",
+          "en": "Material"
+        },
+        "values": [
+          {
+            "id": "paper",
+            "label": {
+              "es": "Papel",
+              "en": "Paper"
+            }
+          },
+          {
+            "id": "bamboo-paper",
+            "label": {
+              "es": "Papel de bambú",
+              "en": "Bamboo paper"
+            }
+          },
+          {
+            "id": "paperboard",
+            "label": {
+              "es": "Cartulina",
+              "en": "Paperboard"
+            }
+          },
+          {
+            "id": "kraft-paper",
+            "label": {
+              "es": "Papel kraft",
+              "en": "Kraft paper"
+            }
+          }
+        ]
+      },
+      {
+        "key": "product-type",
+        "label": {
+          "es": "Tipo de producto",
+          "en": "Product type"
+        },
+        "values": [
+          {
+            "id": "paper-cups",
+            "label": {
+              "es": "Vasos de papel",
+              "en": "Paper cups"
+            }
+          },
+          {
+            "id": "straws",
+            "label": {
+              "es": "Popotes",
+              "en": "Straws"
+            }
+          },
+          {
+            "id": "cup-carriers",
+            "label": {
+              "es": "Portavasos y bandejas",
+              "en": "Cup carriers and trays"
+            }
+          },
+          {
+            "id": "cup-accessories",
+            "label": {
+              "es": "Fundas y accesorios",
+              "en": "Sleeves and accessories"
+            }
+          }
+        ]
+      },
+      {
+        "key": "capacity",
+        "label": {
+          "es": "Capacidad",
+          "en": "Capacity"
+        },
+        "values": [
+          {
+            "id": "up-to-250",
+            "label": {
+              "es": "Hasta 250 ml",
+              "en": "Up to 250 ml"
+            }
+          },
+          {
+            "id": "251-500",
+            "label": {
+              "es": "251–500 ml",
+              "en": "251–500 ml"
+            }
+          },
+          {
+            "id": "501-1000",
+            "label": {
+              "es": "501–1,000 ml",
+              "en": "501–1,000 ml"
+            }
+          }
+        ]
+      },
+      {
+        "key": "rim",
+        "label": {
+          "es": "Diámetro del borde",
+          "en": "Rim diameter"
+        },
+        "values": [
+          {
+            "id": "61-80",
+            "label": {
+              "es": "61–80 mm",
+              "en": "61–80 mm"
+            }
+          },
+          {
+            "id": "81-90",
+            "label": {
+              "es": "81–90 mm",
+              "en": "81–90 mm"
+            }
+          },
+          {
+            "id": "up-to-60",
+            "label": {
+              "es": "Hasta 60 mm",
+              "en": "Up to 60 mm"
+            }
+          }
+        ]
+      },
+      {
+        "key": "size-mode",
+        "label": {
+          "es": "Tamaños",
+          "en": "Sizes"
+        },
+        "values": [
+          {
+            "id": "standard",
+            "label": {
+              "es": "Medidas de catálogo",
+              "en": "Catalog sizes"
+            }
+          },
+          {
+            "id": "custom",
+            "label": {
+              "es": "A medida",
+              "en": "Custom dimensions"
+            }
+          }
+        ]
+      },
+      {
+        "key": "customization",
+        "label": {
+          "es": "Personalización",
+          "en": "Customization"
+        },
+        "values": [
+          {
+            "id": "yes",
+            "label": {
+              "es": "Disponible",
+              "en": "Available"
+            }
+          }
+        ]
       }
+    ],
+    "sourceCell": "D3"
+  },
+  {
+    "id": "paper-nonfood",
+    "slug": "paper-nonfood",
+    "parentId": "paper",
+    "level": 2,
+    "title": {
+      "es": "Empaques de papel para otros usos",
+      "en": "Non-food packaging"
+    },
+    "description": {
+      "es": "Explora empaques de papel para otros usos y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore non-food packaging and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 7,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Empaques de papel para otros usos",
+        "en": "Non-food packaging"
+      }
+    },
+    "filters": [],
+    "sourceCell": "D9"
+  },
+  {
+    "id": "plastic-food",
+    "slug": "plastic-food",
+    "parentId": "plastic",
+    "level": 2,
+    "title": {
+      "es": "Empaques de plástico para alimentos",
+      "en": "Food plastic packaging"
+    },
+    "description": {
+      "es": "Explora empaques de plástico para alimentos y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore food plastic packaging and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 8,
+    "media": {
+      "type": "image",
+      "placeholder": false,
+      "src": "/images/products/pdf-01-p02-c01.webp",
+      "alt": {
+        "es": "Empaques de plástico para alimentos",
+        "en": "Food plastic packaging"
+      },
+      "ratio": 1,
+      "fit": "contain",
+      "width": 434,
+      "height": 622
     },
     "filters": [
       {
@@ -809,12 +1199,500 @@
             }
           },
           {
+            "id": "pet",
+            "label": {
+              "es": "PET",
+              "en": "PET"
+            }
+          },
+          {
+            "id": "aluminum",
+            "label": {
+              "es": "Aluminio",
+              "en": "Aluminum"
+            }
+          },
+          {
+            "id": "ps",
+            "label": {
+              "es": "Poliestireno (PS)",
+              "en": "Polystyrene (PS)"
+            }
+          },
+          {
+            "id": "as",
+            "label": {
+              "es": "AS",
+              "en": "AS"
+            }
+          },
+          {
+            "id": "pvc",
+            "label": {
+              "es": "PVC",
+              "en": "PVC"
+            }
+          }
+        ]
+      },
+      {
+        "key": "product-type",
+        "label": {
+          "es": "Tipo de producto",
+          "en": "Product type"
+        },
+        "values": [
+          {
+            "id": "straws",
+            "label": {
+              "es": "Popotes",
+              "en": "Straws"
+            }
+          },
+          {
+            "id": "cup-accessories",
+            "label": {
+              "es": "Fundas y accesorios",
+              "en": "Sleeves and accessories"
+            }
+          },
+          {
+            "id": "food-containers",
+            "label": {
+              "es": "Recipientes para alimentos",
+              "en": "Food containers"
+            }
+          },
+          {
+            "id": "plastic-cups",
+            "label": {
+              "es": "Vasos de plástico",
+              "en": "Plastic cups"
+            }
+          },
+          {
+            "id": "salad-containers",
+            "label": {
+              "es": "Envases para ensaladas",
+              "en": "Salad containers"
+            }
+          },
+          {
+            "id": "dessert-jars",
+            "label": {
+              "es": "Tarros y recipientes para postres",
+              "en": "Dessert jars and containers"
+            }
+          },
+          {
+            "id": "cold-noodle-containers",
+            "label": {
+              "es": "Envases para fideos fríos y comidas",
+              "en": "Cold noodle containers"
+            }
+          },
+          {
+            "id": "meat-trays",
+            "label": {
+              "es": "Envases para carnes y alimentos frescos",
+              "en": "Meat and fresh-food containers"
+            }
+          },
+          {
+            "id": "skin-pack-trays",
+            "label": {
+              "es": "Bandejas para envasado skin",
+              "en": "Vacuum skin-pack trays"
+            }
+          },
+          {
+            "id": "map-trays",
+            "label": {
+              "es": "Envases de atmósfera modificada",
+              "en": "Modified-atmosphere containers"
+            }
+          },
+          {
+            "id": "fruit-vegetable-containers",
+            "label": {
+              "es": "Envases para frutas y verduras",
+              "en": "Fruit and vegetable containers"
+            }
+          },
+          {
+            "id": "cut-fruit-containers",
+            "label": {
+              "es": "Envases para fruta cortada",
+              "en": "Cut-fruit containers"
+            }
+          },
+          {
+            "id": "bakery-containers",
+            "label": {
+              "es": "Envases para repostería",
+              "en": "Bakery containers"
+            }
+          },
+          {
+            "id": "can-lids",
+            "label": {
+              "es": "Tapas de apertura fácil",
+              "en": "Easy-open lids"
+            }
+          },
+          {
+            "id": "beverage-cans",
+            "label": {
+              "es": "Envases para bebidas con apertura fácil",
+              "en": "Easy-open beverage containers"
+            }
+          },
+          {
+            "id": "iml-cups",
+            "label": {
+              "es": "Vasos IML",
+              "en": "IML cups"
+            }
+          },
+          {
+            "id": "cup-lids",
+            "label": {
+              "es": "Tapas para vasos",
+              "en": "Cup lids"
+            }
+          },
+          {
+            "id": "beverage-bottles",
+            "label": {
+              "es": "Botellas para bebidas",
+              "en": "Beverage bottles"
+            }
+          },
+          {
+            "id": "plastic-bags",
+            "label": {
+              "es": "Bolsas de plástico",
+              "en": "Plastic bags"
+            }
+          }
+        ]
+      },
+      {
+        "key": "capacity",
+        "label": {
+          "es": "Capacidad",
+          "en": "Capacity"
+        },
+        "values": [
+          {
+            "id": "up-to-250",
+            "label": {
+              "es": "Hasta 250 ml",
+              "en": "Up to 250 ml"
+            }
+          },
+          {
+            "id": "251-500",
+            "label": {
+              "es": "251–500 ml",
+              "en": "251–500 ml"
+            }
+          },
+          {
+            "id": "501-1000",
+            "label": {
+              "es": "501–1,000 ml",
+              "en": "501–1,000 ml"
+            }
+          },
+          {
+            "id": "over-1000",
+            "label": {
+              "es": "Más de 1,000 ml",
+              "en": "Over 1,000 ml"
+            }
+          }
+        ]
+      },
+      {
+        "key": "rim",
+        "label": {
+          "es": "Diámetro del borde",
+          "en": "Rim diameter"
+        },
+        "values": [
+          {
+            "id": "61-80",
+            "label": {
+              "es": "61–80 mm",
+              "en": "61–80 mm"
+            }
+          },
+          {
+            "id": "81-90",
+            "label": {
+              "es": "81–90 mm",
+              "en": "81–90 mm"
+            }
+          },
+          {
+            "id": "up-to-60",
+            "label": {
+              "es": "Hasta 60 mm",
+              "en": "Up to 60 mm"
+            }
+          },
+          {
+            "id": "91-100",
+            "label": {
+              "es": "91–100 mm",
+              "en": "91–100 mm"
+            }
+          },
+          {
+            "id": "over-100",
+            "label": {
+              "es": "Más de 100 mm",
+              "en": "Over 100 mm"
+            }
+          }
+        ]
+      },
+      {
+        "key": "size-mode",
+        "label": {
+          "es": "Tamaños",
+          "en": "Sizes"
+        },
+        "values": [
+          {
+            "id": "standard",
+            "label": {
+              "es": "Medidas de catálogo",
+              "en": "Catalog sizes"
+            }
+          }
+        ]
+      },
+      {
+        "key": "customization",
+        "label": {
+          "es": "Personalización",
+          "en": "Customization"
+        },
+        "values": [
+          {
+            "id": "yes",
+            "label": {
+              "es": "Disponible",
+              "en": "Available"
+            }
+          },
+          {
+            "id": "no",
+            "label": {
+              "es": "No disponible",
+              "en": "Unavailable"
+            }
+          }
+        ]
+      }
+    ],
+    "sourceCell": "D27"
+  },
+  {
+    "id": "plastic-nonfood",
+    "slug": "plastic-nonfood",
+    "parentId": "plastic",
+    "level": 2,
+    "title": {
+      "es": "Empaques de plástico para otros usos",
+      "en": "Non-food packaging packaging"
+    },
+    "description": {
+      "es": "Explora empaques de plástico para otros usos y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore non-food packaging packaging and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 9,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Empaques de plástico para otros usos",
+        "en": "Non-food packaging packaging"
+      }
+    },
+    "filters": [],
+    "sourceCell": "D38"
+  },
+  {
+    "id": "sugarcane-tableware",
+    "slug": "sugarcane-tableware",
+    "parentId": "plant",
+    "level": 2,
+    "title": {
+      "es": "Vajilla de pulpa de caña",
+      "en": "Sugarcane pulp tableware"
+    },
+    "description": {
+      "es": "Explora vajilla de pulpa de caña y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore sugarcane pulp tableware and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 10,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Vajilla de pulpa de caña",
+        "en": "Sugarcane pulp tableware"
+      }
+    },
+    "filters": [],
+    "sourceCell": "D40"
+  },
+  {
+    "id": "corn-starch-tableware",
+    "slug": "corn-starch-tableware",
+    "parentId": "plant",
+    "level": 2,
+    "title": {
+      "es": "Vajilla de almidón de maíz",
+      "en": "Corn starch tableware"
+    },
+    "description": {
+      "es": "Explora vajilla de almidón de maíz y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore corn starch tableware and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 11,
+    "media": {
+      "type": "image",
+      "placeholder": false,
+      "src": "/images/products/pdf-05-p11-c01.webp",
+      "alt": {
+        "es": "Vajilla de almidón de maíz",
+        "en": "Corn starch tableware"
+      },
+      "ratio": 1,
+      "fit": "contain",
+      "width": 429,
+      "height": 443
+    },
+    "filters": [
+      {
+        "key": "material",
+        "label": {
+          "es": "Material",
+          "en": "Material"
+        },
+        "values": [
+          {
             "id": "pla",
             "label": {
               "es": "PLA",
               "en": "PLA"
             }
+          }
+        ]
+      },
+      {
+        "key": "product-type",
+        "label": {
+          "es": "Tipo de producto",
+          "en": "Product type"
+        },
+        "values": [
+          {
+            "id": "straws",
+            "label": {
+              "es": "Popotes",
+              "en": "Straws"
+            }
           },
+          {
+            "id": "cutlery",
+            "label": {
+              "es": "Cubiertos",
+              "en": "Cutlery"
+            }
+          }
+        ]
+      },
+      {
+        "key": "rim",
+        "label": {
+          "es": "Diámetro del borde",
+          "en": "Rim diameter"
+        },
+        "values": [
+          {
+            "id": "up-to-60",
+            "label": {
+              "es": "Hasta 60 mm",
+              "en": "Up to 60 mm"
+            }
+          }
+        ]
+      },
+      {
+        "key": "size-mode",
+        "label": {
+          "es": "Tamaños",
+          "en": "Sizes"
+        },
+        "values": [
+          {
+            "id": "standard",
+            "label": {
+              "es": "Medidas de catálogo",
+              "en": "Catalog sizes"
+            }
+          }
+        ]
+      }
+    ],
+    "sourceCell": "D41"
+  },
+  {
+    "id": "kraft-tableware",
+    "slug": "kraft-tableware",
+    "parentId": "plant",
+    "level": 2,
+    "title": {
+      "es": "Vajilla de papel kraft",
+      "en": "Kraft paper tableware"
+    },
+    "description": {
+      "es": "Explora vajilla de papel kraft y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore kraft paper tableware and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 12,
+    "media": {
+      "type": "image",
+      "placeholder": false,
+      "src": "/images/products/pdf-01-p09-c01.webp",
+      "alt": {
+        "es": "Vajilla de papel kraft",
+        "en": "Kraft paper tableware"
+      },
+      "ratio": 1,
+      "fit": "contain",
+      "width": 429,
+      "height": 629
+    },
+    "filters": [
+      {
+        "key": "material",
+        "label": {
+          "es": "Material",
+          "en": "Material"
+        },
+        "values": [
           {
             "id": "paper",
             "label": {
@@ -823,17 +1701,17 @@
             }
           },
           {
-            "id": "kraft-paper",
-            "label": {
-              "es": "Papel kraft",
-              "en": "Kraft paper"
-            }
-          },
-          {
             "id": "paperboard",
             "label": {
               "es": "Cartulina",
               "en": "Paperboard"
+            }
+          },
+          {
+            "id": "kraft-paper",
+            "label": {
+              "es": "Papel kraft",
+              "en": "Kraft paper"
             }
           },
           {
@@ -863,6 +1741,20 @@
               "es": "Papel periódico",
               "en": "Newsprint"
             }
+          },
+          {
+            "id": "kraft-paperboard",
+            "label": {
+              "es": "Cartulina kraft",
+              "en": "Kraft paperboard"
+            }
+          },
+          {
+            "id": "corrugated-board",
+            "label": {
+              "es": "Cartón corrugado",
+              "en": "Corrugated board"
+            }
           }
         ]
       },
@@ -874,24 +1766,24 @@
         },
         "values": [
           {
-            "id": "straws",
+            "id": "cup-carriers",
             "label": {
-              "es": "Popotes",
-              "en": "Straws"
+              "es": "Portavasos y bandejas",
+              "en": "Cup carriers and trays"
             }
           },
           {
-            "id": "cutlery",
+            "id": "food-containers",
             "label": {
-              "es": "Cubiertos",
-              "en": "Cutlery"
+              "es": "Recipientes para alimentos",
+              "en": "Food containers"
             }
           },
           {
-            "id": "cup-accessories",
+            "id": "paper-bags",
             "label": {
-              "es": "Fundas y accesorios",
-              "en": "Sleeves and accessories"
+              "es": "Bolsas de papel",
+              "en": "Paper bags"
             }
           },
           {
@@ -899,6 +1791,78 @@
             "label": {
               "es": "Envolturas y manteles de papel",
               "en": "Paper wrappers and placemats"
+            }
+          },
+          {
+            "id": "printed-cartons",
+            "label": {
+              "es": "Cajas de cartón impresas",
+              "en": "Printed cartons"
+            }
+          },
+          {
+            "id": "corrugated-cartons",
+            "label": {
+              "es": "Cajas de cartón corrugado",
+              "en": "Corrugated cartons"
+            }
+          },
+          {
+            "id": "multipacks",
+            "label": {
+              "es": "Empaques multipack",
+              "en": "Multipacks"
+            }
+          },
+          {
+            "id": "food-paper-boxes",
+            "label": {
+              "es": "Cajas de papel para alimentos",
+              "en": "Paper food cartons"
+            }
+          },
+          {
+            "id": "pizza-boxes",
+            "label": {
+              "es": "Cajas para pizza",
+              "en": "Pizza boxes"
+            }
+          },
+          {
+            "id": "paper-bowls-buckets",
+            "label": {
+              "es": "Boles y cubetas de papel",
+              "en": "Paper bowls and buckets"
+            }
+          },
+          {
+            "id": "food-paper-bags",
+            "label": {
+              "es": "Bolsas de papel para alimentos",
+              "en": "Food paper bags"
+            }
+          }
+        ]
+      },
+      {
+        "key": "capacity",
+        "label": {
+          "es": "Capacidad",
+          "en": "Capacity"
+        },
+        "values": [
+          {
+            "id": "251-500",
+            "label": {
+              "es": "251–500 ml",
+              "en": "251–500 ml"
+            }
+          },
+          {
+            "id": "501-1000",
+            "label": {
+              "es": "501–1,000 ml",
+              "en": "501–1,000 ml"
             }
           }
         ]
@@ -925,29 +1889,1440 @@
             }
           }
         ]
+      },
+      {
+        "key": "customization",
+        "label": {
+          "es": "Personalización",
+          "en": "Customization"
+        },
+        "values": [
+          {
+            "id": "yes",
+            "label": {
+              "es": "Disponible",
+              "en": "Available"
+            }
+          }
+        ]
       }
-    ]
+    ],
+    "sourceCell": "D42"
   },
   {
-    "id": "trays",
-    "slug": "trays",
+    "id": "paper-food-boxes",
+    "slug": "paper-food-boxes",
+    "parentId": "paper-food",
+    "level": 3,
     "title": {
-      "es": "Bandejas",
-      "en": "Trays"
+      "es": "Cajas de papel para alimentos",
+      "en": "Paper Boxes"
     },
     "description": {
-      "es": "Explora bandejas y compara las opciones disponibles por material, tipo y medidas.",
-      "en": "Explore trays and compare available materials, product types and sizes."
+      "es": "Explora cajas de papel para alimentos y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore paper boxes and available materials, types and sizes."
     },
     "status": "published",
-    "order": 7,
+    "order": 13,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Cajas de papel para alimentos",
+        "en": "Paper Boxes"
+      }
+    },
+    "filters": [],
+    "sourceCell": "E3"
+  },
+  {
+    "id": "paper-bowls",
+    "slug": "paper-bowls",
+    "parentId": "paper-food",
+    "level": 3,
+    "title": {
+      "es": "Tazones y cubetas de papel",
+      "en": "Paper Bowls & Soup Buckets"
+    },
+    "description": {
+      "es": "Explora tazones y cubetas de papel y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore paper bowls & soup buckets and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 14,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Tazones y cubetas de papel",
+        "en": "Paper Bowls & Soup Buckets"
+      }
+    },
+    "filters": [],
+    "sourceCell": "E4"
+  },
+  {
+    "id": "paper-cups",
+    "slug": "paper-cups",
+    "parentId": "paper-food",
+    "level": 3,
+    "title": {
+      "es": "Vasos de papel",
+      "en": "Paper Cups"
+    },
+    "description": {
+      "es": "Explora vasos de papel y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore paper cups and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 15,
+    "media": {
+      "type": "image",
+      "placeholder": false,
+      "src": "/images/products/pdf-01-p11-c01.webp",
+      "alt": {
+        "es": "Vasos de papel",
+        "en": "Paper Cups"
+      },
+      "ratio": 1,
+      "fit": "contain",
+      "width": 417,
+      "height": 610
+    },
+    "filters": [
+      {
+        "key": "material",
+        "label": {
+          "es": "Material",
+          "en": "Material"
+        },
+        "values": [
+          {
+            "id": "paper",
+            "label": {
+              "es": "Papel",
+              "en": "Paper"
+            }
+          },
+          {
+            "id": "bamboo-paper",
+            "label": {
+              "es": "Papel de bambú",
+              "en": "Bamboo paper"
+            }
+          },
+          {
+            "id": "paperboard",
+            "label": {
+              "es": "Cartulina",
+              "en": "Paperboard"
+            }
+          },
+          {
+            "id": "kraft-paper",
+            "label": {
+              "es": "Papel kraft",
+              "en": "Kraft paper"
+            }
+          }
+        ]
+      },
+      {
+        "key": "product-type",
+        "label": {
+          "es": "Tipo de producto",
+          "en": "Product type"
+        },
+        "values": [
+          {
+            "id": "paper-cups",
+            "label": {
+              "es": "Vasos de papel",
+              "en": "Paper cups"
+            }
+          },
+          {
+            "id": "straws",
+            "label": {
+              "es": "Popotes",
+              "en": "Straws"
+            }
+          },
+          {
+            "id": "cup-carriers",
+            "label": {
+              "es": "Portavasos y bandejas",
+              "en": "Cup carriers and trays"
+            }
+          },
+          {
+            "id": "cup-accessories",
+            "label": {
+              "es": "Fundas y accesorios",
+              "en": "Sleeves and accessories"
+            }
+          }
+        ]
+      },
+      {
+        "key": "capacity",
+        "label": {
+          "es": "Capacidad",
+          "en": "Capacity"
+        },
+        "values": [
+          {
+            "id": "up-to-250",
+            "label": {
+              "es": "Hasta 250 ml",
+              "en": "Up to 250 ml"
+            }
+          },
+          {
+            "id": "251-500",
+            "label": {
+              "es": "251–500 ml",
+              "en": "251–500 ml"
+            }
+          },
+          {
+            "id": "501-1000",
+            "label": {
+              "es": "501–1,000 ml",
+              "en": "501–1,000 ml"
+            }
+          }
+        ]
+      },
+      {
+        "key": "rim",
+        "label": {
+          "es": "Diámetro del borde",
+          "en": "Rim diameter"
+        },
+        "values": [
+          {
+            "id": "61-80",
+            "label": {
+              "es": "61–80 mm",
+              "en": "61–80 mm"
+            }
+          },
+          {
+            "id": "81-90",
+            "label": {
+              "es": "81–90 mm",
+              "en": "81–90 mm"
+            }
+          },
+          {
+            "id": "up-to-60",
+            "label": {
+              "es": "Hasta 60 mm",
+              "en": "Up to 60 mm"
+            }
+          }
+        ]
+      },
+      {
+        "key": "size-mode",
+        "label": {
+          "es": "Tamaños",
+          "en": "Sizes"
+        },
+        "values": [
+          {
+            "id": "standard",
+            "label": {
+              "es": "Medidas de catálogo",
+              "en": "Catalog sizes"
+            }
+          },
+          {
+            "id": "custom",
+            "label": {
+              "es": "A medida",
+              "en": "Custom dimensions"
+            }
+          }
+        ]
+      },
+      {
+        "key": "customization",
+        "label": {
+          "es": "Personalización",
+          "en": "Customization"
+        },
+        "values": [
+          {
+            "id": "yes",
+            "label": {
+              "es": "Disponible",
+              "en": "Available"
+            }
+          }
+        ]
+      }
+    ],
+    "sourceCell": "E5"
+  },
+  {
+    "id": "paper-food-tubes",
+    "slug": "paper-food-tubes",
+    "parentId": "paper-food",
+    "level": 3,
+    "title": {
+      "es": "Tubos y botes de papel para alimentos",
+      "en": "Food Paper Tubes / Paper Cans"
+    },
+    "description": {
+      "es": "Explora tubos y botes de papel para alimentos y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore food paper tubes / paper cans and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 16,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Tubos y botes de papel para alimentos",
+        "en": "Food Paper Tubes / Paper Cans"
+      }
+    },
+    "filters": [],
+    "sourceCell": "E6"
+  },
+  {
+    "id": "pulp-food-trays",
+    "slug": "pulp-food-trays",
+    "parentId": "paper-food",
+    "level": 3,
+    "title": {
+      "es": "Bandejas alimentarias de pulpa moldeada",
+      "en": "Molded Pulp Food Trays"
+    },
+    "description": {
+      "es": "Explora bandejas alimentarias de pulpa moldeada y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore molded pulp food trays and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 17,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Bandejas alimentarias de pulpa moldeada",
+        "en": "Molded Pulp Food Trays"
+      }
+    },
+    "filters": [],
+    "sourceCell": "E7"
+  },
+  {
+    "id": "paper-food-bags",
+    "slug": "paper-food-bags",
+    "parentId": "paper-food",
+    "level": 3,
+    "title": {
+      "es": "Bolsas de papel para alimentos",
+      "en": "Food paper bag"
+    },
+    "description": {
+      "es": "Explora bolsas de papel para alimentos y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore food paper bag and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 18,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Bolsas de papel para alimentos",
+        "en": "Food paper bag"
+      }
+    },
+    "filters": [],
+    "sourceCell": "E8"
+  },
+  {
+    "id": "corrugated-cartons",
+    "slug": "corrugated-cartons",
+    "parentId": "paper-nonfood",
+    "level": 3,
+    "title": {
+      "es": "Cajas de cartón corrugado",
+      "en": "Corrugated carton"
+    },
+    "description": {
+      "es": "Explora cajas de cartón corrugado y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore corrugated carton and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 19,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Cajas de cartón corrugado",
+        "en": "Corrugated carton"
+      }
+    },
+    "filters": [],
+    "sourceCell": "E9"
+  },
+  {
+    "id": "folding-cartons",
+    "slug": "folding-cartons",
+    "parentId": "paper-nonfood",
+    "level": 3,
+    "title": {
+      "es": "Cajas impresas y plegadizas",
+      "en": "Color box / Folding carton"
+    },
+    "description": {
+      "es": "Explora cajas impresas y plegadizas y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore color box / folding carton and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 20,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Cajas impresas y plegadizas",
+        "en": "Color box / Folding carton"
+      }
+    },
+    "filters": [],
+    "sourceCell": "E13"
+  },
+  {
+    "id": "paper-nonfood-bags",
+    "slug": "paper-nonfood-bags",
+    "parentId": "paper-nonfood",
+    "level": 3,
+    "title": {
+      "es": "Bolsas de papel",
+      "en": "Paper bag"
+    },
+    "description": {
+      "es": "Explora bolsas de papel y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore paper bag and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 21,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Bolsas de papel",
+        "en": "Paper bag"
+      }
+    },
+    "filters": [],
+    "sourceCell": "E17"
+  },
+  {
+    "id": "paper-nonfood-tubes",
+    "slug": "paper-nonfood-tubes",
+    "parentId": "paper-nonfood",
+    "level": 3,
+    "title": {
+      "es": "Tubos y botes de papel",
+      "en": "Paper tube / Paper can"
+    },
+    "description": {
+      "es": "Explora tubos y botes de papel y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore paper tube / paper can and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 22,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Tubos y botes de papel",
+        "en": "Paper tube / Paper can"
+      }
+    },
+    "filters": [],
+    "sourceCell": "E21"
+  },
+  {
+    "id": "pulp-inserts",
+    "slug": "pulp-inserts",
+    "parentId": "paper-nonfood",
+    "level": 3,
+    "title": {
+      "es": "Insertos de pulpa moldeada",
+      "en": "Molded pulp (inner insert tray)"
+    },
+    "description": {
+      "es": "Explora insertos de pulpa moldeada y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore molded pulp (inner insert tray) and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 23,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Insertos de pulpa moldeada",
+        "en": "Molded pulp (inner insert tray)"
+      }
+    },
+    "filters": [],
+    "sourceCell": "E22"
+  },
+  {
+    "id": "auxiliary-paper",
+    "slug": "auxiliary-paper",
+    "parentId": "paper-nonfood",
+    "level": 3,
+    "title": {
+      "es": "Productos auxiliares de papel",
+      "en": "Auxiliary paper products"
+    },
+    "description": {
+      "es": "Explora productos auxiliares de papel y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore auxiliary paper products and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 24,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Productos auxiliares de papel",
+        "en": "Auxiliary paper products"
+      }
+    },
+    "filters": [],
+    "sourceCell": "E23"
+  },
+  {
+    "id": "salad-containers",
+    "slug": "salad-containers",
+    "parentId": "plastic-food",
+    "level": 3,
+    "title": {
+      "es": "Envases para ensaladas",
+      "en": "Salad"
+    },
+    "description": {
+      "es": "Explora envases para ensaladas y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore salad and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 25,
+    "media": {
+      "type": "image",
+      "placeholder": false,
+      "src": "/images/products/pdf-04-p04-c01.webp",
+      "alt": {
+        "es": "Envases para ensaladas",
+        "en": "Salad"
+      },
+      "ratio": 1,
+      "fit": "contain",
+      "width": 413,
+      "height": 533
+    },
+    "filters": [
+      {
+        "key": "material",
+        "label": {
+          "es": "Material",
+          "en": "Material"
+        },
+        "values": [
+          {
+            "id": "pp",
+            "label": {
+              "es": "Polipropileno (PP)",
+              "en": "Polypropylene (PP)"
+            }
+          }
+        ]
+      },
+      {
+        "key": "product-type",
+        "label": {
+          "es": "Tipo de producto",
+          "en": "Product type"
+        },
+        "values": [
+          {
+            "id": "food-containers",
+            "label": {
+              "es": "Recipientes para alimentos",
+              "en": "Food containers"
+            }
+          }
+        ]
+      },
+      {
+        "key": "capacity",
+        "label": {
+          "es": "Capacidad",
+          "en": "Capacity"
+        },
+        "values": [
+          {
+            "id": "up-to-250",
+            "label": {
+              "es": "Hasta 250 ml",
+              "en": "Up to 250 ml"
+            }
+          },
+          {
+            "id": "251-500",
+            "label": {
+              "es": "251–500 ml",
+              "en": "251–500 ml"
+            }
+          },
+          {
+            "id": "501-1000",
+            "label": {
+              "es": "501–1,000 ml",
+              "en": "501–1,000 ml"
+            }
+          }
+        ]
+      },
+      {
+        "key": "size-mode",
+        "label": {
+          "es": "Tamaños",
+          "en": "Sizes"
+        },
+        "values": [
+          {
+            "id": "standard",
+            "label": {
+              "es": "Medidas de catálogo",
+              "en": "Catalog sizes"
+            }
+          }
+        ]
+      }
+    ],
+    "sourceCell": "E27"
+  },
+  {
+    "id": "bakery-containers",
+    "slug": "bakery-containers",
+    "parentId": "plastic-food",
+    "level": 3,
+    "title": {
+      "es": "Empaques para repostería",
+      "en": "Baking"
+    },
+    "description": {
+      "es": "Explora empaques para repostería y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore baking and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 26,
+    "media": {
+      "type": "image",
+      "placeholder": false,
+      "src": "/images/products/pdf-05-p09-c01.webp",
+      "alt": {
+        "es": "Empaques para repostería",
+        "en": "Baking"
+      },
+      "ratio": 1,
+      "fit": "contain",
+      "width": 413,
+      "height": 529
+    },
+    "filters": [
+      {
+        "key": "material",
+        "label": {
+          "es": "Material",
+          "en": "Material"
+        },
+        "values": [
+          {
+            "id": "pet",
+            "label": {
+              "es": "PET",
+              "en": "PET"
+            }
+          }
+        ]
+      },
+      {
+        "key": "product-type",
+        "label": {
+          "es": "Tipo de producto",
+          "en": "Product type"
+        },
+        "values": [
+          {
+            "id": "dessert-jars",
+            "label": {
+              "es": "Tarros y recipientes para postres",
+              "en": "Dessert jars and containers"
+            }
+          },
+          {
+            "id": "bakery-containers",
+            "label": {
+              "es": "Envases para repostería",
+              "en": "Bakery containers"
+            }
+          }
+        ]
+      },
+      {
+        "key": "capacity",
+        "label": {
+          "es": "Capacidad",
+          "en": "Capacity"
+        },
+        "values": [
+          {
+            "id": "up-to-250",
+            "label": {
+              "es": "Hasta 250 ml",
+              "en": "Up to 250 ml"
+            }
+          },
+          {
+            "id": "251-500",
+            "label": {
+              "es": "251–500 ml",
+              "en": "251–500 ml"
+            }
+          },
+          {
+            "id": "501-1000",
+            "label": {
+              "es": "501–1,000 ml",
+              "en": "501–1,000 ml"
+            }
+          }
+        ]
+      },
+      {
+        "key": "rim",
+        "label": {
+          "es": "Diámetro del borde",
+          "en": "Rim diameter"
+        },
+        "values": [
+          {
+            "id": "over-100",
+            "label": {
+              "es": "Más de 100 mm",
+              "en": "Over 100 mm"
+            }
+          }
+        ]
+      },
+      {
+        "key": "size-mode",
+        "label": {
+          "es": "Tamaños",
+          "en": "Sizes"
+        },
+        "values": [
+          {
+            "id": "standard",
+            "label": {
+              "es": "Medidas de catálogo",
+              "en": "Catalog sizes"
+            }
+          }
+        ]
+      }
+    ],
+    "sourceCell": "E28"
+  },
+  {
+    "id": "bento-boxes",
+    "slug": "bento-boxes",
+    "parentId": "plastic-food",
+    "level": 3,
+    "title": {
+      "es": "Cajas bento",
+      "en": "Bento box"
+    },
+    "description": {
+      "es": "Explora cajas bento y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore bento box and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 27,
+    "media": {
+      "type": "image",
+      "placeholder": false,
+      "src": "/images/products/pdf-01-p02-c01.webp",
+      "alt": {
+        "es": "Cajas bento",
+        "en": "Bento box"
+      },
+      "ratio": 1,
+      "fit": "contain",
+      "width": 434,
+      "height": 622
+    },
+    "filters": [
+      {
+        "key": "material",
+        "label": {
+          "es": "Material",
+          "en": "Material"
+        },
+        "values": [
+          {
+            "id": "pp",
+            "label": {
+              "es": "Polipropileno (PP)",
+              "en": "Polypropylene (PP)"
+            }
+          },
+          {
+            "id": "pet",
+            "label": {
+              "es": "PET",
+              "en": "PET"
+            }
+          },
+          {
+            "id": "pvc",
+            "label": {
+              "es": "PVC",
+              "en": "PVC"
+            }
+          }
+        ]
+      },
+      {
+        "key": "product-type",
+        "label": {
+          "es": "Tipo de producto",
+          "en": "Product type"
+        },
+        "values": [
+          {
+            "id": "food-containers",
+            "label": {
+              "es": "Recipientes para alimentos",
+              "en": "Food containers"
+            }
+          },
+          {
+            "id": "cold-noodle-containers",
+            "label": {
+              "es": "Envases para fideos fríos y comidas",
+              "en": "Cold noodle containers"
+            }
+          },
+          {
+            "id": "plastic-bags",
+            "label": {
+              "es": "Bolsas de plástico",
+              "en": "Plastic bags"
+            }
+          }
+        ]
+      },
+      {
+        "key": "capacity",
+        "label": {
+          "es": "Capacidad",
+          "en": "Capacity"
+        },
+        "values": [
+          {
+            "id": "251-500",
+            "label": {
+              "es": "251–500 ml",
+              "en": "251–500 ml"
+            }
+          },
+          {
+            "id": "501-1000",
+            "label": {
+              "es": "501–1,000 ml",
+              "en": "501–1,000 ml"
+            }
+          },
+          {
+            "id": "over-1000",
+            "label": {
+              "es": "Más de 1,000 ml",
+              "en": "Over 1,000 ml"
+            }
+          }
+        ]
+      },
+      {
+        "key": "size-mode",
+        "label": {
+          "es": "Tamaños",
+          "en": "Sizes"
+        },
+        "values": [
+          {
+            "id": "standard",
+            "label": {
+              "es": "Medidas de catálogo",
+              "en": "Catalog sizes"
+            }
+          }
+        ]
+      },
+      {
+        "key": "customization",
+        "label": {
+          "es": "Personalización",
+          "en": "Customization"
+        },
+        "values": [
+          {
+            "id": "yes",
+            "label": {
+              "es": "Disponible",
+              "en": "Available"
+            }
+          },
+          {
+            "id": "no",
+            "label": {
+              "es": "No disponible",
+              "en": "Unavailable"
+            }
+          }
+        ]
+      }
+    ],
+    "sourceCell": "E29"
+  },
+  {
+    "id": "fruit-containers",
+    "slug": "fruit-containers",
+    "parentId": "plastic-food",
+    "level": 3,
+    "title": {
+      "es": "Envases para frutas",
+      "en": "Fruit container"
+    },
+    "description": {
+      "es": "Explora envases para frutas y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore fruit container and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 28,
+    "media": {
+      "type": "image",
+      "placeholder": false,
+      "src": "/images/products/qunlu-71948171237d.webp",
+      "alt": {
+        "es": "Envases para frutas",
+        "en": "Fruit container"
+      },
+      "ratio": 1,
+      "fit": "contain",
+      "width": 900,
+      "height": 595
+    },
+    "filters": [
+      {
+        "key": "material",
+        "label": {
+          "es": "Material",
+          "en": "Material"
+        },
+        "values": [
+          {
+            "id": "pet",
+            "label": {
+              "es": "PET",
+              "en": "PET"
+            }
+          }
+        ]
+      },
+      {
+        "key": "product-type",
+        "label": {
+          "es": "Tipo de producto",
+          "en": "Product type"
+        },
+        "values": [
+          {
+            "id": "fruit-vegetable-containers",
+            "label": {
+              "es": "Envases para frutas y verduras",
+              "en": "Fruit and vegetable containers"
+            }
+          },
+          {
+            "id": "cut-fruit-containers",
+            "label": {
+              "es": "Envases para fruta cortada",
+              "en": "Cut-fruit containers"
+            }
+          }
+        ]
+      },
+      {
+        "key": "size-mode",
+        "label": {
+          "es": "Tamaños",
+          "en": "Sizes"
+        },
+        "values": [
+          {
+            "id": "standard",
+            "label": {
+              "es": "Medidas de catálogo",
+              "en": "Catalog sizes"
+            }
+          }
+        ]
+      }
+    ],
+    "sourceCell": "E30"
+  },
+  {
+    "id": "pet-cups",
+    "slug": "pet-cups",
+    "parentId": "plastic-food",
+    "level": 3,
+    "title": {
+      "es": "Vasos PET",
+      "en": "PET cup"
+    },
+    "description": {
+      "es": "Explora vasos pet y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore pet cup and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 29,
+    "media": {
+      "type": "image",
+      "placeholder": false,
+      "src": "/images/products/pdf-02-p02-c01.webp",
+      "alt": {
+        "es": "Vasos PET",
+        "en": "PET cup"
+      },
+      "ratio": 1,
+      "fit": "contain",
+      "width": 400,
+      "height": 623
+    },
+    "filters": [
+      {
+        "key": "material",
+        "label": {
+          "es": "Material",
+          "en": "Material"
+        },
+        "values": [
+          {
+            "id": "pp",
+            "label": {
+              "es": "Polipropileno (PP)",
+              "en": "Polypropylene (PP)"
+            }
+          },
+          {
+            "id": "pet",
+            "label": {
+              "es": "PET",
+              "en": "PET"
+            }
+          },
+          {
+            "id": "aluminum",
+            "label": {
+              "es": "Aluminio",
+              "en": "Aluminum"
+            }
+          },
+          {
+            "id": "ps",
+            "label": {
+              "es": "Poliestireno (PS)",
+              "en": "Polystyrene (PS)"
+            }
+          },
+          {
+            "id": "as",
+            "label": {
+              "es": "AS",
+              "en": "AS"
+            }
+          }
+        ]
+      },
+      {
+        "key": "product-type",
+        "label": {
+          "es": "Tipo de producto",
+          "en": "Product type"
+        },
+        "values": [
+          {
+            "id": "straws",
+            "label": {
+              "es": "Popotes",
+              "en": "Straws"
+            }
+          },
+          {
+            "id": "cup-accessories",
+            "label": {
+              "es": "Fundas y accesorios",
+              "en": "Sleeves and accessories"
+            }
+          },
+          {
+            "id": "plastic-cups",
+            "label": {
+              "es": "Vasos de plástico",
+              "en": "Plastic cups"
+            }
+          },
+          {
+            "id": "salad-containers",
+            "label": {
+              "es": "Envases para ensaladas",
+              "en": "Salad containers"
+            }
+          },
+          {
+            "id": "can-lids",
+            "label": {
+              "es": "Tapas de apertura fácil",
+              "en": "Easy-open lids"
+            }
+          },
+          {
+            "id": "beverage-cans",
+            "label": {
+              "es": "Envases para bebidas con apertura fácil",
+              "en": "Easy-open beverage containers"
+            }
+          },
+          {
+            "id": "iml-cups",
+            "label": {
+              "es": "Vasos IML",
+              "en": "IML cups"
+            }
+          },
+          {
+            "id": "cup-lids",
+            "label": {
+              "es": "Tapas para vasos",
+              "en": "Cup lids"
+            }
+          },
+          {
+            "id": "beverage-bottles",
+            "label": {
+              "es": "Botellas para bebidas",
+              "en": "Beverage bottles"
+            }
+          }
+        ]
+      },
+      {
+        "key": "capacity",
+        "label": {
+          "es": "Capacidad",
+          "en": "Capacity"
+        },
+        "values": [
+          {
+            "id": "up-to-250",
+            "label": {
+              "es": "Hasta 250 ml",
+              "en": "Up to 250 ml"
+            }
+          },
+          {
+            "id": "251-500",
+            "label": {
+              "es": "251–500 ml",
+              "en": "251–500 ml"
+            }
+          },
+          {
+            "id": "501-1000",
+            "label": {
+              "es": "501–1,000 ml",
+              "en": "501–1,000 ml"
+            }
+          }
+        ]
+      },
+      {
+        "key": "rim",
+        "label": {
+          "es": "Diámetro del borde",
+          "en": "Rim diameter"
+        },
+        "values": [
+          {
+            "id": "61-80",
+            "label": {
+              "es": "61–80 mm",
+              "en": "61–80 mm"
+            }
+          },
+          {
+            "id": "81-90",
+            "label": {
+              "es": "81–90 mm",
+              "en": "81–90 mm"
+            }
+          },
+          {
+            "id": "up-to-60",
+            "label": {
+              "es": "Hasta 60 mm",
+              "en": "Up to 60 mm"
+            }
+          },
+          {
+            "id": "91-100",
+            "label": {
+              "es": "91–100 mm",
+              "en": "91–100 mm"
+            }
+          },
+          {
+            "id": "over-100",
+            "label": {
+              "es": "Más de 100 mm",
+              "en": "Over 100 mm"
+            }
+          }
+        ]
+      },
+      {
+        "key": "size-mode",
+        "label": {
+          "es": "Tamaños",
+          "en": "Sizes"
+        },
+        "values": [
+          {
+            "id": "standard",
+            "label": {
+              "es": "Medidas de catálogo",
+              "en": "Catalog sizes"
+            }
+          }
+        ]
+      }
+    ],
+    "sourceCell": "E31"
+  },
+  {
+    "id": "fruit-cups",
+    "slug": "fruit-cups",
+    "parentId": "plastic-food",
+    "level": 3,
+    "title": {
+      "es": "Vasos para frutas",
+      "en": "Fruit cup"
+    },
+    "description": {
+      "es": "Explora vasos para frutas y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore fruit cup and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 30,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Vasos para frutas",
+        "en": "Fruit cup"
+      }
+    },
+    "filters": [],
+    "sourceCell": "E32"
+  },
+  {
+    "id": "cut-fruit-containers",
+    "slug": "cut-fruit-containers",
+    "parentId": "plastic-food",
+    "level": 3,
+    "title": {
+      "es": "Envases para fruta cortada",
+      "en": "Fruit cutting box"
+    },
+    "description": {
+      "es": "Explora envases para fruta cortada y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore fruit cutting box and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 31,
+    "media": {
+      "type": "image",
+      "placeholder": false,
+      "src": "/images/products/qunlu-96cc5452fabf.webp",
+      "alt": {
+        "es": "Envases para fruta cortada",
+        "en": "Fruit cutting box"
+      },
+      "ratio": 1,
+      "fit": "contain",
+      "width": 520,
+      "height": 433
+    },
+    "filters": [
+      {
+        "key": "material",
+        "label": {
+          "es": "Material",
+          "en": "Material"
+        },
+        "values": [
+          {
+            "id": "pet",
+            "label": {
+              "es": "PET",
+              "en": "PET"
+            }
+          }
+        ]
+      },
+      {
+        "key": "product-type",
+        "label": {
+          "es": "Tipo de producto",
+          "en": "Product type"
+        },
+        "values": [
+          {
+            "id": "cut-fruit-containers",
+            "label": {
+              "es": "Envases para fruta cortada",
+              "en": "Cut-fruit containers"
+            }
+          }
+        ]
+      },
+      {
+        "key": "size-mode",
+        "label": {
+          "es": "Tamaños",
+          "en": "Sizes"
+        },
+        "values": [
+          {
+            "id": "standard",
+            "label": {
+              "es": "Medidas de catálogo",
+              "en": "Catalog sizes"
+            }
+          }
+        ]
+      }
+    ],
+    "sourceCell": "E33"
+  },
+  {
+    "id": "golen-container",
+    "slug": "golden-container",
+    "parentId": "plastic-food",
+    "level": 3,
+    "title": {
+      "es": "Golden Container",
+      "en": "Golden Container"
+    },
+    "description": {
+      "es": "Explora golden container y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore golden container and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 32,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Golden Container",
+        "en": "Golden Container"
+      }
+    },
+    "filters": [],
+    "sourceCell": "E34"
+  },
+  {
+    "id": "egg-boxes",
+    "slug": "egg-boxes",
+    "parentId": "plastic-food",
+    "level": 3,
+    "title": {
+      "es": "Cajas para huevos",
+      "en": "Eggs box"
+    },
+    "description": {
+      "es": "Explora cajas para huevos y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore eggs box and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 33,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Cajas para huevos",
+        "en": "Eggs box"
+      }
+    },
+    "filters": [],
+    "sourceCell": "E35"
+  },
+  {
+    "id": "meat-containers",
+    "slug": "meat-containers",
+    "parentId": "plastic-food",
+    "level": 3,
+    "title": {
+      "es": "Envases para carne",
+      "en": "Meat container"
+    },
+    "description": {
+      "es": "Explora envases para carne y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore meat container and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 34,
     "media": {
       "type": "image",
       "placeholder": false,
       "src": "/images/products/qunlu-eebb6d0d32b8.webp",
       "alt": {
-        "es": "Envases para carnes y alimentos frescos · GHW-300C",
-        "en": "Meat and fresh-food containers · GHW-300C"
+        "es": "Envases para carne",
+        "en": "Meat container"
       },
       "ratio": 1,
       "fit": "contain",
@@ -1014,286 +3389,537 @@
             }
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "bakery",
-    "slug": "bakery",
-    "title": {
-      "es": "Empaques para repostería",
-      "en": "Bakery packaging"
-    },
-    "description": {
-      "es": "Explora empaques para repostería y compara las opciones disponibles por material, tipo y medidas.",
-      "en": "Explore bakery packaging and compare available materials, product types and sizes."
-    },
-    "status": "published",
-    "order": 8,
-    "media": {
-      "type": "image",
-      "placeholder": false,
-      "src": "/images/products/category-bakery.webp",
-      "ratio": 1,
-      "alt": {
-        "es": "Composición de empaques para repostería",
-        "en": "Composition of bakery packaging"
       },
-      "caption": {
-        "es": "Composición ilustrativa de packaging.",
-        "en": "Illustrative packaging composition."
-      }
-    },
-    "filters": []
-  },
-  {
-    "id": "produce",
-    "slug": "produce",
-    "title": {
-      "es": "Empaques para frutas y ensaladas",
-      "en": "Fruit & salad packaging"
-    },
-    "description": {
-      "es": "Explora empaques para frutas y ensaladas y compara las opciones disponibles por material, tipo y medidas.",
-      "en": "Explore fruit & salad packaging and compare available materials, product types and sizes."
-    },
-    "status": "published",
-    "order": 9,
-    "media": {
-      "type": "image",
-      "placeholder": false,
-      "src": "/images/products/qunlu-eebb6d0d32b8.webp",
-      "alt": {
-        "es": "Envases para carnes y alimentos frescos · GHW-300C",
-        "en": "Meat and fresh-food containers · GHW-300C"
-      },
-      "ratio": 1,
-      "fit": "contain",
-      "width": 630,
-      "height": 334
-    },
-    "filters": [
       {
-        "key": "product-type",
+        "key": "size-mode",
         "label": {
-          "es": "Tipo de producto",
-          "en": "Product type"
+          "es": "Tamaños",
+          "en": "Sizes"
         },
         "values": [
           {
-            "id": "plastic-cups",
+            "id": "standard",
             "label": {
-              "es": "Vasos de plástico",
-              "en": "Plastic cups"
-            }
-          },
-          {
-            "id": "meat-trays",
-            "label": {
-              "es": "Envases para carnes y alimentos frescos",
-              "en": "Meat and fresh-food containers"
-            }
-          },
-          {
-            "id": "skin-pack-trays",
-            "label": {
-              "es": "Bandejas para envasado skin",
-              "en": "Vacuum skin-pack trays"
-            }
-          },
-          {
-            "id": "fruit-vegetable-containers",
-            "label": {
-              "es": "Envases para frutas y verduras",
-              "en": "Fruit and vegetable containers"
-            }
-          },
-          {
-            "id": "cut-fruit-containers",
-            "label": {
-              "es": "Envases para fruta cortada",
-              "en": "Cut-fruit containers"
-            }
-          },
-          {
-            "id": "salad-containers",
-            "label": {
-              "es": "Envases para ensaladas",
-              "en": "Salad containers"
+              "es": "Medidas de catálogo",
+              "en": "Catalog sizes"
             }
           }
         ]
       }
-    ]
+    ],
+    "sourceCell": "E36"
   },
   {
-    "id": "boxes",
-    "slug": "boxes",
+    "id": "other-food-plastic",
+    "slug": "other-food-plastic",
+    "parentId": "plastic-food",
+    "level": 3,
     "title": {
-      "es": "Cajas y empaques personalizados",
-      "en": "Boxes & custom packaging"
+      "es": "Otros empaques de plástico para alimentos",
+      "en": "Others"
     },
     "description": {
-      "es": "Explora cajas y empaques personalizados y compara las opciones disponibles por material, tipo y medidas.",
-      "en": "Explore boxes & custom packaging and compare available materials, product types and sizes."
+      "es": "Explora otros empaques de plástico para alimentos y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore others and available materials, types and sizes."
     },
     "status": "published",
-    "order": 10,
+    "order": 35,
     "media": {
       "type": "image",
-      "placeholder": false,
-      "src": "/images/products/category-boxes.webp",
-      "ratio": 1,
+      "placeholder": true,
+      "ratio": 1.8,
       "alt": {
-        "es": "Composición de cajas y empaques personalizados",
-        "en": "Composition of boxes & custom packaging"
-      },
-      "caption": {
-        "es": "Composición ilustrativa de packaging.",
-        "en": "Illustrative packaging composition."
+        "es": "Otros empaques de plástico para alimentos",
+        "en": "Others"
       }
     },
-    "filters": [
-      {
-        "key": "material",
-        "label": {
-          "es": "Material",
-          "en": "Material"
-        },
-        "values": [
-          {
-            "id": "kraft-paper",
-            "label": {
-              "es": "Papel kraft",
-              "en": "Kraft paper"
-            }
-          },
-          {
-            "id": "paperboard",
-            "label": {
-              "es": "Cartulina",
-              "en": "Paperboard"
-            }
-          },
-          {
-            "id": "greaseproof-paper",
-            "label": {
-              "es": "Papel antigrasa",
-              "en": "Greaseproof paper"
-            }
-          },
-          {
-            "id": "kraft-paperboard",
-            "label": {
-              "es": "Cartulina kraft",
-              "en": "Kraft paperboard"
-            }
-          },
-          {
-            "id": "corrugated-board",
-            "label": {
-              "es": "Cartón corrugado",
-              "en": "Corrugated board"
-            }
-          }
-        ]
-      },
-      {
-        "key": "product-type",
-        "label": {
-          "es": "Tipo de producto",
-          "en": "Product type"
-        },
-        "values": [
-          {
-            "id": "food-paper-boxes",
-            "label": {
-              "es": "Cajas de papel para alimentos",
-              "en": "Paper food cartons"
-            }
-          },
-          {
-            "id": "pizza-boxes",
-            "label": {
-              "es": "Cajas para pizza",
-              "en": "Pizza boxes"
-            }
-          },
-          {
-            "id": "printed-cartons",
-            "label": {
-              "es": "Cajas de cartón impresas",
-              "en": "Printed cartons"
-            }
-          },
-          {
-            "id": "corrugated-cartons",
-            "label": {
-              "es": "Cajas de cartón corrugado",
-              "en": "Corrugated cartons"
-            }
-          },
-          {
-            "id": "multipacks",
-            "label": {
-              "es": "Empaques multipack",
-              "en": "Multipacks"
-            }
-          }
-        ]
-      }
-    ]
+    "filters": [],
+    "sourceCell": "E37"
   },
   {
-    "id": "sustainable",
-    "slug": "sustainable",
+    "id": "flexible-nonfood",
+    "slug": "flexible-nonfood",
+    "parentId": "plastic-nonfood",
+    "level": 3,
     "title": {
-      "es": "Productos sustentables",
-      "en": "Sustainable products"
+      "es": "Empaques flexibles",
+      "en": "Flexible Packaging"
     },
     "description": {
-      "es": "Selección de productos identificados como PLA en los catálogos. Consulta las especificaciones y confirma los requisitos de disposición aplicables a tu proyecto.",
-      "en": "Products identified as PLA in the catalogs. Review their specifications and confirm the disposal requirements applicable to your project."
+      "es": "Explora empaques flexibles y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore flexible packaging and available materials, types and sizes."
     },
     "status": "published",
-    "order": 11,
+    "order": 36,
     "media": {
       "type": "image",
-      "placeholder": false,
-      "src": "/images/products/pdf-05-p14-c01.webp",
+      "placeholder": true,
+      "ratio": 1.8,
       "alt": {
-        "en": "PLA degradable starch spoon",
-        "es": "Cuchara de almidón PLA degradable"
-      },
-      "ratio": 1,
-      "fit": "contain",
-      "width": 429,
-      "height": 445
-    },
-    "filters": [
-      {
-        "key": "product-type",
-        "label": {
-          "es": "Tipo de producto",
-          "en": "Product type"
-        },
-        "values": [
-          {
-            "id": "straws",
-            "label": {
-              "es": "Popotes",
-              "en": "Straws"
-            }
-          },
-          {
-            "id": "cutlery",
-            "label": {
-              "es": "Cubiertos",
-              "en": "Cutlery"
-            }
-          }
-        ]
+        "es": "Empaques flexibles",
+        "en": "Flexible Packaging"
       }
-    ]
+    },
+    "filters": [],
+    "sourceCell": "E38"
+  },
+  {
+    "id": "rigid-nonfood",
+    "slug": "rigid-nonfood",
+    "parentId": "plastic-nonfood",
+    "level": 3,
+    "title": {
+      "es": "Empaques de plástico rígido",
+      "en": "Rigid Plastic"
+    },
+    "description": {
+      "es": "Explora empaques de plástico rígido y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore rigid plastic and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 37,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Empaques de plástico rígido",
+        "en": "Rigid Plastic"
+      }
+    },
+    "filters": [],
+    "sourceCell": "E39"
+  },
+  {
+    "id": "tin-box",
+    "slug": "tin-box",
+    "parentId": "metal",
+    "level": 2,
+    "title": {
+      "es": "Caja de hojalata",
+      "en": "Tin box"
+    },
+    "description": {
+      "es": "Explora caja de hojalata y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore tin box and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 38,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Caja de hojalata",
+        "en": "Tin box"
+      }
+    },
+    "filters": [],
+    "sourceCell": "D43"
+  },
+  {
+    "id": "tin-can",
+    "slug": "tin-can",
+    "parentId": "metal",
+    "level": 2,
+    "title": {
+      "es": "Lata de hojalata",
+      "en": "Tin can"
+    },
+    "description": {
+      "es": "Explora lata de hojalata y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore tin can and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 39,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Lata de hojalata",
+        "en": "Tin can"
+      }
+    },
+    "filters": [],
+    "sourceCell": "D43"
+  },
+  {
+    "id": "aluminum-box",
+    "slug": "aluminum-box",
+    "parentId": "metal",
+    "level": 2,
+    "title": {
+      "es": "Caja de aluminio",
+      "en": "Aluminum box"
+    },
+    "description": {
+      "es": "Explora caja de aluminio y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore aluminum box and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 40,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Caja de aluminio",
+        "en": "Aluminum box"
+      }
+    },
+    "filters": [],
+    "sourceCell": "D43"
+  },
+  {
+    "id": "aluminum-can",
+    "slug": "aluminum-can",
+    "parentId": "metal",
+    "level": 2,
+    "title": {
+      "es": "Lata de aluminio",
+      "en": "Aluminum can"
+    },
+    "description": {
+      "es": "Explora lata de aluminio y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore aluminum can and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 41,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Lata de aluminio",
+        "en": "Aluminum can"
+      }
+    },
+    "filters": [],
+    "sourceCell": "D43"
+  },
+  {
+    "id": "aluminum-foil",
+    "slug": "aluminum-foil",
+    "parentId": "metal",
+    "level": 2,
+    "title": {
+      "es": "Papel de aluminio",
+      "en": "Aluminum foil"
+    },
+    "description": {
+      "es": "Explora papel de aluminio y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore aluminum foil and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 42,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Papel de aluminio",
+        "en": "Aluminum foil"
+      }
+    },
+    "filters": [],
+    "sourceCell": "D43"
+  },
+  {
+    "id": "metal-pail",
+    "slug": "metal-pail",
+    "parentId": "metal",
+    "level": 2,
+    "title": {
+      "es": "Cubeta metálica",
+      "en": "Metal pail"
+    },
+    "description": {
+      "es": "Explora cubeta metálica y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore metal pail and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 43,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Cubeta metálica",
+        "en": "Metal pail"
+      }
+    },
+    "filters": [],
+    "sourceCell": "D43"
+  },
+  {
+    "id": "glass-bottle",
+    "slug": "glass-bottle",
+    "parentId": "glass",
+    "level": 2,
+    "title": {
+      "es": "Botella de vidrio",
+      "en": "Glass bottle"
+    },
+    "description": {
+      "es": "Explora botella de vidrio y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore glass bottle and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 44,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Botella de vidrio",
+        "en": "Glass bottle"
+      }
+    },
+    "filters": [],
+    "sourceCell": "D44"
+  },
+  {
+    "id": "glass-jar",
+    "slug": "glass-jar",
+    "parentId": "glass",
+    "level": 2,
+    "title": {
+      "es": "Frasco de vidrio",
+      "en": "Glass jar"
+    },
+    "description": {
+      "es": "Explora frasco de vidrio y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore glass jar and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 45,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Frasco de vidrio",
+        "en": "Glass jar"
+      }
+    },
+    "filters": [],
+    "sourceCell": "D44"
+  },
+  {
+    "id": "packing-tape",
+    "slug": "packing-tape",
+    "parentId": "packaging-accessories",
+    "level": 2,
+    "title": {
+      "es": "Cinta de empaque",
+      "en": "Packing tape"
+    },
+    "description": {
+      "es": "Explora cinta de empaque y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore packing tape and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 46,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Cinta de empaque",
+        "en": "Packing tape"
+      }
+    },
+    "filters": [],
+    "sourceCell": "D45"
+  },
+  {
+    "id": "strapping-band",
+    "slug": "strapping-band",
+    "parentId": "packaging-accessories",
+    "level": 2,
+    "title": {
+      "es": "Fleje",
+      "en": "Strapping band"
+    },
+    "description": {
+      "es": "Explora fleje y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore strapping band and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 47,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Fleje",
+        "en": "Strapping band"
+      }
+    },
+    "filters": [],
+    "sourceCell": "D45"
+  },
+  {
+    "id": "strap-buckle",
+    "slug": "strap-buckle",
+    "parentId": "packaging-accessories",
+    "level": 2,
+    "title": {
+      "es": "Hebilla para fleje",
+      "en": "Strap buckle"
+    },
+    "description": {
+      "es": "Explora hebilla para fleje y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore strap buckle and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 48,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Hebilla para fleje",
+        "en": "Strap buckle"
+      }
+    },
+    "filters": [],
+    "sourceCell": "D45"
+  },
+  {
+    "id": "accessory-stretch-film",
+    "slug": "accessory-stretch-film",
+    "parentId": "packaging-accessories",
+    "level": 2,
+    "title": {
+      "es": "Película estirable",
+      "en": "Stretch film"
+    },
+    "description": {
+      "es": "Explora película estirable y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore stretch film and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 49,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Película estirable",
+        "en": "Stretch film"
+      }
+    },
+    "filters": [],
+    "sourceCell": "D45"
+  },
+  {
+    "id": "desiccant",
+    "slug": "desiccant",
+    "parentId": "packaging-accessories",
+    "level": 2,
+    "title": {
+      "es": "Desecante",
+      "en": "Desiccant"
+    },
+    "description": {
+      "es": "Explora desecante y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore desiccant and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 50,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Desecante",
+        "en": "Desiccant"
+      }
+    },
+    "filters": [],
+    "sourceCell": "D45"
+  },
+  {
+    "id": "anti-rust-bag",
+    "slug": "anti-rust-bag",
+    "parentId": "packaging-accessories",
+    "level": 2,
+    "title": {
+      "es": "Bolsa anticorrosiva",
+      "en": "Anti-rust bag"
+    },
+    "description": {
+      "es": "Explora bolsa anticorrosiva y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore anti-rust bag and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 51,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Bolsa anticorrosiva",
+        "en": "Anti-rust bag"
+      }
+    },
+    "filters": [],
+    "sourceCell": "D45"
+  },
+  {
+    "id": "security-seal",
+    "slug": "security-seal",
+    "parentId": "packaging-accessories",
+    "level": 2,
+    "title": {
+      "es": "Sello de seguridad",
+      "en": "Security seal"
+    },
+    "description": {
+      "es": "Explora sello de seguridad y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore security seal and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 52,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Sello de seguridad",
+        "en": "Security seal"
+      }
+    },
+    "filters": [],
+    "sourceCell": "D45"
+  },
+  {
+    "id": "ribbon",
+    "slug": "ribbon",
+    "parentId": "packaging-accessories",
+    "level": 2,
+    "title": {
+      "es": "Listón",
+      "en": "Ribbon"
+    },
+    "description": {
+      "es": "Explora listón y sus opciones de materiales, tipos y medidas.",
+      "en": "Explore ribbon and available materials, types and sizes."
+    },
+    "status": "published",
+    "order": 53,
+    "media": {
+      "type": "image",
+      "placeholder": true,
+      "ratio": 1.8,
+      "alt": {
+        "es": "Listón",
+        "en": "Ribbon"
+      }
+    },
+    "filters": [],
+    "sourceCell": "D45"
   }
 ]
