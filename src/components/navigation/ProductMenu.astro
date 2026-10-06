@@ -1,6 +1,7 @@
 ---
 import { visibleCategories, allVisibleCategories } from '../../lib/data';
 import { route } from '../../lib/routes';
+import MediaPlaceholder from '../ui/MediaPlaceholder.astro';
 import type { Language } from '../../types/content';
 interface Props { lang: Language; }
 const {lang}=Astro.props;
@@ -8,13 +9,34 @@ const children=(id:string)=>allVisibleCategories.filter(c=>c.parentId===id);
 const href=(slug:string)=>route(lang,`products/categories/${slug}`);
 ---
 <div class="product-menu-tree">
-  {visibleCategories.map(root=><section>
-    <h3><a href={href(root.slug)}>{root.title[lang]}</a></h3>
-    {children(root.id).map(branch=>children(branch.id).length?
-      <details><summary>{branch.title[lang]}</summary><div class="product-menu-children">
-        <a class="menu-overview" href={href(branch.slug)}>{lang==='es'?'Ver todos':'View all'} →</a>
-        {children(branch.id).map(leaf=><a href={href(leaf.slug)}>{leaf.title[lang]}</a>)}
-      </div></details>:
-      <a href={href(branch.slug)}>{branch.title[lang]}</a>)}
-  </section>)}
+  <div class="product-menu-options">
+    {visibleCategories.map(root=><details class="product-root" data-product-root={root.id}>
+      <summary>{root.title[lang]}</summary>
+      <div class="product-branches">
+        <a class="menu-overview" href={href(root.slug)}>{lang==='es'?'Ver todos':'View all'} →</a>
+        {children(root.id).map(branch=>children(branch.id).length?
+          <details class="product-branch"><summary>{branch.title[lang]}</summary><div class="product-menu-children">
+            <a class="menu-overview" href={href(branch.slug)}>{lang==='es'?'Ver todos':'View all'} →</a>
+            {children(branch.id).map(leaf=><a href={href(leaf.slug)}>{leaf.title[lang]}</a>)}
+          </div></details>:<a href={href(branch.slug)}>{branch.title[lang]}</a>)}
+      </div>
+    </details>)}
+  </div>
+  <div class="product-menu-media" aria-live="off">
+    {visibleCategories.map((root,index)=><div data-product-image={root.id} hidden={index!==0}><MediaPlaceholder lang={lang} media={root.media}/></div>)}
+  </div>
 </div>
+<script>
+  document.querySelectorAll<HTMLElement>('.product-menu-tree').forEach(tree=>{
+    const roots=Array.from(tree.querySelectorAll<HTMLDetailsElement>('.product-root'));
+    const showImage=(id:string|undefined)=>tree.querySelectorAll<HTMLElement>('[data-product-image]').forEach(image=>image.hidden=image.dataset.productImage!==id);
+    tree.querySelectorAll<HTMLDetailsElement>('details').forEach(detail=>{
+      const activate=()=>{
+        detail.parentElement?.querySelectorAll<HTMLDetailsElement>(':scope > details').forEach(other=>{if(other!==detail){other.open=false;other.querySelectorAll<HTMLDetailsElement>('details').forEach(child=>child.open=false);}});
+        if(roots.includes(detail))showImage(detail.dataset.productRoot);
+      };
+      detail.addEventListener('toggle',()=>{if(detail.open)activate();});
+      detail.addEventListener('pointerenter',()=>{if(window.matchMedia('(min-width:1100px) and (hover:hover)').matches){activate();detail.open=true;}});
+    });
+  });
+</script>

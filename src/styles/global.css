@@ -453,3 +453,43 @@
   .catalogs-grid h2 { font-size:1.6rem; margin-bottom:1rem; }
   @media(max-width:767px){.catalogs-grid{grid-template-columns:1fr;}}
 }
+
+/* Shared navigation: options left, editorial media right. */
+@layer components {
+  .mega-inner { grid-template-columns:minmax(0,1.25fr) minmax(0,1fr); gap:4rem; max-height:calc(100dvh - 110px); overflow-y:auto; }
+  .mega-links { display:flex; flex-direction:column; gap:.25rem; }
+  .mega-links>a { border:0; padding:.5rem 0; justify-content:flex-start; }
+  .mega-media,.product-menu-media { align-self:start; }
+  .mega-media .media-asset img,.product-menu-media .media-asset img { width:100%; height:260px; object-fit:cover; border-radius:var(--radius-media); }
+  .mega-media figcaption,.product-menu-media figcaption { display:none; }
+  .product-mega { display:block; padding-block:3.5rem; }
+  .product-menu-tree { display:grid; grid-template-columns:minmax(0,1.6fr) minmax(0,1fr); gap:3rem; margin-top:1rem; }
+  .product-menu-options { position:relative; min-height:290px; }
+  .product-root { width:30%; }
+  .product-menu-tree summary { font-weight:400; list-style:none; display:flex; justify-content:space-between; gap:.75rem; }
+  .product-menu-tree summary::after { content:'›'; }
+  .product-menu-tree details[open]>summary { font-weight:600; }
+  .product-menu-tree a { font-size:.9rem; }
+  .product-branches { position:absolute; top:0; left:34%; width:30%; }
+  .product-menu-children { position:absolute; top:0; left:112%; width:100%; border:0; padding:0; }
+  .product-branch>summary { font-size:.9rem; }
+  .catalog-menu-groups summary { padding:.65rem 0; cursor:pointer; }
+  .catalog-menu-downloads { padding:.25rem 0 .75rem 1rem; display:grid; gap:.6rem; }
+  .catalog-menu-downloads>span,.catalog-menu-downloads>a { display:flex; flex-wrap:wrap; gap:.5rem; align-items:baseline; }
+  .catalog-menu-downloads small { color:var(--color-muted); }
+  .mobile-nav .product-menu-tree { display:block; }
+  .mobile-nav .product-menu-media { display:none; }
+  .mobile-nav .product-menu-options { min-height:0; }
+  .mobile-nav .product-root { width:100%; }
+  .mobile-nav .product-branches,.mobile-nav .product-menu-children { position:static; width:auto; padding-left:1rem; }
+}
+
+@layer components {
+  .catalog-download-slot { min-height:2rem; padding-block:.3rem; }
+}
+
+/* Override the original header's visually hidden disclosure controls. */
+.menu-disclosure:not(.menu-label) { position:static; width:22px; min-width:22px; height:44px; overflow:visible; clip-path:none; padding:0; }
+.menu-disclosure:not(.menu-label)::after { content:'⌄'; }
+.menu-disclosure .disclosure-text { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+@media(min-width:1100px) { .product-menu-options { min-height:390px; } }

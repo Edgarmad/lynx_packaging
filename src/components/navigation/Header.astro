@@ -1,9 +1,12 @@
 ---
-import { navigation, visibleCategories, visibleSolutions, publishedCatalogs, site } from '../../lib/data';
+import { navigation, visibleCategories, visibleSolutions, site } from '../../lib/data';
 import { route, alternate } from '../../lib/routes';
 import { ui } from '../../i18n/ui';
 import type { Language } from '../../types/content';
 import ProductMenu from './ProductMenu.astro';
+import CatalogMenu from './CatalogMenu.astro';
+import MediaPlaceholder from '../ui/MediaPlaceholder.astro';
+import { editorialMedia } from '../../lib/editorial-media';
 interface Props { lang: Language; path: string; home?: boolean; }
 const {lang,path,home=false} = Astro.props;
 const t=ui(lang);
@@ -33,11 +36,11 @@ function children(group: string | null): {title:string;href:string;external?:boo
           {item.group && <button class:list={['menu-disclosure',{'menu-label':!item.path}]} aria-expanded="false" aria-controls={`mega-${item.id}`} aria-label={`${item.title[lang]}: ${lang==='es'?'abrir submenú':'open submenu'}`}>{item.path ? <span class="disclosure-text">{lang==='es'?'Abrir submenú':'Open submenu'}</span> : item.title[lang]}</button>}
         </div>
         {item.group && <div id={`mega-${item.id}`} class="mega-menu" hidden>
-          <div class:list={['site-container','mega-inner',{'product-mega':item.group==='products'}]}><p class="mega-title">{item.title[lang]}</p><div class={item.group==='products'?'product-mega-content':'mega-links'}>
-            {item.path && <a class="text-link" href={route(lang,item.path)}>{lang==='es'?'Ver resumen':'View overview'}</a>}
-            {item.group==='products'?<ProductMenu lang={lang}/>:children(item.group).map(child=><a href={child.href} target={child.external?'_blank':undefined} rel={child.external?'noopener noreferrer':undefined}>{child.title}</a>)}
-            {item.group==='catalogs' && !publishedCatalogs.length && <p>{t.catalogsPending}</p>}
-          </div></div>
+          <div class:list={['site-container','mega-inner',{'product-mega':item.group==='products'}]}><div class={item.group==='products'?'product-mega-content':'mega-links'}>
+            {item.path && item.group!=='catalogs' && <a class="text-link" href={route(lang,item.path)}>{lang==='es'?'Ver resumen':'View overview'}</a>}
+            {item.group==='products'?<ProductMenu lang={lang}/>:item.group==='catalogs'?<CatalogMenu lang={lang}/>:children(item.group).map(child=><a href={child.href} target={child.external?'_blank':undefined} rel={child.external?'noopener noreferrer':undefined}>{child.title}</a>)}
+
+          </div>{item.group!=='products' && <div class="mega-media"><MediaPlaceholder lang={lang} media={item.group==='about'?editorialMedia['lynx-about']:item.group==='catalogs'?visibleCategories[0]?.media:visibleSolutions[0]?.media}/></div>}</div>
         </div>}
       </div>)}
     </nav>
@@ -53,9 +56,9 @@ function children(group: string | null): {title:string;href:string;external?:boo
   <nav id="mobile-menu" class="mobile-nav" aria-label={lang==='es'?'Menú móvil':'Mobile menu'} hidden>
     <div class="mobile-menu-heading"><span>{lang==='es'?'Menú':'Menu'}</span><button data-mobile-close aria-label={t.close}>×</button></div>
     {navigation.map(item=> item.group ? <details><summary>{item.title[lang]}</summary><div class="mobile-links">
-      {item.path && <a href={route(lang,item.path)}>{lang==='es'?'Ver resumen':'View overview'} →</a>}
-      {item.group==='products'?<ProductMenu lang={lang}/>:children(item.group).map(child=><a href={child.href} target={child.external?'_blank':undefined} rel={child.external?'noopener noreferrer':undefined}>{child.title} {child.external?'↗':'→'}</a>)}
-      {item.group==='catalogs'&&!publishedCatalogs.length&&<p>{t.catalogsPending}</p>}
+      {item.path && item.group!=='catalogs' && <a href={route(lang,item.path)}>{lang==='es'?'Ver resumen':'View overview'} →</a>}
+      {item.group==='products'?<ProductMenu lang={lang}/>:item.group==='catalogs'?<CatalogMenu lang={lang}/>:children(item.group).map(child=><a href={child.href} target={child.external?'_blank':undefined} rel={child.external?'noopener noreferrer':undefined}>{child.title} {child.external?'↗':'→'}</a>)}
+
     </div></details> : <a class="mobile-direct" href={route(lang,item.path??'')}>{item.title[lang]} →</a>)}
   </nav>
 </header>

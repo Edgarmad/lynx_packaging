@@ -1,0 +1,206 @@
+[
+  {
+    "id": "paper",
+    "title": {
+      "es": "Empaques de papel",
+      "en": "Paper packaging"
+    },
+    "downloads": [
+      {
+        "id": "paper-1",
+        "title": {
+          "es": "Empaques de papel",
+          "en": "Paper packaging"
+        },
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "plastic",
+    "title": {
+      "es": "Empaques de plástico",
+      "en": "Plastic packaging"
+    },
+    "downloads": [
+      {
+        "id": "plastic-1",
+        "title": {
+          "es": "Horneado",
+          "en": "Baking"
+        },
+        "url": ""
+      },
+      {
+        "id": "plastic-2",
+        "title": {
+          "es": "Bento",
+          "en": "Bento"
+        },
+        "url": ""
+      },
+      {
+        "id": "plastic-3",
+        "title": {
+          "es": "Vasos",
+          "en": "Cups"
+        },
+        "url": ""
+      },
+      {
+        "id": "plastic-4",
+        "title": {
+          "es": "Frutas y verduras",
+          "en": "F&V"
+        },
+        "url": ""
+      },
+      {
+        "id": "plastic-5",
+        "title": {
+          "es": "Huevos",
+          "en": "Eggs"
+        },
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "sustainable",
+    "title": {
+      "es": "Empaques sustentables",
+      "en": "Sustainable packaging"
+    },
+    "downloads": [
+      {
+        "id": "sustainable-1",
+        "title": {
+          "es": "Empaques sustentables",
+          "en": "Sustainable packaging"
+        },
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "cups",
+    "title": {
+      "es": "Vasos",
+      "en": "Cups"
+    },
+    "downloads": [
+      {
+        "id": "cups-1",
+        "title": {
+          "es": "Vasos 01",
+          "en": "Cups 01"
+        },
+        "url": ""
+      },
+      {
+        "id": "cups-2",
+        "title": {
+          "es": "Vasos 02",
+          "en": "Cups 02"
+        },
+        "url": ""
+      },
+      {
+        "id": "cups-3",
+        "title": {
+          "es": "Vasos 03",
+          "en": "Cups 03"
+        },
+        "url": ""
+      },
+      {
+        "id": "cups-4",
+        "title": {
+          "es": "Vasos 04",
+          "en": "Cups 04"
+        },
+        "url": ""
+      },
+      {
+        "id": "cups-5",
+        "title": {
+          "es": "Vasos 05",
+          "en": "Cups 05"
+        },
+        "url": ""
+      },
+      {
+        "id": "cups-6",
+        "title": {
+          "es": "Vasos 06",
+          "en": "Cups 06"
+        },
+        "url": ""
+      },
+      {
+        "id": "cups-7",
+        "title": {
+          "es": "Vasos 07",
+          "en": "Cups 07"
+        },
+        "url": ""
+      },
+      {
+        "id": "cups-8",
+        "title": {
+          "es": "Vasos 08",
+          "en": "Cups 08"
+        },
+        "url": ""
+      },
+      {
+        "id": "cups-9",
+        "title": {
+          "es": "Vasos 09",
+          "en": "Cups 09"
+        },
+        "url": ""
+      },
+      {
+        "id": "cups-10",
+        "title": {
+          "es": "Vasos 10",
+          "en": "Cups 10"
+        },
+        "url": ""
+      },
+      {
+        "id": "cups-11",
+        "title": {
+          "es": "Vasos 11",
+          "en": "Cups 11"
+        },
+        "url": ""
+      },
+      {
+        "id": "cups-12",
+        "title": {
+          "es": "Vasos 12",
+          "en": "Cups 12"
+        },
+        "url": ""
+      },
+      {
+        "id": "cups-13",
+        "title": {
+          "es": "Vasos 13",
+          "en": "Cups 13"
+        },
+        "url": ""
+      },
+      {
+        "id": "cups-14",
+        "title": {
+          "es": "Vasos 14",
+          "en": "Cups 14"
+        },
+        "url": ""
+      }
+    ]
+  }
+]
