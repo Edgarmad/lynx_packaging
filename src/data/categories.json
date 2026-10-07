@@ -571,15 +571,19 @@
     "media": {
       "type": "image",
       "placeholder": false,
-      "src": "/images/products/pdf-01-p09-c01.webp",
+      "src": "/images/products/category-plant-v2.webp",
       "alt": {
-        "es": "Vajilla de origen vegetal",
-        "en": "Plant-based tableware"
+        "es": "Composición ilustrativa de platos, tazones, bandejas, recipiente con tapa y cubiertos de origen vegetal",
+        "en": "Illustrative composition of plant-based plates, bowls, trays, a hinged container and cutlery"
       },
-      "ratio": 1,
-      "fit": "contain",
-      "width": 429,
-      "height": 629
+      "ratio": 1.8040685224839401,
+      "width": 1685,
+      "height": 934,
+      "fit": "cover",
+      "caption": {
+        "es": "Composición ilustrativa generada con IA.",
+        "en": "AI-generated illustrative composition."
+      }
     },
     "filters": [
       {
