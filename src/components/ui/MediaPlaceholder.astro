@@ -1,15 +1,22 @@
 ---
 import type { Language, Media } from '../../types/content';
 import { ui } from '../../i18n/ui';
-interface Props { lang: Language; media?: Media; kind?: 'image' | 'video'; ratio?: number; class?: string; label?: string; }
-const { lang, media, kind = 'image', ratio = 1.5, class: className = '', label } = Astro.props;
+interface Props { lang: Language; media?: Media; kind?: 'image' | 'video'; ratio?: number; class?: string; label?: string; autoplay?: boolean; controls?: boolean; }
+const { lang, media, kind = 'image', ratio = 1.5, class: className = '', label, autoplay = false, controls = true } = Astro.props;
 const type = media?.type ?? kind;
 ---
 {media && !media.placeholder && media.src ? (
   type === 'image' ? <figure class:list={['media-asset', {'media-contain':media.fit==='contain'}, className]}><img src={media.src} alt={media.alt[lang]} loading="lazy" width={media.width} height={media.height} style={`aspect-ratio: ${media.ratio}`} />{media.caption && <figcaption>{media.caption[lang]}</figcaption>}</figure> :
-    <video class:list={['media-asset', className]} src={media.src} poster={media.poster} preload="none" controls muted playsinline aria-label={media.alt[lang]} style={`aspect-ratio: ${media.ratio}`} />
+    <video class:list={['media-asset', className]} src={media.src} poster={media.poster} preload={autoplay ? 'metadata' : 'none'} controls={controls} data-media-autoplay={autoplay || undefined} loop={autoplay} muted playsinline aria-label={media.alt[lang]} style={`aspect-ratio: ${media.ratio}`} />
 ) : (
   <div class:list={['media-placeholder', className]} style={`--media-ratio: ${media?.ratio ?? ratio}`} role="img" aria-label={label ?? ui(lang)[type]}>
     <span class="media-label">{label ?? ui(lang)[type]}</span>
   </div>
 )}
+<script>
+  const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  document.querySelectorAll<HTMLVideoElement>('video[data-media-autoplay]').forEach(video => {
+    if (!motion.matches) void video.play().catch(() => {});
+    motion.addEventListener('change', () => { if (motion.matches) video.pause(); });
+  });
+</script>

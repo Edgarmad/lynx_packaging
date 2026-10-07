@@ -10,5 +10,5 @@ const { lang, media } = Astro.props;
   <ul class="culture-values">
     {about.culture.values.map(value => <li><h3>{value.title[lang]}</h3></li>)}
   </ul>
-  {media && <div class="mt-8"><MediaPlaceholder lang={lang} media={media}/></div>}
+  {media && <div class="mt-8"><MediaPlaceholder lang={lang} media={media} autoplay controls={false}/></div>}
 </section>

@@ -3,8 +3,6 @@ import type { Language, Media } from '../../types/content';
 import MediaPlaceholder from '../ui/MediaPlaceholder.astro';
 interface Props { lang: Language; media: Media; title: string; }
 const { lang, media, title } = Astro.props;
-const pause = lang === 'es' ? 'Pausar video' : 'Pause video';
-const play = lang === 'es' ? 'Reproducir video' : 'Play video';
 ---
 <section class:list={['hero', { 'has-video': !media.placeholder }]} data-home-hero>
   {media.placeholder ? <MediaPlaceholder lang={lang} media={media} class="hero-media"/> :
@@ -12,24 +10,13 @@ const play = lang === 'es' ? 'Reproducir video' : 'Play video';
       <source src={media.src} type="video/mp4"/>
     </video>}
   <div class="site-container hero-content"><h1>{title}</h1></div>
-  {!media.placeholder && <button class="hero-video-toggle button" type="button" hidden data-play={play} data-pause={pause}>{play}</button>}
 </section>
 <script>
   const hero = document.querySelector<HTMLElement>('[data-home-hero]');
   const video = hero?.querySelector('video');
-  const toggle = hero?.querySelector<HTMLButtonElement>('.hero-video-toggle');
-  if (video && toggle) {
+  if (video) {
     const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
-    const update = () => { toggle.textContent = video.paused ? toggle.dataset.play! : toggle.dataset.pause!; };
-    toggle.hidden = false;
-    video.addEventListener('play', update);
-    video.addEventListener('pause', update);
-    toggle.addEventListener('click', () => {
-      if (video.paused) void video.play().catch(update);
-      else video.pause();
-    });
     motion.addEventListener('change', () => { if (motion.matches) video.pause(); });
-    if (!motion.matches) void video.play().catch(update);
-    update();
+    if (!motion.matches) void video.play().catch(() => {});
   }
 </script>
