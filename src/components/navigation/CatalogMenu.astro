@@ -6,7 +6,7 @@ const {lang}=Astro.props;
 ---
 <div class="catalog-menu-groups">
   {groups.map(group=><details><summary>{group.title[lang]}</summary><div class="catalog-menu-downloads">
-    {group.downloads.map(download=>download.url?<a href={download.url} target="_blank" rel="noopener noreferrer">{download.title[lang]} ↗</a>:<span class="catalog-download-slot">{download.title[lang]}</span>)}
+    {group.downloads.map(download=>download.url[lang]?<a href={download.url[lang]} target="_blank" rel="noopener noreferrer">{download.title[lang]} ↗</a>:<span class="catalog-download-slot">{download.title[lang]}</span>)}
   </div></details>)}
 </div>
 

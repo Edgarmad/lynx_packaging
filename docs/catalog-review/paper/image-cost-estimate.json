@@ -1,0 +1,141 @@
+{
+  "date": "2026-10-06",
+  "inventoryWorkloadBase": 261,
+  "inventoryLedger": [
+    [
+      "Bolsas: 38 filas Jihong + 10 presentaciones WHYJ",
+      48
+    ],
+    [
+      "Vasos WHYJ: fichas candidatas, pendientes de depuración",
+      144
+    ],
+    [
+      "Recipientes: 14 presentaciones WHYJ + 14 modelos para helados",
+      28
+    ],
+    [
+      "Portavasos WHYJ",
+      14
+    ],
+    [
+      "Accesorios de papel: 28 menos un accesorio mixto",
+      27
+    ]
+  ],
+  "apiReferenceModel": "gpt-image-2",
+  "size": "1024x1024",
+  "outputOnlyUnitUsd": {
+    "medium": 0.053,
+    "high": 0.211
+  },
+  "scenarios": [
+    {
+      "scenario": "Muestra de estilo",
+      "finalImagesRange": [
+        8,
+        16
+      ],
+      "generationAttemptsRange": [
+        12,
+        24
+      ],
+      "retryFactorAssumption": 1.5,
+      "outputOnlyUsd": {
+        "medium": [
+          0.64,
+          1.27
+        ],
+        "high": [
+          2.53,
+          5.06
+        ]
+      },
+      "estimatedImageOutputTokens": {
+        "medium": [
+          21200,
+          42400
+        ],
+        "high": [
+          84400,
+          168800
+        ]
+      }
+    },
+    {
+      "scenario": "Catálogo con imágenes representativas — propuesta",
+      "finalImagesRange": [
+        90,
+        120
+      ],
+      "generationAttemptsRange": [
+        135,
+        180
+      ],
+      "retryFactorAssumption": 1.5,
+      "outputOnlyUsd": {
+        "medium": [
+          7.15,
+          9.54
+        ],
+        "high": [
+          28.48,
+          37.98
+        ]
+      },
+      "estimatedImageOutputTokens": {
+        "medium": [
+          238500,
+          318000
+        ],
+        "high": [
+          949500,
+          1266000
+        ]
+      }
+    },
+    {
+      "scenario": "Una imagen por presentación y alcance adicional — provisional",
+      "finalImagesRange": [
+        280,
+        300
+      ],
+      "generationAttemptsRange": [
+        420,
+        450
+      ],
+      "retryFactorAssumption": 1.5,
+      "outputOnlyUsd": {
+        "medium": [
+          22.26,
+          23.85
+        ],
+        "high": [
+          88.62,
+          94.95
+        ]
+      },
+      "estimatedImageOutputTokens": {
+        "medium": [
+          742000,
+          795000
+        ],
+        "high": [
+          2954000,
+          3165000
+        ]
+      }
+    }
+  ],
+  "notes": [
+    "Not actual metered usage.",
+    "Input costs and conversation costs excluded.",
+    "Final product/image list has not been deduplicated.",
+    "Reuse strategy depends on client acceptance and actual visual differences."
+  ],
+  "sources": [
+    "https://developers.openai.com/api/docs/guides/image-generation",
+    "https://learn.chatgpt.com/docs/image-generation",
+    "https://learn.chatgpt.com/docs/pricing"
+  ]
+}

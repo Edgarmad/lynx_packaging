@@ -146,3 +146,7 @@ vite.config.ts.timestamp-*
 .astro/
 tmp/
 .codex/pdf-review/
+
+# PDFs and generated catalog delivery packages remain local (hosted on Drive)
+*.[pP][dD][fF]
+output/

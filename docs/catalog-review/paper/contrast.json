@@ -1,0 +1,45 @@
+{
+  "changes": [
+    {
+      "finding": "25/25 source hashes unchanged",
+      "action": "Fresh native text extracted; previous OCR remains applicable to identical PDF bytes."
+    },
+    {
+      "finding": "A2-1 / A2-2 previously translated as large/small U-cut",
+      "action": "Correct supplier headings and fold ranges; preserve prior name for audit."
+    },
+    {
+      "finding": "Pizza family lacked grammages",
+      "action": "Restore 83–170 gsm and separate 140+125+125 gsm layered construction."
+    },
+    {
+      "finding": "Corrugated flute notation expanded into B,C,D,E,F",
+      "action": "Preserve raw B-F until individual flute offer is confirmed."
+    },
+    {
+      "finding": "36 bag codes correspond to 38 table rows",
+      "action": "Keep JHXMDK001/002 separate dimensional variants; no deduplication by code alone."
+    },
+    {
+      "finding": "Seven WHYJ container records aggregate white/brown presentations",
+      "action": "Restore 14 source presentations while retaining seven nominal labels."
+    },
+    {
+      "finding": "Diagram annotations absent from structured attributes",
+      "action": "Add supplements for kraft bag dimensions, carrier heights and orange carrier opening; retain ambiguous label."
+    },
+    {
+      "finding": "211 paper candidate cards include a mixed elastic accessory and eight paper straws",
+      "action": "Flag mixed accessory and optional straws; count cards separately from distinct product models."
+    },
+    {
+      "finding": "Site taxonomy is not the paper PDF taxonomy",
+      "action": "Organize by five Mila families; preserve references without changing runtime data."
+    }
+  ],
+  "existingRuntimeProductCount": 1199,
+  "familyIdsFoundInRuntime": 17,
+  "bagModelIdsFoundInRuntime": 0,
+  "candidateCardIdsFoundInRuntime": 211,
+  "runtimeWasModified": false
+}

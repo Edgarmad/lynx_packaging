@@ -1,0 +1,239 @@
+{
+  "rootFolderUrl": "https://drive.google.com/drive/folders/1pkkUF2IYl8nFF-VJeyUBgXdgcPEnMk6B",
+  "observedAt": "2026-10-07",
+  "publicFolders": [
+    {
+      "id": "1v2_v2rxLvEg8JnzHTjJ0lCwsUcaCmrjV",
+      "name": "Papel",
+      "parentPath": "Catálogos públicos"
+    },
+    {
+      "id": "169g6HnGoOEIBv-YyQdifS4xwHhJtiXE0",
+      "name": "Plástico",
+      "parentPath": "Catálogos públicos"
+    },
+    {
+      "id": "1tMobHwyxsE25rHZ4Rau0Lew2EwWzBGKC",
+      "name": "Sostenible",
+      "parentPath": "Catálogos públicos"
+    },
+    {
+      "id": "1Fbper2BozUmTWHWihGa-504O_wvHfErw",
+      "name": "Vasos y accesorios",
+      "parentPath": "Catálogos públicos"
+    }
+  ],
+  "files": [
+    {
+      "id": "1jcdS0E21NZGRy5ycmUjJUV1KtT3v6OPD",
+      "name": "Lynx-Catalogo-Papel-EN.pdf",
+      "parentPath": "Catálogos públicos/Papel/EN"
+    },
+    {
+      "id": "1i9ESvRi1GFuxDGEPXWQS4ukuGRXn-Gxi",
+      "name": "Lynx-Catalogo-Papel-ES.pdf",
+      "parentPath": "Catálogos públicos/Papel/ES"
+    },
+    {
+      "id": "16QVUJkdS5xMZYCfsCODwgGb2rjydpMrM",
+      "name": "Lynx-Catalogo-Plastico-Bento-Carne-Bandejas-EN.pdf",
+      "parentPath": "Catálogos públicos/Plástico/EN"
+    },
+    {
+      "id": "1dDX1aqq4aaXKMcAk2aQfMFkJEWtUL9tC",
+      "name": "Lynx-Catalogo-Plastico-Frutas-Verduras-EN.pdf",
+      "parentPath": "Catálogos públicos/Plástico/EN"
+    },
+    {
+      "id": "1ABdPoc56mheSuBoMwkVYostOcQvH8lKu",
+      "name": "Lynx-Catalogo-Plastico-Huevos-EN.pdf",
+      "parentPath": "Catálogos públicos/Plástico/EN"
+    },
+    {
+      "id": "1RrAAeneQMegV5B1viWkA48xTOpbfBjdj",
+      "name": "Lynx-Catalogo-Plastico-Reposteria-EN.pdf",
+      "parentPath": "Catálogos públicos/Plástico/EN"
+    },
+    {
+      "id": "1xItaLlFDerdw3Akt87BrZ6lvMr5BXuEG",
+      "name": "Lynx-Catalogo-Plastico-Vasos-EN.pdf",
+      "parentPath": "Catálogos públicos/Plástico/EN"
+    },
+    {
+      "id": "1wza2PQaQxweIbPjCslS5mBUkGY9FkLqa",
+      "name": "Lynx-Catalogo-Plastico-Bento-Carne-Bandejas-ES.pdf",
+      "parentPath": "Catálogos públicos/Plástico/ES"
+    },
+    {
+      "id": "1lnt6IseML2jn15_uzDa-XuD27iRoD-9S",
+      "name": "Lynx-Catalogo-Plastico-Frutas-Verduras-ES.pdf",
+      "parentPath": "Catálogos públicos/Plástico/ES"
+    },
+    {
+      "id": "1HvJz0r9WZIF6yxg1PrF7lyqPEWJwYqZK",
+      "name": "Lynx-Catalogo-Plastico-Huevos-ES.pdf",
+      "parentPath": "Catálogos públicos/Plástico/ES"
+    },
+    {
+      "id": "1KuCVT53_0NIMqohEvaRpg_8C4qmJsaOM",
+      "name": "Lynx-Catalogo-Plastico-Reposteria-ES.pdf",
+      "parentPath": "Catálogos públicos/Plástico/ES"
+    },
+    {
+      "id": "1JSQrMjxmkIybUOhp2J6v9z67EgjvWFQU",
+      "name": "Lynx-Catalogo-Plastico-Vasos-ES.pdf",
+      "parentPath": "Catálogos públicos/Plástico/ES"
+    },
+    {
+      "id": "1IbjdCA4NYWTosv3scU12IdsdwZQNfihN",
+      "name": "Lynx-Catalogo-Sostenible-EN.pdf",
+      "parentPath": "Catálogos públicos/Sostenible/EN"
+    },
+    {
+      "id": "1qYZ6TVHy55LA51uim1KB4S5epd5qf_Kp",
+      "name": "Lynx-Catalogo-Sostenible-ES.pdf",
+      "parentPath": "Catálogos públicos/Sostenible/ES"
+    },
+    {
+      "id": "1JszdxaIsoanwQdP_6paC4xn2sU2XdDPc",
+      "name": "Lynx-Catalogo-Bolsas-Portavasos-EN.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/EN"
+    },
+    {
+      "id": "1pCr3NuERy8IGbvGlOc9fwCEbYdiUQ81d",
+      "name": "Lynx-Catalogo-Botellas-Calientes-EN.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/EN"
+    },
+    {
+      "id": "1hnrP-tsdSw8mQhj5nQN_GDHE9rVMnyqt",
+      "name": "Lynx-Catalogo-Botellas-PET-EN.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/EN"
+    },
+    {
+      "id": "1ox-TaSSJIy_kSJawrVwl7LTwgoUi5AXx",
+      "name": "Lynx-Catalogo-Envases-EN.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/EN"
+    },
+    {
+      "id": "1Gy6QrJsEhg3JM5NRExB1Wq4Z4WC1TqaC",
+      "name": "Lynx-Catalogo-Envases-Tarros-Cubiertos-EN.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/EN"
+    },
+    {
+      "id": "1JkXbbQiGotwDCHUAPza0mFZHNR9qGGgN",
+      "name": "Lynx-Catalogo-Fundas-Accesorios-EN.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/EN"
+    },
+    {
+      "id": "1doBCziuWD9ZTqAaA6StZ7oElwI674EbG",
+      "name": "Lynx-Catalogo-Latas-Apertura-Facil-EN.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/EN"
+    },
+    {
+      "id": "19DAGM-agOk6WygQVugT6UQQUZ8EHt93n",
+      "name": "Lynx-Catalogo-PET-EN.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/EN"
+    },
+    {
+      "id": "1jHXdNV7lRePTM0gMJYpUe9K5Ve9GDv_P",
+      "name": "Lynx-Catalogo-Popotes-EN.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/EN"
+    },
+    {
+      "id": "1_fQ8QOGy9mWOl80q_B7LP37AiWJOQXky",
+      "name": "Lynx-Catalogo-Tapas-Inyeccion-EN.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/EN"
+    },
+    {
+      "id": "19h9SU4DX-YokTHp2iSpHUaQl0MmeocbY",
+      "name": "Lynx-Catalogo-Vasos-IML-EN.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/EN"
+    },
+    {
+      "id": "1_fELWBmbRuYIh_xafxyRjhwgZcYhS_Iu",
+      "name": "Lynx-Catalogo-Vasos-Inyeccion-EN.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/EN"
+    },
+    {
+      "id": "1vi6bIxkrrVP0gdxM51FKrO8cw2qOS6tF",
+      "name": "Lynx-Catalogo-Vasos-Papel-EN.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/EN"
+    },
+    {
+      "id": "1lAWWWtoZdYMuhCaS5SBg44a7NkR2NdE4",
+      "name": "Lynx-Catalogo-Vasos-Tapas-PET-EN.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/EN"
+    },
+    {
+      "id": "16_NNl2IbH-lc263n_i39S5DnT0utDgPo",
+      "name": "Lynx-Catalogo-Bolsas-Portavasos-ES.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/ES"
+    },
+    {
+      "id": "1dkE2DY3KbSGWoR6uid0UHMhH62wUh1Js",
+      "name": "Lynx-Catalogo-Botellas-Calientes-ES.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/ES"
+    },
+    {
+      "id": "1VdS0xQynqSHlC1hprqXGQtF0YJMFSwRS",
+      "name": "Lynx-Catalogo-Botellas-PET-ES.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/ES"
+    },
+    {
+      "id": "16n8yvHUWiePEk0tS-ikLrflptTaSi3DX",
+      "name": "Lynx-Catalogo-Envases-ES.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/ES"
+    },
+    {
+      "id": "1zjZy1yhPgawvnnZ2ULKAxwcoJrEWAEqR",
+      "name": "Lynx-Catalogo-Envases-Tarros-Cubiertos-ES.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/ES"
+    },
+    {
+      "id": "1Qltk_Ndv0WS0LdO6hdzqG6MhJtHf1HZ0",
+      "name": "Lynx-Catalogo-Fundas-Accesorios-ES.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/ES"
+    },
+    {
+      "id": "1Tycxud5HBnABLKsa34KrywqZVxT_dokR",
+      "name": "Lynx-Catalogo-Latas-Apertura-Facil-ES.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/ES"
+    },
+    {
+      "id": "14HywrhdecE2SXolYjC7OO4MriU5UeaAN",
+      "name": "Lynx-Catalogo-PET-ES.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/ES"
+    },
+    {
+      "id": "1KGIkTxRWPZtUaxMg0zhY6FeQhRff0byq",
+      "name": "Lynx-Catalogo-Popotes-ES.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/ES"
+    },
+    {
+      "id": "1KvrChcGh-OShniM4QJuHi48AW4w1TMnn",
+      "name": "Lynx-Catalogo-Tapas-Inyeccion-ES.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/ES"
+    },
+    {
+      "id": "1gH5Q_RkuiT0QzDiOgI38BUbduaLOCb_e",
+      "name": "Lynx-Catalogo-Vasos-IML-ES.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/ES"
+    },
+    {
+      "id": "1U0k8GvJKR5EQwA5xcRTtn6_y5ojeP8tM",
+      "name": "Lynx-Catalogo-Vasos-Inyeccion-ES.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/ES"
+    },
+    {
+      "id": "19NMR9TA9qgIFN_tTP_s3gpLemCz2kI7R",
+      "name": "Lynx-Catalogo-Vasos-Papel-ES.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/ES"
+    },
+    {
+      "id": "1u94xGwtUF58Q3OTZyHzUrGEUKvIK5Dh-",
+      "name": "Lynx-Catalogo-Vasos-Tapas-PET-ES.pdf",
+      "parentPath": "Catálogos públicos/Vasos y accesorios/ES"
+    }
+  ],
+  "privateFolderObservation": "Both private-named folders are visible anonymously at the root; names do not enforce access restrictions."
+}

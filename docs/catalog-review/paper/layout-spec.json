@@ -1,0 +1,45 @@
+{
+  "status": "layout proposal based on Mila references; final images pending",
+  "pageSize": "A4 portrait",
+  "finish": "Satin navy with subtle procedural grain and light gradients; official logo displayed larger without modifying image",
+  "dimensionsMm": {
+    "header": 48,
+    "heading": 22,
+    "grid": 210,
+    "footer": 17
+  },
+  "grid": {
+    "columns": 2,
+    "rows": 4,
+    "productsPerFullPage": 8
+  },
+  "languages": [
+    "es",
+    "en"
+  ],
+  "separateLanguageFiles": true,
+  "rules": [
+    "Continue categories over multiple pages; do not limit catalog to four or eight products.",
+    "Eight records per full page. Last page may contain fewer; never fabricate records to fill.",
+    "Keep stable record ID, name, verified dimensions/capacity and reference image.",
+    "One language per catalog. No Chinese in public ES/EN files.",
+    "Official Lynx logo preserved; navy header, gold fine borders, dark background, consistent image panels.",
+    "Use exact Lynx logo watermark in final PDFs; sample wordmark is only a layout indicator.",
+    "Supplier photos are references; final branded illustrations remain pending."
+  ],
+  "knownPagination": {
+    "bagTableRows": {
+      "records": 38,
+      "pagesAtEight": 5
+    },
+    "iceCreamModels": {
+      "records": 14,
+      "pagesAtEight": 2
+    },
+    "WHYJpaperCupCards": {
+      "records": 144,
+      "pagesAtEight": 18
+    }
+  },
+  "paginationNote": "Counts overlap and are not a final combined paper catalog total; categories and variants require editorial selection."
+}

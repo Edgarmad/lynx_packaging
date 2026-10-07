@@ -14,7 +14,7 @@ const {lang,path}=Astro.props;const t=ui(lang);
       <div><h2>{t.company}</h2><a href={route(lang,'about/overview')}>{t.overview}</a><a href={route(lang,'case-studies')}>{t.cases}</a></div>
       <div><h2><a href={route(lang,'products')}>{navigation.find(n=>n.id==='products')?.title[lang]}</a></h2>{visibleCategories.map(c=><a href={route(lang,`products/categories/${c.slug}`)}>{c.title[lang]}</a>)}</div>
       <div><h2><a href={route(lang,'solutions')}>{navigation.find(n=>n.id==='solutions')?.title[lang]}</a></h2>{visibleSolutions.map(s=><a href={route(lang,`solutions/${s.slug}`)}>{s.title[lang]}</a>)}</div>
-      <div><h2><a href={route(lang,'catalogs')}>{lang==='es'?'Catálogos':'Catalogs'}</a></h2>{publishedCatalogs.length?publishedCatalogs.map(c=><a href={c.url} target="_blank" rel="noopener noreferrer">{c.title[lang]} ↗</a>):<p>{t.catalogsPending}</p>}</div>
+      <div><h2><a href={route(lang,'catalogs')}>{lang==='es'?'Catálogos':'Catalogs'}</a></h2>{publishedCatalogs.length?publishedCatalogs.map(c=><a href={c.url[lang]} target="_blank" rel="noopener noreferrer">{c.title[lang]} ↗</a>):<p>{t.catalogsPending}</p>}</div>
     </div>
     <div class="footer-bottom"><span>© {new Date().getFullYear()} Lynx Packaging</span><a data-language-switch href={alternate(lang,path)}>ESPAÑOL / ENGLISH</a></div>
   </div>
