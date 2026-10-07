@@ -37,7 +37,7 @@ function children(group: string | null): {title:string;href:string;external?:boo
         </div>
         {item.group && <div id={`mega-${item.id}`} class="mega-menu" hidden>
           <div class:list={['site-container','mega-inner',{'product-mega':item.group==='products'}]}><div class={item.group==='products'?'product-mega-content':'mega-links'}>
-            {item.path && item.group!=='catalogs' && <a class="text-link" href={route(lang,item.path)}>{lang==='es'?'Ver resumen':'View overview'}</a>}
+            {item.path && item.group!=='catalogs' && item.group!=='products' && <a class="text-link" href={route(lang,item.path)}>{lang==='es'?'Ver resumen':'View overview'}</a>}
             {item.group==='products'?<ProductMenu lang={lang}/>:item.group==='catalogs'?<CatalogMenu lang={lang}/>:children(item.group).map(child=><a href={child.href} target={child.external?'_blank':undefined} rel={child.external?'noopener noreferrer':undefined}>{child.title}</a>)}
 
           </div>{item.group!=='products' && <div class="mega-media"><MediaPlaceholder lang={lang} media={item.group==='about'?editorialMedia['lynx-about']:item.group==='catalogs'?visibleCategories[0]?.media:visibleSolutions[0]?.media}/></div>}</div>
@@ -56,7 +56,7 @@ function children(group: string | null): {title:string;href:string;external?:boo
   <nav id="mobile-menu" class="mobile-nav" aria-label={lang==='es'?'Menú móvil':'Mobile menu'} hidden>
     <div class="mobile-menu-heading"><span>{lang==='es'?'Menú':'Menu'}</span><button data-mobile-close aria-label={t.close}>×</button></div>
     {navigation.map(item=> item.group ? <details><summary>{item.title[lang]}</summary><div class="mobile-links">
-      {item.path && item.group!=='catalogs' && <a href={route(lang,item.path)}>{lang==='es'?'Ver resumen':'View overview'}</a>}
+      {item.path && item.group!=='catalogs' && item.group!=='products' && <a href={route(lang,item.path)}>{lang==='es'?'Ver resumen':'View overview'}</a>}
       {item.group==='products'?<ProductMenu lang={lang}/>:item.group==='catalogs'?<CatalogMenu lang={lang}/>:children(item.group).map(child=><a href={child.href} target={child.external?'_blank':undefined} rel={child.external?'noopener noreferrer':undefined}>{child.title}</a>)}
 
     </div></details> : <a class="mobile-direct" href={route(lang,item.path??'')}>{item.title[lang]}</a>)}
