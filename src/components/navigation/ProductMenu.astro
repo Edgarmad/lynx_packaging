@@ -13,10 +13,10 @@ const href=(slug:string)=>route(lang,`products/categories/${slug}`);
     {visibleCategories.map(root=><details class="product-root" data-product-root={root.id}>
       <summary>{root.title[lang]}</summary>
       <div class="product-branches">
-        <a class="menu-overview" href={href(root.slug)}>{lang==='es'?'Ver todos':'View all'} →</a>
+        <a class="menu-overview" href={href(root.slug)}>{lang==='es'?'Ver todos':'View all'}</a>
         {children(root.id).map(branch=>children(branch.id).length?
           <details class="product-branch"><summary>{branch.title[lang]}</summary><div class="product-menu-children">
-            <a class="menu-overview" href={href(branch.slug)}>{lang==='es'?'Ver todos':'View all'} →</a>
+            <a class="menu-overview" href={href(branch.slug)}>{lang==='es'?'Ver todos':'View all'}</a>
             {children(branch.id).map(leaf=><a href={href(leaf.slug)}>{leaf.title[lang]}</a>)}
           </div></details>:<a href={href(branch.slug)}>{branch.title[lang]}</a>)}
       </div>

@@ -13,7 +13,7 @@ const t=ui(lang);
 function children(group: string | null): {title:string;href:string;external?:boolean}[] {
   switch(group) {
     case 'about': return [{title:t.overview,href:route(lang,'about/overview')}];
-    case 'products': return visibleCategories.map(c=>({title:c.title[lang]+(c.status==='demo' ? (lang==='es' ? ' · demo' : ' · demo') : ''),href:route(lang,`products/categories/${c.slug}`)}));
+    case 'products': return visibleCategories.map(c=>({title:c.title[lang],href:route(lang,`products/categories/${c.slug}`)}));
     case 'solutions': return visibleSolutions.map(s=>({title:s.title[lang],href:route(lang,`solutions/${s.slug}`)}));
     case 'catalogs': return visibleCategories.map(c=>({title:c.title[lang],href:route(lang,'catalogs')+`#${c.id}`}));
     default: return [];
@@ -56,10 +56,10 @@ function children(group: string | null): {title:string;href:string;external?:boo
   <nav id="mobile-menu" class="mobile-nav" aria-label={lang==='es'?'Menú móvil':'Mobile menu'} hidden>
     <div class="mobile-menu-heading"><span>{lang==='es'?'Menú':'Menu'}</span><button data-mobile-close aria-label={t.close}>×</button></div>
     {navigation.map(item=> item.group ? <details><summary>{item.title[lang]}</summary><div class="mobile-links">
-      {item.path && item.group!=='catalogs' && <a href={route(lang,item.path)}>{lang==='es'?'Ver resumen':'View overview'} →</a>}
-      {item.group==='products'?<ProductMenu lang={lang}/>:item.group==='catalogs'?<CatalogMenu lang={lang}/>:children(item.group).map(child=><a href={child.href} target={child.external?'_blank':undefined} rel={child.external?'noopener noreferrer':undefined}>{child.title} {child.external?'↗':'→'}</a>)}
+      {item.path && item.group!=='catalogs' && <a href={route(lang,item.path)}>{lang==='es'?'Ver resumen':'View overview'}</a>}
+      {item.group==='products'?<ProductMenu lang={lang}/>:item.group==='catalogs'?<CatalogMenu lang={lang}/>:children(item.group).map(child=><a href={child.href} target={child.external?'_blank':undefined} rel={child.external?'noopener noreferrer':undefined}>{child.title}</a>)}
 
-    </div></details> : <a class="mobile-direct" href={route(lang,item.path??'')}>{item.title[lang]} →</a>)}
+    </div></details> : <a class="mobile-direct" href={route(lang,item.path??'')}>{item.title[lang]}</a>)}
   </nav>
 </header>
 <script>
@@ -68,14 +68,20 @@ function children(group: string | null): {title:string;href:string;external?:boo
   const header=document.querySelector<HTMLElement>('#site-header');
   if(header){
     const toggles=Array.from(header.querySelectorAll<HTMLButtonElement>('.menu-disclosure'));
-    function closeMenus(){toggles.forEach(button=>{button.setAttribute('aria-expanded','false');const panel=document.getElementById(button.getAttribute('aria-controls')??'');if(panel)panel.hidden=true;});}
     let hoverTimer:ReturnType<typeof setTimeout>|undefined;
+    let leaveTimer:ReturnType<typeof setTimeout>|undefined;
+    function closeMenus(){clearTimeout(hoverTimer);clearTimeout(leaveTimer);toggles.forEach(button=>{button.setAttribute('aria-expanded','false');const panel=document.getElementById(button.getAttribute('aria-controls')??'');if(panel)panel.hidden=true;});}
     toggles.forEach(button=>button.addEventListener('click',()=>{clearTimeout(hoverTimer);const open=button.getAttribute('aria-expanded')==='true';closeMenus();if(!open){button.setAttribute('aria-expanded','true');const panel=document.getElementById(button.getAttribute('aria-controls')??'');if(panel)panel.hidden=false;}}));
     document.addEventListener('click',event=>{if(event.target instanceof Node&&!header.contains(event.target))closeMenus();});
     header.addEventListener('focusout',event=>{if(event.relatedTarget instanceof Node&&!header.contains(event.relatedTarget))closeMenus();});
     const openMenu=(button:HTMLButtonElement)=>{closeMenus();button.setAttribute('aria-expanded','true');const panel=document.getElementById(button.getAttribute('aria-controls')??'');if(panel)panel.hidden=false;};
     const hover=window.matchMedia('(hover: hover) and (pointer: fine)');
-    let leaveTimer:ReturnType<typeof setTimeout>|undefined;
+    // On touch desktops, the first tap reveals the menu; its overview link
+    // and a second tap on the parent still navigate to the static overview.
+    header.querySelectorAll<HTMLAnchorElement>('.nav-item-controls > a').forEach(link=>link.addEventListener('click',event=>{
+      const button=link.parentElement?.querySelector<HTMLButtonElement>('.menu-disclosure');
+      if(!hover.matches&&button&&button.getAttribute('aria-expanded')!=='true'){event.preventDefault();openMenu(button);}
+    }));
     header.querySelectorAll<HTMLElement>('.nav-item').forEach(item=>{
       item.addEventListener('pointerenter',()=>{if(!hover.matches)return;clearTimeout(leaveTimer);clearTimeout(hoverTimer);const button=item.querySelector<HTMLButtonElement>('.menu-disclosure');hoverTimer=setTimeout(()=>{if(button)openMenu(button);else closeMenus();},120);});
     });

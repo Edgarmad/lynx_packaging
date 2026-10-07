@@ -29,7 +29,6 @@ const canonical=site.publicUrl?new URL(route(lang,path),site.publicUrl).href:und
     <a class="skip-link" href="#main">{ui(lang).skip}</a>
     <Header lang={lang} path={path} home={home}/>
     <main id="main"><slot/></main>
-    {site.preview&&<aside class="prototype-note">{ui(lang).preview}</aside>}
     <Footer lang={lang} path={path}/>
     <ScrollReveal/>
   </body>

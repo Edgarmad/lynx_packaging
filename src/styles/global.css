@@ -188,7 +188,6 @@
   .contact-form textarea { border:1px solid var(--color-accent); border-radius:var(--radius-media); margin-top:1rem; padding:1rem; resize:vertical; min-height:170px; }
   .contact-form button { justify-self:start; }
   .form-notice { border-left:3px solid var(--color-accent); padding-left:1rem; font-size:.9rem; }
-  .prototype-note { background:var(--color-soft); padding:1rem; text-align:center; font-size:.8rem; color:var(--color-muted); border-top:1px solid var(--color-line); }
   .site-footer { background:var(--color-brand); color:var(--color-paper); padding:3rem 0 1.7rem; }
   .footer-top { display:flex; align-items:center; justify-content:space-between; gap:3rem; margin-bottom:3.5rem; }
   .footer-logo img { width:130px; height:auto; }
@@ -467,7 +466,6 @@
   .product-menu-options { position:relative; min-height:290px; }
   .product-root { width:30%; }
   .product-menu-tree summary { font-weight:400; list-style:none; display:flex; justify-content:space-between; gap:.75rem; }
-  .product-menu-tree summary::after { content:'›'; }
   .product-menu-tree details[open]>summary { font-weight:600; }
   .product-menu-tree a { font-size:.9rem; }
   .product-branches { position:absolute; top:0; left:34%; width:30%; }
@@ -488,8 +486,12 @@
   .catalog-download-slot { min-height:2rem; padding-block:.3rem; }
 }
 
-/* Override the original header's visually hidden disclosure controls. */
-.menu-disclosure:not(.menu-label) { position:static; width:22px; min-width:22px; height:44px; overflow:visible; clip-path:none; padding:0; }
-.menu-disclosure:not(.menu-label)::after { content:'⌄'; }
+/* Disclosure remains available on keyboard focus without decorative arrows. */
+.site-header summary { list-style:none; }
+.site-header summary::-webkit-details-marker { display:none; }
 .menu-disclosure .disclosure-text { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+@media(min-width:1100px) {
+  .nav-item-controls { position:relative; }
+  .menu-disclosure:focus-visible .disclosure-text { position:static; width:auto; height:auto; overflow:visible; clip-path:none; transform:none; }
+}
 @media(min-width:1100px) { .product-menu-options { min-height:390px; } }
