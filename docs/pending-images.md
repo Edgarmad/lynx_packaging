@@ -4,7 +4,7 @@ Auditoría de datos locales, archivos en `public/` y HTML generado. ES/EN compar
 
 ## Prioridad para la generación
 
-Faltan **3 imágenes utilizadas en la interfaz actual**, todas con proporción 1.8:1 (por ejemplo, 1800 × 1000 px):
+Las **3 imágenes utilizadas en la interfaz actual ya se incorporaron** como composiciones ilustrativas generadas con IA, en WebP y proporción aproximada 1.8:1:
 
 - Empaques de metal (ID: metal): bloque en Productos general y vista previa del mega menú.
 - Empaques de vidrio (ID: glass): bloque en Productos general y vista previa del mega menú.
@@ -60,4 +60,4 @@ Hay **36 imágenes adicionales** marcadas como placeholder en subcategorías. Su
 - Servicio integral y recursos de suministro: cuentan con imágenes asignadas.
 - Ningún asset declarado como disponible en los datos apunta a un archivo faltante.
 
-La existencia del archivo no certifica su calidad visual ni su aprobación. Las imágenes ilustrativas existentes conservan su identificación. No se generaron imágenes durante este ajuste; se espera la referencia visual de Luis.
+La existencia del archivo no certifica su calidad visual ni su aprobación. Las imágenes ilustrativas existentes conservan su identificación. Se generaron las tres composiciones el 7 de octubre usando las referencias de Luis. Prompts y método en `category-image-prompts.json`; evaluación de las 13 referencias en `category-image-reference-review.md`.

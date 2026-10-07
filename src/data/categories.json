@@ -859,11 +859,19 @@
     "order": 3,
     "media": {
       "type": "image",
-      "placeholder": true,
-      "ratio": 1.8,
+      "placeholder": false,
+      "src": "/images/products/category-metal.webp",
+      "ratio": 1.795940170940171,
+      "width": 1681,
+      "height": 936,
+      "fit": "cover",
       "alt": {
-        "es": "Empaques de metal",
-        "en": "Metal Packaging"
+        "es": "Composición ilustrativa de latas, cajas metálicas, cubeta y papel de aluminio",
+        "en": "Illustrative composition of tins, metal boxes, a pail and aluminum foil"
+      },
+      "caption": {
+        "es": "Composición ilustrativa generada con IA.",
+        "en": "AI-generated illustrative composition."
       }
     },
     "filters": [],
@@ -886,11 +894,19 @@
     "order": 4,
     "media": {
       "type": "image",
-      "placeholder": true,
-      "ratio": 1.8,
+      "placeholder": false,
+      "src": "/images/products/category-glass.webp",
+      "ratio": 1.7768331562167907,
+      "width": 1672,
+      "height": 941,
+      "fit": "cover",
       "alt": {
-        "es": "Empaques de vidrio",
-        "en": "Glass Packaging"
+        "es": "Composición ilustrativa de botellas y frascos de vidrio transparente y ámbar",
+        "en": "Illustrative composition of clear and amber glass bottles and jars"
+      },
+      "caption": {
+        "es": "Composición ilustrativa generada con IA.",
+        "en": "AI-generated illustrative composition."
       }
     },
     "filters": [],
@@ -913,11 +929,19 @@
     "order": 5,
     "media": {
       "type": "image",
-      "placeholder": true,
-      "ratio": 1.8,
+      "placeholder": false,
+      "src": "/images/products/category-packaging-accessories.webp",
+      "ratio": 1.778723404255319,
+      "width": 1672,
+      "height": 940,
+      "fit": "cover",
       "alt": {
-        "es": "Accesorios de empaque",
-        "en": "Packaging Accessories"
+        "es": "Composición ilustrativa de cinta, fleje, hebillas, película estirable y accesorios de empaque",
+        "en": "Illustrative composition of tape, strapping, buckles, stretch film and packaging accessories"
+      },
+      "caption": {
+        "es": "Composición ilustrativa generada con IA.",
+        "en": "AI-generated illustrative composition."
       }
     },
     "filters": [],
