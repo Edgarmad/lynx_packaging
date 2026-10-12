@@ -1,7 +1,7 @@
 """Build the ES/EN paper catalog from audited local records and existing PDF photographs."""
 import json, math, random, io
 from pathlib import Path
-from PIL import Image
+from PIL import Image, ImageOps
 import pymupdf
 from reportlab.pdfgen import canvas
 from reportlab.lib.colors import HexColor, Color
@@ -125,7 +125,17 @@ for c in D['paperCandidateCards']:
  add(section,c['id'],name,asset(c['id']),lines,False,c['sources'])
 for c in container_cards:
  label=c['name']['en'];r=next(r for r in D['restoredContainerPresentations'] if r['sourceLabel']==label)
- add('containers',c['id'],tx('Recipiente de papel '+label,'Paper container '+label),asset(c['id']),[tx('Capacidad: '+str(r['capacityMl'])+' ml','Capacity: '+str(r['capacityMl'])+' ml'),tx('Ø sup. x Ø inf. x alto: '+dims(r['dimensionsMm']),'Top Ø x base Ø x height: '+dims(r['dimensionsMm'])),tx('Opciones: blanco / kraft marrón','Options: white / brown kraft')],True,c['sources'])
+ # Mila: fold the brown presentation into its existing white model card.
+ products_data=json.loads((ROOT/'src/data/products.json').read_text(encoding='utf-8'))
+ brown=next(p for p in products_data if p['id'].startswith('pdf-04-p03-') and label in p['title']['en'])
+ white_path=asset(c['id']);brown_path=asset(brown['id']);combined=Image.new('RGB',(640,300),'#f5f3ee')
+ for pos,path in enumerate([white_path,brown_path]):
+  im=ImageOps.contain(Image.open(path).convert('RGB'),(300,270));combined.paste(im,(pos*320+(320-im.width)//2,(300-im.height)//2))
+ combined_path=TMP/(c['id']+'-white-brown.png');combined.save(combined_path)
+ add('containers',c['id'],tx('Recipiente de papel '+label,'Paper container '+label),str(combined_path),[],False,c['sources']+brown['provenance'])
+ row=sections['containers']['items'][-1];row['tableKind']='container'
+ row['variants']=[{'id':c['id'],'code':tx('Blanco','White'),'values':dims(r['dimensionsMm']),'capacity':tx(str(r['capacityMl'])+' ml',str(r['capacityMl'])+' ml'),'source':c['sources']},{'id':brown['id'],'code':tx('Kraft café','Brown kraft'),'values':dims(r['dimensionsMm']),'capacity':tx(str(r['capacityMl'])+' ml',str(r['capacityMl'])+' ml'),'source':brown['provenance']}]
+
 for m in D['iceCreamModels']:
  code=m['code'];sp=m['specifications'];key='cone-lid' if 'PCSC' in code else 'cone' if 'PCS' in code else 'tub' if 'ICT' in code else 'box' if 'ICB' in code else 'snack' if 'SSC' in code else 'bowl' if 'FRP' in code else 'cups'
  lines=[tx('Modelo: '+code,'Model: '+code)]
@@ -265,7 +275,7 @@ def gallery(c,lang,sid,placements,page,total):
    c.setFont('ArialB',6.2);c.setFillColor(GOLD);c.drawString(x+3*MM,cy-7,'Modelo' if lang=='es' else 'Model');c.drawString(x+26*MM,cy-7,heading);cy-=12
    for v in r['variants']:
     c.setStrokeColor(HexColor('#40506a'));c.setLineWidth(.2);c.line(x+3*MM,cy+2,x+width-3*MM,cy+2)
-    c.setFont('Arial',6.1);c.setFillColor(WHITE);c.drawString(x+3*MM,cy-6,v['code'])
+    c.setFont('Arial',6.1);c.setFillColor(WHITE);c.drawString(x+3*MM,cy-6,v['code'][lang] if isinstance(v['code'],dict) else v['code'])
     value=v['values'].replace(' mm','') if bag else v['values'];cap=v.get('capacity',{}).get(lang,'')
     if cap:value+=' | '+cap
     # Two short lines if a model has a long dimension/capacity expression.
@@ -302,7 +312,7 @@ for lang in ['es','en']:
     if block['type']==0:
      x0,y0,x1,y1=block['bbox'];assert x0>=-1 and x1<=W+1 and y0>=-1 and y1<=H+1,(target.name,pg.number,block['bbox'])
  print(target.name,total,'pages',target.stat().st_size,'bytes')
-manifest={'date':'2026-10-12','revision':3,'languages':['es','en'],'recordCount':sum(len(s['items']) for s in sections.values()),'coveredSourceRecordCount':len(covered_ids),'recordsBySection':{k:len(s['items']) for k,s in sections.items()},'pageCountPerLanguage':total,'imagesPolicy':'Individual source-panel photos where available; shared dimensional family images shown once with all model rows. No AI.','variantTableCards':sum(bool(r.get('variants')) for sec in sections.values() for r in sec['items']),'isolatedPhotoCount':len(individual_crop_ids),'originalRasterCrops':len(ISOLATED),'coveredSourceIds':sorted(covered_ids),'assetsAndSources':audit}
+manifest={'date':'2026-10-12','revision':4,'languages':['es','en'],'recordCount':sum(len(s['items']) for s in sections.values()),'coveredSourceRecordCount':len(covered_ids),'recordsBySection':{k:len(s['items']) for k,s in sections.items()},'pageCountPerLanguage':total,'imagesPolicy':'Individual source-panel photos where available; shared dimensional family images shown once with all model rows. No AI.','variantTableCards':sum(bool(r.get('variants')) for sec in sections.values() for r in sec['items']),'isolatedPhotoCount':len(individual_crop_ids),'originalRasterCrops':len(ISOLATED),'coveredSourceIds':sorted(covered_ids),'assetsAndSources':audit}
 assert original_record_ids.issubset(covered_ids)
 (OUT/'Lynx-Catalogo-Papel-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps({k:v for k,v in manifest.items() if k not in ['assetsAndSources','coveredSourceIds']},ensure_ascii=False))

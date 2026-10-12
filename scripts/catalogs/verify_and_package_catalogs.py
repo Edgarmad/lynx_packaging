@@ -8,17 +8,11 @@ from PIL import Image,ImageDraw
 ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'output/pdf';TMP=ROOT/'tmp/pdfs/all-catalogs';QA=TMP/'final-qa';QA.mkdir(exist_ok=True)
 POPPLER='C:/Users/edmad/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/poppler/Library/bin/pdftoppm.exe'
 def read(p):return json.loads(p.read_text(encoding='utf-8-sig'))
-manifest=read(TMP/'final-generated-manifest.json');paper=read(OUT/'Lynx-Catalogo-Papel-manifest.json');batch1=read(OUT/'Lynx-Lote-1-manifest.json')
-paper_records=[]
-for r in paper['assetsAndSources']:
- if r['language']=='es':paper_records.append({'id':r['recordId'],'coveredIds':r['coveredRecordIds'],'image':r['image'],'source':r['source'],'name':{'es':r['recordId'],'en':r['recordId']}})
-manifest['catalogs'].insert(0,{'id':'paper','group':{'es':'Papel','en':'Paper'},'title':{'es':'Empaques de papel','en':'Paper packaging'},'filename':'Papel','records':paper_records,'cardCount':paper['recordCount'],'coveredRecordCount':paper['coveredSourceRecordCount'],'pageCountPerLanguage':paper['pageCountPerLanguage'],'outputs':[str(OUT/f'Lynx-Catalogo-Papel-{l}.pdf') for l in ['ES','EN']]})
-for c in batch1['catalogs']:
- records=[{'id':r['id'],'coveredIds':[r['id']],'name':r['name'],'image':r['images']['en'],'source':{'sourceId':c['sourceId'],'page':r['sourcePages']['en'],'bbox':r['bbox']},'details':r['details'],'variants':[]} for r in c['preparedRecords']]
- manifest['catalogs'].append({**c,'group':{'es':'Vasos y accesorios','en':'Cups and accessories'},'records':records,'cardCount':len(records),'coveredRecordCount':len(records),'outputs':[str(OUT/f"Lynx-Catalogo-{c['filename']}-{l}.pdf") for l in ['ES','EN']]})
-assert len(manifest['catalogs'])==21
-assert len({c['id'] for c in manifest['catalogs']})==21
-files=[Path(f) for c in manifest['catalogs'] for f in c['outputs']];assert len(files)==42 and len(set(files))==42
+# Verify the current curated delivery, not the superseded initial batch snapshot.
+manifest=read(OUT/'Lynx-Todos-Catalogos-manifest.json')
+assert len(manifest['catalogs'])==20
+assert len({c['id'] for c in manifest['catalogs']})==20
+files=[Path(f) for c in manifest['catalogs'] for f in c['outputs']];assert len(files)==40 and len(set(files))==40
 assert set(files)==set(OUT.glob('Lynx-Catalogo-*.pdf'))
 pixels=collections.defaultdict(list);references=collections.defaultdict(list);near=[];checks=[]
 for cfg in manifest['catalogs']:
@@ -68,25 +62,25 @@ for start in range(0,len(rendered),24):
  for i,(name,p) in enumerate(rendered[start:start+24]):
   im=Image.open(p);im.thumbnail((288,273));x=(i%4)*300;y=(i//4)*297;out.paste(im,(x,y));d.text((x,y+273),name.replace('Lynx-Catalogo-','')[:36]+' '+p.stem,fill='black')
  out.save(QA/f'pages-review-{start//24+1:02d}.jpg')
-result={'createdAt':datetime.now(timezone.utc).isoformat(),'catalogCount':21,'pdfCount':42,'totalPages':sum(c['pages'] for c in checks),'totalProductCards':sum(c['cardCount'] for c in manifest['catalogs']),'coveredSourceRecords':sum(c['coveredRecordCount'] for c in manifest['catalogs']),'aiImageCalls':0,'exactRepeatedPhotoCount':0,'sharedSourceRegionCount':0,'nearImagePairsForVisualReview':len(near_pairs),'pdfs':checks,'allPagesRendered':True,'visualReviewStatus':'awaiting inspection of latest rendered contact sheets','scopeNotes':['Paper cups separated from Paper.','Shared source photographs displayed once with size/model variants.','Distinct source factories and genuine photo/color variants retained.','Original text inventory supplemented with uncoded product panels.','Sustainable product examples extracted from the approved Upack supplier brochure; supplier corporate claims excluded.','ES and EN intentionally use the same photograph for the same product.','Plastic Master remains private and is not included as a public catalog.']}
+result={'createdAt':datetime.now(timezone.utc).isoformat(),'catalogCount':20,'pdfCount':40,'totalPages':sum(c['pages'] for c in checks),'totalProductCards':sum(c['cardCount'] for c in manifest['catalogs']),'coveredSourceRecords':sum(c['coveredRecordCount'] for c in manifest['catalogs']),'aiImageCalls':0,'exactRepeatedPhotoCount':0,'sharedSourceRegionCount':0,'nearImagePairsForVisualReview':len(near_pairs),'pdfs':checks,'allPagesRendered':True,'visualReviewStatus':'awaiting inspection of latest rendered contact sheets','scopeNotes':['Paper cups separated from Paper.','Shared source photographs displayed once with size/model variants.','Distinct source factories and genuine photo/color variants retained.','Original text inventory supplemented with uncoded product panels.','Sustainable rebuilt from SUSTAINABLE-Plantbased.pdf; standalone Containers retired and contents reassigned.','ES and EN intentionally use the same photograph for the same product.','Plastic Master remains private and is not included as a public catalog.']}
 (OUT/'Lynx-Catalogos-QA.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
 (OUT/'Lynx-Todos-Catalogos-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
 order={'paper':0,'sustainable':2};manifest['catalogs'].sort(key=lambda c:(order.get(c['id'],1 if c['id'].startswith('plastic-') else 3),c['id']))
 rows=[]
 for c in manifest['catalogs']:
  rows.append('<tr><td>'+html.escape(c['title']['es'])+'</td><td>'+str(c['cardCount'])+'</td><td>'+str(c['pageCountPerLanguage'])+'</td>'+''.join('<td><a href="'+html.escape(Path(f).name)+'">'+l+'</a></td>' for l,f in zip(['Español','English'],c['outputs']))+'</tr>')
-index='''<!doctype html><html lang="es"><meta charset="utf-8"><title>Catálogos Lynx</title><style>body{font:16px Arial;background:#182037;color:#fff;max-width:1100px;margin:40px auto;padding:20px}h1{color:#f3dfab}table{width:100%;border-collapse:collapse}th,td{padding:12px;border-bottom:1px solid #65738d;text-align:left}a{color:#f3dfab}p{line-height:1.6}</style><h1>Catálogos Lynx Packaging</h1><p>21 catálogos · 42 PDF · Español e inglés separados. Los vasos de papel tienen su catálogo propio. Fotografías originales; variantes con una foto compartida reunidas en una tabla.</p><table><thead><tr><th>Catálogo</th><th>Fichas</th><th>Páginas por idioma</th><th>Español</th><th>English</th></tr></thead><tbody>'''+''.join(rows)+'</tbody></table></html>'
+index='''<!doctype html><html lang="es"><meta charset="utf-8"><title>Catálogos Lynx</title><style>body{font:16px Arial;background:#182037;color:#fff;max-width:1100px;margin:40px auto;padding:20px}h1{color:#f3dfab}table{width:100%;border-collapse:collapse}th,td{padding:12px;border-bottom:1px solid #65738d;text-align:left}a{color:#f3dfab}p{line-height:1.6}</style><h1>Catálogos Lynx Packaging</h1><p>20 catálogos · 40 PDF · Español e inglés separados. Los vasos de papel tienen su catálogo propio. Fotografías originales; variantes con una foto compartida reunidas en una tabla.</p><table><thead><tr><th>Catálogo</th><th>Fichas</th><th>Páginas por idioma</th><th>Español</th><th>English</th></tr></thead><tbody>'''+''.join(rows)+'</tbody></table></html>'
 (OUT/'Indice-Catalogos-Lynx.html').write_text(index,encoding='utf-8')
 readme='''CATÁLOGOS LYNX PACKAGING — 6 DE OCTUBRE DE 2026
 
-21 catálogos / 42 PDF. Español e inglés separados.
+20 catálogos / 40 PDF. Español e inglés separados.
 Papel: los vasos se separaron en Vasos de papel.
 Fotografías extraídas de los PDF originales. No se generaron imágenes de IA.
 Cuando la fuente repite una foto para tamaños/pesos/modelos distintos, se muestra una sola ficha con tabla de variantes.
 Se conservaron las variantes de color y los productos de fuentes/fábricas diferentes.
 Las mismas fotos se usan para el mismo producto en ES y EN.
 Se añadieron productos sin código que faltaban en la extracción inicial.
-El sostenible contiene ejemplos de empaques de la presentación Upack del Drive aprobado; no transfiere a Lynx cifras, fábricas ni certificaciones del proveedor.
+Sostenible usa SUSTAINABLE-Plantbased.pdf; Containers se repartió entre Papel y Envases, tarros y cubiertos.
 El Master de plástico es privado y no se incluye como catálogo público.
 '''
 (OUT/'LEEME-Catalogos-Lynx.txt').write_text(readme,encoding='utf-8')

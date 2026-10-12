@@ -428,10 +428,13 @@ def main():
  for c in plan['catalogs']:
   cid=c['id']
   if selected and cid not in selected:continue
-  if cid in ['paper','sustainable','cups-10','cups-11','cups-13']:continue
+  if cid in ['paper','sustainable','cups-04','cups-10','cups-11','cups-13']:continue
   cfg=config(c);sid=c['sourceIds'][0]
   if cid.startswith('plastic-'):items=supplement_grid_panels(sid,model_records(sid,cfg))
   else:items=normalize_records(sid)
+  if cid=='cups-05':
+   # Former Containers: paper presentations are covered in Paper; retain PP here.
+   items += [r for r in normalize_records('pdf-04') if r['source']['page']==4]
   if cid=='cups-12':
    # Standard cup records are supplied by the native source, custom Jihong
    # and ice-cream cups keep their factory-specific source presentations.

@@ -1,8 +1,8 @@
 {
   "date": "2026-10-06",
   "policy": "Fuentes aprobadas determinan el catálogo. No usar Excel/menús web. Conteos de extracción, no SKU únicos ni páginas finales. No eliminar cruces entre catálogos/fábricas. Master privado; sus registros exclusivos, salvo huevos, requieren revisión de alcance.",
-  "catalogCount": 21,
-  "outputPdfCount": 42,
+  "catalogCount": 20,
+  "outputPdfCount": 40,
   "remainingPdfCount": 0,
   "catalogs": [
     {
@@ -22,8 +22,8 @@
       "status": "generated-reviewed",
       "galleryCards": 243,
       "finalCardCount": 96,
-      "finalCoveredSourceRecordCount": 133,
-      "pageCountPerLanguage": 16,
+      "finalCoveredSourceRecordCount": 140,
+      "pageCountPerLanguage": 15,
       "outputs": [
         "C:\\Users\\edmad\\OneDrive\\Documentos\\GitHub\\lynx_packaging\\output\\pdf\\Lynx-Catalogo-Papel-ES.pdf",
         "C:\\Users\\edmad\\OneDrive\\Documentos\\GitHub\\lynx_packaging\\output\\pdf\\Lynx-Catalogo-Papel-EN.pdf"
@@ -393,12 +393,19 @@
         "pdf-01-p11-c13",
         "pdf-01-p11-c14",
         "pdf-04-p02-c01",
+        "pdf-04-p03-c03",
         "pdf-04-p02-c02",
+        "pdf-04-p03-c04",
         "pdf-04-p02-c03",
+        "pdf-04-p03-c01",
         "pdf-04-p02-c04",
+        "pdf-04-p03-c02",
         "pdf-04-p02-c05",
+        "pdf-04-p03-c05",
         "pdf-04-p02-c06",
+        "pdf-04-p03-c06",
         "pdf-04-p02-c07",
+        "pdf-04-p03-c07",
         "jihong-family-c-3-noodle-bowl",
         "jihong-family-c-3-snack-tray",
         "jihong-family-c-3-soup-bowl",
@@ -923,62 +930,18 @@
       ]
     },
     {
-      "id": "cups-04",
-      "group": "Vasos y accesorios",
-      "title": "Envases",
-      "batch": "L3",
-      "sourceIds": [
-        "pdf-04"
-      ],
-      "status": "generated-reviewed",
-      "finalCardCount": 12,
-      "finalCoveredSourceRecordCount": 12,
-      "pageCountPerLanguage": 3,
-      "outputs": [
-        "C:\\Users\\edmad\\OneDrive\\Documentos\\GitHub\\lynx_packaging\\output\\pdf\\Lynx-Catalogo-Envases-ES.pdf",
-        "C:\\Users\\edmad\\OneDrive\\Documentos\\GitHub\\lynx_packaging\\output\\pdf\\Lynx-Catalogo-Envases-EN.pdf"
-      ],
-      "historicalExtractionRecordIds": [
-        "pdf-04-p02-c01",
-        "pdf-04-p02-c02",
-        "pdf-04-p02-c03",
-        "pdf-04-p02-c04",
-        "pdf-04-p02-c05",
-        "pdf-04-p02-c06",
-        "pdf-04-p02-c07",
-        "pdf-04-p04-c01",
-        "pdf-04-p04-c02",
-        "pdf-04-p04-c03",
-        "pdf-04-p04-c04",
-        "pdf-04-p04-c05"
-      ],
-      "recordIds": [
-        "pdf-04-p03-c03",
-        "pdf-04-p03-c04",
-        "pdf-04-p03-c01",
-        "pdf-04-p03-c02",
-        "pdf-04-p03-c05",
-        "pdf-04-p03-c06",
-        "pdf-04-p03-c07",
-        "pdf-04-p04-c01",
-        "pdf-04-p04-c02",
-        "pdf-04-p04-c03",
-        "pdf-04-p04-c04",
-        "pdf-04-p04-c05"
-      ]
-    },
-    {
       "id": "cups-05",
       "group": "Vasos y accesorios",
       "title": "Envases, tarros y cubiertos",
       "batch": "L3",
       "sourceIds": [
-        "pdf-05"
+        "pdf-05",
+        "pdf-04"
       ],
       "status": "generated-reviewed",
-      "finalCardCount": 102,
-      "finalCoveredSourceRecordCount": 102,
-      "pageCountPerLanguage": 14,
+      "finalCardCount": 107,
+      "finalCoveredSourceRecordCount": 107,
+      "pageCountPerLanguage": 15,
       "outputs": [
         "C:\\Users\\edmad\\OneDrive\\Documentos\\GitHub\\lynx_packaging\\output\\pdf\\Lynx-Catalogo-Envases-Tarros-Cubiertos-ES.pdf",
         "C:\\Users\\edmad\\OneDrive\\Documentos\\GitHub\\lynx_packaging\\output\\pdf\\Lynx-Catalogo-Envases-Tarros-Cubiertos-EN.pdf"
@@ -1152,7 +1115,12 @@
         "pdf-05-p14-c11",
         "pdf-05-p14-c14",
         "pdf-05-p14-c12",
-        "pdf-05-p14-c15"
+        "pdf-05-p14-c15",
+        "pdf-04-p04-c01",
+        "pdf-04-p04-c02",
+        "pdf-04-p04-c03",
+        "pdf-04-p04-c04",
+        "pdf-04-p04-c05"
       ]
     },
     {
@@ -54056,5 +54024,11 @@
   "status": "completed-local",
   "finalManifest": "output/pdf/Lynx-Todos-Catalogos-manifest.json",
   "qualityAudit": "output/pdf/Lynx-Catalogos-QA.json",
-  "latestMilaDecision": "Separar los vasos de papel; conservar el resto de la clasificación. Vasos movidos a cups-12, sin añadir un catálogo lógico."
+  "latestMilaDecision": "Separar los vasos de papel; conservar el resto de la clasificación. Vasos movidos a cups-12, sin añadir un catálogo lógico.",
+  "retiredCatalogs": [
+    {
+      "id": "cups-04",
+      "reason": "7 paper products to Paper; 5 PP products to cups-05."
+    }
+  ]
 }

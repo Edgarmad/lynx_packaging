@@ -140,20 +140,6 @@
     "categoryIds": []
   },
   {
-    "id": "cups-4",
-    "title": {
-      "es": "Envases",
-      "en": "Containers"
-    },
-    "url": {
-      "es": "https://drive.google.com/file/d/16n8yvHUWiePEk0tS-ikLrflptTaSi3DX/view",
-      "en": "https://drive.google.com/file/d/1ox-TaSSJIy_kSJawrVwl7LTwgoUi5AXx/view"
-    },
-    "status": "published",
-    "order": 10,
-    "categoryIds": []
-  },
-  {
     "id": "cups-5",
     "title": {
       "es": "Envases, tarros y cubiertos",
