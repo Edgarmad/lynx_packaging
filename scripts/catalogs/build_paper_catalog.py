@@ -105,7 +105,8 @@ for c in D['paperCandidateCards']:
  sid=c['sources'][0]['sourceId'];pg=c['sources'][0]['page'];a=c['attributes']
  if c['paperScope']!='paper-candidate':continue
  if sid=='pdf-04':container_cards.append(c);continue
- section='bags' if sid=='pdf-01' and pg==9 else 'complementary' if sid=='pdf-06' else 'containers'
+ # Mila, 12 October: marked cup trays and carriers are complementary products.
+ section='bags' if sid=='pdf-01' and pg==9 else 'complementary' if sid=='pdf-06' or (sid=='pdf-01' and pg==11) else 'containers'
  name=c['name'];lines=[]
  if sid=='pdf-06':
   idx=int(c['id'][-2:]);labels={2:tx('Funda decorativa de cartulina','Decorative paperboard sleeve'),3:tx('Funda para vasos','Cup sleeve'),4:tx('Funda decorativa de papel','Decorative paper sleeve'),5:tx('Accesorio de papel','Paper accessory')}
@@ -281,13 +282,13 @@ def gallery(c,lang,sid,placements,page,total):
   audit.append({'language':lang,'page':page,'recordId':r['id'],'coveredRecordIds':[v['id'] for v in covered],'image':r['image'],'source':r['source'],'variants':r.get('variants',[]),'isolatedPhoto':ISOLATED.get(r['id'])})
  c.showPage()
 
-index=[];nextpage=2;pages_by_section={}
+index=[];nextpage=1;pages_by_section={}
 for sid,sec in sections.items():
  pages_by_section[sid]=paginate(sec['items']);n=len(pages_by_section[sid]);index.append((sid,nextpage,n));nextpage+=n
 total=nextpage-1
 for lang in ['es','en']:
  target=OUT/f'Lynx-Catalogo-Papel-{lang.upper()}.pdf';c=canvas.Canvas(str(target),pagesize=(W,H),pageCompression=1)
- c.setTitle('Lynx - '+('Catálogo de papel' if lang=='es' else 'Paper catalog'));c.setAuthor('Lynx Packaging Solutions');background(c);intro(c,lang,1,total,index)
+ c.setTitle('Lynx - '+('Catálogo de papel' if lang=='es' else 'Paper catalog'));c.setAuthor('Lynx Packaging Solutions');background(c)
  for sid,start,n in index:
   for i,placements in enumerate(pages_by_section[sid]):gallery(c,lang,sid,placements,start+i,total)
  c.save()
@@ -301,7 +302,7 @@ for lang in ['es','en']:
     if block['type']==0:
      x0,y0,x1,y1=block['bbox'];assert x0>=-1 and x1<=W+1 and y0>=-1 and y1<=H+1,(target.name,pg.number,block['bbox'])
  print(target.name,total,'pages',target.stat().st_size,'bytes')
-manifest={'date':'2026-10-06','revision':2,'languages':['es','en'],'recordCount':sum(len(s['items']) for s in sections.values()),'coveredSourceRecordCount':len(covered_ids),'recordsBySection':{k:len(s['items']) for k,s in sections.items()},'pageCountPerLanguage':total,'imagesPolicy':'Individual source-panel photos where available; shared dimensional family images shown once with all model rows. No AI.','variantTableCards':sum(bool(r.get('variants')) for sec in sections.values() for r in sec['items']),'isolatedPhotoCount':len(individual_crop_ids),'originalRasterCrops':len(ISOLATED),'coveredSourceIds':sorted(covered_ids),'assetsAndSources':audit}
+manifest={'date':'2026-10-12','revision':3,'languages':['es','en'],'recordCount':sum(len(s['items']) for s in sections.values()),'coveredSourceRecordCount':len(covered_ids),'recordsBySection':{k:len(s['items']) for k,s in sections.items()},'pageCountPerLanguage':total,'imagesPolicy':'Individual source-panel photos where available; shared dimensional family images shown once with all model rows. No AI.','variantTableCards':sum(bool(r.get('variants')) for sec in sections.values() for r in sec['items']),'isolatedPhotoCount':len(individual_crop_ids),'originalRasterCrops':len(ISOLATED),'coveredSourceIds':sorted(covered_ids),'assetsAndSources':audit}
 assert original_record_ids.issubset(covered_ids)
 (OUT/'Lynx-Catalogo-Papel-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps({k:v for k,v in manifest.items() if k not in ['assetsAndSources','coveredSourceIds']},ensure_ascii=False))

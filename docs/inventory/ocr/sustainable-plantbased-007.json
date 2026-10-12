@@ -1,0 +1,289 @@
+{
+  "sourceId": "sustainable-plantbased",
+  "page": 7,
+  "sourceSha256": "b6bfa3026968fcd6648885db66253db1300b1beff579c585eb5cf1abc6020e5d",
+  "width": 1190.550048828125,
+  "height": 807.8740234375,
+  "lines": [
+    {
+      "text": "SUGARCANE PULP MATERIAL",
+      "confidence": 0.9991,
+      "bbox": [
+        11.06,
+        8.5,
+        28.06,
+        215.57
+      ]
+    },
+    {
+      "text": "SUGARCANE PULP MATERIAL",
+      "confidence": 0.9985,
+      "bbox": [
+        1158.24,
+        7.65,
+        1181.2,
+        227.48
+      ]
+    },
+    {
+      "text": "BOWL",
+      "confidence": 1.0,
+      "bbox": [
+        52.3,
+        76.11,
+        135.21,
+        105.87
+      ]
+    },
+    {
+      "text": "A0102019",
+      "confidence": 1.0,
+      "bbox": [
+        54.85,
+        176.46,
+        111.4,
+        189.64
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        111.83,
+        176.03,
+        132.66,
+        183.68
+      ]
+    },
+    {
+      "text": "A0102023",
+      "confidence": 1.0,
+      "bbox": [
+        329.95,
+        176.46,
+        385.65,
+        189.64
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        386.93,
+        176.03,
+        408.19,
+        183.68
+      ]
+    },
+    {
+      "text": "9g",
+      "confidence": 0.9353,
+      "bbox": [
+        117.35,
+        182.41,
+        127.13,
+        191.34
+      ]
+    },
+    {
+      "text": "22g",
+      "confidence": 0.9999,
+      "bbox": [
+        390.76,
+        182.83,
+        403.51,
+        190.91
+      ]
+    },
+    {
+      "text": "Description:12oz round bowl(wide mouth)",
+      "confidence": 0.9907,
+      "bbox": [
+        53.15,
+        193.46,
+        206.65,
+        204.94
+      ]
+    },
+    {
+      "text": "Description:28oz round bowl",
+      "confidence": 1.0,
+      "bbox": [
+        329.53,
+        194.31,
+        435.4,
+        204.09
+      ]
+    },
+    {
+      "text": "Specification:152*45mm",
+      "confidence": 1.0,
+      "bbox": [
+        53.15,
+        202.39,
+        144.99,
+        215.15
+      ]
+    },
+    {
+      "text": "Specification:216×139*55mm",
+      "confidence": 0.999,
+      "bbox": [
+        329.1,
+        203.24,
+        437.1,
+        214.3
+      ]
+    },
+    {
+      "text": "960pcs/CTN",
+      "confidence": 0.9969,
+      "bbox": [
+        53.57,
+        211.75,
+        101.62,
+        224.5
+      ]
+    },
+    {
+      "text": "500pcs/CTN",
+      "confidence": 0.9997,
+      "bbox": [
+        329.53,
+        213.45,
+        375.45,
+        224.08
+      ]
+    },
+    {
+      "text": "A0102034",
+      "confidence": 1.0,
+      "bbox": [
+        54.85,
+        328.25,
+        110.98,
+        341.01
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        111.83,
+        326.13,
+        132.66,
+        333.78
+      ]
+    },
+    {
+      "text": "20g",
+      "confidence": 0.9999,
+      "bbox": [
+        115.23,
+        332.5,
+        129.26,
+        341.86
+      ]
+    },
+    {
+      "text": "A0102035",
+      "confidence": 1.0,
+      "bbox": [
+        321.45,
+        327.4,
+        376.3,
+        341.86
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        377.57,
+        326.13,
+        398.83,
+        333.78
+      ]
+    },
+    {
+      "text": "24g",
+      "confidence": 1.0,
+      "bbox": [
+        380.55,
+        332.08,
+        394.58,
+        341.43
+      ]
+    },
+    {
+      "text": "Description:750ml Hexagonal bowl",
+      "confidence": 0.9997,
+      "bbox": [
+        54.43,
+        346.54,
+        183.68,
+        356.31
+      ]
+    },
+    {
+      "text": "Description:1100ml Hexagonal bowl",
+      "confidence": 0.9869,
+      "bbox": [
+        320.6,
+        344.83,
+        454.11,
+        357.17
+      ]
+    },
+    {
+      "text": "Specification:217*200*19mm",
+      "confidence": 1.0,
+      "bbox": [
+        54.0,
+        354.61,
+        162.0,
+        366.94
+      ]
+    },
+    {
+      "text": "Specification:244*228.5*56mm",
+      "confidence": 1.0,
+      "bbox": [
+        320.6,
+        355.46,
+        434.55,
+        366.52
+      ]
+    },
+    {
+      "text": "400pcs/CTN",
+      "confidence": 0.9994,
+      "bbox": [
+        54.43,
+        365.67,
+        101.62,
+        375.87
+      ]
+    },
+    {
+      "text": "400pcs/CTN",
+      "confidence": 0.9992,
+      "bbox": [
+        321.45,
+        365.67,
+        367.79,
+        375.45
+      ]
+    },
+    {
+      "text": "12",
+      "confidence": 0.9812,
+      "bbox": [
+        1151.01,
+        768.33,
+        1179.07,
+        799.79
+      ]
+    }
+  ]
+}

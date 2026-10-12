@@ -1,0 +1,549 @@
+{
+  "sourceId": "sustainable-plantbased",
+  "page": 5,
+  "sourceSha256": "b6bfa3026968fcd6648885db66253db1300b1beff579c585eb5cf1abc6020e5d",
+  "width": 1190.550048828125,
+  "height": 807.8740234375,
+  "lines": [
+    {
+      "text": "SUGARCANE PULP MATERIAL",
+      "confidence": 0.9995,
+      "bbox": [
+        11.06,
+        8.93,
+        27.21,
+        213.87
+      ]
+    },
+    {
+      "text": "SUGARCANE PULP MATERIAL",
+      "confidence": 0.9885,
+      "bbox": [
+        1164.61,
+        9.35,
+        1178.64,
+        214.72
+      ]
+    },
+    {
+      "text": "SQUARE PLATE",
+      "confidence": 0.9997,
+      "bbox": [
+        53.15,
+        38.69,
+        231.73,
+        64.2
+      ]
+    },
+    {
+      "text": "A0104001",
+      "confidence": 1.0,
+      "bbox": [
+        56.55,
+        185.39,
+        109.7,
+        196.87
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        111.83,
+        183.68,
+        133.09,
+        190.91
+      ]
+    },
+    {
+      "text": "13g",
+      "confidence": 1.0,
+      "bbox": [
+        116.08,
+        190.06,
+        128.83,
+        198.57
+      ]
+    },
+    {
+      "text": "A0104003",
+      "confidence": 1.0,
+      "bbox": [
+        184.11,
+        185.81,
+        235.13,
+        196.02
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        239.81,
+        183.68,
+        261.07,
+        190.91
+      ]
+    },
+    {
+      "text": "17g",
+      "confidence": 0.9973,
+      "bbox": [
+        244.06,
+        189.21,
+        257.24,
+        198.99
+      ]
+    },
+    {
+      "text": "A0104004",
+      "confidence": 1.0,
+      "bbox": [
+        315.07,
+        184.54,
+        369.5,
+        197.29
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        371.2,
+        183.68,
+        392.46,
+        191.34
+      ]
+    },
+    {
+      "text": "30g",
+      "confidence": 0.9999,
+      "bbox": [
+        374.6,
+        189.64,
+        388.63,
+        198.99
+      ]
+    },
+    {
+      "text": "Description:6 inch square plate",
+      "confidence": 0.9871,
+      "bbox": [
+        55.7,
+        204.09,
+        166.25,
+        212.6
+      ]
+    },
+    {
+      "text": "Description:8 inch square plate",
+      "confidence": 0.9936,
+      "bbox": [
+        183.26,
+        204.09,
+        293.39,
+        212.6
+      ]
+    },
+    {
+      "text": "Description:10 inch square plate",
+      "confidence": 0.9995,
+      "bbox": [
+        315.07,
+        204.09,
+        428.6,
+        212.6
+      ]
+    },
+    {
+      "text": "Specification:160*160*20mm",
+      "confidence": 0.9999,
+      "bbox": [
+        54.85,
+        212.17,
+        159.02,
+        223.23
+      ]
+    },
+    {
+      "text": "Specification:200*200*20mm",
+      "confidence": 1.0,
+      "bbox": [
+        182.83,
+        212.6,
+        286.58,
+        222.8
+      ]
+    },
+    {
+      "text": "Specification:260*260*20mm",
+      "confidence": 1.0,
+      "bbox": [
+        315.07,
+        213.45,
+        417.97,
+        222.38
+      ]
+    },
+    {
+      "text": "500pcs/CTN",
+      "confidence": 0.9997,
+      "bbox": [
+        54.85,
+        221.1,
+        100.77,
+        232.58
+      ]
+    },
+    {
+      "text": "500pcs/CTN",
+      "confidence": 0.9992,
+      "bbox": [
+        182.83,
+        222.38,
+        227.91,
+        232.16
+      ]
+    },
+    {
+      "text": "500pcs/CTN",
+      "confidence": 0.9994,
+      "bbox": [
+        314.22,
+        222.38,
+        359.29,
+        232.16
+      ]
+    },
+    {
+      "text": "CAKE PLATE&5-COMPARTMENT TRAY",
+      "confidence": 0.9885,
+      "bbox": [
+        56.55,
+        295.51,
+        482.17,
+        318.05
+      ]
+    },
+    {
+      "text": "A0104012",
+      "confidence": 1.0,
+      "bbox": [
+        148.82,
+        367.37,
+        201.12,
+        379.7
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        204.94,
+        366.94,
+        225.78,
+        374.17
+      ]
+    },
+    {
+      "text": "A0103001",
+      "confidence": 1.0,
+      "bbox": [
+        429.02,
+        368.22,
+        480.9,
+        379.7
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        484.3,
+        366.94,
+        505.13,
+        374.17
+      ]
+    },
+    {
+      "text": "6g",
+      "confidence": 0.9998,
+      "bbox": [
+        210.9,
+        374.17,
+        219.83,
+        381.4
+      ]
+    },
+    {
+      "text": "25g",
+      "confidence": 0.9999,
+      "bbox": [
+        487.7,
+        372.47,
+        501.31,
+        382.25
+      ]
+    },
+    {
+      "text": "Description:Cake plate",
+      "confidence": 0.9998,
+      "bbox": [
+        147.12,
+        388.2,
+        227.91,
+        396.71
+      ]
+    },
+    {
+      "text": "Description:5-compartment tray",
+      "confidence": 0.9973,
+      "bbox": [
+        426.47,
+        387.35,
+        542.13,
+        397.56
+      ]
+    },
+    {
+      "text": "Specification:110*130*15mm",
+      "confidence": 0.9999,
+      "bbox": [
+        147.12,
+        396.71,
+        250.87,
+        406.91
+      ]
+    },
+    {
+      "text": "Specification:260*210*24.5mm",
+      "confidence": 1.0,
+      "bbox": [
+        427.75,
+        397.56,
+        537.45,
+        406.49
+      ]
+    },
+    {
+      "text": "3600pcs/CTN",
+      "confidence": 0.9984,
+      "bbox": [
+        146.69,
+        405.21,
+        196.87,
+        416.69
+      ]
+    },
+    {
+      "text": "500pcs/CTN",
+      "confidence": 0.9996,
+      "bbox": [
+        427.32,
+        406.49,
+        472.39,
+        416.69
+      ]
+    },
+    {
+      "text": "BAKING PLATE",
+      "confidence": 0.9998,
+      "bbox": [
+        55.28,
+        500.88,
+        227.05,
+        524.69
+      ]
+    },
+    {
+      "text": "A0104035",
+      "confidence": 1.0,
+      "bbox": [
+        54.0,
+        628.87,
+        109.28,
+        642.05
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        111.83,
+        628.02,
+        132.66,
+        635.67
+      ]
+    },
+    {
+      "text": "A0104036",
+      "confidence": 1.0,
+      "bbox": [
+        229.18,
+        629.29,
+        282.76,
+        642.05
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        285.73,
+        628.02,
+        306.57,
+        635.67
+      ]
+    },
+    {
+      "text": "A0104037",
+      "confidence": 1.0,
+      "bbox": [
+        399.68,
+        629.29,
+        454.96,
+        642.05
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        456.66,
+        628.02,
+        477.5,
+        635.67
+      ]
+    },
+    {
+      "text": "8g",
+      "confidence": 0.9999,
+      "bbox": [
+        117.78,
+        635.24,
+        126.71,
+        642.47
+      ]
+    },
+    {
+      "text": "15g",
+      "confidence": 1.0,
+      "bbox": [
+        289.98,
+        634.82,
+        302.74,
+        642.9
+      ]
+    },
+    {
+      "text": "15g",
+      "confidence": 0.9998,
+      "bbox": [
+        459.64,
+        633.54,
+        473.67,
+        643.75
+      ]
+    },
+    {
+      "text": "Description:168ml Triangle Plate",
+      "confidence": 0.9992,
+      "bbox": [
+        54.0,
+        648.0,
+        168.8,
+        658.2
+      ]
+    },
+    {
+      "text": "Description:280ml Triangle Plate",
+      "confidence": 0.9992,
+      "bbox": [
+        228.33,
+        648.0,
+        343.98,
+        658.2
+      ]
+    },
+    {
+      "text": "Description:440ml Semi-circular plate",
+      "confidence": 0.9992,
+      "bbox": [
+        400.54,
+        648.42,
+        532.77,
+        657.35
+      ]
+    },
+    {
+      "text": "Specification:158.13*150.36*20mm",
+      "confidence": 1.0,
+      "bbox": [
+        54.0,
+        657.78,
+        177.31,
+        667.56
+      ]
+    },
+    {
+      "text": "Specification:219.1*173.44*20mm",
+      "confidence": 1.0,
+      "bbox": [
+        229.18,
+        658.2,
+        347.39,
+        666.71
+      ]
+    },
+    {
+      "text": "Specification:250.31*152.02*33mm",
+      "confidence": 1.0,
+      "bbox": [
+        400.11,
+        657.78,
+        524.69,
+        667.56
+      ]
+    },
+    {
+      "text": "510pcs/CTN",
+      "confidence": 0.9991,
+      "bbox": [
+        53.57,
+        666.71,
+        99.07,
+        676.91
+      ]
+    },
+    {
+      "text": "240pcs/CTN",
+      "confidence": 0.9988,
+      "bbox": [
+        228.76,
+        667.13,
+        273.4,
+        676.91
+      ]
+    },
+    {
+      "text": "186pcs/CTN",
+      "confidence": 0.999,
+      "bbox": [
+        400.11,
+        667.13,
+        444.76,
+        676.91
+      ]
+    },
+    {
+      "text": "08",
+      "confidence": 1.0,
+      "bbox": [
+        1156.96,
+        775.56,
+        1174.39,
+        790.01
+      ]
+    }
+  ]
+}

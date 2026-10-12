@@ -1,0 +1,539 @@
+{
+  "sourceId": "sustainable-plantbased",
+  "page": 19,
+  "sourceSha256": "b6bfa3026968fcd6648885db66253db1300b1beff579c585eb5cf1abc6020e5d",
+  "width": 1190.550048828125,
+  "height": 807.8740234375,
+  "lines": [
+    {
+      "text": "KRAFT PAPER MATERIAL",
+      "confidence": 0.9778,
+      "bbox": [
+        9.78,
+        10.63,
+        29.34,
+        185.39
+      ]
+    },
+    {
+      "text": "KRAFT PAPER MATERIAL",
+      "confidence": 0.9914,
+      "bbox": [
+        1164.19,
+        12.33,
+        1178.22,
+        182.83
+      ]
+    },
+    {
+      "text": "ROUND BOWL",
+      "confidence": 0.996,
+      "bbox": [
+        634.39,
+        37.84,
+        820.2,
+        65.91
+      ]
+    },
+    {
+      "text": "B0101002",
+      "confidence": 0.9999,
+      "bbox": [
+        637.37,
+        91.84,
+        693.07,
+        105.02
+      ]
+    },
+    {
+      "text": "Weight ; Weight",
+      "confidence": 0.9086,
+      "bbox": [
+        694.77,
+        90.14,
+        738.57,
+        99.07
+      ]
+    },
+    {
+      "text": "B0101004",
+      "confidence": 0.9999,
+      "bbox": [
+        882.71,
+        91.84,
+        936.71,
+        105.02
+      ]
+    },
+    {
+      "text": "WeightWeight",
+      "confidence": 0.9976,
+      "bbox": [
+        938.83,
+        90.14,
+        983.05,
+        99.07
+      ]
+    },
+    {
+      "text": "9.5g  7g",
+      "confidence": 0.9366,
+      "bbox": [
+        697.75,
+        97.8,
+        733.04,
+        106.72
+      ]
+    },
+    {
+      "text": "19g  8g",
+      "confidence": 0.9089,
+      "bbox": [
+        942.66,
+        96.52,
+        977.53,
+        107.15
+      ]
+    },
+    {
+      "text": "Description:350ml round bowl",
+      "confidence": 0.9996,
+      "bbox": [
+        636.52,
+        109.7,
+        747.5,
+        119.48
+      ]
+    },
+    {
+      "text": "Description:500ml round bowl",
+      "confidence": 0.9935,
+      "bbox": [
+        881.43,
+        109.28,
+        1001.76,
+        120.33
+      ]
+    },
+    {
+      "text": "Specification:120*70*50mm",
+      "confidence": 1.0,
+      "bbox": [
+        636.52,
+        119.48,
+        738.99,
+        130.54
+      ]
+    },
+    {
+      "text": "Specification:150*105*55mm",
+      "confidence": 1.0,
+      "bbox": [
+        881.43,
+        120.33,
+        994.53,
+        130.96
+      ]
+    },
+    {
+      "text": "800pcs/CTN",
+      "confidence": 0.9997,
+      "bbox": [
+        636.94,
+        130.11,
+        683.72,
+        140.31
+      ]
+    },
+    {
+      "text": "800pcs/CTN",
+      "confidence": 0.9997,
+      "bbox": [
+        882.28,
+        132.24,
+        928.2,
+        142.44
+      ]
+    },
+    {
+      "text": "B0102002",
+      "confidence": 0.9999,
+      "bbox": [
+        637.79,
+        238.54,
+        693.5,
+        251.29
+      ]
+    },
+    {
+      "text": "WeightWeight",
+      "confidence": 0.9977,
+      "bbox": [
+        693.92,
+        236.83,
+        738.14,
+        245.34
+      ]
+    },
+    {
+      "text": "B0102003",
+      "confidence": 0.9999,
+      "bbox": [
+        882.71,
+        238.54,
+        936.71,
+        251.29
+      ]
+    },
+    {
+      "text": "Weight Weight",
+      "confidence": 0.9643,
+      "bbox": [
+        938.41,
+        237.68,
+        983.05,
+        246.19
+      ]
+    },
+    {
+      "text": "24g  12g",
+      "confidence": 0.9186,
+      "bbox": [
+        696.9,
+        243.21,
+        733.46,
+        252.99
+      ]
+    },
+    {
+      "text": "32g  15g",
+      "confidence": 0.9154,
+      "bbox": [
+        942.24,
+        244.06,
+        979.23,
+        253.84
+      ]
+    },
+    {
+      "text": "Description:700ml round bowl",
+      "confidence": 0.9897,
+      "bbox": [
+        636.94,
+        256.39,
+        747.92,
+        266.17
+      ]
+    },
+    {
+      "text": "Description:1000ml round bowl",
+      "confidence": 0.998,
+      "bbox": [
+        881.43,
+        256.39,
+        997.09,
+        266.17
+      ]
+    },
+    {
+      "text": "Specification:165*125*55mm",
+      "confidence": 1.0,
+      "bbox": [
+        636.52,
+        265.32,
+        743.24,
+        275.95
+      ]
+    },
+    {
+      "text": "Specification:175*115*75mm",
+      "confidence": 0.9999,
+      "bbox": [
+        881.43,
+        265.32,
+        987.73,
+        275.95
+      ]
+    },
+    {
+      "text": "360pcs/CTN",
+      "confidence": 0.9995,
+      "bbox": [
+        636.94,
+        278.93,
+        683.29,
+        289.56
+      ]
+    },
+    {
+      "text": "360pcs/CTN",
+      "confidence": 0.9996,
+      "bbox": [
+        882.28,
+        277.23,
+        928.2,
+        287.86
+      ]
+    },
+    {
+      "text": "B0102004",
+      "confidence": 0.9999,
+      "bbox": [
+        637.79,
+        397.13,
+        692.22,
+        409.04
+      ]
+    },
+    {
+      "text": "WeightWeight",
+      "confidence": 0.9986,
+      "bbox": [
+        692.22,
+        394.16,
+        736.44,
+        404.36
+      ]
+    },
+    {
+      "text": "50g 24g",
+      "confidence": 0.9547,
+      "bbox": [
+        696.05,
+        401.39,
+        732.61,
+        411.59
+      ]
+    },
+    {
+      "text": "Description:1500ml round bowl",
+      "confidence": 0.9992,
+      "bbox": [
+        636.94,
+        414.57,
+        752.17,
+        424.35
+      ]
+    },
+    {
+      "text": "Specification:200*135*85mm",
+      "confidence": 1.0,
+      "bbox": [
+        636.52,
+        423.92,
+        743.67,
+        434.55
+      ]
+    },
+    {
+      "text": "160pcs/CTN",
+      "confidence": 0.9987,
+      "bbox": [
+        636.94,
+        434.98,
+        683.29,
+        444.76
+      ]
+    },
+    {
+      "text": "PLATE",
+      "confidence": 0.9999,
+      "bbox": [
+        634.39,
+        546.8,
+        717.73,
+        573.16
+      ]
+    },
+    {
+      "text": "B0110001",
+      "confidence": 0.9999,
+      "bbox": [
+        651.83,
+        672.24,
+        707.53,
+        684.99
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9998,
+      "bbox": [
+        707.1,
+        672.24,
+        729.21,
+        679.46
+      ]
+    },
+    {
+      "text": "B0110002",
+      "confidence": 0.9999,
+      "bbox": [
+        807.45,
+        672.24,
+        862.3,
+        684.99
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9997,
+      "bbox": [
+        863.15,
+        671.81,
+        884.41,
+        679.46
+      ]
+    },
+    {
+      "text": "B0110003",
+      "confidence": 0.9997,
+      "bbox": [
+        958.82,
+        672.24,
+        1011.97,
+        684.99
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9996,
+      "bbox": [
+        1013.24,
+        671.81,
+        1035.78,
+        679.46
+      ]
+    },
+    {
+      "text": "8g",
+      "confidence": 0.9995,
+      "bbox": [
+        713.48,
+        678.19,
+        722.83,
+        685.42
+      ]
+    },
+    {
+      "text": "16.5g",
+      "confidence": 1.0,
+      "bbox": [
+        864.85,
+        676.49,
+        882.71,
+        685.42
+      ]
+    },
+    {
+      "text": "22g",
+      "confidence": 0.9998,
+      "bbox": [
+        1017.5,
+        677.76,
+        1031.1,
+        685.84
+      ]
+    },
+    {
+      "text": "Description:6 inch round plate",
+      "confidence": 0.9993,
+      "bbox": [
+        651.4,
+        689.67,
+        761.95,
+        699.45
+      ]
+    },
+    {
+      "text": "Description:7 inch round plate",
+      "confidence": 0.9983,
+      "bbox": [
+        806.6,
+        689.67,
+        917.15,
+        699.45
+      ]
+    },
+    {
+      "text": "Description:9 inch round plate",
+      "confidence": 0.9996,
+      "bbox": [
+        957.12,
+        689.67,
+        1067.67,
+        699.45
+      ]
+    },
+    {
+      "text": "Specification:150*20mm",
+      "confidence": 0.9999,
+      "bbox": [
+        650.55,
+        698.17,
+        741.12,
+        709.23
+      ]
+    },
+    {
+      "text": "Specification:190*10mm",
+      "confidence": 0.9999,
+      "bbox": [
+        806.6,
+        699.02,
+        896.74,
+        708.8
+      ]
+    },
+    {
+      "text": "Specification:229*20mm",
+      "confidence": 1.0,
+      "bbox": [
+        957.54,
+        699.02,
+        1048.11,
+        708.8
+      ]
+    },
+    {
+      "text": "1400pcs/CTN",
+      "confidence": 0.9984,
+      "bbox": [
+        651.4,
+        708.8,
+        702.0,
+        719.01
+      ]
+    },
+    {
+      "text": "500pcs/CTN",
+      "confidence": 0.9996,
+      "bbox": [
+        806.6,
+        708.8,
+        852.94,
+        719.01
+      ]
+    },
+    {
+      "text": "500pcs/CTN",
+      "confidence": 0.9996,
+      "bbox": [
+        957.54,
+        708.8,
+        1004.31,
+        719.01
+      ]
+    },
+    {
+      "text": "38",
+      "confidence": 1.0,
+      "bbox": [
+        1155.68,
+        772.16,
+        1174.39,
+        788.31
+      ]
+    }
+  ]
+}

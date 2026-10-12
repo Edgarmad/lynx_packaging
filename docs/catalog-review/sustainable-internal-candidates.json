@@ -1,0 +1,3922 @@
+{
+  "date": "2026-10-12",
+  "scope": "25 inventoried internal PDF sources and 1199 extracted product records",
+  "counts": {
+    "kraft-containers": 14,
+    "kraft-cups": 16,
+    "kraft-straws": 4,
+    "starch-unconfirmed": 9,
+    "pulp-unconfirmed": 2
+  },
+  "confirmedSugarcaneRecords": 0,
+  "confirmedCornStarchRecords": 0,
+  "records": [
+    {
+      "candidateGroup": "kraft-containers",
+      "id": "pdf-04-p02-c01",
+      "title": {
+        "en": "Food container · 98-8oz",
+        "es": "Envase para alimentos · 98-8oz"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-04-p02-c01.webp",
+          "alt": {
+            "en": "Food container · 98-8oz",
+            "es": "Envase para alimentos · 98-8oz"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 413,
+          "height": 529
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "300 ml",
+            "en": "300 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "15 g",
+            "en": "15 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "81 mm",
+            "en": "81 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-04",
+          "page": 2,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-04",
+          "page": 6,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-containers",
+      "id": "pdf-04-p03-c03",
+      "title": {
+        "en": "Food container · 98-8oz",
+        "es": "Envase para alimentos · 98-8oz"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-04-p03-c03.webp",
+          "alt": {
+            "en": "Food container · 98-8oz",
+            "es": "Envase para alimentos · 98-8oz"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 413,
+          "height": 535
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "300 ml",
+            "en": "300 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "15 g",
+            "en": "15 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "81 mm",
+            "en": "81 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-04",
+          "page": 3,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-04",
+          "page": 7,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-containers",
+      "id": "pdf-04-p02-c02",
+      "title": {
+        "en": "Food container · 98-12oz",
+        "es": "Envase para alimentos · 98-12oz"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-04-p02-c02.webp",
+          "alt": {
+            "en": "Food container · 98-12oz",
+            "es": "Envase para alimentos · 98-12oz"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 417,
+          "height": 529
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "360 ml",
+            "en": "360 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "18 g",
+            "en": "18 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "81 mm",
+            "en": "81 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-04",
+          "page": 2,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-04",
+          "page": 6,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-containers",
+      "id": "pdf-04-p03-c04",
+      "title": {
+        "en": "Food container · 98-12oz",
+        "es": "Envase para alimentos · 98-12oz"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-04-p03-c04.webp",
+          "alt": {
+            "en": "Food container · 98-12oz",
+            "es": "Envase para alimentos · 98-12oz"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 417,
+          "height": 539
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "360 ml",
+            "en": "360 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "18 g",
+            "en": "18 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "81 mm",
+            "en": "81 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-04",
+          "page": 3,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-04",
+          "page": 7,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-containers",
+      "id": "pdf-04-p02-c03",
+      "title": {
+        "en": "Food container · 90-8oz",
+        "es": "Envase para alimentos · 90-8oz"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-04-p02-c03.webp",
+          "alt": {
+            "en": "Food container · 90-8oz",
+            "es": "Envase para alimentos · 90-8oz"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 417,
+          "height": 534
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "300 ml",
+            "en": "300 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "9 g",
+            "en": "9 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "75 mm",
+            "en": "75 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-04",
+          "page": 2,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-04",
+          "page": 6,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-containers",
+      "id": "pdf-04-p03-c01",
+      "title": {
+        "en": "Food container · 90-8oz",
+        "es": "Envase para alimentos · 90-8oz"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-04-p03-c01.webp",
+          "alt": {
+            "en": "Food container · 90-8oz",
+            "es": "Envase para alimentos · 90-8oz"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 417,
+          "height": 539
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "300 ml",
+            "en": "300 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "9 g",
+            "en": "9 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "75 mm",
+            "en": "75 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-04",
+          "page": 3,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-04",
+          "page": 7,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-containers",
+      "id": "pdf-04-p02-c04",
+      "title": {
+        "en": "Food container · 90-12oz",
+        "es": "Envase para alimentos · 90-12oz"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-04-p02-c04.webp",
+          "alt": {
+            "en": "Food container · 90-12oz",
+            "es": "Envase para alimentos · 90-12oz"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 412,
+          "height": 521
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "360 ml",
+            "en": "360 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "11 g",
+            "en": "11 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "73 mm",
+            "en": "73 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-04",
+          "page": 2,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-04",
+          "page": 6,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-containers",
+      "id": "pdf-04-p03-c02",
+      "title": {
+        "en": "Food container · 90-12oz",
+        "es": "Envase para alimentos · 90-12oz"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-04-p03-c02.webp",
+          "alt": {
+            "en": "Food container · 90-12oz",
+            "es": "Envase para alimentos · 90-12oz"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 412,
+          "height": 539
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "360 ml",
+            "en": "360 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "11 g",
+            "en": "11 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "73 mm",
+            "en": "73 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-04",
+          "page": 3,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-04",
+          "page": 7,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-containers",
+      "id": "pdf-04-p02-c05",
+      "title": {
+        "en": "Food container · 98-16oz",
+        "es": "Envase para alimentos · 98-16oz"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-04-p02-c05.webp",
+          "alt": {
+            "en": "Food container · 98-16oz",
+            "es": "Envase para alimentos · 98-16oz"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 417,
+          "height": 535
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "480 ml",
+            "en": "480 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "13 g",
+            "en": "13 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "75 mm",
+            "en": "75 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-04",
+          "page": 2,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-04",
+          "page": 6,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-containers",
+      "id": "pdf-04-p03-c05",
+      "title": {
+        "en": "Food container · 98-16oz",
+        "es": "Envase para alimentos · 98-16oz"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-04-p03-c05.webp",
+          "alt": {
+            "en": "Food container · 98-16oz",
+            "es": "Envase para alimentos · 98-16oz"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 417,
+          "height": 539
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "480 ml",
+            "en": "480 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "13 g",
+            "en": "13 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "75 mm",
+            "en": "75 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-04",
+          "page": 3,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-04",
+          "page": 7,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-containers",
+      "id": "pdf-04-p02-c06",
+      "title": {
+        "en": "Food container · 118-26oz",
+        "es": "Envase para alimentos · 118-26oz"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-04-p02-c06.webp",
+          "alt": {
+            "en": "Food container · 118-26oz",
+            "es": "Envase para alimentos · 118-26oz"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 412,
+          "height": 535
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "750 ml",
+            "en": "750 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "18 g",
+            "en": "18 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "93 mm",
+            "en": "93 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-04",
+          "page": 2,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-04",
+          "page": 6,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-containers",
+      "id": "pdf-04-p03-c06",
+      "title": {
+        "en": "Food container · 118-26oz",
+        "es": "Envase para alimentos · 118-26oz"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-04-p03-c06.webp",
+          "alt": {
+            "en": "Food container · 118-26oz",
+            "es": "Envase para alimentos · 118-26oz"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 412,
+          "height": 539
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "750 ml",
+            "en": "750 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "18 g",
+            "en": "18 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "93 mm",
+            "en": "93 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-04",
+          "page": 3,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-04",
+          "page": 7,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-containers",
+      "id": "pdf-04-p02-c07",
+      "title": {
+        "en": "Food container · 118-32oz",
+        "es": "Envase para alimentos · 118-32oz"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-04-p02-c07.webp",
+          "alt": {
+            "en": "Food container · 118-32oz",
+            "es": "Envase para alimentos · 118-32oz"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 413,
+          "height": 535
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "1000 ml",
+            "en": "1000 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "20 g",
+            "en": "20 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "93 mm",
+            "en": "93 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-04",
+          "page": 2,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-04",
+          "page": 6,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-containers",
+      "id": "pdf-04-p03-c07",
+      "title": {
+        "en": "Food container · 118-32oz",
+        "es": "Envase para alimentos · 118-32oz"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-04-p03-c07.webp",
+          "alt": {
+            "en": "Food container · 118-32oz",
+            "es": "Envase para alimentos · 118-32oz"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 417,
+          "height": 539
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "1000 ml",
+            "en": "1000 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "20 g",
+            "en": "20 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "93 mm",
+            "en": "93 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-04",
+          "page": 3,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-04",
+          "page": 7,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-cups",
+      "id": "pdf-12-p03-c07",
+      "title": {
+        "en": "Cup · 8 oz Kraft inside & out",
+        "es": "Vaso · 8 oz Kraft interior y exterior"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-12-p03-c07.webp",
+          "alt": {
+            "en": "Cup · 8 oz Kraft inside & out",
+            "es": "Vaso · 8 oz Kraft interior y exterior"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 146,
+          "height": 213
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "270 ml",
+            "en": "270 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "12 g",
+            "en": "12 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro del borde",
+            "en": "Rim diameter"
+          },
+          "value": {
+            "es": "80 mm",
+            "en": "80 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Intervalo de temperatura indicado",
+            "en": "Listed temperature range"
+          },
+          "value": {
+            "es": "-20 °C – 70 °C",
+            "en": "-20 °C – 70 °C"
+          }
+        },
+        {
+          "label": {
+            "es": "Presentación",
+            "en": "Packing"
+          },
+          "value": {
+            "es": "500 piezas/caja",
+            "en": "500 pcs/carton"
+          }
+        },
+        {
+          "label": {
+            "es": "Altura",
+            "en": "Height"
+          },
+          "value": {
+            "es": "90.5 mm",
+            "en": "90.5 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "57 mm",
+            "en": "57 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-12",
+          "page": 3,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-12",
+          "page": 19,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-cups",
+      "id": "pdf-12-p03-c08",
+      "title": {
+        "en": "Cup · 10 oz Kraft inside & out",
+        "es": "Vaso · 10 oz Kraft interior y exterior"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-12-p03-c08.webp",
+          "alt": {
+            "en": "Cup · 10 oz Kraft inside & out",
+            "es": "Vaso · 10 oz Kraft interior y exterior"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 148,
+          "height": 213
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "300 ml",
+            "en": "300 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "14 g",
+            "en": "14 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro del borde",
+            "en": "Rim diameter"
+          },
+          "value": {
+            "es": "90 mm",
+            "en": "90 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Intervalo de temperatura indicado",
+            "en": "Listed temperature range"
+          },
+          "value": {
+            "es": "-20 °C – 70 °C",
+            "en": "-20 °C – 70 °C"
+          }
+        },
+        {
+          "label": {
+            "es": "Presentación",
+            "en": "Packing"
+          },
+          "value": {
+            "es": "500 piezas/caja",
+            "en": "500 pcs/carton"
+          }
+        },
+        {
+          "label": {
+            "es": "Altura",
+            "en": "Height"
+          },
+          "value": {
+            "es": "100 mm",
+            "en": "100 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "60 mm",
+            "en": "60 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-12",
+          "page": 3,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-12",
+          "page": 19,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-cups",
+      "id": "pdf-12-p03-c09",
+      "title": {
+        "en": "Cup · 12 oz Kraft inside & out",
+        "es": "Vaso · 12 oz Kraft interior y exterior"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-12-p03-c09.webp",
+          "alt": {
+            "en": "Cup · 12 oz Kraft inside & out",
+            "es": "Vaso · 12 oz Kraft interior y exterior"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 147,
+          "height": 212
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "400 ml",
+            "en": "400 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "15.7 g",
+            "en": "15.7 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro del borde",
+            "en": "Rim diameter"
+          },
+          "value": {
+            "es": "90 mm",
+            "en": "90 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Intervalo de temperatura indicado",
+            "en": "Listed temperature range"
+          },
+          "value": {
+            "es": "-20 °C – 70 °C",
+            "en": "-20 °C – 70 °C"
+          }
+        },
+        {
+          "label": {
+            "es": "Presentación",
+            "en": "Packing"
+          },
+          "value": {
+            "es": "500 piezas/caja",
+            "en": "500 pcs/carton"
+          }
+        },
+        {
+          "label": {
+            "es": "Altura",
+            "en": "Height"
+          },
+          "value": {
+            "es": "112 mm",
+            "en": "112 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "60 mm",
+            "en": "60 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-12",
+          "page": 3,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-12",
+          "page": 19,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-cups",
+      "id": "pdf-12-p03-c10",
+      "title": {
+        "en": "Cup · 16 oz Kraft inside & out",
+        "es": "Vaso · 16 oz Kraft interior y exterior"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-12-p03-c10.webp",
+          "alt": {
+            "en": "Cup · 16 oz Kraft inside & out",
+            "es": "Vaso · 16 oz Kraft interior y exterior"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 147,
+          "height": 214
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "500 ml",
+            "en": "500 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "20 g",
+            "en": "20 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro del borde",
+            "en": "Rim diameter"
+          },
+          "value": {
+            "es": "90 mm",
+            "en": "90 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Intervalo de temperatura indicado",
+            "en": "Listed temperature range"
+          },
+          "value": {
+            "es": "-20 °C – 70 °C",
+            "en": "-20 °C – 70 °C"
+          }
+        },
+        {
+          "label": {
+            "es": "Presentación",
+            "en": "Packing"
+          },
+          "value": {
+            "es": "500 piezas/caja",
+            "en": "500 pcs/carton"
+          }
+        },
+        {
+          "label": {
+            "es": "Altura",
+            "en": "Height"
+          },
+          "value": {
+            "es": "135 mm",
+            "en": "135 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "60 mm",
+            "en": "60 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-12",
+          "page": 3,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-12",
+          "page": 19,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-cups",
+      "id": "pdf-12-p03-c11",
+      "title": {
+        "en": "Cup · 22 oz Kraft inside & out",
+        "es": "Vaso · 22 oz Kraft interior y exterior"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-12-p03-c11.webp",
+          "alt": {
+            "en": "Cup · 22 oz Kraft inside & out",
+            "es": "Vaso · 22 oz Kraft interior y exterior"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 147,
+          "height": 214
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "660 ml",
+            "en": "660 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "26 g",
+            "en": "26 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro del borde",
+            "en": "Rim diameter"
+          },
+          "value": {
+            "es": "90 mm",
+            "en": "90 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Intervalo de temperatura indicado",
+            "en": "Listed temperature range"
+          },
+          "value": {
+            "es": "-20 °C – 70 °C",
+            "en": "-20 °C – 70 °C"
+          }
+        },
+        {
+          "label": {
+            "es": "Presentación",
+            "en": "Packing"
+          },
+          "value": {
+            "es": "500 piezas/caja",
+            "en": "500 pcs/carton"
+          }
+        },
+        {
+          "label": {
+            "es": "Altura",
+            "en": "Height"
+          },
+          "value": {
+            "es": "168 mm",
+            "en": "168 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "60 mm",
+            "en": "60 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-12",
+          "page": 3,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-12",
+          "page": 19,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-cups",
+      "id": "pdf-12-p04-c01",
+      "title": {
+        "en": "Cup · 8 oz Kraft / white lining",
+        "es": "Vaso · 8 oz Kraft / interior blanco"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-12-p04-c01.webp",
+          "alt": {
+            "en": "Cup · 8 oz Kraft / white lining",
+            "es": "Vaso · 8 oz Kraft / interior blanco"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 145,
+          "height": 212
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "270 ml",
+            "en": "270 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "12 g",
+            "en": "12 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro del borde",
+            "en": "Rim diameter"
+          },
+          "value": {
+            "es": "80 mm",
+            "en": "80 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Intervalo de temperatura indicado",
+            "en": "Listed temperature range"
+          },
+          "value": {
+            "es": "-20 °C – 70 °C",
+            "en": "-20 °C – 70 °C"
+          }
+        },
+        {
+          "label": {
+            "es": "Presentación",
+            "en": "Packing"
+          },
+          "value": {
+            "es": "500 piezas/caja",
+            "en": "500 pcs/carton"
+          }
+        },
+        {
+          "label": {
+            "es": "Altura",
+            "en": "Height"
+          },
+          "value": {
+            "es": "90.5 mm",
+            "en": "90.5 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "57 mm",
+            "en": "57 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-12",
+          "page": 4,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-12",
+          "page": 20,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-cups",
+      "id": "pdf-12-p04-c02",
+      "title": {
+        "en": "Cup · 8 oz Kraft / white lining",
+        "es": "Vaso · 8 oz Kraft / interior blanco"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-12-p04-c02.webp",
+          "alt": {
+            "en": "Cup · 8 oz Kraft / white lining",
+            "es": "Vaso · 8 oz Kraft / interior blanco"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 146,
+          "height": 213
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "270 ml",
+            "en": "270 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "13 g",
+            "en": "13 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro del borde",
+            "en": "Rim diameter"
+          },
+          "value": {
+            "es": "90 mm",
+            "en": "90 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Intervalo de temperatura indicado",
+            "en": "Listed temperature range"
+          },
+          "value": {
+            "es": "-20 °C – 70 °C",
+            "en": "-20 °C – 70 °C"
+          }
+        },
+        {
+          "label": {
+            "es": "Presentación",
+            "en": "Packing"
+          },
+          "value": {
+            "es": "500 piezas/caja",
+            "en": "500 pcs/carton"
+          }
+        },
+        {
+          "label": {
+            "es": "Altura",
+            "en": "Height"
+          },
+          "value": {
+            "es": "85 mm",
+            "en": "85 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "57 mm",
+            "en": "57 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-12",
+          "page": 4,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-12",
+          "page": 20,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-cups",
+      "id": "pdf-12-p04-c03",
+      "title": {
+        "en": "Cup · 10 oz Kraft / white lining",
+        "es": "Vaso · 10 oz Kraft / interior blanco"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-12-p04-c03.webp",
+          "alt": {
+            "en": "Cup · 10 oz Kraft / white lining",
+            "es": "Vaso · 10 oz Kraft / interior blanco"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 146,
+          "height": 212
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "300 ml",
+            "en": "300 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "14 g",
+            "en": "14 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro del borde",
+            "en": "Rim diameter"
+          },
+          "value": {
+            "es": "90 mm",
+            "en": "90 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Intervalo de temperatura indicado",
+            "en": "Listed temperature range"
+          },
+          "value": {
+            "es": "-20 °C – 70 °C",
+            "en": "-20 °C – 70 °C"
+          }
+        },
+        {
+          "label": {
+            "es": "Presentación",
+            "en": "Packing"
+          },
+          "value": {
+            "es": "500 piezas/caja",
+            "en": "500 pcs/carton"
+          }
+        },
+        {
+          "label": {
+            "es": "Altura",
+            "en": "Height"
+          },
+          "value": {
+            "es": "100 mm",
+            "en": "100 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "60 mm",
+            "en": "60 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-12",
+          "page": 4,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-12",
+          "page": 20,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-cups",
+      "id": "pdf-12-p04-c04",
+      "title": {
+        "en": "Cup · 12 oz Kraft / white lining",
+        "es": "Vaso · 12 oz Kraft / interior blanco"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-12-p04-c04.webp",
+          "alt": {
+            "en": "Cup · 12 oz Kraft / white lining",
+            "es": "Vaso · 12 oz Kraft / interior blanco"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 147,
+          "height": 212
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "400 ml",
+            "en": "400 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "15.7 g",
+            "en": "15.7 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro del borde",
+            "en": "Rim diameter"
+          },
+          "value": {
+            "es": "90 mm",
+            "en": "90 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Intervalo de temperatura indicado",
+            "en": "Listed temperature range"
+          },
+          "value": {
+            "es": "-20 °C – 70 °C",
+            "en": "-20 °C – 70 °C"
+          }
+        },
+        {
+          "label": {
+            "es": "Presentación",
+            "en": "Packing"
+          },
+          "value": {
+            "es": "500 piezas/caja",
+            "en": "500 pcs/carton"
+          }
+        },
+        {
+          "label": {
+            "es": "Altura",
+            "en": "Height"
+          },
+          "value": {
+            "es": "112 mm",
+            "en": "112 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "60 mm",
+            "en": "60 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-12",
+          "page": 4,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-12",
+          "page": 20,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-cups",
+      "id": "pdf-12-p04-c05",
+      "title": {
+        "en": "Cup · 16 oz Kraft / white lining",
+        "es": "Vaso · 16 oz Kraft / interior blanco"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-12-p04-c05.webp",
+          "alt": {
+            "en": "Cup · 16 oz Kraft / white lining",
+            "es": "Vaso · 16 oz Kraft / interior blanco"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 147,
+          "height": 212
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "500 ml",
+            "en": "500 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "20 g",
+            "en": "20 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro del borde",
+            "en": "Rim diameter"
+          },
+          "value": {
+            "es": "90 mm",
+            "en": "90 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Intervalo de temperatura indicado",
+            "en": "Listed temperature range"
+          },
+          "value": {
+            "es": "-20 °C – 70 °C",
+            "en": "-20 °C – 70 °C"
+          }
+        },
+        {
+          "label": {
+            "es": "Presentación",
+            "en": "Packing"
+          },
+          "value": {
+            "es": "500 piezas/caja",
+            "en": "500 pcs/carton"
+          }
+        },
+        {
+          "label": {
+            "es": "Altura",
+            "en": "Height"
+          },
+          "value": {
+            "es": "135 mm",
+            "en": "135 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "60 mm",
+            "en": "60 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-12",
+          "page": 4,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-12",
+          "page": 20,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-cups",
+      "id": "pdf-12-p04-c06",
+      "title": {
+        "en": "Cup · 22 oz Kraft / white lining",
+        "es": "Vaso · 22 oz Kraft / interior blanco"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-12-p04-c06.webp",
+          "alt": {
+            "en": "Cup · 22 oz Kraft / white lining",
+            "es": "Vaso · 22 oz Kraft / interior blanco"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 145,
+          "height": 214
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "660 ml",
+            "en": "660 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "26 g",
+            "en": "26 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro del borde",
+            "en": "Rim diameter"
+          },
+          "value": {
+            "es": "90 mm",
+            "en": "90 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Intervalo de temperatura indicado",
+            "en": "Listed temperature range"
+          },
+          "value": {
+            "es": "-20 °C – 70 °C",
+            "en": "-20 °C – 70 °C"
+          }
+        },
+        {
+          "label": {
+            "es": "Presentación",
+            "en": "Packing"
+          },
+          "value": {
+            "es": "500 piezas/caja",
+            "en": "500 pcs/carton"
+          }
+        },
+        {
+          "label": {
+            "es": "Altura",
+            "en": "Height"
+          },
+          "value": {
+            "es": "168 mm",
+            "en": "168 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "60 mm",
+            "en": "60 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-12",
+          "page": 4,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-12",
+          "page": 20,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-cups",
+      "id": "pdf-12-p04-c07",
+      "title": {
+        "en": "Cup · 8 oz Single-wall kraft",
+        "es": "Vaso · 8 oz Kraft, pared simple"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-12-p04-c07.webp",
+          "alt": {
+            "en": "Cup · 8 oz Single-wall kraft",
+            "es": "Vaso · 8 oz Kraft, pared simple"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 146,
+          "height": 212
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "270 ml",
+            "en": "270 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "6.7 g",
+            "en": "6.7 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro del borde",
+            "en": "Rim diameter"
+          },
+          "value": {
+            "es": "80 mm",
+            "en": "80 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Intervalo de temperatura indicado",
+            "en": "Listed temperature range"
+          },
+          "value": {
+            "es": "-20 °C – 70 °C",
+            "en": "-20 °C – 70 °C"
+          }
+        },
+        {
+          "label": {
+            "es": "Presentación",
+            "en": "Packing"
+          },
+          "value": {
+            "es": "1000 piezas/caja",
+            "en": "1000 pcs/carton"
+          }
+        },
+        {
+          "label": {
+            "es": "Altura",
+            "en": "Height"
+          },
+          "value": {
+            "es": "90.5 mm",
+            "en": "90.5 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "57 mm",
+            "en": "57 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-12",
+          "page": 4,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-12",
+          "page": 20,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-cups",
+      "id": "pdf-12-p04-c08",
+      "title": {
+        "en": "Cup · 10 oz Single-wall kraft",
+        "es": "Vaso · 10 oz Kraft, pared simple"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-12-p04-c08.webp",
+          "alt": {
+            "en": "Cup · 10 oz Single-wall kraft",
+            "es": "Vaso · 10 oz Kraft, pared simple"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 148,
+          "height": 212
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "300 ml",
+            "en": "300 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "9.5 g",
+            "en": "9.5 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro del borde",
+            "en": "Rim diameter"
+          },
+          "value": {
+            "es": "90 mm",
+            "en": "90 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Intervalo de temperatura indicado",
+            "en": "Listed temperature range"
+          },
+          "value": {
+            "es": "-20 °C – 70 °C",
+            "en": "-20 °C – 70 °C"
+          }
+        },
+        {
+          "label": {
+            "es": "Presentación",
+            "en": "Packing"
+          },
+          "value": {
+            "es": "1000 piezas/caja",
+            "en": "1000 pcs/carton"
+          }
+        },
+        {
+          "label": {
+            "es": "Altura",
+            "en": "Height"
+          },
+          "value": {
+            "es": "95 mm",
+            "en": "95 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "60 mm",
+            "en": "60 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-12",
+          "page": 4,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-12",
+          "page": 20,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-cups",
+      "id": "pdf-12-p04-c09",
+      "title": {
+        "en": "Cup · 12 oz Single-wall kraft",
+        "es": "Vaso · 12 oz Kraft, pared simple"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-12-p04-c09.webp",
+          "alt": {
+            "en": "Cup · 12 oz Single-wall kraft",
+            "es": "Vaso · 12 oz Kraft, pared simple"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 147,
+          "height": 211
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "400 ml",
+            "en": "400 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "10.7 g",
+            "en": "10.7 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro del borde",
+            "en": "Rim diameter"
+          },
+          "value": {
+            "es": "90 mm",
+            "en": "90 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Intervalo de temperatura indicado",
+            "en": "Listed temperature range"
+          },
+          "value": {
+            "es": "-20 °C – 70 °C",
+            "en": "-20 °C – 70 °C"
+          }
+        },
+        {
+          "label": {
+            "es": "Presentación",
+            "en": "Packing"
+          },
+          "value": {
+            "es": "1000 piezas/caja",
+            "en": "1000 pcs/carton"
+          }
+        },
+        {
+          "label": {
+            "es": "Altura",
+            "en": "Height"
+          },
+          "value": {
+            "es": "112 mm",
+            "en": "112 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "60 mm",
+            "en": "60 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-12",
+          "page": 4,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-12",
+          "page": 20,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-cups",
+      "id": "pdf-12-p04-c10",
+      "title": {
+        "en": "Cup · 16 oz Single-wall kraft",
+        "es": "Vaso · 16 oz Kraft, pared simple"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-12-p04-c10.webp",
+          "alt": {
+            "en": "Cup · 16 oz Single-wall kraft",
+            "es": "Vaso · 16 oz Kraft, pared simple"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 149,
+          "height": 213
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "500 ml",
+            "en": "500 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "12 g",
+            "en": "12 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro del borde",
+            "en": "Rim diameter"
+          },
+          "value": {
+            "es": "90 mm",
+            "en": "90 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Intervalo de temperatura indicado",
+            "en": "Listed temperature range"
+          },
+          "value": {
+            "es": "-20 °C – 70 °C",
+            "en": "-20 °C – 70 °C"
+          }
+        },
+        {
+          "label": {
+            "es": "Presentación",
+            "en": "Packing"
+          },
+          "value": {
+            "es": "1000 piezas/caja",
+            "en": "1000 pcs/carton"
+          }
+        },
+        {
+          "label": {
+            "es": "Altura",
+            "en": "Height"
+          },
+          "value": {
+            "es": "135 mm",
+            "en": "135 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "60 mm",
+            "en": "60 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-12",
+          "page": 4,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-12",
+          "page": 20,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-cups",
+      "id": "pdf-12-p04-c11",
+      "title": {
+        "en": "Cup · 22 oz Single-wall kraft",
+        "es": "Vaso · 22 oz Kraft, pared simple"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-12-p04-c11.webp",
+          "alt": {
+            "en": "Cup · 22 oz Single-wall kraft",
+            "es": "Vaso · 22 oz Kraft, pared simple"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 145,
+          "height": 213
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Capacidad",
+            "en": "Capacity"
+          },
+          "value": {
+            "es": "660 ml",
+            "en": "660 ml"
+          }
+        },
+        {
+          "label": {
+            "es": "Peso",
+            "en": "Weight"
+          },
+          "value": {
+            "es": "15 g",
+            "en": "15 g"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro del borde",
+            "en": "Rim diameter"
+          },
+          "value": {
+            "es": "90 mm",
+            "en": "90 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Intervalo de temperatura indicado",
+            "en": "Listed temperature range"
+          },
+          "value": {
+            "es": "-20 °C – 70 °C",
+            "en": "-20 °C – 70 °C"
+          }
+        },
+        {
+          "label": {
+            "es": "Presentación",
+            "en": "Packing"
+          },
+          "value": {
+            "es": "1000 piezas/caja",
+            "en": "1000 pcs/carton"
+          }
+        },
+        {
+          "label": {
+            "es": "Altura",
+            "en": "Height"
+          },
+          "value": {
+            "es": "168 mm",
+            "en": "168 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Diámetro de la base",
+            "en": "Base diameter"
+          },
+          "value": {
+            "es": "60 mm",
+            "en": "60 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-12",
+          "page": 4,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-12",
+          "page": 20,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-straws",
+      "id": "pdf-08-p06-c01",
+      "title": {
+        "en": "White kraft-paper straw - slim",
+        "es": "Popote de papel kraft blanco - delgado"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-08-p06-c01.webp",
+          "alt": {
+            "en": "White kraft-paper straw - slim",
+            "es": "Popote de papel kraft blanco - delgado"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 400,
+          "height": 576
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Diámetro",
+            "en": "Diameter"
+          },
+          "value": {
+            "es": "6 mm",
+            "en": "6 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Longitud",
+            "en": "Length"
+          },
+          "value": {
+            "es": "190 mm",
+            "en": "190 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Presentación",
+            "en": "Packing"
+          },
+          "value": {
+            "es": "4000 piezas/caja",
+            "en": "4000 pcs/carton"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel kraft",
+            "en": "Kraft paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-08",
+          "page": 6,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-08",
+          "page": 16,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-straws",
+      "id": "pdf-08-p06-c02",
+      "title": {
+        "en": "White kraft-paper straw - wide",
+        "es": "Popote de papel kraft blanco - grueso"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-08-p06-c02.webp",
+          "alt": {
+            "en": "White kraft-paper straw - wide",
+            "es": "Popote de papel kraft blanco - grueso"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 396,
+          "height": 576
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Diámetro",
+            "en": "Diameter"
+          },
+          "value": {
+            "es": "12 mm",
+            "en": "12 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Longitud",
+            "en": "Length"
+          },
+          "value": {
+            "es": "190 mm",
+            "en": "190 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Presentación",
+            "en": "Packing"
+          },
+          "value": {
+            "es": "4000 piezas/caja",
+            "en": "4000 pcs/carton"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel kraft",
+            "en": "Kraft paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-08",
+          "page": 6,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-08",
+          "page": 16,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-straws",
+      "id": "pdf-08-p06-c03",
+      "title": {
+        "en": "White kraft-paper straw - slim",
+        "es": "Popote de papel kraft blanco - delgado"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-08-p06-c03.webp",
+          "alt": {
+            "en": "White kraft-paper straw - slim",
+            "es": "Popote de papel kraft blanco - delgado"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 396,
+          "height": 572
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Diámetro",
+            "en": "Diameter"
+          },
+          "value": {
+            "es": "6 mm",
+            "en": "6 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Longitud",
+            "en": "Length"
+          },
+          "value": {
+            "es": "230 mm",
+            "en": "230 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Presentación",
+            "en": "Packing"
+          },
+          "value": {
+            "es": "4000 piezas/caja",
+            "en": "4000 pcs/carton"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel kraft",
+            "en": "Kraft paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-08",
+          "page": 6,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-08",
+          "page": 16,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "kraft-straws",
+      "id": "pdf-08-p06-c04",
+      "title": {
+        "en": "White kraft-paper straw - wide",
+        "es": "Popote de papel kraft blanco - grueso"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-08-p06-c04.webp",
+          "alt": {
+            "en": "White kraft-paper straw - wide",
+            "es": "Popote de papel kraft blanco - grueso"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 401,
+          "height": 577
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Diámetro",
+            "en": "Diameter"
+          },
+          "value": {
+            "es": "12 mm",
+            "en": "12 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Longitud",
+            "en": "Length"
+          },
+          "value": {
+            "es": "230 mm",
+            "en": "230 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Presentación",
+            "en": "Packing"
+          },
+          "value": {
+            "es": "4000 piezas/caja",
+            "en": "4000 pcs/carton"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel kraft",
+            "en": "Kraft paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-08",
+          "page": 6,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-08",
+          "page": 16,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": true,
+      "materialEvidence": "Source page header explicitly identifies kraft paper."
+    },
+    {
+      "candidateGroup": "starch-unconfirmed",
+      "id": "pdf-05-p14-c01",
+      "title": {
+        "en": "PLA degradable starch spoon",
+        "es": "Cuchara de almidón PLA degradable"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-05-p14-c01.webp",
+          "alt": {
+            "en": "PLA degradable starch spoon",
+            "es": "Cuchara de almidón PLA degradable"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 429,
+          "height": 445
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "PLA",
+            "en": "PLA"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-05",
+          "page": 14,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-05",
+          "page": 28,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": false,
+      "materialEvidence": "Source identifies PLA/starch without corn origin."
+    },
+    {
+      "candidateGroup": "starch-unconfirmed",
+      "id": "pdf-05-p14-c02",
+      "title": {
+        "en": "PLA degradable starch spoon",
+        "es": "Cuchara de almidón PLA degradable"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-05-p14-c02.webp",
+          "alt": {
+            "en": "PLA degradable starch spoon",
+            "es": "Cuchara de almidón PLA degradable"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 430,
+          "height": 445
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "PLA",
+            "en": "PLA"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-05",
+          "page": 14,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-05",
+          "page": 28,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": false,
+      "materialEvidence": "Source identifies PLA/starch without corn origin."
+    },
+    {
+      "candidateGroup": "starch-unconfirmed",
+      "id": "pdf-05-p14-c03",
+      "title": {
+        "en": "PLA degradable starch spoon",
+        "es": "Cuchara de almidón PLA degradable"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-05-p14-c03.webp",
+          "alt": {
+            "en": "PLA degradable starch spoon",
+            "es": "Cuchara de almidón PLA degradable"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 433,
+          "height": 445
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "PLA",
+            "en": "PLA"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-05",
+          "page": 14,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-05",
+          "page": 28,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": false,
+      "materialEvidence": "Source identifies PLA/starch without corn origin."
+    },
+    {
+      "candidateGroup": "starch-unconfirmed",
+      "id": "pdf-05-p14-c04",
+      "title": {
+        "en": "PLA degradable starch spoon",
+        "es": "Cuchara de almidón PLA degradable"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-05-p14-c04.webp",
+          "alt": {
+            "en": "PLA degradable starch spoon",
+            "es": "Cuchara de almidón PLA degradable"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 429,
+          "height": 445
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "PLA",
+            "en": "PLA"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-05",
+          "page": 14,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-05",
+          "page": 28,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": false,
+      "materialEvidence": "Source identifies PLA/starch without corn origin."
+    },
+    {
+      "candidateGroup": "starch-unconfirmed",
+      "id": "pdf-05-p14-c05",
+      "title": {
+        "en": "PLA degradable starch spoon",
+        "es": "Cuchara de almidón PLA degradable"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-05-p14-c05.webp",
+          "alt": {
+            "en": "PLA degradable starch spoon",
+            "es": "Cuchara de almidón PLA degradable"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 430,
+          "height": 445
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "PLA",
+            "en": "PLA"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-05",
+          "page": 14,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-05",
+          "page": 28,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": false,
+      "materialEvidence": "Source identifies PLA/starch without corn origin."
+    },
+    {
+      "candidateGroup": "starch-unconfirmed",
+      "id": "pdf-05-p14-c06",
+      "title": {
+        "en": "PLA degradable starch spoon",
+        "es": "Cuchara de almidón PLA degradable"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-05-p14-c06.webp",
+          "alt": {
+            "en": "PLA degradable starch spoon",
+            "es": "Cuchara de almidón PLA degradable"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 429,
+          "height": 446
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "PLA",
+            "en": "PLA"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-05",
+          "page": 14,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-05",
+          "page": 28,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": false,
+      "materialEvidence": "Source identifies PLA/starch without corn origin."
+    },
+    {
+      "candidateGroup": "starch-unconfirmed",
+      "id": "pdf-05-p14-c07",
+      "title": {
+        "en": "PLA degradable starch spoon",
+        "es": "Cuchara de almidón PLA degradable"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-05-p14-c07.webp",
+          "alt": {
+            "en": "PLA degradable starch spoon",
+            "es": "Cuchara de almidón PLA degradable"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 430,
+          "height": 445
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "PLA",
+            "en": "PLA"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-05",
+          "page": 14,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-05",
+          "page": 28,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": false,
+      "materialEvidence": "Source identifies PLA/starch without corn origin."
+    },
+    {
+      "candidateGroup": "starch-unconfirmed",
+      "id": "pdf-05-p14-c08",
+      "title": {
+        "en": "PLA degradable starch spoon",
+        "es": "Cuchara de almidón PLA degradable"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-05-p14-c08.webp",
+          "alt": {
+            "en": "PLA degradable starch spoon",
+            "es": "Cuchara de almidón PLA degradable"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 433,
+          "height": 445
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "PLA",
+            "en": "PLA"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-05",
+          "page": 14,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-05",
+          "page": 28,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": false,
+      "materialEvidence": "Source identifies PLA/starch without corn origin."
+    },
+    {
+      "candidateGroup": "starch-unconfirmed",
+      "id": "pdf-05-p14-c09",
+      "title": {
+        "en": "PLA degradable starch spoon",
+        "es": "Cuchara de almidón PLA degradable"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-05-p14-c09.webp",
+          "alt": {
+            "en": "PLA degradable starch spoon",
+            "es": "Cuchara de almidón PLA degradable"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 429,
+          "height": 445
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "PLA",
+            "en": "PLA"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-05",
+          "page": 14,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-05",
+          "page": 28,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": false,
+      "materialEvidence": "Source identifies PLA/starch without corn origin."
+    },
+    {
+      "candidateGroup": "pulp-unconfirmed",
+      "id": "pdf-01-p11-c01",
+      "title": {
+        "en": "Foldable 2-cup pulp tray",
+        "es": "Bandeja plegable de pulpa para 2 vasos"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-01-p11-c01.webp",
+          "alt": {
+            "en": "Foldable 2-cup pulp tray",
+            "es": "Bandeja plegable de pulpa para 2 vasos"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 417,
+          "height": 610
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Dimensiones según catálogo",
+            "en": "Catalog dimensions"
+          },
+          "value": {
+            "es": "220 x 110 mm",
+            "en": "220 x 110 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Presentación",
+            "en": "Packing"
+          },
+          "value": {
+            "es": "600 piezas/caja",
+            "en": "600 pcs/carton"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-01",
+          "page": 11,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-01",
+          "page": 22,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": false,
+      "materialEvidence": "Pulp source does not identify sugarcane."
+    },
+    {
+      "candidateGroup": "pulp-unconfirmed",
+      "id": "pdf-01-p11-c02",
+      "title": {
+        "en": "4-cup pulp tray",
+        "es": "Bandeja de pulpa para 4 vasos"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "placeholder": false,
+          "src": "/images/products/pdf-01-p11-c02.webp",
+          "alt": {
+            "en": "4-cup pulp tray",
+            "es": "Bandeja de pulpa para 4 vasos"
+          },
+          "ratio": 1,
+          "fit": "contain",
+          "width": 416,
+          "height": 610
+        }
+      ],
+      "specifications": [
+        {
+          "label": {
+            "es": "Dimensiones según catálogo",
+            "en": "Catalog dimensions"
+          },
+          "value": {
+            "es": "215 x 215 mm",
+            "en": "215 x 215 mm"
+          }
+        },
+        {
+          "label": {
+            "es": "Presentación",
+            "en": "Packing"
+          },
+          "value": {
+            "es": "600 piezas/caja",
+            "en": "600 pcs/carton"
+          }
+        },
+        {
+          "label": {
+            "es": "Material",
+            "en": "Material"
+          },
+          "value": {
+            "es": "Papel",
+            "en": "Paper"
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "sourceId": "pdf-01",
+          "page": 11,
+          "language": "en"
+        },
+        {
+          "sourceId": "pdf-01",
+          "page": 22,
+          "language": "es"
+        }
+      ],
+      "eligibleForRequestedCategory": false,
+      "materialEvidence": "Pulp source does not identify sugarcane."
+    }
+  ],
+  "excluded": "Kraft bags, sleeves and cup carriers are not tableware; PP containers excluded. PLA is not automatically corn starch. Virgin pulp is not automatically sugarcane. PE-coated kraft containers are not claimed plastic-free or compostable.",
+  "imagePolicy": "Candidates reuse existing source images; no new AI images. Before PDF assembly, group shared photographs and preserve factory variants. Do not duplicate photos across product cards."
+}

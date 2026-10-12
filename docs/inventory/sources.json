@@ -534,5 +534,33 @@
       "pdf-25"
     ],
     "languagePairPolicy": "Same-page EN/ES correspondence; code differences remain in language-ocr-conflicts.json."
+  },
+  {
+    "id": "sustainable-plantbased",
+    "path": "C:/Users/edmad/Downloads/SUSTAINABLE-Plantbased.pdf",
+    "relativePath": "SUSTAINABLE-Plantbased.pdf",
+    "sha256": "b6bfa3026968fcd6648885db66253db1300b1beff579c585eb5cf1abc6020e5d",
+    "pages": 28,
+    "textChars": 714,
+    "emptyPages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      24,
+      25,
+      27,
+      28
+    ],
+    "languageMode": "english-original-mostly-image-captions"
   }
 ]

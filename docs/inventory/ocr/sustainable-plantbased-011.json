@@ -1,0 +1,559 @@
+{
+  "sourceId": "sustainable-plantbased",
+  "page": 11,
+  "sourceSha256": "b6bfa3026968fcd6648885db66253db1300b1beff579c585eb5cf1abc6020e5d",
+  "width": 1190.550048828125,
+  "height": 807.8740234375,
+  "lines": [
+    {
+      "text": "SUGARCANE PULP MATERIAL",
+      "confidence": 0.9997,
+      "bbox": [
+        8.5,
+        14.46,
+        29.76,
+        228.76
+      ]
+    },
+    {
+      "text": "SUGARCANEI",
+      "confidence": 0.9497,
+      "bbox": [
+        1165.46,
+        16.58,
+        1178.22,
+        110.55
+      ]
+    },
+    {
+      "text": "STRAW",
+      "confidence": 1.0,
+      "bbox": [
+        635.24,
+        55.7,
+        731.34,
+        83.76
+      ]
+    },
+    {
+      "text": "PULP MATERIAL",
+      "confidence": 0.9691,
+      "bbox": [
+        1165.46,
+        104.17,
+        1178.22,
+        219.83
+      ]
+    },
+    {
+      "text": "A0601001",
+      "confidence": 0.9999,
+      "bbox": [
+        637.37,
+        144.14,
+        693.5,
+        158.17
+      ]
+    },
+    {
+      "text": "3 layers",
+      "confidence": 0.9988,
+      "bbox": [
+        696.05,
+        150.09,
+        720.28,
+        159.02
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        697.75,
+        143.72,
+        719.01,
+        151.37
+      ]
+    },
+    {
+      "text": "A0601002",
+      "confidence": 1.0,
+      "bbox": [
+        895.89,
+        145.42,
+        949.46,
+        157.32
+      ]
+    },
+    {
+      "text": "3 layers",
+      "confidence": 0.9997,
+      "bbox": [
+        952.87,
+        149.24,
+        976.68,
+        158.17
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        953.72,
+        143.29,
+        975.4,
+        150.52
+      ]
+    },
+    {
+      "text": "Description:paper straw",
+      "confidence": 0.9999,
+      "bbox": [
+        637.37,
+        163.7,
+        726.24,
+        173.91
+      ]
+    },
+    {
+      "text": "Description:packaged paper straw",
+      "confidence": 1.0,
+      "bbox": [
+        894.19,
+        162.85,
+        1021.32,
+        174.33
+      ]
+    },
+    {
+      "text": "Specification:6*197mm",
+      "confidence": 1.0,
+      "bbox": [
+        636.52,
+        172.63,
+        723.68,
+        183.68
+      ]
+    },
+    {
+      "text": "Specification:6*197mm",
+      "confidence": 1.0,
+      "bbox": [
+        894.19,
+        173.48,
+        980.08,
+        183.26
+      ]
+    },
+    {
+      "text": "10000pcs/CTN",
+      "confidence": 0.9984,
+      "bbox": [
+        637.79,
+        182.83,
+        692.65,
+        192.61
+      ]
+    },
+    {
+      "text": "5000pcs/CTN",
+      "confidence": 0.9993,
+      "bbox": [
+        894.61,
+        182.83,
+        945.21,
+        192.61
+      ]
+    },
+    {
+      "text": "A0602001",
+      "confidence": 1.0,
+      "bbox": [
+        637.37,
+        317.62,
+        693.5,
+        330.38
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        697.75,
+        316.77,
+        719.43,
+        324.42
+      ]
+    },
+    {
+      "text": "A0602002",
+      "confidence": 1.0,
+      "bbox": [
+        894.61,
+        317.62,
+        949.89,
+        330.38
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        954.14,
+        316.77,
+        975.83,
+        324.42
+      ]
+    },
+    {
+      "text": "4 layers",
+      "confidence": 0.9949,
+      "bbox": [
+        697.32,
+        323.57,
+        719.86,
+        331.23
+      ]
+    },
+    {
+      "text": "4 layers",
+      "confidence": 0.9999,
+      "bbox": [
+        953.29,
+        323.57,
+        976.68,
+        331.23
+      ]
+    },
+    {
+      "text": "Description:sharp paper straw",
+      "confidence": 0.9983,
+      "bbox": [
+        636.94,
+        335.91,
+        748.77,
+        346.96
+      ]
+    },
+    {
+      "text": "Description:packaged paper straw",
+      "confidence": 0.9997,
+      "bbox": [
+        894.19,
+        335.48,
+        1020.9,
+        347.39
+      ]
+    },
+    {
+      "text": "Specification:12*230mm",
+      "confidence": 1.0,
+      "bbox": [
+        637.37,
+        346.54,
+        727.09,
+        356.31
+      ]
+    },
+    {
+      "text": "Specification:12*230mm",
+      "confidence": 1.0,
+      "bbox": [
+        894.19,
+        346.54,
+        984.33,
+        356.31
+      ]
+    },
+    {
+      "text": "2000pcs/CTN",
+      "confidence": 0.9993,
+      "bbox": [
+        637.37,
+        355.89,
+        688.39,
+        366.09
+      ]
+    },
+    {
+      "text": "2000pcs/CTN",
+      "confidence": 0.9984,
+      "bbox": [
+        894.19,
+        355.89,
+        945.21,
+        365.67
+      ]
+    },
+    {
+      "text": "B0801001",
+      "confidence": 0.9999,
+      "bbox": [
+        637.37,
+        490.68,
+        693.92,
+        505.13
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        698.17,
+        489.83,
+        719.01,
+        497.48
+      ]
+    },
+    {
+      "text": "0.7 g",
+      "confidence": 0.9846,
+      "bbox": [
+        700.3,
+        495.35,
+        716.88,
+        505.56
+      ]
+    },
+    {
+      "text": "B0801002",
+      "confidence": 0.9999,
+      "bbox": [
+        895.04,
+        491.53,
+        950.31,
+        504.71
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        954.57,
+        489.83,
+        975.83,
+        497.48
+      ]
+    },
+    {
+      "text": "0.85 g",
+      "confidence": 0.9934,
+      "bbox": [
+        955.42,
+        497.05,
+        974.55,
+        504.71
+      ]
+    },
+    {
+      "text": "Description:sharp PLA straw(50°C)",
+      "confidence": 0.9978,
+      "bbox": [
+        636.52,
+        508.96,
+        761.1,
+        520.44
+      ]
+    },
+    {
+      "text": "Description:sharp PLA straw(80°C)",
+      "confidence": 0.9853,
+      "bbox": [
+        894.19,
+        509.81,
+        1017.07,
+        519.59
+      ]
+    },
+    {
+      "text": "Specification:6*190mm",
+      "confidence": 1.0,
+      "bbox": [
+        636.94,
+        519.16,
+        723.26,
+        529.37
+      ]
+    },
+    {
+      "text": "Specification:6*190mm",
+      "confidence": 1.0,
+      "bbox": [
+        894.19,
+        519.16,
+        980.5,
+        529.37
+      ]
+    },
+    {
+      "text": "3000pcs/CTN",
+      "confidence": 0.9993,
+      "bbox": [
+        637.37,
+        529.37,
+        687.97,
+        539.15
+      ]
+    },
+    {
+      "text": "3000pcs/CTN",
+      "confidence": 0.9996,
+      "bbox": [
+        894.61,
+        529.37,
+        944.79,
+        539.15
+      ]
+    },
+    {
+      "text": "B0801003",
+      "confidence": 0.9998,
+      "bbox": [
+        638.22,
+        664.58,
+        693.92,
+        677.76
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        697.75,
+        662.88,
+        719.01,
+        670.53
+      ]
+    },
+    {
+      "text": "B0801004",
+      "confidence": 0.9999,
+      "bbox": [
+        895.04,
+        664.58,
+        950.74,
+        677.76
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        954.14,
+        662.88,
+        975.83,
+        670.53
+      ]
+    },
+    {
+      "text": "2g",
+      "confidence": 0.9994,
+      "bbox": [
+        703.7,
+        670.11,
+        713.48,
+        678.61
+      ]
+    },
+    {
+      "text": "2.3g",
+      "confidence": 1.0,
+      "bbox": [
+        957.54,
+        670.11,
+        972.42,
+        678.19
+      ]
+    },
+    {
+      "text": "Page 2",
+      "confidence": 0.9956,
+      "bbox": [
+        97.37,
+        675.64,
+        134.36,
+        703.7
+      ]
+    },
+    {
+      "text": "Description:sharp PLA straw(50°C)",
+      "confidence": 0.998,
+      "bbox": [
+        637.37,
+        682.87,
+        761.1,
+        693.92
+      ]
+    },
+    {
+      "text": "Description:sharp PLA straw(80°C)",
+      "confidence": 0.9844,
+      "bbox": [
+        894.61,
+        682.44,
+        1017.92,
+        693.92
+      ]
+    },
+    {
+      "text": "Specification:12*230mm",
+      "confidence": 0.9986,
+      "bbox": [
+        636.94,
+        691.79,
+        727.51,
+        702.85
+      ]
+    },
+    {
+      "text": "Specification:12*230mm",
+      "confidence": 1.0,
+      "bbox": [
+        894.19,
+        691.79,
+        984.75,
+        702.85
+      ]
+    },
+    {
+      "text": "2000pcs/CTN",
+      "confidence": 0.9983,
+      "bbox": [
+        637.37,
+        702.42,
+        687.97,
+        712.2
+      ]
+    },
+    {
+      "text": "2000pcs/CTN",
+      "confidence": 0.9986,
+      "bbox": [
+        894.61,
+        702.42,
+        944.79,
+        712.2
+      ]
+    },
+    {
+      "text": "aceesuis",
+      "confidence": 0.7492,
+      "bbox": [
+        73.13,
+        722.41,
+        106.3,
+        745.37
+      ]
+    },
+    {
+      "text": "um",
+      "confidence": 0.5646,
+      "bbox": [
+        2.13,
+        781.09,
+        16.16,
+        791.72
+      ]
+    }
+  ]
+}

@@ -1,0 +1,629 @@
+{
+  "sourceId": "sustainable-plantbased",
+  "page": 6,
+  "sourceSha256": "b6bfa3026968fcd6648885db66253db1300b1beff579c585eb5cf1abc6020e5d",
+  "width": 1190.550048828125,
+  "height": 807.8740234375,
+  "lines": [
+    {
+      "text": "SUGARCANE PULP MATERIAL",
+      "confidence": 0.9976,
+      "bbox": [
+        10.2,
+        7.65,
+        31.04,
+        221.95
+      ]
+    },
+    {
+      "text": "SUGARCANE PULP MATERIAL",
+      "confidence": 0.9993,
+      "bbox": [
+        1164.19,
+        8.93,
+        1179.49,
+        217.28
+      ]
+    },
+    {
+      "text": "BOWL",
+      "confidence": 1.0,
+      "bbox": [
+        641.62,
+        36.57,
+        723.26,
+        66.76
+      ]
+    },
+    {
+      "text": "A0102001",
+      "confidence": 0.9999,
+      "bbox": [
+        646.72,
+        88.44,
+        702.85,
+        102.05
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        703.7,
+        87.59,
+        724.96,
+        95.67
+      ]
+    },
+    {
+      "text": "6g",
+      "confidence": 0.9997,
+      "bbox": [
+        709.65,
+        94.82,
+        719.43,
+        103.32
+      ]
+    },
+    {
+      "text": "A0102002",
+      "confidence": 1.0,
+      "bbox": [
+        899.72,
+        96.94,
+        955.84,
+        110.13
+      ]
+    },
+    {
+      "text": "weight  weight",
+      "confidence": 0.9523,
+      "bbox": [
+        955.84,
+        94.82,
+        1004.31,
+        104.6
+      ]
+    },
+    {
+      "text": "Description:270ml round bowl",
+      "confidence": 0.9996,
+      "bbox": [
+        645.45,
+        106.72,
+        756.85,
+        116.5
+      ]
+    },
+    {
+      "text": "8g",
+      "confidence": 0.9999,
+      "bbox": [
+        962.64,
+        103.32,
+        972.85,
+        110.98
+      ]
+    },
+    {
+      "text": "6g",
+      "confidence": 0.9996,
+      "bbox": [
+        987.73,
+        103.32,
+        997.09,
+        110.55
+      ]
+    },
+    {
+      "text": "Specification:114*44mm",
+      "confidence": 0.998,
+      "bbox": [
+        645.45,
+        115.65,
+        736.02,
+        126.71
+      ]
+    },
+    {
+      "text": "Description:350ml round bowl",
+      "confidence": 0.9987,
+      "bbox": [
+        899.72,
+        114.8,
+        1010.69,
+        124.58
+      ]
+    },
+    {
+      "text": "1000pcs/CTN",
+      "confidence": 0.9996,
+      "bbox": [
+        646.3,
+        126.28,
+        696.9,
+        136.06
+      ]
+    },
+    {
+      "text": "Specification:135*48mm",
+      "confidence": 1.0,
+      "bbox": [
+        899.72,
+        124.58,
+        989.86,
+        134.36
+      ]
+    },
+    {
+      "text": "Lid specification:142*27mm",
+      "confidence": 1.0,
+      "bbox": [
+        898.87,
+        133.51,
+        1001.34,
+        144.57
+      ]
+    },
+    {
+      "text": "1000pcs/CTN",
+      "confidence": 0.9996,
+      "bbox": [
+        899.72,
+        143.29,
+        950.31,
+        153.5
+      ]
+    },
+    {
+      "text": "A0102007",
+      "confidence": 1.0,
+      "bbox": [
+        645.87,
+        224.08,
+        703.27,
+        238.54
+      ]
+    },
+    {
+      "text": "weight weight",
+      "confidence": 0.9803,
+      "bbox": [
+        704.55,
+        223.65,
+        751.75,
+        232.16
+      ]
+    },
+    {
+      "text": "A0102003",
+      "confidence": 0.9999,
+      "bbox": [
+        898.87,
+        224.93,
+        954.57,
+        238.11
+      ]
+    },
+    {
+      "text": "weight weight",
+      "confidence": 0.9717,
+      "bbox": [
+        960.09,
+        222.8,
+        1007.72,
+        232.58
+      ]
+    },
+    {
+      "text": "10g",
+      "confidence": 0.9999,
+      "bbox": [
+        708.38,
+        231.31,
+        726.24,
+        240.24
+      ]
+    },
+    {
+      "text": "6g",
+      "confidence": 0.9995,
+      "bbox": [
+        734.74,
+        231.73,
+        745.79,
+        240.24
+      ]
+    },
+    {
+      "text": "13g",
+      "confidence": 1.0,
+      "bbox": [
+        965.2,
+        230.88,
+        978.38,
+        238.96
+      ]
+    },
+    {
+      "text": "7g",
+      "confidence": 0.9648,
+      "bbox": [
+        990.28,
+        229.61,
+        1002.19,
+        239.81
+      ]
+    },
+    {
+      "text": "Description:400ml round bowl",
+      "confidence": 0.9795,
+      "bbox": [
+        645.87,
+        242.79,
+        757.27,
+        252.57
+      ]
+    },
+    {
+      "text": "Description:500ml round bowl",
+      "confidence": 0.9986,
+      "bbox": [
+        898.44,
+        243.21,
+        1009.42,
+        252.99
+      ]
+    },
+    {
+      "text": "Specification:135*49mm",
+      "confidence": 1.0,
+      "bbox": [
+        645.87,
+        252.57,
+        736.02,
+        262.35
+      ]
+    },
+    {
+      "text": "Specification:155*58mm",
+      "confidence": 1.0,
+      "bbox": [
+        898.87,
+        253.42,
+        989.01,
+        263.2
+      ]
+    },
+    {
+      "text": "Lid specification:139*14mm",
+      "confidence": 1.0,
+      "bbox": [
+        645.45,
+        261.07,
+        747.5,
+        272.13
+      ]
+    },
+    {
+      "text": "Lid specification:160*27mm",
+      "confidence": 0.9985,
+      "bbox": [
+        898.44,
+        262.35,
+        1000.91,
+        273.4
+      ]
+    },
+    {
+      "text": "1000pcs/CTN",
+      "confidence": 0.9991,
+      "bbox": [
+        646.3,
+        271.28,
+        696.9,
+        281.91
+      ]
+    },
+    {
+      "text": "1000pcs/CTN",
+      "confidence": 0.9993,
+      "bbox": [
+        898.87,
+        272.13,
+        949.46,
+        282.76
+      ]
+    },
+    {
+      "text": "A0102004",
+      "confidence": 0.9764,
+      "bbox": [
+        647.15,
+        456.66,
+        702.85,
+        470.27
+      ]
+    },
+    {
+      "text": "weight weight",
+      "confidence": 0.9685,
+      "bbox": [
+        704.13,
+        455.81,
+        752.17,
+        465.59
+      ]
+    },
+    {
+      "text": "A0102005",
+      "confidence": 1.0,
+      "bbox": [
+        905.67,
+        456.66,
+        961.37,
+        470.27
+      ]
+    },
+    {
+      "text": "weightweight",
+      "confidence": 1.0,
+      "bbox": [
+        966.47,
+        454.96,
+        1014.09,
+        464.74
+      ]
+    },
+    {
+      "text": "20g",
+      "confidence": 1.0,
+      "bbox": [
+        708.38,
+        463.89,
+        723.26,
+        472.39
+      ]
+    },
+    {
+      "text": "20g",
+      "confidence": 0.9999,
+      "bbox": [
+        732.61,
+        463.89,
+        747.07,
+        472.39
+      ]
+    },
+    {
+      "text": "23g 20g",
+      "confidence": 0.976,
+      "bbox": [
+        970.3,
+        461.76,
+        1011.12,
+        473.24
+      ]
+    },
+    {
+      "text": "Description:750ml round bowl",
+      "confidence": 0.9997,
+      "bbox": [
+        646.3,
+        474.09,
+        758.13,
+        485.15
+      ]
+    },
+    {
+      "text": "Description:1000ml round bowl",
+      "confidence": 0.9989,
+      "bbox": [
+        905.67,
+        474.52,
+        1021.32,
+        485.57
+      ]
+    },
+    {
+      "text": "Specification:204*42mm",
+      "confidence": 1.0,
+      "bbox": [
+        646.72,
+        484.72,
+        737.29,
+        494.5
+      ]
+    },
+    {
+      "text": "Specification:204*59mm",
+      "confidence": 1.0,
+      "bbox": [
+        906.09,
+        484.72,
+        996.24,
+        494.5
+      ]
+    },
+    {
+      "text": "Lid specification:220*17mm",
+      "confidence": 1.0,
+      "bbox": [
+        646.72,
+        493.23,
+        749.2,
+        504.28
+      ]
+    },
+    {
+      "text": "Lid specification:220*17mm",
+      "confidence": 1.0,
+      "bbox": [
+        905.67,
+        493.65,
+        1008.14,
+        504.71
+      ]
+    },
+    {
+      "text": "500pcs/CTN",
+      "confidence": 0.9999,
+      "bbox": [
+        646.72,
+        503.43,
+        693.5,
+        513.64
+      ]
+    },
+    {
+      "text": "500pcs/CTN",
+      "confidence": 0.9999,
+      "bbox": [
+        905.67,
+        503.01,
+        951.59,
+        513.21
+      ]
+    },
+    {
+      "text": "A0102006",
+      "confidence": 1.0,
+      "bbox": [
+        647.15,
+        611.43,
+        702.42,
+        624.61
+      ]
+    },
+    {
+      "text": "weight  weight",
+      "confidence": 0.9539,
+      "bbox": [
+        703.27,
+        609.31,
+        750.47,
+        617.81
+      ]
+    },
+    {
+      "text": "26g  20g",
+      "confidence": 0.9438,
+      "bbox": [
+        706.25,
+        616.11,
+        746.64,
+        625.89
+      ]
+    },
+    {
+      "text": "A0102030",
+      "confidence": 1.0,
+      "bbox": [
+        906.52,
+        616.53,
+        962.64,
+        629.72
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        964.35,
+        617.39,
+        985.61,
+        625.04
+      ]
+    },
+    {
+      "text": "18g",
+      "confidence": 0.9999,
+      "bbox": [
+        968.6,
+        624.19,
+        981.35,
+        632.69
+      ]
+    },
+    {
+      "text": "Description:1200ml round bowl",
+      "confidence": 0.9992,
+      "bbox": [
+        647.15,
+        628.87,
+        762.38,
+        638.65
+      ]
+    },
+    {
+      "text": "Specification:195*75mm",
+      "confidence": 1.0,
+      "bbox": [
+        647.15,
+        638.65,
+        736.87,
+        648.42
+      ]
+    },
+    {
+      "text": "Description:30oz/40oz lid",
+      "confidence": 0.9903,
+      "bbox": [
+        906.09,
+        634.82,
+        1000.06,
+        644.6
+      ]
+    },
+    {
+      "text": "Lid specification:220*17mm",
+      "confidence": 1.0,
+      "bbox": [
+        646.3,
+        647.57,
+        749.2,
+        659.05
+      ]
+    },
+    {
+      "text": "Specification:210*22mm",
+      "confidence": 1.0,
+      "bbox": [
+        906.09,
+        644.6,
+        996.66,
+        654.8
+      ]
+    },
+    {
+      "text": "500pcs/CTN",
+      "confidence": 0.9996,
+      "bbox": [
+        646.72,
+        657.78,
+        693.5,
+        667.98
+      ]
+    },
+    {
+      "text": "500pcs/CTN",
+      "confidence": 0.9995,
+      "bbox": [
+        905.67,
+        654.38,
+        952.01,
+        664.58
+      ]
+    },
+    {
+      "text": "09",
+      "confidence": 0.9975,
+      "bbox": [
+        13.61,
+        768.33,
+        36.57,
+        795.54
+      ]
+    }
+  ]
+}

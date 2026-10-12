@@ -367,8 +367,11 @@ def author(cfg,items):
    if isinstance(v['code'],dict):v['code']=titles.get(v['code']['en'],v['code'])
  items=group_identical(group_reviewed_photos(items));assert items,cfg['id']
  # Allow larger tables to use a full row or page rather than dropping variants.
- chunks=[];chunk=[];used=0
+ chunks=[];chunk=[];used=0;section=None
  for r in items:
+  if cfg.get('sectioned') and section != r.get('sectionId'):
+   if chunk:chunks.append(chunk)
+   chunk=[];used=0;section=r.get('sectionId')
   r['details']=compact_details(r['details'])
   length=max(sum(namespace['get_para'](d[l],(W-27*MM)/2-6*MM,6.5,7.8)[1] for d in r['details']) for l in ['es','en'])
   titleheight=max(namespace['get_para'](r['name'][l],(W-27*MM)/2-6*MM,8,9.5,True)[1] for l in ['es','en'])
@@ -380,11 +383,14 @@ def author(cfg,items):
   if used+rows*2>8 and rows>1:chunks.append(chunk);chunk=[];used=0
   chunk.append((r,used,rows));used+=1 if rows==1 else rows*2
  if chunk:chunks.append(chunk)
- total=len(chunks)+1;outputs=[]
+ include_intro=cfg.get('includeIntro',True)
+ total=len(chunks)+int(include_intro);outputs=[]
  for lang in ['es','en']:
-  target=OUT/f"Lynx-Catalogo-{cfg['filename']}-{lang.upper()}.pdf";c=canvas.Canvas(str(target),pagesize=(W,H),pageCompression=1);c.setTitle('Lynx - '+cfg['title'][lang]);c.setAuthor('Lynx Packaging Solutions');background(c);cover(c,cfg,lang,total)
-  for page,chunk in enumerate(chunks,2):
-   frame(c,cfg,lang,page,total);gap=3*MM;left=12*MM;top=H-70*MM;cw=(W-24*MM-gap)/2;ch=(210*MM-3*gap)/4
+  target=OUT/f"Lynx-Catalogo-{cfg['filename']}-{lang.upper()}.pdf";c=canvas.Canvas(str(target),pagesize=(W,H),pageCompression=1);c.setTitle('Lynx - '+cfg['title'][lang]);c.setAuthor('Lynx Packaging Solutions');background(c)
+  if include_intro:cover(c,cfg,lang,total)
+  for page,chunk in enumerate(chunks,1+int(include_intro)):
+   frame_cfg={**cfg,'title':chunk[0][0]['sectionTitle']} if cfg.get('sectioned') else cfg
+   frame(c,frame_cfg,lang,page,total);gap=3*MM;left=12*MM;top=H-70*MM;cw=(W-24*MM-gap)/2;ch=(210*MM-3*gap)/4
    for r,slot,rows in chunk:
     wide=rows>1;x=left+(slot%2)*(cw+gap);width=2*cw+gap if wide else cw;height=rows*ch+(rows-1)*gap;y=top-(slot//2)*(ch+gap)-height
     c.setFillColor(NAVY);c.setStrokeColor(GOLD);c.setLineWidth(.55);c.rect(x,y,width,height,fill=1,stroke=1)

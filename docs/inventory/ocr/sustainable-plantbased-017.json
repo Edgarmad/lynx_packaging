@@ -1,0 +1,659 @@
+{
+  "sourceId": "sustainable-plantbased",
+  "page": 17,
+  "sourceSha256": "b6bfa3026968fcd6648885db66253db1300b1beff579c585eb5cf1abc6020e5d",
+  "width": 1190.550048828125,
+  "height": 807.8740234375,
+  "lines": [
+    {
+      "text": "KRAFT PAPER MATERIAL",
+      "confidence": 0.9989,
+      "bbox": [
+        11.91,
+        12.76,
+        24.66,
+        183.68
+      ]
+    },
+    {
+      "text": "KRAFT PAPER MATERIAL",
+      "confidence": 0.9994,
+      "bbox": [
+        1163.34,
+        11.91,
+        1178.22,
+        183.26
+      ]
+    },
+    {
+      "text": "PAPER CUP",
+      "confidence": 0.9995,
+      "bbox": [
+        76.11,
+        38.27,
+        221.95,
+        65.06
+      ]
+    },
+    {
+      "text": "A0502001",
+      "confidence": 1.0,
+      "bbox": [
+        276.8,
+        124.58,
+        343.56,
+        140.31
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9998,
+      "bbox": [
+        344.83,
+        123.31,
+        372.05,
+        133.51
+      ]
+    },
+    {
+      "text": "300g",
+      "confidence": 0.9999,
+      "bbox": [
+        348.66,
+        131.39,
+        368.22,
+        142.02
+      ]
+    },
+    {
+      "text": "Description:8oz paper cup",
+      "confidence": 0.9992,
+      "bbox": [
+        276.38,
+        156.9,
+        392.88,
+        170.5
+      ]
+    },
+    {
+      "text": "Specification:80*50*91mm 500pcs/CTN",
+      "confidence": 0.9999,
+      "bbox": [
+        276.38,
+        180.28,
+        448.16,
+        192.61
+      ]
+    },
+    {
+      "text": "A0502003",
+      "confidence": 1.0,
+      "bbox": [
+        276.38,
+        207.92,
+        344.41,
+        225.35
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9999,
+      "bbox": [
+        343.56,
+        207.92,
+        370.35,
+        218.98
+      ]
+    },
+    {
+      "text": "300g",
+      "confidence": 0.9999,
+      "bbox": [
+        346.54,
+        216.0,
+        366.52,
+        227.48
+      ]
+    },
+    {
+      "text": "Description:12oz paper cup",
+      "confidence": 0.9984,
+      "bbox": [
+        275.95,
+        241.51,
+        397.98,
+        254.69
+      ]
+    },
+    {
+      "text": "Specification:90*60*112mm 500pcs/CTN",
+      "confidence": 0.9904,
+      "bbox": [
+        276.38,
+        264.47,
+        455.81,
+        276.8
+      ]
+    },
+    {
+      "text": "A0502004",
+      "confidence": 1.0,
+      "bbox": [
+        276.38,
+        292.96,
+        343.98,
+        309.97
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9998,
+      "bbox": [
+        343.56,
+        292.11,
+        370.77,
+        302.31
+      ]
+    },
+    {
+      "text": "300g",
+      "confidence": 0.9999,
+      "bbox": [
+        346.96,
+        298.49,
+        367.37,
+        310.82
+      ]
+    },
+    {
+      "text": "A0300026",
+      "confidence": 1.0,
+      "bbox": [
+        633.97,
+        321.02,
+        693.5,
+        335.48
+      ]
+    },
+    {
+      "text": "A0300027",
+      "confidence": 0.9999,
+      "bbox": [
+        892.06,
+        321.02,
+        951.59,
+        335.48
+      ]
+    },
+    {
+      "text": "Description:16oz paper cup",
+      "confidence": 0.9998,
+      "bbox": [
+        276.38,
+        326.13,
+        397.98,
+        340.16
+      ]
+    },
+    {
+      "text": "Specification:90*57*135mm 500pcs/CTN",
+      "confidence": 0.9911,
+      "bbox": [
+        276.38,
+        349.51,
+        456.24,
+        361.84
+      ]
+    },
+    {
+      "text": "Description:4oz Single Wall Cup",
+      "confidence": 0.9999,
+      "bbox": [
+        633.97,
+        349.09,
+        775.56,
+        361.84
+      ]
+    },
+    {
+      "text": "Description:6oz Single Wall Cup",
+      "confidence": 0.9999,
+      "bbox": [
+        892.49,
+        349.09,
+        1033.65,
+        361.84
+      ]
+    },
+    {
+      "text": "Description:4oz Single Wall Cup",
+      "confidence": 0.9999,
+      "bbox": [
+        633.97,
+        369.07,
+        775.13,
+        381.83
+      ]
+    },
+    {
+      "text": "Specification:78*55*78mm 1000pcs/CTN",
+      "confidence": 0.9937,
+      "bbox": [
+        891.64,
+        369.07,
+        1074.47,
+        381.4
+      ]
+    },
+    {
+      "text": "A0300028",
+      "confidence": 1.0,
+      "bbox": [
+        633.97,
+        394.58,
+        693.5,
+        409.46
+      ]
+    },
+    {
+      "text": "A0300029",
+      "confidence": 0.9999,
+      "bbox": [
+        892.49,
+        394.58,
+        951.59,
+        409.46
+      ]
+    },
+    {
+      "text": "Description:7oz Single Wall Cup",
+      "confidence": 0.9998,
+      "bbox": [
+        633.97,
+        423.07,
+        775.13,
+        435.4
+      ]
+    },
+    {
+      "text": "Description:8oz Single Wall Cup",
+      "confidence": 0.9946,
+      "bbox": [
+        892.49,
+        423.07,
+        1033.65,
+        435.4
+      ]
+    },
+    {
+      "text": "Specification:73*50*78mm 1000pcs/CTN",
+      "confidence": 0.9967,
+      "bbox": [
+        633.97,
+        442.63,
+        816.38,
+        455.39
+      ]
+    },
+    {
+      "text": "Specification:80*56*91mm 1000pcs/CTN",
+      "confidence": 0.9955,
+      "bbox": [
+        892.49,
+        442.63,
+        1074.9,
+        455.39
+      ]
+    },
+    {
+      "text": "A0503001",
+      "confidence": 1.0,
+      "bbox": [
+        276.38,
+        460.49,
+        344.41,
+        477.92
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9999,
+      "bbox": [
+        345.26,
+        460.91,
+        372.05,
+        471.54
+      ]
+    },
+    {
+      "text": "300g",
+      "confidence": 1.0,
+      "bbox": [
+        348.24,
+        468.99,
+        368.22,
+        480.05
+      ]
+    },
+    {
+      "text": "A0300030",
+      "confidence": 0.9999,
+      "bbox": [
+        633.54,
+        468.14,
+        693.5,
+        483.87
+      ]
+    },
+    {
+      "text": "A0300031",
+      "confidence": 0.9999,
+      "bbox": [
+        892.49,
+        469.42,
+        952.01,
+        483.87
+      ]
+    },
+    {
+      "text": "Description:8oz Corrugated cup",
+      "confidence": 0.9922,
+      "bbox": [
+        277.23,
+        495.35,
+        415.42,
+        506.83
+      ]
+    },
+    {
+      "text": "Description:9oz Single Wall Cup",
+      "confidence": 0.9999,
+      "bbox": [
+        633.97,
+        497.05,
+        775.56,
+        509.81
+      ]
+    },
+    {
+      "text": "Description:10oz Single Wall Cup",
+      "confidence": 0.9996,
+      "bbox": [
+        892.49,
+        497.05,
+        1038.75,
+        509.81
+      ]
+    },
+    {
+      "text": "Specification:80*50*91mm 500pcs/CTN",
+      "confidence": 0.9954,
+      "bbox": [
+        276.38,
+        517.46,
+        450.71,
+        530.22
+      ]
+    },
+    {
+      "text": "Specification:76*53*95mm 1000pcs/CTN",
+      "confidence": 0.987,
+      "bbox": [
+        633.97,
+        517.04,
+        816.38,
+        530.22
+      ]
+    },
+    {
+      "text": "Specification:80*55*110mm 1000pcs/CTN",
+      "confidence": 0.9926,
+      "bbox": [
+        892.49,
+        517.04,
+        1080.0,
+        530.22
+      ]
+    },
+    {
+      "text": "A0503002",
+      "confidence": 1.0,
+      "bbox": [
+        276.8,
+        545.95,
+        344.41,
+        562.11
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9999,
+      "bbox": [
+        345.26,
+        545.1,
+        372.05,
+        555.31
+      ]
+    },
+    {
+      "text": "300g",
+      "confidence": 1.0,
+      "bbox": [
+        348.66,
+        552.76,
+        368.22,
+        563.81
+      ]
+    },
+    {
+      "text": "A0300032",
+      "confidence": 0.9999,
+      "bbox": [
+        633.97,
+        549.78,
+        693.92,
+        564.24
+      ]
+    },
+    {
+      "text": "A0300033",
+      "confidence": 0.9999,
+      "bbox": [
+        892.49,
+        549.78,
+        952.01,
+        564.24
+      ]
+    },
+    {
+      "text": "Description:12oz Corrugated cup",
+      "confidence": 1.0,
+      "bbox": [
+        276.38,
+        579.12,
+        420.09,
+        591.87
+      ]
+    },
+    {
+      "text": "Description:12oz Single Wall Cup",
+      "confidence": 0.9999,
+      "bbox": [
+        633.97,
+        577.42,
+        780.24,
+        589.75
+      ]
+    },
+    {
+      "text": "Description:4oz Double Wall Cup",
+      "confidence": 0.9999,
+      "bbox": [
+        892.49,
+        577.42,
+        1038.33,
+        590.17
+      ]
+    },
+    {
+      "text": "Specification:90*59*110mm 1000pcs/CTN",
+      "confidence": 0.9941,
+      "bbox": [
+        633.97,
+        597.4,
+        821.9,
+        610.16
+      ]
+    },
+    {
+      "text": "Specification:60*45*59mm 1000pcs/CTN",
+      "confidence": 0.9929,
+      "bbox": [
+        892.06,
+        596.98,
+        1075.32,
+        610.16
+      ]
+    },
+    {
+      "text": "Specification:90*60*112mm 500pcs/CTN",
+      "confidence": 0.9915,
+      "bbox": [
+        276.38,
+        602.08,
+        456.24,
+        614.41
+      ]
+    },
+    {
+      "text": "A0300034",
+      "confidence": 1.0,
+      "bbox": [
+        634.39,
+        622.91,
+        693.5,
+        638.22
+      ]
+    },
+    {
+      "text": "A0300035",
+      "confidence": 0.9999,
+      "bbox": [
+        892.49,
+        622.91,
+        952.01,
+        637.79
+      ]
+    },
+    {
+      "text": "A0503003",
+      "confidence": 1.0,
+      "bbox": [
+        274.68,
+        630.57,
+        341.86,
+        646.72
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9998,
+      "bbox": [
+        342.28,
+        628.87,
+        369.92,
+        639.5
+      ]
+    },
+    {
+      "text": "300g",
+      "confidence": 0.9999,
+      "bbox": [
+        346.54,
+        636.94,
+        366.09,
+        647.57
+      ]
+    },
+    {
+      "text": "Description:8oz Double Wall Cup",
+      "confidence": 0.9999,
+      "bbox": [
+        633.97,
+        651.4,
+        780.24,
+        664.58
+      ]
+    },
+    {
+      "text": "Description:12oz Double Wall Cup",
+      "confidence": 0.9819,
+      "bbox": [
+        892.06,
+        650.98,
+        1042.58,
+        663.73
+      ]
+    },
+    {
+      "text": "Description:16oz Corrugated cup",
+      "confidence": 1.0,
+      "bbox": [
+        274.25,
+        663.73,
+        417.97,
+        676.91
+      ]
+    },
+    {
+      "text": "Specification:80*56*91mm 500pcs/CTN",
+      "confidence": 0.994,
+      "bbox": [
+        633.97,
+        671.39,
+        811.27,
+        683.72
+      ]
+    },
+    {
+      "text": "Specification:90*60*112mm 500pcs/CTN",
+      "confidence": 0.9899,
+      "bbox": [
+        892.06,
+        672.66,
+        1048.96,
+        683.72
+      ]
+    },
+    {
+      "text": "Specification:90*57*135mm 500pcs/CTN",
+      "confidence": 0.9887,
+      "bbox": [
+        273.83,
+        686.27,
+        453.68,
+        699.45
+      ]
+    },
+    {
+      "text": "35",
+      "confidence": 1.0,
+      "bbox": [
+        15.31,
+        770.88,
+        35.29,
+        789.16
+      ]
+    },
+    {
+      "text": "36",
+      "confidence": 1.0,
+      "bbox": [
+        1154.83,
+        770.88,
+        1175.24,
+        789.59
+      ]
+    }
+  ]
+}

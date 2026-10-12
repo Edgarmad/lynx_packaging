@@ -1,0 +1,889 @@
+{
+  "sourceId": "sustainable-plantbased",
+  "page": 4,
+  "sourceSha256": "b6bfa3026968fcd6648885db66253db1300b1beff579c585eb5cf1abc6020e5d",
+  "width": 1190.550048828125,
+  "height": 807.8740234375,
+  "lines": [
+    {
+      "text": "SUGARCANE PULP MATERIAL",
+      "confidence": 0.9996,
+      "bbox": [
+        11.91,
+        9.35,
+        27.21,
+        214.3
+      ]
+    },
+    {
+      "text": "SUGARCANE PULP MATERIAL",
+      "confidence": 0.9994,
+      "bbox": [
+        1164.19,
+        8.93,
+        1179.49,
+        215.57
+      ]
+    },
+    {
+      "text": "RIPPLED EDGE DESIGN PLATE",
+      "confidence": 0.9816,
+      "bbox": [
+        625.46,
+        39.54,
+        964.35,
+        62.08
+      ]
+    },
+    {
+      "text": "A0104023",
+      "confidence": 1.0,
+      "bbox": [
+        645.45,
+        165.4,
+        699.02,
+        178.16
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 0.9992,
+      "bbox": [
+        699.45,
+        164.55,
+        719.86,
+        172.2
+      ]
+    },
+    {
+      "text": "A0104002",
+      "confidence": 1.0,
+      "bbox": [
+        787.89,
+        165.4,
+        843.16,
+        178.16
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        843.59,
+        164.55,
+        864.42,
+        172.2
+      ]
+    },
+    {
+      "text": "A0104024",
+      "confidence": 1.0,
+      "bbox": [
+        922.68,
+        165.4,
+        976.68,
+        178.16
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        977.1,
+        164.55,
+        998.36,
+        172.2
+      ]
+    },
+    {
+      "text": "5g",
+      "confidence": 0.9998,
+      "bbox": [
+        704.98,
+        171.35,
+        714.33,
+        179.86
+      ]
+    },
+    {
+      "text": "7g",
+      "confidence": 0.9994,
+      "bbox": [
+        848.69,
+        171.35,
+        858.9,
+        179.86
+      ]
+    },
+    {
+      "text": "10g",
+      "confidence": 1.0,
+      "bbox": [
+        981.78,
+        171.35,
+        994.53,
+        179.43
+      ]
+    },
+    {
+      "text": "Description:6 inch ripped plate",
+      "confidence": 0.9924,
+      "bbox": [
+        644.6,
+        181.56,
+        768.76,
+        192.61
+      ]
+    },
+    {
+      "text": "Description:7 inch ripped plate",
+      "confidence": 0.995,
+      "bbox": [
+        786.61,
+        181.56,
+        911.2,
+        192.61
+      ]
+    },
+    {
+      "text": "Description:8 inch ripped plate",
+      "confidence": 0.9976,
+      "bbox": [
+        921.83,
+        181.56,
+        1045.98,
+        192.61
+      ]
+    },
+    {
+      "text": "Specification:φ150mm",
+      "confidence": 0.9925,
+      "bbox": [
+        645.02,
+        193.04,
+        737.29,
+        202.82
+      ]
+    },
+    {
+      "text": "Specification:φ180mm",
+      "confidence": 0.9932,
+      "bbox": [
+        786.61,
+        192.19,
+        879.73,
+        203.24
+      ]
+    },
+    {
+      "text": "Specification:φ205mm",
+      "confidence": 0.9872,
+      "bbox": [
+        922.25,
+        193.04,
+        1014.09,
+        202.82
+      ]
+    },
+    {
+      "text": "1000pcs/CTN",
+      "confidence": 0.9985,
+      "bbox": [
+        645.45,
+        203.24,
+        700.3,
+        213.45
+      ]
+    },
+    {
+      "text": "1000pcs/CTN",
+      "confidence": 0.9989,
+      "bbox": [
+        787.46,
+        203.24,
+        842.31,
+        213.45
+      ]
+    },
+    {
+      "text": "1000pcs/CTN",
+      "confidence": 0.9987,
+      "bbox": [
+        922.68,
+        203.24,
+        977.53,
+        213.45
+      ]
+    },
+    {
+      "text": "ROUND PLATE",
+      "confidence": 0.9599,
+      "bbox": [
+        627.16,
+        230.03,
+        794.69,
+        253.84
+      ]
+    },
+    {
+      "text": "A0104013",
+      "confidence": 1.0,
+      "bbox": [
+        643.32,
+        361.84,
+        698.17,
+        374.6
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 0.9925,
+      "bbox": [
+        699.45,
+        360.99,
+        719.86,
+        368.65
+      ]
+    },
+    {
+      "text": "6g",
+      "confidence": 0.9998,
+      "bbox": [
+        705.4,
+        368.22,
+        713.9,
+        375.45
+      ]
+    },
+    {
+      "text": "A0104017",
+      "confidence": 1.0,
+      "bbox": [
+        772.16,
+        359.72,
+        827.86,
+        373.32
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        827.43,
+        359.29,
+        848.27,
+        366.94
+      ]
+    },
+    {
+      "text": "8g",
+      "confidence": 0.9998,
+      "bbox": [
+        832.53,
+        366.09,
+        842.74,
+        374.6
+      ]
+    },
+    {
+      "text": "A0104005",
+      "confidence": 1.0,
+      "bbox": [
+        910.77,
+        361.84,
+        965.62,
+        374.6
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        965.62,
+        360.99,
+        986.88,
+        368.65
+      ]
+    },
+    {
+      "text": "66",
+      "confidence": 0.8485,
+      "bbox": [
+        972.0,
+        368.22,
+        980.93,
+        375.45
+      ]
+    },
+    {
+      "text": "A0104014",
+      "confidence": 1.0,
+      "bbox": [
+        1039.61,
+        362.69,
+        1091.9,
+        372.9
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        1093.61,
+        361.42,
+        1115.29,
+        369.07
+      ]
+    },
+    {
+      "text": "12g",
+      "confidence": 0.9999,
+      "bbox": [
+        1097.43,
+        367.79,
+        1110.61,
+        376.3
+      ]
+    },
+    {
+      "text": "Description:6 inch round plate",
+      "confidence": 0.9917,
+      "bbox": [
+        643.32,
+        380.13,
+        751.75,
+        389.91
+      ]
+    },
+    {
+      "text": "Description:6.75 inch round plate",
+      "confidence": 0.9908,
+      "bbox": [
+        772.16,
+        378.85,
+        890.36,
+        388.63
+      ]
+    },
+    {
+      "text": "Description:7 inch round plate",
+      "confidence": 0.9998,
+      "bbox": [
+        910.77,
+        378.85,
+        1018.77,
+        388.63
+      ]
+    },
+    {
+      "text": "Description:8 inch round plate",
+      "confidence": 0.9997,
+      "bbox": [
+        1038.75,
+        378.85,
+        1147.61,
+        388.63
+      ]
+    },
+    {
+      "text": "Specification:154*14mm",
+      "confidence": 1.0,
+      "bbox": [
+        643.32,
+        389.48,
+        731.76,
+        399.26
+      ]
+    },
+    {
+      "text": "Specification:175*15.8mm",
+      "confidence": 1.0,
+      "bbox": [
+        771.73,
+        388.2,
+        866.13,
+        397.98
+      ]
+    },
+    {
+      "text": "Specification:180*18mm",
+      "confidence": 1.0,
+      "bbox": [
+        910.35,
+        388.2,
+        998.79,
+        397.98
+      ]
+    },
+    {
+      "text": "Specification:220*19mm",
+      "confidence": 1.0,
+      "bbox": [
+        1038.75,
+        388.2,
+        1127.62,
+        397.98
+      ]
+    },
+    {
+      "text": "500pcs/CTN",
+      "confidence": 0.9996,
+      "bbox": [
+        643.32,
+        399.26,
+        688.82,
+        409.46
+      ]
+    },
+    {
+      "text": "600pcs/CTN",
+      "confidence": 0.9996,
+      "bbox": [
+        772.16,
+        397.56,
+        817.65,
+        407.76
+      ]
+    },
+    {
+      "text": "1000pcs/CTN",
+      "confidence": 0.9997,
+      "bbox": [
+        910.77,
+        397.56,
+        960.52,
+        407.76
+      ]
+    },
+    {
+      "text": "500pcs/CTN",
+      "confidence": 0.9997,
+      "bbox": [
+        1038.75,
+        397.13,
+        1084.25,
+        407.76
+      ]
+    },
+    {
+      "text": "A0104016",
+      "confidence": 1.0,
+      "bbox": [
+        640.77,
+        505.13,
+        694.77,
+        517.89
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        694.35,
+        503.01,
+        717.73,
+        513.21
+      ]
+    },
+    {
+      "text": "A0104006",
+      "confidence": 0.999,
+      "bbox": [
+        778.11,
+        504.28,
+        832.11,
+        517.04
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        835.51,
+        503.01,
+        856.35,
+        510.66
+      ]
+    },
+    {
+      "text": "A0104008",
+      "confidence": 1.0,
+      "bbox": [
+        904.82,
+        504.28,
+        958.82,
+        517.04
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        960.09,
+        503.01,
+        981.78,
+        510.66
+      ]
+    },
+    {
+      "text": "A0104038",
+      "confidence": 1.0,
+      "bbox": [
+        1031.95,
+        504.28,
+        1084.25,
+        515.76
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        1086.8,
+        502.58,
+        1108.91,
+        511.51
+      ]
+    },
+    {
+      "text": "15g",
+      "confidence": 1.0,
+      "bbox": [
+        699.87,
+        510.66,
+        712.63,
+        518.74
+      ]
+    },
+    {
+      "text": "15g",
+      "confidence": 1.0,
+      "bbox": [
+        839.76,
+        509.81,
+        852.52,
+        518.31
+      ]
+    },
+    {
+      "text": "20g",
+      "confidence": 0.9999,
+      "bbox": [
+        964.35,
+        509.81,
+        977.53,
+        517.89
+      ]
+    },
+    {
+      "text": "29g",
+      "confidence": 0.9999,
+      "bbox": [
+        1091.48,
+        509.81,
+        1104.66,
+        517.89
+      ]
+    },
+    {
+      "text": "Description:8.86 inch round plate",
+      "confidence": 0.9994,
+      "bbox": [
+        640.35,
+        522.57,
+        759.4,
+        532.77
+      ]
+    },
+    {
+      "text": "Description:9 inch round plate",
+      "confidence": 0.9858,
+      "bbox": [
+        777.68,
+        522.57,
+        886.11,
+        532.77
+      ]
+    },
+    {
+      "text": "Description:10 inch round plate",
+      "confidence": 0.9999,
+      "bbox": [
+        904.39,
+        522.57,
+        1016.22,
+        532.77
+      ]
+    },
+    {
+      "text": "Description:1100ml round plate",
+      "confidence": 0.9959,
+      "bbox": [
+        1030.68,
+        522.14,
+        1144.2,
+        532.35
+      ]
+    },
+    {
+      "text": "Specification:225*19.5mm",
+      "confidence": 1.0,
+      "bbox": [
+        640.35,
+        532.35,
+        735.16,
+        542.13
+      ]
+    },
+    {
+      "text": "Specification:230*20.6mm",
+      "confidence": 1.0,
+      "bbox": [
+        777.68,
+        532.35,
+        872.5,
+        542.13
+      ]
+    },
+    {
+      "text": "Specification:260*20.6mm",
+      "confidence": 1.0,
+      "bbox": [
+        903.97,
+        532.35,
+        999.21,
+        542.13
+      ]
+    },
+    {
+      "text": "Specification:253*30mm",
+      "confidence": 1.0,
+      "bbox": [
+        1031.1,
+        532.35,
+        1119.97,
+        542.13
+      ]
+    },
+    {
+      "text": "500pcs/CTN",
+      "confidence": 0.9984,
+      "bbox": [
+        639.92,
+        541.7,
+        685.84,
+        551.48
+      ]
+    },
+    {
+      "text": "500pcs/CTN",
+      "confidence": 0.9996,
+      "bbox": [
+        777.68,
+        541.28,
+        823.18,
+        551.48
+      ]
+    },
+    {
+      "text": "500pcs/CTN",
+      "confidence": 0.9995,
+      "bbox": [
+        903.97,
+        541.28,
+        949.46,
+        551.48
+      ]
+    },
+    {
+      "text": "228pcs/CTN",
+      "confidence": 0.9997,
+      "bbox": [
+        1031.1,
+        541.28,
+        1077.02,
+        551.48
+      ]
+    },
+    {
+      "text": "A0104007",
+      "confidence": 1.0,
+      "bbox": [
+        645.45,
+        676.06,
+        701.57,
+        690.09
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        702.0,
+        676.49,
+        722.83,
+        684.14
+      ]
+    },
+    {
+      "text": "A0104009",
+      "confidence": 1.0,
+      "bbox": [
+        807.45,
+        676.91,
+        862.72,
+        690.09
+      ]
+    },
+    {
+      "text": "weight",
+      "confidence": 1.0,
+      "bbox": [
+        863.57,
+        676.06,
+        885.26,
+        683.72
+      ]
+    },
+    {
+      "text": "15g",
+      "confidence": 1.0,
+      "bbox": [
+        706.25,
+        683.29,
+        719.01,
+        691.37
+      ]
+    },
+    {
+      "text": "20g",
+      "confidence": 1.0,
+      "bbox": [
+        867.4,
+        682.87,
+        881.01,
+        690.94
+      ]
+    },
+    {
+      "text": "Description:",
+      "confidence": 0.9999,
+      "bbox": [
+        661.18,
+        690.94,
+        707.1,
+        701.57
+      ]
+    },
+    {
+      "text": "Description:",
+      "confidence": 1.0,
+      "bbox": [
+        823.61,
+        696.05,
+        868.25,
+        705.83
+      ]
+    },
+    {
+      "text": "9(8.86) inch 3-compartment",
+      "confidence": 0.9945,
+      "bbox": [
+        633.12,
+        700.3,
+        735.16,
+        711.35
+      ]
+    },
+    {
+      "text": "10 inch 3-compartment",
+      "confidence": 0.9572,
+      "bbox": [
+        803.2,
+        704.55,
+        889.09,
+        715.61
+      ]
+    },
+    {
+      "text": "round plate:",
+      "confidence": 0.9906,
+      "bbox": [
+        658.63,
+        710.93,
+        704.98,
+        719.86
+      ]
+    },
+    {
+      "text": "round plate:",
+      "confidence": 0.9999,
+      "bbox": [
+        820.2,
+        714.76,
+        867.83,
+        724.96
+      ]
+    },
+    {
+      "text": "Specification:225*20mm",
+      "confidence": 1.0,
+      "bbox": [
+        639.5,
+        719.86,
+        727.94,
+        729.64
+      ]
+    },
+    {
+      "text": "260*20.6mm",
+      "confidence": 1.0,
+      "bbox": [
+        821.9,
+        722.83,
+        869.95,
+        734.31
+      ]
+    },
+    {
+      "text": "500pcs/CTN",
+      "confidence": 0.9997,
+      "bbox": [
+        661.61,
+        729.21,
+        707.1,
+        738.99
+      ]
+    },
+    {
+      "text": "500pcs/CTN",
+      "confidence": 0.9991,
+      "bbox": [
+        823.18,
+        733.46,
+        869.1,
+        743.67
+      ]
+    },
+    {
+      "text": "05",
+      "confidence": 0.9999,
+      "bbox": [
+        17.43,
+        772.58,
+        34.44,
+        787.46
+      ]
+    },
+    {
+      "text": "06",
+      "confidence": 0.9997,
+      "bbox": [
+        1157.38,
+        773.01,
+        1174.39,
+        787.89
+      ]
+    }
+  ]
+}

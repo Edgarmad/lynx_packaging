@@ -1,0 +1,43 @@
+{
+  "updatedAt": "2026-10-12",
+  "group": {
+    "es": "Vajilla sostenible a base de plantas",
+    "en": "Sustainable plant-based tableware"
+  },
+  "sections": [
+    {
+      "id": "sugarcane-pulp",
+      "title": {
+        "es": "Vajilla de bagazo o pulpa de caña",
+        "en": "Sugarcane pulp tableware"
+      }
+    },
+    {
+      "id": "corn-starch",
+      "title": {
+        "es": "Vajilla de almidón de maíz",
+        "en": "Corn starch tableware"
+      }
+    },
+    {
+      "id": "kraft-paper",
+      "title": {
+        "es": "Vajilla de papel kraft",
+        "en": "Kraft paper tableware"
+      }
+    }
+  ],
+  "evidence": {
+    "chatDate": "2026-09-27",
+    "chatTime": "11:09:55",
+    "file": "docs/chat-review/TEXTOS-FUENTE.md",
+    "line": 223
+  },
+  "status": "superseded-by-user-supplied-source",
+  "expectedSource": "SUSTAINABLE-Plantbased.pdf (28 pages, mentioned in chat review)",
+  "currentPdfSource": "SUSTAINABLE-Plantbased.pdf",
+  "sourceMismatch": "Current PDF uses paper bags and retail packaging from a supplier brochure. It does not document the three tableware categories requested by Mila. Do not relabel those products as sugarcane or corn starch.",
+  "approvedDriveChecked": "https://drive.google.com/drive/folders/17q-zZFn7AN-yXiWMmEzhuhG1SR1D2KY9",
+  "nextStep": "Obtain the plant-based source PDF or its image folder; extract actual products, classify by documented material and regenerate separate ES/EN PDFs.",
+  "latestUserInstruction": "Forget prior classification; use supplied Sustainable source."
+}

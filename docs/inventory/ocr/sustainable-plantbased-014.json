@@ -1,0 +1,609 @@
+{
+  "sourceId": "sustainable-plantbased",
+  "page": 14,
+  "sourceSha256": "b6bfa3026968fcd6648885db66253db1300b1beff579c585eb5cf1abc6020e5d",
+  "width": 1190.550048828125,
+  "height": 807.8740234375,
+  "lines": [
+    {
+      "text": "PAPER TABLEWARE",
+      "confidence": 0.9994,
+      "bbox": [
+        12.33,
+        16.16,
+        25.09,
+        150.09
+      ]
+    },
+    {
+      "text": "PAPER TABLEWARE",
+      "confidence": 0.9996,
+      "bbox": [
+        1164.19,
+        15.31,
+        1179.49,
+        151.37
+      ]
+    },
+    {
+      "text": "CUTLERY",
+      "confidence": 1.0,
+      "bbox": [
+        56.98,
+        39.12,
+        177.31,
+        64.63
+      ]
+    },
+    {
+      "text": "A0201002",
+      "confidence": 1.0,
+      "bbox": [
+        251.72,
+        81.64,
+        302.74,
+        93.54
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9998,
+      "bbox": [
+        303.59,
+        80.36,
+        324.42,
+        87.59
+      ]
+    },
+    {
+      "text": "3.6g",
+      "confidence": 0.9998,
+      "bbox": [
+        305.72,
+        85.04,
+        321.02,
+        94.39
+      ]
+    },
+    {
+      "text": "Description:Paper Knife",
+      "confidence": 0.9999,
+      "bbox": [
+        252.14,
+        100.77,
+        341.86,
+        111.83
+      ]
+    },
+    {
+      "text": "Specification:158*26mm 3000pcs/CTN",
+      "confidence": 0.996,
+      "bbox": [
+        251.72,
+        116.93,
+        400.11,
+        127.98
+      ]
+    },
+    {
+      "text": "A0201001",
+      "confidence": 1.0,
+      "bbox": [
+        252.57,
+        139.04,
+        303.17,
+        149.24
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9999,
+      "bbox": [
+        303.17,
+        137.76,
+        324.42,
+        144.99
+      ]
+    },
+    {
+      "text": "2.7g",
+      "confidence": 0.9446,
+      "bbox": [
+        306.99,
+        143.29,
+        321.02,
+        151.37
+      ]
+    },
+    {
+      "text": "Description:Paper Knife",
+      "confidence": 0.9981,
+      "bbox": [
+        251.72,
+        157.75,
+        342.28,
+        168.8
+      ]
+    },
+    {
+      "text": "Specification:158*26mm 3000pcs/CTN",
+      "confidence": 0.9948,
+      "bbox": [
+        251.72,
+        173.91,
+        400.11,
+        184.96
+      ]
+    },
+    {
+      "text": "A0202002",
+      "confidence": 0.9999,
+      "bbox": [
+        251.72,
+        211.32,
+        302.31,
+        223.23
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.999,
+      "bbox": [
+        303.59,
+        210.47,
+        324.42,
+        218.55
+      ]
+    },
+    {
+      "text": "3.9g",
+      "confidence": 0.9999,
+      "bbox": [
+        306.57,
+        216.0,
+        321.02,
+        224.5
+      ]
+    },
+    {
+      "text": "Description:Paper Fork",
+      "confidence": 0.9999,
+      "bbox": [
+        252.14,
+        230.88,
+        339.31,
+        241.94
+      ]
+    },
+    {
+      "text": "Specification:158*31mm 3000pcs/CTN",
+      "confidence": 0.9806,
+      "bbox": [
+        252.14,
+        247.46,
+        399.68,
+        257.24
+      ]
+    },
+    {
+      "text": "A0202001",
+      "confidence": 0.9999,
+      "bbox": [
+        252.14,
+        268.3,
+        303.59,
+        280.2
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9999,
+      "bbox": [
+        303.59,
+        267.87,
+        324.42,
+        275.53
+      ]
+    },
+    {
+      "text": "3g",
+      "confidence": 0.9993,
+      "bbox": [
+        309.12,
+        273.4,
+        318.9,
+        282.33
+      ]
+    },
+    {
+      "text": "Description:Paper Fork",
+      "confidence": 1.0,
+      "bbox": [
+        251.29,
+        287.43,
+        339.31,
+        298.49
+      ]
+    },
+    {
+      "text": "Specification:158*31mm 3000pcs/CTN",
+      "confidence": 0.993,
+      "bbox": [
+        251.72,
+        304.02,
+        400.11,
+        315.07
+      ]
+    },
+    {
+      "text": "A0203003",
+      "confidence": 0.9825,
+      "bbox": [
+        251.29,
+        342.28,
+        302.74,
+        355.04
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9998,
+      "bbox": [
+        303.17,
+        342.28,
+        324.0,
+        349.51
+      ]
+    },
+    {
+      "text": "2.3g",
+      "confidence": 0.9987,
+      "bbox": [
+        305.29,
+        346.54,
+        320.6,
+        355.46
+      ]
+    },
+    {
+      "text": "Description:Paper Spoon",
+      "confidence": 0.9999,
+      "bbox": [
+        251.72,
+        362.27,
+        347.81,
+        373.32
+      ]
+    },
+    {
+      "text": "Specification:130*13.6mm 3000pcs/CTN",
+      "confidence": 0.9921,
+      "bbox": [
+        251.29,
+        377.57,
+        406.91,
+        389.05
+      ]
+    },
+    {
+      "text": "A0203002",
+      "confidence": 0.9999,
+      "bbox": [
+        250.87,
+        399.26,
+        302.74,
+        412.44
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9998,
+      "bbox": [
+        303.17,
+        398.83,
+        324.0,
+        406.91
+      ]
+    },
+    {
+      "text": "4.1g",
+      "confidence": 0.9995,
+      "bbox": [
+        306.99,
+        405.21,
+        320.6,
+        412.87
+      ]
+    },
+    {
+      "text": "Description:Paper Spoon",
+      "confidence": 0.9999,
+      "bbox": [
+        251.29,
+        419.67,
+        347.39,
+        430.72
+      ]
+    },
+    {
+      "text": "Specification:158*36mm 3000pcs/CTN",
+      "confidence": 0.9962,
+      "bbox": [
+        251.29,
+        435.4,
+        399.68,
+        446.46
+      ]
+    },
+    {
+      "text": "A0203001",
+      "confidence": 0.9999,
+      "bbox": [
+        251.72,
+        457.09,
+        302.31,
+        468.99
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 1.0,
+      "bbox": [
+        303.17,
+        456.24,
+        324.0,
+        463.89
+      ]
+    },
+    {
+      "text": "3.2g",
+      "confidence": 0.9988,
+      "bbox": [
+        305.29,
+        460.49,
+        321.02,
+        471.12
+      ]
+    },
+    {
+      "text": "Description:Paper Spoon",
+      "confidence": 0.9997,
+      "bbox": [
+        251.72,
+        476.65,
+        347.39,
+        487.7
+      ]
+    },
+    {
+      "text": "Specification:76*49mm 3000pcs/CTN",
+      "confidence": 0.9966,
+      "bbox": [
+        251.29,
+        492.8,
+        395.43,
+        503.86
+      ]
+    },
+    {
+      "text": "A0204002",
+      "confidence": 0.9999,
+      "bbox": [
+        251.29,
+        530.22,
+        303.17,
+        542.98
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9999,
+      "bbox": [
+        303.59,
+        529.37,
+        324.42,
+        537.02
+      ]
+    },
+    {
+      "text": "1.7g",
+      "confidence": 0.9995,
+      "bbox": [
+        307.42,
+        535.32,
+        321.02,
+        543.4
+      ]
+    },
+    {
+      "text": "Description:Paper ice cream spoon",
+      "confidence": 0.9999,
+      "bbox": [
+        251.72,
+        549.35,
+        385.65,
+        560.83
+      ]
+    },
+    {
+      "text": "Specification:95*25mm 2000pcs/CTN",
+      "confidence": 0.9925,
+      "bbox": [
+        251.72,
+        565.51,
+        395.86,
+        576.57
+      ]
+    },
+    {
+      "text": "A0204001",
+      "confidence": 1.0,
+      "bbox": [
+        251.72,
+        586.77,
+        301.89,
+        598.68
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9998,
+      "bbox": [
+        303.59,
+        585.92,
+        324.42,
+        594.0
+      ]
+    },
+    {
+      "text": "1.7g",
+      "confidence": 0.8793,
+      "bbox": [
+        306.99,
+        592.3,
+        321.02,
+        600.38
+      ]
+    },
+    {
+      "text": "Description:Paper ice cream spoon",
+      "confidence": 0.9998,
+      "bbox": [
+        251.72,
+        606.33,
+        385.65,
+        617.81
+      ]
+    },
+    {
+      "text": "Specification:95*25mm 2000pcs/CTN",
+      "confidence": 0.9932,
+      "bbox": [
+        252.14,
+        623.34,
+        395.43,
+        633.12
+      ]
+    },
+    {
+      "text": "A0204003",
+      "confidence": 1.0,
+      "bbox": [
+        252.14,
+        643.75,
+        302.74,
+        655.65
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9999,
+      "bbox": [
+        303.59,
+        644.17,
+        324.42,
+        651.83
+      ]
+    },
+    {
+      "text": "1.5g",
+      "confidence": 0.9998,
+      "bbox": [
+        306.14,
+        649.27,
+        321.02,
+        658.63
+      ]
+    },
+    {
+      "text": "Description:Paper ice cream spoon",
+      "confidence": 0.9998,
+      "bbox": [
+        251.72,
+        663.31,
+        385.65,
+        674.79
+      ]
+    },
+    {
+      "text": "Specification:72*25mm 5000pcs/CTN",
+      "confidence": 0.9929,
+      "bbox": [
+        251.72,
+        679.46,
+        397.98,
+        690.09
+      ]
+    },
+    {
+      "text": "A0110003",
+      "confidence": 1.0,
+      "bbox": [
+        250.87,
+        713.48,
+        302.74,
+        726.66
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9998,
+      "bbox": [
+        303.17,
+        713.05,
+        324.42,
+        720.71
+      ]
+    },
+    {
+      "text": "3.5g",
+      "confidence": 1.0,
+      "bbox": [
+        306.99,
+        719.01,
+        321.02,
+        727.09
+      ]
+    },
+    {
+      "text": "Description:Chinese soup spoon",
+      "confidence": 0.9854,
+      "bbox": [
+        251.72,
+        735.16,
+        375.87,
+        746.22
+      ]
+    },
+    {
+      "text": "Specification:138*42mm 1000pcs/CTN",
+      "confidence": 0.9935,
+      "bbox": [
+        251.72,
+        753.45,
+        400.11,
+        764.5
+      ]
+    },
+    {
+      "text": "25",
+      "confidence": 1.0,
+      "bbox": [
+        16.16,
+        771.73,
+        34.44,
+        788.31
+      ]
+    },
+    {
+      "text": "26",
+      "confidence": 1.0,
+      "bbox": [
+        1155.26,
+        771.73,
+        1173.97,
+        788.31
+      ]
+    }
+  ]
+}

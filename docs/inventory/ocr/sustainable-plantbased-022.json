@@ -1,0 +1,499 @@
+{
+  "sourceId": "sustainable-plantbased",
+  "page": 22,
+  "sourceSha256": "b6bfa3026968fcd6648885db66253db1300b1beff579c585eb5cf1abc6020e5d",
+  "width": 1190.550048828125,
+  "height": 807.8740234375,
+  "lines": [
+    {
+      "text": "章",
+      "confidence": 0.5251,
+      "bbox": [
+        25.51,
+        0.0,
+        65.91,
+        28.91
+      ]
+    },
+    {
+      "text": "KRAFT PAPER MATERIAL",
+      "confidence": 0.9995,
+      "bbox": [
+        9.78,
+        11.06,
+        27.64,
+        184.11
+      ]
+    },
+    {
+      "text": "KRAFT PAPER MATERIAL",
+      "confidence": 0.9994,
+      "bbox": [
+        1163.34,
+        11.91,
+        1178.22,
+        183.68
+      ]
+    },
+    {
+      "text": "CORNSTARCH CUTLERY",
+      "confidence": 0.9994,
+      "bbox": [
+        611.86,
+        30.61,
+        910.77,
+        57.83
+      ]
+    },
+    {
+      "text": "B0105002",
+      "confidence": 0.9999,
+      "bbox": [
+        835.94,
+        102.9,
+        890.79,
+        116.08
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9985,
+      "bbox": [
+        890.79,
+        102.9,
+        912.05,
+        110.55
+      ]
+    },
+    {
+      "text": "w  a E",
+      "confidence": 0.6006,
+      "bbox": [
+        451.13,
+        108.0,
+        465.16,
+        176.03
+      ]
+    },
+    {
+      "text": "3g",
+      "confidence": 0.9994,
+      "bbox": [
+        897.16,
+        108.0,
+        905.67,
+        115.23
+      ]
+    },
+    {
+      "text": "to   o",
+      "confidence": 0.7584,
+      "bbox": [
+        422.65,
+        123.73,
+        434.98,
+        195.59
+      ]
+    },
+    {
+      "text": "Description:6 inch knife",
+      "confidence": 0.9989,
+      "bbox": [
+        835.51,
+        123.73,
+        921.4,
+        134.79
+      ]
+    },
+    {
+      "text": "Specification:160*20mm 1000pcs/CTN",
+      "confidence": 0.9924,
+      "bbox": [
+        835.51,
+        142.02,
+        975.83,
+        151.8
+      ]
+    },
+    {
+      "text": "B0105003",
+      "confidence": 0.9999,
+      "bbox": [
+        836.79,
+        164.55,
+        889.09,
+        176.03
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9998,
+      "bbox": [
+        891.21,
+        163.7,
+        912.9,
+        170.93
+      ]
+    },
+    {
+      "text": "4.6g",
+      "confidence": 0.9998,
+      "bbox": [
+        894.19,
+        168.38,
+        909.5,
+        177.31
+      ]
+    },
+    {
+      "text": "Description:Knife",
+      "confidence": 1.0,
+      "bbox": [
+        835.09,
+        184.96,
+        898.87,
+        196.02
+      ]
+    },
+    {
+      "text": "Specification:170*20mm 1000pcs/CTN",
+      "confidence": 0.9911,
+      "bbox": [
+        835.09,
+        201.97,
+        976.25,
+        213.45
+      ]
+    },
+    {
+      "text": "B0106002",
+      "confidence": 0.9998,
+      "bbox": [
+        835.94,
+        251.29,
+        889.09,
+        264.05
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9998,
+      "bbox": [
+        890.79,
+        250.87,
+        912.05,
+        258.52
+      ]
+    },
+    {
+      "text": "2.9g",
+      "confidence": 0.9992,
+      "bbox": [
+        893.34,
+        256.39,
+        908.64,
+        265.75
+      ]
+    },
+    {
+      "text": "Description:6 inch fork",
+      "confidence": 0.998,
+      "bbox": [
+        835.94,
+        272.55,
+        918.0,
+        282.76
+      ]
+    },
+    {
+      "text": "Specification:148*20mm 1000pcs/CTN",
+      "confidence": 0.9939,
+      "bbox": [
+        835.51,
+        290.41,
+        976.25,
+        300.19
+      ]
+    },
+    {
+      "text": "B0106003",
+      "confidence": 0.9998,
+      "bbox": [
+        835.94,
+        312.09,
+        889.09,
+        324.85
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9999,
+      "bbox": [
+        890.36,
+        312.52,
+        912.05,
+        319.75
+      ]
+    },
+    {
+      "text": "5.2g",
+      "confidence": 0.999,
+      "bbox": [
+        893.34,
+        317.62,
+        908.64,
+        326.98
+      ]
+    },
+    {
+      "text": "Description:fork",
+      "confidence": 0.9999,
+      "bbox": [
+        835.94,
+        333.35,
+        895.04,
+        343.98
+      ]
+    },
+    {
+      "text": "Specification:168*20mm 1000pcs/CTN",
+      "confidence": 0.9898,
+      "bbox": [
+        835.51,
+        350.79,
+        976.25,
+        361.42
+      ]
+    },
+    {
+      "text": "B0107005",
+      "confidence": 0.9999,
+      "bbox": [
+        835.94,
+        399.26,
+        890.36,
+        412.44
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9991,
+      "bbox": [
+        892.49,
+        397.98,
+        914.17,
+        406.06
+      ]
+    },
+    {
+      "text": "5.9g",
+      "confidence": 0.9997,
+      "bbox": [
+        895.46,
+        403.09,
+        910.77,
+        411.59
+      ]
+    },
+    {
+      "text": "Description:soup spoon",
+      "confidence": 0.9903,
+      "bbox": [
+        835.51,
+        420.94,
+        923.53,
+        431.57
+      ]
+    },
+    {
+      "text": "Specification:155*20mm 1000pcs/CTN",
+      "confidence": 0.9901,
+      "bbox": [
+        834.66,
+        437.53,
+        976.68,
+        449.01
+      ]
+    },
+    {
+      "text": "B0107003",
+      "confidence": 0.9999,
+      "bbox": [
+        837.21,
+        461.34,
+        887.81,
+        471.97
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9997,
+      "bbox": [
+        889.94,
+        459.64,
+        911.62,
+        467.29
+      ]
+    },
+    {
+      "text": "5g",
+      "confidence": 0.9987,
+      "bbox": [
+        895.04,
+        464.74,
+        905.67,
+        472.39
+      ]
+    },
+    {
+      "text": "Description:tea spoon",
+      "confidence": 0.9999,
+      "bbox": [
+        835.94,
+        482.17,
+        917.15,
+        491.95
+      ]
+    },
+    {
+      "text": "Specification:162*20mm 4000pcs/CTN",
+      "confidence": 0.9903,
+      "bbox": [
+        835.51,
+        499.61,
+        976.25,
+        509.39
+      ]
+    },
+    {
+      "text": "B0107006",
+      "confidence": 0.9548,
+      "bbox": [
+        835.51,
+        548.93,
+        891.21,
+        562.11
+      ]
+    },
+    {
+      "text": "Description:spoon",
+      "confidence": 0.9999,
+      "bbox": [
+        835.51,
+        571.04,
+        903.54,
+        580.82
+      ]
+    },
+    {
+      "text": "Specification:157*20mm 1000pcs/CTN",
+      "confidence": 0.9913,
+      "bbox": [
+        835.51,
+        588.05,
+        975.83,
+        598.25
+      ]
+    },
+    {
+      "text": "B0107007",
+      "confidence": 0.9999,
+      "bbox": [
+        835.94,
+        609.73,
+        890.79,
+        622.49
+      ]
+    },
+    {
+      "text": "Description:dessert spoon",
+      "confidence": 0.9998,
+      "bbox": [
+        835.94,
+        631.84,
+        931.61,
+        641.62
+      ]
+    },
+    {
+      "text": "Specification:145*20mm 500pcs/CTN",
+      "confidence": 0.992,
+      "bbox": [
+        835.94,
+        648.85,
+        971.57,
+        659.05
+      ]
+    },
+    {
+      "text": "B0107004",
+      "confidence": 0.9999,
+      "bbox": [
+        835.94,
+        709.65,
+        889.94,
+        722.83
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9997,
+      "bbox": [
+        891.21,
+        709.65,
+        912.9,
+        717.31
+      ]
+    },
+    {
+      "text": "2.7g",
+      "confidence": 0.9991,
+      "bbox": [
+        894.19,
+        713.9,
+        909.5,
+        722.83
+      ]
+    },
+    {
+      "text": "Description:4.5 inch Chinese spoon",
+      "confidence": 0.9993,
+      "bbox": [
+        835.94,
+        732.19,
+        963.5,
+        741.97
+      ]
+    },
+    {
+      "text": "Specification:115*20mm 2000pcs/CTN",
+      "confidence": 0.9914,
+      "bbox": [
+        835.09,
+        748.77,
+        976.25,
+        759.4
+      ]
+    },
+    {
+      "text": "43",
+      "confidence": 0.9999,
+      "bbox": [
+        14.03,
+        769.18,
+        36.14,
+        794.27
+      ]
+    },
+    {
+      "text": "44",
+      "confidence": 1.0,
+      "bbox": [
+        1156.96,
+        773.43,
+        1173.97,
+        786.61
+      ]
+    }
+  ]
+}

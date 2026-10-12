@@ -1,0 +1,269 @@
+{
+  "sourceId": "sustainable-plantbased",
+  "page": 13,
+  "sourceSha256": "b6bfa3026968fcd6648885db66253db1300b1beff579c585eb5cf1abc6020e5d",
+  "width": 1190.550048828125,
+  "height": 807.8740234375,
+  "lines": [
+    {
+      "text": "PAPER TABLEWARE",
+      "confidence": 0.9994,
+      "bbox": [
+        12.33,
+        16.16,
+        25.09,
+        149.67
+      ]
+    },
+    {
+      "text": "PAPER TABLEWARE",
+      "confidence": 0.9993,
+      "bbox": [
+        1165.04,
+        15.73,
+        1179.07,
+        150.94
+      ]
+    },
+    {
+      "text": "Outstanding sustainable development",
+      "confidence": 1.0,
+      "bbox": [
+        686.69,
+        40.82,
+        925.23,
+        59.95
+      ]
+    },
+    {
+      "text": "FSC",
+      "confidence": 0.9999,
+      "bbox": [
+        1083.4,
+        111.83,
+        1113.16,
+        124.16
+      ]
+    },
+    {
+      "text": "www.fsc.org",
+      "confidence": 0.9993,
+      "bbox": [
+        1084.25,
+        122.88,
+        1113.16,
+        130.11
+      ]
+    },
+    {
+      "text": "MIX",
+      "confidence": 0.9995,
+      "bbox": [
+        1089.78,
+        131.39,
+        1106.36,
+        141.17
+      ]
+    },
+    {
+      "text": "Paper from",
+      "confidence": 0.9997,
+      "bbox": [
+        1082.55,
+        141.59,
+        1112.31,
+        150.09
+      ]
+    },
+    {
+      "text": "responsible sources",
+      "confidence": 0.9962,
+      "bbox": [
+        1073.2,
+        148.82,
+        1122.52,
+        156.47
+      ]
+    },
+    {
+      "text": "FSC\" C163739",
+      "confidence": 0.955,
+      "bbox": [
+        1072.35,
+        157.75,
+        1123.37,
+        167.53
+      ]
+    },
+    {
+      "text": "A GREAT PERFORMANCE",
+      "confidence": 0.9989,
+      "bbox": [
+        895.46,
+        206.22,
+        996.66,
+        216.0
+      ]
+    },
+    {
+      "text": "» Thickened and hardened upgraded material.",
+      "confidence": 0.9863,
+      "bbox": [
+        894.61,
+        224.5,
+        1098.71,
+        236.41
+      ]
+    },
+    {
+      "text": "»Fashionable, concise appearance design.",
+      "confidence": 0.9877,
+      "bbox": [
+        893.34,
+        241.51,
+        1083.4,
+        254.69
+      ]
+    },
+    {
+      "text": "» Smooth to the touch, no odor.",
+      "confidence": 0.9686,
+      "bbox": [
+        894.61,
+        258.52,
+        1035.78,
+        270.85
+      ]
+    },
+    {
+      "text": "» Good stiffness and cutting quality.",
+      "confidence": 0.9712,
+      "bbox": [
+        894.19,
+        272.98,
+        1053.64,
+        287.01
+      ]
+    },
+    {
+      "text": "» Can be used for hot or cold food.",
+      "confidence": 0.9911,
+      "bbox": [
+        894.19,
+        289.98,
+        1046.83,
+        303.17
+      ]
+    },
+    {
+      "text": "SUSTAINABLE PRODUCTS",
+      "confidence": 0.9982,
+      "bbox": [
+        707.1,
+        417.97,
+        814.25,
+        427.75
+      ]
+    },
+    {
+      "text": "2",
+      "confidence": 0.7289,
+      "bbox": [
+        667.13,
+        442.63,
+        690.52,
+        468.99
+      ]
+    },
+    {
+      "text": "»Made from sustainable forestry",
+      "confidence": 0.9991,
+      "bbox": [
+        695.62,
+        438.8,
+        843.59,
+        452.83
+      ]
+    },
+    {
+      "text": "and FSC certified paper,",
+      "confidence": 0.9966,
+      "bbox": [
+        704.98,
+        449.86,
+        811.7,
+        463.89
+      ]
+    },
+    {
+      "text": "fully recyclable in paper..",
+      "confidence": 0.9857,
+      "bbox": [
+        704.13,
+        460.49,
+        818.93,
+        476.22
+      ]
+    },
+    {
+      "text": "QUALITY IS GUARANTEED",
+      "confidence": 0.974,
+      "bbox": [
+        911.62,
+        625.46,
+        1016.22,
+        635.24
+      ]
+    },
+    {
+      "text": "With outstanding overall solution",
+      "confidence": 0.9993,
+      "bbox": [
+        906.94,
+        646.72,
+        1055.34,
+        659.48
+      ]
+    },
+    {
+      "text": "and R&D capabilities,",
+      "confidence": 0.9999,
+      "bbox": [
+        909.5,
+        658.63,
+        1004.31,
+        670.11
+      ]
+    },
+    {
+      "text": "it has now obtained 13 patents.",
+      "confidence": 0.9961,
+      "bbox": [
+        908.64,
+        667.98,
+        1048.53,
+        681.16
+      ]
+    },
+    {
+      "text": "23",
+      "confidence": 1.0,
+      "bbox": [
+        14.46,
+        768.33,
+        35.29,
+        790.87
+      ]
+    },
+    {
+      "text": "24",
+      "confidence": 1.0,
+      "bbox": [
+        1156.11,
+        772.16,
+        1174.39,
+        787.89
+      ]
+    }
+  ]
+}

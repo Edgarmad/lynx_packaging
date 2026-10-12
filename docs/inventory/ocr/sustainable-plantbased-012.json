@@ -1,0 +1,1179 @@
+{
+  "sourceId": "sustainable-plantbased",
+  "page": 12,
+  "sourceSha256": "b6bfa3026968fcd6648885db66253db1300b1beff579c585eb5cf1abc6020e5d",
+  "width": 1190.550048828125,
+  "height": 807.8740234375,
+  "lines": [
+    {
+      "text": "SUGARCANE PULP MATERIAL",
+      "confidence": 0.9994,
+      "bbox": [
+        9.78,
+        15.31,
+        26.36,
+        221.1
+      ]
+    },
+    {
+      "text": "SUGARCANE",
+      "confidence": 0.9987,
+      "bbox": [
+        1164.19,
+        17.01,
+        1176.94,
+        108.85
+      ]
+    },
+    {
+      "text": "BAGASSE CUP",
+      "confidence": 0.9849,
+      "bbox": [
+        56.55,
+        39.97,
+        238.54,
+        64.2
+      ]
+    },
+    {
+      "text": "CUP CARRIER",
+      "confidence": 0.9993,
+      "bbox": [
+        634.39,
+        39.12,
+        807.87,
+        64.63
+      ]
+    },
+    {
+      "text": "PULP MATERIAL",
+      "confidence": 0.9664,
+      "bbox": [
+        1164.19,
+        104.17,
+        1176.94,
+        219.83
+      ]
+    },
+    {
+      "text": "A0106001",
+      "confidence": 1.0,
+      "bbox": [
+        59.1,
+        120.33,
+        115.23,
+        133.09
+      ]
+    },
+    {
+      "text": "WeightWeight",
+      "confidence": 0.9912,
+      "bbox": [
+        115.23,
+        119.91,
+        160.3,
+        128.41
+      ]
+    },
+    {
+      "text": "A0106003",
+      "confidence": 1.0,
+      "bbox": [
+        335.05,
+        120.76,
+        390.33,
+        133.51
+      ]
+    },
+    {
+      "text": "WeightiWeight",
+      "confidence": 0.9912,
+      "bbox": [
+        390.76,
+        120.76,
+        434.55,
+        127.98
+      ]
+    },
+    {
+      "text": "3g",
+      "confidence": 0.5643,
+      "bbox": [
+        121.61,
+        126.28,
+        131.81,
+        133.09
+      ]
+    },
+    {
+      "text": "4g",
+      "confidence": 0.9991,
+      "bbox": [
+        396.71,
+        125.43,
+        406.49,
+        133.51
+      ]
+    },
+    {
+      "text": "3g",
+      "confidence": 0.998,
+      "bbox": [
+        417.97,
+        126.28,
+        428.17,
+        133.09
+      ]
+    },
+    {
+      "text": "Description:2oz sauce cup",
+      "confidence": 0.9989,
+      "bbox": [
+        59.95,
+        139.46,
+        156.9,
+        150.09
+      ]
+    },
+    {
+      "text": "Description:4oz sauce cup",
+      "confidence": 0.9981,
+      "bbox": [
+        335.91,
+        139.89,
+        432.42,
+        149.67
+      ]
+    },
+    {
+      "text": "Specification:62*30mm",
+      "confidence": 0.9871,
+      "bbox": [
+        59.95,
+        149.24,
+        145.84,
+        159.45
+      ]
+    },
+    {
+      "text": "Specification:76*49mm",
+      "confidence": 1.0,
+      "bbox": [
+        335.91,
+        149.24,
+        421.79,
+        159.45
+      ]
+    },
+    {
+      "text": "Lid Specification:65*7mm",
+      "confidence": 1.0,
+      "bbox": [
+        59.53,
+        158.6,
+        154.77,
+        169.65
+      ]
+    },
+    {
+      "text": "Lid Specification:81*7mm",
+      "confidence": 1.0,
+      "bbox": [
+        335.48,
+        158.6,
+        430.3,
+        169.65
+      ]
+    },
+    {
+      "text": "A0105001",
+      "confidence": 1.0,
+      "bbox": [
+        670.11,
+        157.75,
+        724.11,
+        169.23
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9992,
+      "bbox": [
+        726.24,
+        156.9,
+        747.92,
+        164.55
+      ]
+    },
+    {
+      "text": "20g",
+      "confidence": 0.9999,
+      "bbox": [
+        730.06,
+        162.0,
+        743.67,
+        170.08
+      ]
+    },
+    {
+      "text": "A0105002",
+      "confidence": 1.0,
+      "bbox": [
+        869.1,
+        157.32,
+        923.53,
+        168.8
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9996,
+      "bbox": [
+        925.65,
+        156.47,
+        947.34,
+        164.13
+      ]
+    },
+    {
+      "text": "20g",
+      "confidence": 0.9999,
+      "bbox": [
+        929.48,
+        162.0,
+        943.09,
+        169.65
+      ]
+    },
+    {
+      "text": "2000pcs/CTN",
+      "confidence": 0.9957,
+      "bbox": [
+        59.95,
+        168.8,
+        110.55,
+        178.58
+      ]
+    },
+    {
+      "text": "2000pcs/CTN",
+      "confidence": 0.9973,
+      "bbox": [
+        335.91,
+        168.8,
+        386.08,
+        178.58
+      ]
+    },
+    {
+      "text": "Description:",
+      "confidence": 1.0,
+      "bbox": [
+        696.47,
+        176.03,
+        741.97,
+        185.81
+      ]
+    },
+    {
+      "text": "Description:",
+      "confidence": 1.0,
+      "bbox": [
+        895.46,
+        176.03,
+        940.96,
+        185.81
+      ]
+    },
+    {
+      "text": "separated 2-compartment(dry molded fiber)",
+      "confidence": 0.9982,
+      "bbox": [
+        637.79,
+        185.81,
+        799.37,
+        195.59
+      ]
+    },
+    {
+      "text": "2-compartment(dry molded fiber)",
+      "confidence": 0.9999,
+      "bbox": [
+        855.92,
+        185.81,
+        979.65,
+        195.59
+      ]
+    },
+    {
+      "text": "Specification:217*110*45mm",
+      "confidence": 1.0,
+      "bbox": [
+        665.86,
+        195.17,
+        772.16,
+        204.94
+      ]
+    },
+    {
+      "text": "Specification:223*123*45mm",
+      "confidence": 1.0,
+      "bbox": [
+        864.42,
+        195.17,
+        970.72,
+        204.94
+      ]
+    },
+    {
+      "text": "600pcs/CTN",
+      "confidence": 0.9993,
+      "bbox": [
+        696.47,
+        204.94,
+        742.39,
+        214.72
+      ]
+    },
+    {
+      "text": "600pcs/CTN",
+      "confidence": 0.9995,
+      "bbox": [
+        895.46,
+        204.94,
+        941.38,
+        214.72
+      ]
+    },
+    {
+      "text": "A0105003",
+      "confidence": 1.0,
+      "bbox": [
+        674.36,
+        348.66,
+        729.21,
+        361.42
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9998,
+      "bbox": [
+        731.34,
+        348.24,
+        753.02,
+        355.89
+      ]
+    },
+    {
+      "text": "409",
+      "confidence": 0.772,
+      "bbox": [
+        735.16,
+        352.49,
+        748.77,
+        361.42
+      ]
+    },
+    {
+      "text": "A0105005",
+      "confidence": 1.0,
+      "bbox": [
+        872.08,
+        348.66,
+        927.35,
+        361.42
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9994,
+      "bbox": [
+        928.63,
+        347.81,
+        949.89,
+        355.46
+      ]
+    },
+    {
+      "text": "40g",
+      "confidence": 1.0,
+      "bbox": [
+        932.46,
+        353.34,
+        945.64,
+        360.99
+      ]
+    },
+    {
+      "text": "A0105004",
+      "confidence": 1.0,
+      "bbox": [
+        1026.42,
+        348.66,
+        1081.7,
+        361.42
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9987,
+      "bbox": [
+        1082.12,
+        348.66,
+        1103.81,
+        355.89
+      ]
+    },
+    {
+      "text": "37g",
+      "confidence": 0.9997,
+      "bbox": [
+        1085.95,
+        352.49,
+        1099.98,
+        361.42
+      ]
+    },
+    {
+      "text": "A0106007",
+      "confidence": 1.0,
+      "bbox": [
+        70.16,
+        370.77,
+        125.86,
+        383.53
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9997,
+      "bbox": [
+        127.56,
+        370.35,
+        149.67,
+        378.0
+      ]
+    },
+    {
+      "text": "A0106009",
+      "confidence": 1.0,
+      "bbox": [
+        267.87,
+        371.62,
+        323.15,
+        384.38
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9997,
+      "bbox": [
+        326.55,
+        371.2,
+        347.81,
+        378.85
+      ]
+    },
+    {
+      "text": "A0106010",
+      "confidence": 1.0,
+      "bbox": [
+        464.31,
+        371.62,
+        519.59,
+        384.8
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9999,
+      "bbox": [
+        521.72,
+        370.35,
+        543.4,
+        378.0
+      ]
+    },
+    {
+      "text": "Description:",
+      "confidence": 0.9999,
+      "bbox": [
+        697.32,
+        366.94,
+        743.67,
+        378.0
+      ]
+    },
+    {
+      "text": "Description:",
+      "confidence": 0.9864,
+      "bbox": [
+        893.76,
+        367.37,
+        939.26,
+        377.15
+      ]
+    },
+    {
+      "text": "Description:",
+      "confidence": 1.0,
+      "bbox": [
+        1044.28,
+        367.79,
+        1089.78,
+        377.57
+      ]
+    },
+    {
+      "text": "10g",
+      "confidence": 0.9999,
+      "bbox": [
+        132.66,
+        376.3,
+        145.42,
+        384.38
+      ]
+    },
+    {
+      "text": "10g",
+      "confidence": 0.9999,
+      "bbox": [
+        331.23,
+        377.15,
+        343.98,
+        385.23
+      ]
+    },
+    {
+      "text": "14g",
+      "confidence": 1.0,
+      "bbox": [
+        526.82,
+        376.3,
+        539.57,
+        384.38
+      ]
+    },
+    {
+      "text": "separated 4-compartment(dry molded fiber)",
+      "confidence": 0.9998,
+      "bbox": [
+        639.5,
+        377.15,
+        801.07,
+        386.93
+      ]
+    },
+    {
+      "text": "4-compartment separated2-compartment",
+      "confidence": 0.9997,
+      "bbox": [
+        839.76,
+        378.0,
+        994.11,
+        386.5
+      ]
+    },
+    {
+      "text": "4-compartment(dry molded fiber)",
+      "confidence": 1.0,
+      "bbox": [
+        1004.74,
+        377.15,
+        1128.9,
+        386.93
+      ]
+    },
+    {
+      "text": "Description:8oz bagasse cup",
+      "confidence": 0.9985,
+      "bbox": [
+        68.88,
+        389.48,
+        175.61,
+        400.54
+      ]
+    },
+    {
+      "text": "Description:12oz bagasse cup",
+      "confidence": 1.0,
+      "bbox": [
+        266.6,
+        391.18,
+        376.3,
+        400.96
+      ]
+    },
+    {
+      "text": "Description:16oz bagasse cup",
+      "confidence": 0.9926,
+      "bbox": [
+        463.46,
+        391.18,
+        572.74,
+        400.96
+      ]
+    },
+    {
+      "text": "Specification:221*206*40mm",
+      "confidence": 1.0,
+      "bbox": [
+        667.13,
+        386.08,
+        773.86,
+        396.71
+      ]
+    },
+    {
+      "text": "(dry molded fiber)",
+      "confidence": 0.999,
+      "bbox": [
+        883.13,
+        386.5,
+        949.46,
+        396.71
+      ]
+    },
+    {
+      "text": "Specification:220*220*47mm",
+      "confidence": 1.0,
+      "bbox": [
+        1013.67,
+        386.93,
+        1119.97,
+        396.71
+      ]
+    },
+    {
+      "text": "Specification:80*87.3mm",
+      "confidence": 1.0,
+      "bbox": [
+        69.31,
+        399.26,
+        159.87,
+        409.46
+      ]
+    },
+    {
+      "text": "Specification:90*97mm",
+      "confidence": 1.0,
+      "bbox": [
+        267.02,
+        400.54,
+        352.49,
+        410.74
+      ]
+    },
+    {
+      "text": "Specification:90*125mm",
+      "confidence": 1.0,
+      "bbox": [
+        462.61,
+        399.26,
+        553.18,
+        410.74
+      ]
+    },
+    {
+      "text": "400pcs/CTN",
+      "confidence": 0.9992,
+      "bbox": [
+        697.75,
+        396.28,
+        744.09,
+        406.49
+      ]
+    },
+    {
+      "text": "Specification:230*185*46mm",
+      "confidence": 1.0,
+      "bbox": [
+        863.15,
+        396.28,
+        969.45,
+        406.49
+      ]
+    },
+    {
+      "text": "400pcs/CTN",
+      "confidence": 0.9995,
+      "bbox": [
+        1044.71,
+        396.28,
+        1090.2,
+        406.91
+      ]
+    },
+    {
+      "text": "1000pcs/CTN",
+      "confidence": 0.9986,
+      "bbox": [
+        69.31,
+        409.04,
+        119.48,
+        419.24
+      ]
+    },
+    {
+      "text": "5000pcs/CTN",
+      "confidence": 0.9986,
+      "bbox": [
+        267.02,
+        410.31,
+        317.62,
+        420.09
+      ]
+    },
+    {
+      "text": "1000pcs/CTN",
+      "confidence": 0.9991,
+      "bbox": [
+        463.46,
+        410.31,
+        513.64,
+        420.09
+      ]
+    },
+    {
+      "text": "400pcs/CTN",
+      "confidence": 0.9995,
+      "bbox": [
+        892.91,
+        406.06,
+        939.26,
+        415.84
+      ]
+    },
+    {
+      "text": "CUP CARRIER",
+      "confidence": 0.9992,
+      "bbox": [
+        636.09,
+        488.13,
+        808.3,
+        513.64
+      ]
+    },
+    {
+      "text": "A0107001",
+      "confidence": 1.0,
+      "bbox": [
+        61.65,
+        548.08,
+        117.78,
+        562.11
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9999,
+      "bbox": [
+        118.63,
+        548.93,
+        140.31,
+        556.58
+      ]
+    },
+    {
+      "text": "5.5g",
+      "confidence": 0.9998,
+      "bbox": [
+        120.76,
+        552.76,
+        138.19,
+        563.39
+      ]
+    },
+    {
+      "text": "A0107002",
+      "confidence": 1.0,
+      "bbox": [
+        267.45,
+        549.78,
+        324.0,
+        562.53
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9999,
+      "bbox": [
+        326.98,
+        548.93,
+        348.66,
+        556.16
+      ]
+    },
+    {
+      "text": "5g",
+      "confidence": 0.9997,
+      "bbox": [
+        332.93,
+        554.46,
+        342.71,
+        562.96
+      ]
+    },
+    {
+      "text": "A0107001",
+      "confidence": 1.0,
+      "bbox": [
+        443.91,
+        549.78,
+        499.18,
+        562.53
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9999,
+      "bbox": [
+        500.46,
+        550.2,
+        522.14,
+        557.43
+      ]
+    },
+    {
+      "text": "4.5g",
+      "confidence": 0.9977,
+      "bbox": [
+        503.43,
+        556.16,
+        518.74,
+        564.24
+      ]
+    },
+    {
+      "text": "Description:90 cup lid",
+      "confidence": 0.9999,
+      "bbox": [
+        60.8,
+        567.64,
+        140.31,
+        577.42
+      ]
+    },
+    {
+      "text": "Description:90 hot cup lid",
+      "confidence": 0.9999,
+      "bbox": [
+        266.17,
+        568.49,
+        359.72,
+        578.27
+      ]
+    },
+    {
+      "text": "Description:90 cup lid",
+      "confidence": 0.9998,
+      "bbox": [
+        442.63,
+        568.06,
+        522.99,
+        579.12
+      ]
+    },
+    {
+      "text": "Specification:90mm",
+      "confidence": 0.9997,
+      "bbox": [
+        59.95,
+        576.57,
+        134.36,
+        586.35
+      ]
+    },
+    {
+      "text": "Specification:95*25mm",
+      "confidence": 1.0,
+      "bbox": [
+        266.6,
+        578.27,
+        352.06,
+        588.05
+      ]
+    },
+    {
+      "text": "Specification:85*23.1mm",
+      "confidence": 1.0,
+      "bbox": [
+        443.05,
+        578.27,
+        534.05,
+        588.05
+      ]
+    },
+    {
+      "text": "1000pcs/CTN",
+      "confidence": 0.9986,
+      "bbox": [
+        60.38,
+        586.77,
+        110.98,
+        597.4
+      ]
+    },
+    {
+      "text": "1000pcs/CTN",
+      "confidence": 0.9984,
+      "bbox": [
+        266.6,
+        587.62,
+        317.2,
+        598.25
+      ]
+    },
+    {
+      "text": "1000pcs/CTN",
+      "confidence": 0.9983,
+      "bbox": [
+        443.05,
+        587.62,
+        493.23,
+        598.25
+      ]
+    },
+    {
+      "text": "A0105006",
+      "confidence": 1.0,
+      "bbox": [
+        652.68,
+        644.17,
+        707.95,
+        657.35
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9997,
+      "bbox": [
+        708.8,
+        644.6,
+        730.91,
+        651.83
+      ]
+    },
+    {
+      "text": "A0105008",
+      "confidence": 1.0,
+      "bbox": [
+        828.28,
+        644.17,
+        883.13,
+        657.35
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9974,
+      "bbox": [
+        883.98,
+        643.32,
+        906.94,
+        652.25
+      ]
+    },
+    {
+      "text": "A0105009",
+      "confidence": 1.0,
+      "bbox": [
+        1013.24,
+        644.6,
+        1068.09,
+        657.78
+      ]
+    },
+    {
+      "text": "Weight",
+      "confidence": 0.9999,
+      "bbox": [
+        1068.52,
+        644.17,
+        1090.2,
+        651.83
+      ]
+    },
+    {
+      "text": "109",
+      "confidence": 0.657,
+      "bbox": [
+        713.48,
+        648.85,
+        727.09,
+        658.2
+      ]
+    },
+    {
+      "text": "24g",
+      "confidence": 0.9999,
+      "bbox": [
+        888.24,
+        649.27,
+        902.27,
+        659.05
+      ]
+    },
+    {
+      "text": "24g",
+      "confidence": 0.9999,
+      "bbox": [
+        1072.77,
+        650.13,
+        1085.95,
+        658.63
+      ]
+    },
+    {
+      "text": "Description:",
+      "confidence": 0.9999,
+      "bbox": [
+        673.94,
+        664.16,
+        719.43,
+        673.94
+      ]
+    },
+    {
+      "text": "Description:",
+      "confidence": 1.0,
+      "bbox": [
+        847.84,
+        664.16,
+        892.91,
+        673.94
+      ]
+    },
+    {
+      "text": "Description:",
+      "confidence": 0.9993,
+      "bbox": [
+        1031.95,
+        664.16,
+        1077.87,
+        673.94
+      ]
+    },
+    {
+      "text": "separated 2-compartment",
+      "confidence": 0.9999,
+      "bbox": [
+        647.57,
+        673.94,
+        745.79,
+        683.72
+      ]
+    },
+    {
+      "text": "4-compartment(wet molded fiber)",
+      "confidence": 0.996,
+      "bbox": [
+        807.87,
+        673.94,
+        932.46,
+        683.72
+      ]
+    },
+    {
+      "text": "4-compartment separated2-compartment",
+      "confidence": 0.9999,
+      "bbox": [
+        977.95,
+        673.94,
+        1132.3,
+        683.72
+      ]
+    },
+    {
+      "text": "(wet molded fiber)",
+      "confidence": 0.9885,
+      "bbox": [
+        662.46,
+        683.29,
+        730.49,
+        693.07
+      ]
+    },
+    {
+      "text": "Specification:220*220*47mm",
+      "confidence": 1.0,
+      "bbox": [
+        817.23,
+        683.29,
+        923.53,
+        693.07
+      ]
+    },
+    {
+      "text": "(wet molded fiber)",
+      "confidence": 0.9727,
+      "bbox": [
+        1020.47,
+        683.29,
+        1088.93,
+        693.07
+      ]
+    },
+    {
+      "text": "Specification:214*106*46mm",
+      "confidence": 1.0,
+      "bbox": [
+        643.32,
+        692.65,
+        749.2,
+        702.42
+      ]
+    },
+    {
+      "text": "400pcs/CTN",
+      "confidence": 0.9995,
+      "bbox": [
+        847.42,
+        692.65,
+        893.76,
+        702.85
+      ]
+    },
+    {
+      "text": "Specification:220*218*47mm",
+      "confidence": 1.0,
+      "bbox": [
+        1000.91,
+        691.79,
+        1108.06,
+        703.27
+      ]
+    },
+    {
+      "text": "600pcs/CTN",
+      "confidence": 0.9997,
+      "bbox": [
+        673.51,
+        702.0,
+        719.43,
+        712.2
+      ]
+    },
+    {
+      "text": "400pcs/CTN",
+      "confidence": 0.9998,
+      "bbox": [
+        1031.95,
+        702.0,
+        1077.87,
+        712.2
+      ]
+    },
+    {
+      "text": "22",
+      "confidence": 1.0,
+      "bbox": [
+        1155.68,
+        771.73,
+        1174.82,
+        788.74
+      ]
+    }
+  ]
+}
