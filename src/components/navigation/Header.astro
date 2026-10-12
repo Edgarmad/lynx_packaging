@@ -1,10 +1,11 @@
 ---
-import { navigation, visibleCategories, visibleSolutions, service, supply, site } from '../../lib/data';
+import { navigation, visibleCategories, visibleSolutions, site } from '../../lib/data';
 import { route, alternate } from '../../lib/routes';
 import { ui } from '../../i18n/ui';
 import type { Language } from '../../types/content';
 import ProductMenu from './ProductMenu.astro';
 import CatalogMenu from './CatalogMenu.astro';
+import AboutMenu from './AboutMenu.astro';
 import MediaPlaceholder from '../ui/MediaPlaceholder.astro';
 import { editorialMedia } from '../../lib/editorial-media';
 interface Props { lang: Language; path: string; home?: boolean; }
@@ -16,10 +17,6 @@ function overviewLabel(group: string | null): string {
 }
 function children(group: string | null): {title:string;href:string;external?:boolean}[] {
   switch(group) {
-    case 'about': return [
-      {title:service.title[lang],href:route(lang,'about/one-stop-service')},
-      {title:supply.title[lang],href:route(lang,'about/supply-chain-resources')},
-    ];
     case 'products': return visibleCategories.map(c=>({title:c.title[lang],href:route(lang,`products/categories/${c.slug}`)}));
     case 'solutions': return visibleSolutions.map(s=>({title:s.title[lang],href:route(lang,`solutions/${s.slug}`)}));
     case 'catalogs': return visibleCategories.map(c=>({title:c.title[lang],href:route(lang,'catalogs')+`#${c.id}`}));
@@ -44,8 +41,8 @@ function children(group: string | null): {title:string;href:string;external?:boo
         </div>
         {item.group && <div id={`mega-${item.id}`} class="mega-menu" hidden>
           <div class:list={['site-container','mega-inner',{'product-mega':item.group==='products'}]}><div class={item.group==='products'?'product-mega-content':'mega-links'}>
-            {item.path && item.group!=='catalogs' && item.group!=='products' && <a class="text-link" href={route(lang,item.path)}>{overviewLabel(item.group)}</a>}
-            {item.group==='products'?<ProductMenu lang={lang}/>:item.group==='catalogs'?<CatalogMenu lang={lang}/>:children(item.group).map(child=><a href={child.href} target={child.external?'_blank':undefined} rel={child.external?'noopener noreferrer':undefined}>{child.title}</a>)}
+            {item.path && item.group!=='catalogs' && item.group!=='products' && item.group!=='about' && <a class="text-link" href={route(lang,item.path)}>{overviewLabel(item.group)}</a>}
+            {item.group==='about'?<AboutMenu lang={lang}/>:item.group==='products'?<ProductMenu lang={lang}/>:item.group==='catalogs'?<CatalogMenu lang={lang}/>:children(item.group).map(child=><a href={child.href} target={child.external?'_blank':undefined} rel={child.external?'noopener noreferrer':undefined}>{child.title}</a>)}
 
           </div>{item.group!=='products' && <div class="mega-media"><MediaPlaceholder lang={lang} media={item.group==='about'?editorialMedia['lynx-about']:item.group==='catalogs'?visibleCategories[0]?.media:visibleSolutions[0]?.media}/></div>}</div>
         </div>}
@@ -63,8 +60,8 @@ function children(group: string | null): {title:string;href:string;external?:boo
   <nav id="mobile-menu" class="mobile-nav" aria-label={lang==='es'?'Menú móvil':'Mobile menu'} hidden>
     <div class="mobile-menu-heading"><span>{lang==='es'?'Menú':'Menu'}</span><button data-mobile-close aria-label={t.close}>×</button></div>
     {navigation.map(item=> item.group ? <details><summary>{item.title[lang]}</summary><div class="mobile-links">
-      {item.path && item.group!=='catalogs' && item.group!=='products' && <a href={route(lang,item.path)}>{overviewLabel(item.group)}</a>}
-      {item.group==='products'?<ProductMenu lang={lang}/>:item.group==='catalogs'?<CatalogMenu lang={lang}/>:children(item.group).map(child=><a href={child.href} target={child.external?'_blank':undefined} rel={child.external?'noopener noreferrer':undefined}>{child.title}</a>)}
+      {item.path && item.group!=='catalogs' && item.group!=='products' && item.group!=='about' && <a href={route(lang,item.path)}>{overviewLabel(item.group)}</a>}
+      {item.group==='about'?<AboutMenu lang={lang}/>:item.group==='products'?<ProductMenu lang={lang}/>:item.group==='catalogs'?<CatalogMenu lang={lang}/>:children(item.group).map(child=><a href={child.href} target={child.external?'_blank':undefined} rel={child.external?'noopener noreferrer':undefined}>{child.title}</a>)}
 
     </div></details> : <a class="mobile-direct" href={route(lang,item.path??'')}>{item.title[lang]}</a>)}
   </nav>
@@ -77,11 +74,11 @@ function children(group: string | null): {title:string;href:string;external?:boo
     const toggles=Array.from(header.querySelectorAll<HTMLButtonElement>('.menu-disclosure'));
     let hoverTimer:ReturnType<typeof setTimeout>|undefined;
     let leaveTimer:ReturnType<typeof setTimeout>|undefined;
-    function closeMenus(){clearTimeout(hoverTimer);clearTimeout(leaveTimer);toggles.forEach(button=>{button.setAttribute('aria-expanded','false');const panel=document.getElementById(button.getAttribute('aria-controls')??'');if(panel)panel.hidden=true;});}
+    function closeMenus(){clearTimeout(hoverTimer);clearTimeout(leaveTimer);toggles.forEach(button=>{button.setAttribute('aria-expanded','false');const panel=document.getElementById(button.getAttribute('aria-controls')??'');if(panel){panel.hidden=true;panel.querySelectorAll<HTMLDetailsElement>('.ability-menu').forEach(menu=>menu.open=false);}});}
     toggles.forEach(button=>button.addEventListener('click',()=>{clearTimeout(hoverTimer);const open=button.getAttribute('aria-expanded')==='true';closeMenus();if(!open){button.setAttribute('aria-expanded','true');const panel=document.getElementById(button.getAttribute('aria-controls')??'');if(panel)panel.hidden=false;}}));
     document.addEventListener('click',event=>{if(event.target instanceof Node&&!header.contains(event.target))closeMenus();});
     header.addEventListener('focusout',event=>{if(event.relatedTarget instanceof Node&&!header.contains(event.relatedTarget))closeMenus();});
-    const openMenu=(button:HTMLButtonElement)=>{closeMenus();button.setAttribute('aria-expanded','true');const panel=document.getElementById(button.getAttribute('aria-controls')??'');if(panel)panel.hidden=false;};
+    const openMenu=(button:HTMLButtonElement)=>{if(button.getAttribute('aria-expanded')==='true')return;closeMenus();button.setAttribute('aria-expanded','true');const panel=document.getElementById(button.getAttribute('aria-controls')??'');if(panel)panel.hidden=false;};
     const hover=window.matchMedia('(hover: hover) and (pointer: fine)');
     // On touch desktops, the first tap reveals the menu; its overview link
     // and a second tap on the parent still navigate to the static overview.

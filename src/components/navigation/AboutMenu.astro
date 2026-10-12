@@ -1,0 +1,27 @@
+---
+import { service, supply } from '../../lib/data';
+import { route } from '../../lib/routes';
+import type { Language } from '../../types/content';
+interface Props { lang: Language; }
+const { lang } = Astro.props;
+const pages = [
+  { title: service.title[lang], path: 'about/one-stop-service' },
+  { title: supply.title[lang], path: 'about/supply-chain-resources' },
+];
+---
+<div class="about-menu">
+  <a class="about-overview" href={route(lang, 'about/overview')}>{lang === 'es' ? 'Sobre nosotros' : 'About us'}</a>
+  <details class="ability-menu">
+    <summary>Ability</summary>
+    <div class="ability-menu-pages">
+      {pages.map(page => <a href={route(lang, page.path)}>{page.title}</a>)}
+    </div>
+  </details>
+</div>
+<script>
+  document.querySelectorAll<HTMLDetailsElement>('.ability-menu').forEach(menu => {
+    menu.addEventListener('pointerenter', () => {
+      if (window.matchMedia('(min-width:1100px) and (hover:hover) and (pointer:fine)').matches) menu.open = true;
+    });
+  });
+</script>

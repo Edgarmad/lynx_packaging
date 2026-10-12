@@ -495,6 +495,18 @@
 
 /* Ability: one continuous page for each confirmed service area. */
 @layer components {
+  .about-menu { position:relative; min-height:260px; }
+  .about-menu>.about-overview,.ability-menu>summary { display:block; padding:.65rem 0; font-size:clamp(1.2rem,1.5vw,1.5rem); line-height:1.4; }
+  .about-menu>.about-overview,.ability-menu { width:42%; }
+  .ability-menu[open]>summary { font-weight:600; }
+  .ability-menu-pages { position:absolute; top:0; left:48%; width:52%; display:grid; gap:.6rem; }
+  .ability-menu-pages>a { border:0; padding:.65rem 0; font-size:1.05rem; line-height:1.5; }
+  .mobile-nav .about-menu { min-height:0; }
+  .mobile-nav .about-menu>.about-overview,.mobile-nav .ability-menu { width:100%; }
+  .mobile-nav .about-menu>.about-overview,.mobile-nav .ability-menu>summary { font-size:1rem; }
+  .mobile-nav .ability-menu>summary { display:flex; justify-content:space-between; }
+  .mobile-nav .ability-menu-pages { position:static; width:auto; padding-left:1rem; gap:.5rem; }
+  .mobile-nav .ability-menu-pages>a { font-size:1rem; }
   .ability-intro { padding-bottom:clamp(3rem,6vw,6rem); }
   .service-process { margin-top:3.5rem; }
   .service-process ol { list-style:none; padding:0; margin:0; display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); border-block:1px solid var(--color-line); }

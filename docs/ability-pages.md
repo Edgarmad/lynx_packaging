@@ -37,6 +37,10 @@ Por instrucción de Luis del 12/10, las leyendas de procedencia se conservan ún
 
 Servicio integral tiene introducción centrada, índice de seis enlaces de ancla y secciones amplias alternadas. Recursos tiene introducción y galerías grandes por bloque; no genera páginas por fábrica. Ambas páginas enlazan entre sí y a Contacto. Header y footer ofrecen acceso a las dos rutas en el idioma actual. No se muestran enlaces a casos de diseño si no existen casos publicados y autorizados relacionados con la etapa.
 
+El header agrupa las dos páginas en `Nosotros → Ability`, siguiendo la interacción de Productos: hover sobre Ability revela una segunda columna en desktop; clic o Enter permiten abrirlo con teclado o pantalla táctil. En móvil usa un acordeón anidado. Sobre nosotros mantiene el acceso a General y no se agrega un séptimo elemento al header.
+
+Comprobación adicional: hover real verificado en navegador con `:hover` y el grupo abierto; enlaces ES/EN, acordeón móvil y Escape correctos, sin errores de consola. La apertura de un mega menú que ya está abierto conserva la rama Ability activa. Evidencia: `tmp/ability-header.png`.
+
 No se añade JavaScript para el índice o las galerías; el contenido y los enlaces funcionan como HTML estático. Se mantienen los tokens compartidos de color, tipo y espaciado.
 
 El formulario conserva su estado de demostración. Este trabajo no implica publicación ni push a GitHub.
