@@ -11,9 +11,24 @@ const {lang}=Astro.props;
 </div>
 
 <script>
-  document.querySelectorAll<HTMLDetailsElement>('.catalog-menu-groups > details').forEach(detail=>{
+  document.querySelectorAll<HTMLElement>('.catalog-menu-groups').forEach(groups=>{
+    const hover=window.matchMedia('(min-width:1100px) and (hover:hover) and (pointer:fine)');
+    const resize=()=>{
+      const downloads=groups.querySelector<HTMLElement>('details[open] > .catalog-menu-downloads');
+      groups.style.setProperty('--catalog-download-height',`${downloads?.getBoundingClientRect().height??0}px`);
+    };
+    const observer=new ResizeObserver(resize);
+    groups.querySelectorAll<HTMLDetailsElement>(':scope > details').forEach(detail=>{
     const activate=()=>{detail.parentElement?.querySelectorAll<HTMLDetailsElement>(':scope > details').forEach(other=>{if(other!==detail)other.open=false;});};
-    detail.addEventListener('toggle',()=>{if(detail.open)activate();});
-    detail.addEventListener('pointerenter',()=>{if(window.matchMedia('(min-width:1100px) and (hover:hover)').matches){activate();detail.open=true;}});
+    detail.addEventListener('toggle',()=>{if(detail.open)activate();resize();});
+    // Only category labels activate hover; crossing the downloads keeps them open.
+    detail.querySelector('summary')?.addEventListener('pointerenter',()=>{
+      if(!hover.matches)return;
+      activate();detail.open=true;resize();
+    });
+    const downloads=detail.querySelector('.catalog-menu-downloads');
+    if(downloads)observer.observe(downloads);
+    });
+    hover.addEventListener('change',resize);
   });
 </script>
