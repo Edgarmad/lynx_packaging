@@ -8,7 +8,7 @@ const {lang, title, parent, media} = Astro.props;
 const path = Astro.url.pathname;
 const banner = media ?? (path.includes('/products') ? undefined : editorialMedia[path.includes('supply-chain') ? 'supplier-campus' : path.includes('/about/overview') ? 'supplier-building' : path.includes('/solutions') ? 'production' : 'design']);
 ---
-<section class:list={['interior-banner', {'has-image': Boolean(banner)}]}>
+<section class:list={['interior-banner', {'has-image': Boolean(banner), 'lynx-overview-banner': path.includes('/about/overview')}]}>
   <MediaPlaceholder lang={lang} media={banner} ratio={3.6} class="banner-media" />
   <div class="site-container banner-content"><Breadcrumbs lang={lang} items={[...(parent ? [parent] : []),{title}]} /><h1>{title}</h1></div>
 </section>

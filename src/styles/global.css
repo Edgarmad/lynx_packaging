@@ -323,6 +323,9 @@
   /* Extend interior imagery behind the transparent header, retaining content clearance. */
   #main:has(>.interior-banner.has-image:first-child) { margin-top:-100px; }
   #main>.interior-banner.has-image:first-child { height:calc(clamp(320px,31vw,480px) + 100px); }
+  /* The portrait photo needs enough vertical room for the complete building logo. */
+  #main>.interior-banner.lynx-overview-banner:first-child { height:max(580px, 46vw); }
+  .lynx-overview-banner .banner-media img { object-position:50% 28%; }
   #main>.interior-banner.has-image:first-child .banner-content { padding-top:calc(100px + 2rem); }
   .site-header,.home-header,.site-header.scrolled { background:transparent; color:var(--color-paper); box-shadow:none; transition:background var(--duration-ui),color var(--duration-ui); }
   .site-header:is(.scrolled,:hover,:focus-within,:has(.menu-disclosure[aria-expanded='true'])) { background:var(--color-paper); color:var(--color-brand); }
