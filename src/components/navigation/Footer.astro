@@ -1,5 +1,5 @@
 ---
-import { site, navigation, publishedCatalogs, visibleCategories, visibleSolutions } from '../../lib/data';
+import { site, navigation, publishedCatalogs, visibleCategories, visibleSolutions, service, supply } from '../../lib/data';
 import { route, alternate } from '../../lib/routes';
 import { ui } from '../../i18n/ui';
 import type { Language } from '../../types/content';
@@ -11,7 +11,7 @@ const {lang,path}=Astro.props;const t=ui(lang);
     <div class="footer-top"><a href={route(lang)} class="footer-logo"><img src={site.logoOnWhite} alt="Lynx Packaging" width="2000" height="2000" loading="lazy" /></a><p>{t.packaging}</p></div>
     <div class="footer-columns">
       <div><h2>{t.contact}</h2><a href={route(lang,'contact')}>{t.contactIntro} →</a></div>
-      <div><h2>{t.company}</h2><a href={route(lang,'about/overview')}>{t.overview}</a><a href={route(lang,'case-studies')}>{t.cases}</a></div>
+      <div><h2>{t.company}</h2><a href={route(lang,'about/overview')}>{t.overview}</a><a href={route(lang,'about/one-stop-service')}>{service.title[lang]}</a><a href={route(lang,'about/supply-chain-resources')}>{supply.title[lang]}</a><a href={route(lang,'case-studies')}>{t.cases}</a></div>
       <div><h2><a href={route(lang,'products')}>{navigation.find(n=>n.id==='products')?.title[lang]}</a></h2>{visibleCategories.map(c=><a href={route(lang,`products/categories/${c.slug}`)}>{c.title[lang]}</a>)}</div>
       <div><h2><a href={route(lang,'solutions')}>{navigation.find(n=>n.id==='solutions')?.title[lang]}</a></h2>{visibleSolutions.map(s=><a href={route(lang,`solutions/${s.slug}`)}>{s.title[lang]}</a>)}</div>
       <div><h2><a href={route(lang,'catalogs')}>{lang==='es'?'Catálogos':'Catalogs'}</a></h2>{publishedCatalogs.length?publishedCatalogs.map(c=><a href={c.url[lang]} target="_blank" rel="noopener noreferrer">{c.title[lang]} ↗</a>):<p>{t.catalogsPending}</p>}</div>

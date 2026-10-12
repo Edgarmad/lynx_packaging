@@ -1,5 +1,7 @@
 # Contenido del chat organizado por sección
 
+> Actualización del 12/10/2026: esta revisión del 02/10 es histórica. El [contraste completo del nuevo export](chat-review/REVISION-2026-10-12.md) recupera la presentación ES enviada por Mila el 25/09, confirma Ability dentro de About el 05/10 y registra correcciones posteriores hasta el 10/10. Consultar ese informe antes de tratar los pendientes de abajo como vigentes.
+
 Fuente: exportación `_chat.txt` / `1-chat.txt` de Lynx Marketing-Team, mensajes del 23/09 al 01/10/2026. Revisión aplicada el 02/10/2026. El export contiene texto; imágenes, audios, videos y documentos aparecen omitidos. Las fechas y horas permiten localizar cada decisión sin versionar conversaciones privadas completas.
 
 ## Criterio de interpretación

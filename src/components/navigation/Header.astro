@@ -1,5 +1,5 @@
 ---
-import { navigation, visibleCategories, visibleSolutions, site } from '../../lib/data';
+import { navigation, visibleCategories, visibleSolutions, service, supply, site } from '../../lib/data';
 import { route, alternate } from '../../lib/routes';
 import { ui } from '../../i18n/ui';
 import type { Language } from '../../types/content';
@@ -11,13 +11,15 @@ interface Props { lang: Language; path: string; home?: boolean; }
 const {lang,path,home=false} = Astro.props;
 const t=ui(lang);
 const aboutUsLabel = lang === 'es' ? 'Sobre nosotros' : 'About us';
-const abilityLabel = lang === 'es' ? 'Capacidades' : 'Ability';
 function overviewLabel(group: string | null): string {
   return group === 'about' ? aboutUsLabel : lang === 'es' ? 'Ver resumen' : 'View overview';
 }
 function children(group: string | null): {title:string;href:string;external?:boolean}[] {
   switch(group) {
-    case 'about': return [{title:abilityLabel,href:route(lang,'about/overview')}];
+    case 'about': return [
+      {title:service.title[lang],href:route(lang,'about/one-stop-service')},
+      {title:supply.title[lang],href:route(lang,'about/supply-chain-resources')},
+    ];
     case 'products': return visibleCategories.map(c=>({title:c.title[lang],href:route(lang,`products/categories/${c.slug}`)}));
     case 'solutions': return visibleSolutions.map(s=>({title:s.title[lang],href:route(lang,`solutions/${s.slug}`)}));
     case 'catalogs': return visibleCategories.map(c=>({title:c.title[lang],href:route(lang,'catalogs')+`#${c.id}`}));

@@ -1,7 +1,7 @@
 {
   "title": {
     "es": "Servicio integral",
-    "en": "One-stop Service"
+    "en": "One-Stop Service"
   },
   "intro": {
     "es": "Desde la idea inicial hasta recibir tus productos. Un solo socio de cadena de suministro gestiona diseño, muestras, producción, inspección de calidad, logística internacional, almacenamiento local y entrega.",
@@ -33,7 +33,21 @@
           "en": "AI-generated illustrative image."
         }
       },
-      "caseIds": []
+      "caseIds": [],
+      "paragraphs": [
+        {
+          "es": "Traducimos los requisitos de tu marca en soluciones de empaque que pueden fabricarse y llevarse a la práctica.",
+          "en": "We translate your brand requirements into manufacturable and implementable packaging solutions."
+        },
+        {
+          "es": "El diseño creativo parte de la estrategia y el posicionamiento de marca, las características del producto y sus escenarios de uso. Desarrollamos empaques visualmente atractivos y con valor comercial, con planificación desde el concepto hasta familias completas de productos.",
+          "en": "Centered on brand strategy, we develop visually appealing and commercially valuable packaging designs based on brand positioning, product features and application scenarios. We offer full-service planning from conceptual design to series product packaging."
+        },
+        {
+          "es": "Trabajamos gráficos, estructura, forma, materiales y acabados para aportar valor al producto y atender tus objetivos de costo.",
+          "en": "Covering graphics, structure, shape, materials and craftsmanship, we deliver comprehensive packaging solutions to increase product added value while meeting your cost targets."
+        }
+      ]
     },
     {
       "id": "efficient-production",
@@ -60,7 +74,17 @@
           "en": "Source: Jihong catalogue · supplier imagery."
         }
       },
-      "caseIds": []
+      "caseIds": [],
+      "paragraphs": [
+        {
+          "es": "Seleccionamos fábricas adecuadas según los requisitos del producto, los estándares de calidad, el volumen del pedido y el presupuesto.",
+          "en": "We match you with suitable manufacturing factories according to your product requirements, quality standards, order volume and budget."
+        },
+        {
+          "es": "Coordinamos la confirmación previa a producción y damos seguimiento a la fabricación para que los productos correspondan a las especificaciones aprobadas.",
+          "en": "We coordinate pre-production confirmation and production follow-up so goods are manufactured to approved specifications."
+        }
+      ]
     },
     {
       "id": "strict-quality-control",
@@ -87,7 +111,17 @@
           "en": "Source: Jihong catalogue · supplier imagery."
         }
       },
-      "caseIds": []
+      "caseIds": [],
+      "paragraphs": [
+        {
+          "es": "Supervisamos las etapas clave durante todo el proceso: confirmación previa a producción, verificación de materiales y colores, seguimiento de producción, inspección del producto terminado y control de calidad antes del embarque.",
+          "en": "We oversee key stages throughout the whole process: pre-production confirmation, material and color verification, production follow-up, finished product inspection and pre-shipment quality control."
+        },
+        {
+          "es": "El objetivo es que los productos se fabriquen conforme a las especificaciones aprobadas.",
+          "en": "Our aim is to ensure goods are manufactured to approved specifications."
+        }
+      ]
     },
     {
       "id": "international-logistics",
@@ -114,7 +148,17 @@
           "en": "AI-generated illustrative image."
         }
       },
-      "caseIds": []
+      "caseIds": [],
+      "paragraphs": [
+        {
+          "es": "Coordinamos la logística internacional desde las fábricas proveedoras hacia México, para que no tengas que gestionar por separado el transporte transfronterizo.",
+          "en": "We coordinate international logistics from supplier factories to Mexico, saving you the trouble of handling complicated cross-border transportation separately."
+        },
+        {
+          "es": "Según el tipo de producto, la cantidad del pedido, el calendario de entrega y el destino, organizamos transporte marítimo, terrestre y los procedimientos logísticos relacionados, desde la salida de fábrica hasta los destinos en México.",
+          "en": "Based on product type, order quantity, delivery schedule and destination, we arrange sea freight, land transport and related logistics procedures to build a complete shipping chain from factory dispatch to destinations in Mexico."
+        }
+      ]
     },
     {
       "id": "local-storage",
@@ -141,7 +185,17 @@
           "en": "AI-generated illustrative image."
         }
       },
-      "caseIds": []
+      "caseIds": [],
+      "paragraphs": [
+        {
+          "es": "Ofrecemos almacenamiento local y gestión de inventario para acercar la cadena de suministro internacional a tu negocio.",
+          "en": "We provide local warehousing and inventory management services, extending the international supply chain close to your business."
+        },
+        {
+          "es": "Ajustamos la gestión del inventario a tus ciclos de compra y demanda para reducir los plazos de respuesta, mejorar la reposición y apoyar una atención de pedidos constante y estable.",
+          "en": "In line with your purchasing cycles and sales demands, our local inventory management cuts lead time, improves restocking efficiency and supports consistent and stable order fulfillment."
+        }
+      ]
     },
     {
       "id": "last-mile",
@@ -168,7 +222,22 @@
           "en": "AI-generated illustrative image."
         }
       },
-      "caseIds": []
+      "caseIds": [],
+      "paragraphs": [
+        {
+          "es": "Ofrecemos servicios flexibles de entrega desde nuestros almacenes locales en México hasta tus instalaciones, completando la última milla.",
+          "en": "We offer flexible terminal delivery services from our local warehouses in Mexico straight to your premises, completing your last-mile delivery."
+        },
+        {
+          "es": "Organizamos el transporte local según el volumen del pedido, la frecuencia de entrega y los destinos para llevar los empaques directamente a restaurantes, hoteles, cafeterías, tiendas y otros negocios.",
+          "en": "According to your order volume, delivery frequency and destinations, we arrange local transportation to ship packaging products directly to restaurants, hotels, cafes, retail stores and other commercial clients."
+        }
+      ]
     }
-  ]
+  ],
+  "source": "Mila, chat Lynx Marketing-Team, 30/09/2026 15:51:01 (contenido); 01/10/2026 19:01:51 (seis etapas). ES: adaptación del original EN. Producción y calidad separadas a partir del bloque conjunto. Se omite la afirmación promocional de liderazgo sin evidencia adicional.",
+  "pageIntro": {
+    "es": "Un solo socio de cadena de suministro gestiona todo el proceso, desde el diseño creativo hasta la entrega final. Transformamos tus necesidades de empaque desde una idea inicial, pasando por diseño, muestras, producción, inspección de calidad, logística internacional y almacenamiento local, hasta que los productos llegan a tus manos.",
+    "en": "One supply chain partner manages the entire process, from creative design to end delivery. We turn your packaging requirements from an initial idea through design, sampling, production, quality inspection, international logistics and local warehousing, until the goods finally reach your hands."
+  }
 }

@@ -4,15 +4,15 @@
     "en": "Supply Chain Resources"
   },
   "intro": {
-    "es": "Contamos con una red consolidada de proveedores de largo plazo y años de cooperación para distintas categorías de packaging. Esta red nos permite responder con flexibilidad a diversas necesidades: empaques de papel, plástico y consumibles complementarios. Buscamos recursos de producción adecuados y equilibramos calidad, plazo y costo para ofrecer soluciones integrales de empaque.",
-    "en": "We have robust supply chain resources, with long-term suppliers and years of cooperation across packaging categories. Our mature supplier network allows us to respond flexibly to diverse packaging requirements. For paper packaging, plastic packaging and supporting consumables, we source suitable production resources, balancing quality, lead time and cost to deliver one-stop packaging solutions."
+    "es": "Contamos con una red sólida de proveedores de largo plazo y años de cooperación en distintas categorías de empaque. Esta red consolidada nos permite atender con flexibilidad diversas necesidades. Ya sean empaques de papel, plástico o consumibles complementarios, buscamos recursos de producción adecuados y equilibramos calidad, plazo y costo para ofrecer soluciones integrales de empaque.",
+    "en": "We have robust supply chain resources. Across packaging categories, we have long-term suppliers with years of cooperation. Our mature supplier network allows us to flexibly meet diverse packaging requirements. Whether paper packaging, plastic packaging or supporting packaging consumables, we source qualified production resources, balancing quality, lead time and cost to deliver one-stop packaging solutions."
   },
   "resources": [
     {
       "id": "jihong-facilities",
       "description": {
-        "es": "Instalaciones presentadas en los catálogos de Jihong. Estas fotografías documentan recursos del proveedor; no implican propiedad de Lynx.",
-        "en": "Facilities presented in the Jihong catalogues. These photographs document supplier resources; they do not imply Lynx ownership."
+        "es": "Vista de las instalaciones y edificios que aparecen en los catálogos de Jihong, como parte de los recursos de nuestra cadena de suministro.",
+        "en": "Facilities and buildings shown in the Jihong catalogues, presented as part of our supply chain resources."
       },
       "gallery": [
         {
@@ -44,13 +44,17 @@
           }
         }
       ],
-      "source": "厦门吉宏股份-电子英文版画册.pdf — página 4; 厦门吉宏股份-电子英文版画册.pdf — página 4"
+      "source": "厦门吉宏股份-电子英文版画册.pdf — página 4; 厦门吉宏股份-电子英文版画册.pdf — página 4",
+      "title": {
+        "es": "Instalaciones de nuestros proveedores",
+        "en": "Supplier facilities"
+      }
     },
     {
       "id": "jihong-production",
       "description": {
-        "es": "Escenas de talleres y líneas de impresión del catálogo de Jihong.",
-        "en": "Workshop and printing-line scenes from the Jihong catalogue."
+        "es": "Talleres de producción y líneas de impresión documentados en los catálogos de Jihong.",
+        "en": "Production workshops and printing lines documented in the Jihong catalogues."
       },
       "gallery": [
         {
@@ -82,13 +86,17 @@
           }
         }
       ],
-      "source": "厦门吉宏股份-电子英文版画册.pdf — página 8; 厦门吉宏股份-电子英文版画册.pdf — página 7"
+      "source": "厦门吉宏股份-电子英文版画册.pdf — página 8; 厦门吉宏股份-电子英文版画册.pdf — página 7",
+      "title": {
+        "es": "Producción e impresión",
+        "en": "Production and printing"
+      }
     },
     {
       "id": "jihong-quality-storage",
       "description": {
-        "es": "Escenas de laboratorio y almacenamiento del catálogo de Jihong. El almacén fotografiado no se presenta como almacén local de Lynx en México.",
-        "en": "Laboratory and storage scenes from the Jihong catalogue. The photographed warehouse is not presented as a local Lynx warehouse in Mexico."
+        "es": "Escenas de laboratorio y almacenamiento documentadas por Jihong. Las fotografías corresponden al proveedor; el almacén mostrado no se presenta como un almacén local de Lynx en México.",
+        "en": "Laboratory and storage scenes documented by Jihong. These photographs show supplier facilities; the warehouse pictured is not presented as a local Lynx warehouse in Mexico."
       },
       "gallery": [
         {
@@ -134,7 +142,12 @@
           }
         }
       ],
-      "source": "厦门吉宏股份-电子中文版画册.pdf — página 10; 厦门吉宏股份-电子中文版画册.pdf — página 9; 厦门吉宏股份-电子英文版画册.pdf — página 5"
+      "source": "厦门吉宏股份-电子中文版画册.pdf — página 10; 厦门吉宏股份-电子中文版画册.pdf — página 9; 厦门吉宏股份-电子英文版画册.pdf — página 5",
+      "title": {
+        "es": "Laboratorio y almacenamiento",
+        "en": "Laboratory and storage"
+      }
     }
-  ]
+  ],
+  "source": "Mila, chat Lynx Marketing-Team, 30/09/2026 15:51:01. Fotografías de proveedores: fuentes PDF por recurso; selección editorial existente documentada en docs/image-sources.json. ES: adaptación del original EN."
 }

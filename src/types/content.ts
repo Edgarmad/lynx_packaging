@@ -36,7 +36,7 @@ export const productSchema = z.object({
   provenance: z.array(z.object({ sourceId: id, page: z.number().int().positive(), language: z.enum(languages) })).optional(),
 });
 export const solutionSchema = z.object({ ...base, media: mediaSchema, productIds: z.array(id), caseIds: z.array(id) });
-export const stageSchema = z.object({ id, order: z.number(), title: localized, description: localized, media: mediaSchema, caseIds: z.array(id) });
+export const stageSchema = z.object({ id, order: z.number(), title: localized, description: localized, paragraphs: z.array(localized).min(1), media: mediaSchema, caseIds: z.array(id) });
 export const catalogSchema = z.object({ id, title: localized, url: z.object({ es: z.url(), en: z.url() }).refine(urls => Object.values(urls).every(url => new URL(url).hostname === 'drive.google.com' && /^\/file\/d\/[^/]+\/view$/.test(new URL(url).pathname)), 'El catálogo debe abrir un PDF de Drive en cada idioma'), status: z.enum(['draft', 'published']), order: z.number(), categoryIds:z.array(id).default([]) });
 export const caseSchema = z.object({ ...base, media: mediaSchema, permission: z.boolean() });
 export type Category = z.infer<typeof categorySchema>;

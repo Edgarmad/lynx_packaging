@@ -19,10 +19,10 @@ export const products = z.array(productSchema).parse(productData);
 export const solutions = z.array(solutionSchema).parse(solutionData);
 export const catalogs = z.array(catalogSchema).parse(catalogData);
 export const cases = z.array(caseSchema).parse(caseData);
-export const service = z.object({ title: localized, intro: localized, stages: z.array(stageSchema) }).parse(serviceData);
+export const service = z.object({ title: localized, intro: localized, pageIntro: localized, stages: z.array(stageSchema), source: z.string().min(1) }).parse(serviceData);
 export const home = z.object({ title: localized, introTitle: localized, intro: localized, hero: mediaSchema }).parse(homeData);
 export const about = z.object({ title: localized, description: localized, paragraphs: z.array(localized).min(1), culture: z.object({ title: localized, values: z.array(z.object({ id: z.string().min(1), title: localized })).length(4) }), source: z.string().min(1) }).parse(aboutData);
-export const supply = z.object({ title: localized, intro: localized, resources: z.array(z.object({ id: z.string(), description: localized, gallery: z.array(mediaSchema), source: z.string() })) }).parse(supplyData);
+export const supply = z.object({ title: localized, intro: localized, source: z.string().min(1), resources: z.array(z.object({ id: z.string(), title: localized, description: localized, gallery: z.array(mediaSchema).min(1), source: z.string() })) }).parse(supplyData);
 export const navigation = z.array(z.object({ id: z.string(), title: localized, path: z.string().nullable(), group: z.enum(['about', 'catalogs', 'products', 'solutions']).nullable() })).parse(navigationData);
 export function visible(status: string): boolean { return status === 'published' || (site.preview && status === 'demo'); }
 export const allVisibleCategories = categories.filter(item => visible(item.status)).sort((a,b) => a.order-b.order);

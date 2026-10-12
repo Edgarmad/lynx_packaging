@@ -1,0 +1,17 @@
+---
+import type { Language } from '../../types/content';
+import { abilityUi } from '../../i18n/ability';
+import { route } from '../../lib/routes';
+interface Props { lang: Language; related: 'service' | 'resources'; }
+const { lang, related } = Astro.props;
+const t = abilityUi(lang);
+const relatedPath = related === 'service' ? 'about/one-stop-service' : 'about/supply-chain-resources';
+---
+<section class="ability-contact section">
+  <div class="site-container centered-intro">
+    <h2>{t.projectTitle}</h2>
+    <p>{t.projectDescription}</p>
+    <a class="button" href={route(lang, 'contact')}>{t.contact}<span aria-hidden="true">→</span></a>
+    <a class="ability-related" href={route(lang, relatedPath)}>{related === 'service' ? t.viewService : t.viewResources}<span aria-hidden="true">↗</span></a>
+  </div>
+</section>

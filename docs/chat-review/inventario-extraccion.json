@@ -1,0 +1,35 @@
+{
+  "source": "1-WhatsApp-Chat-Lynx-Marketing-Team-4.zip",
+  "archiveEntries": [
+    "_chat.txt"
+  ],
+  "textSha256": "bda4d3694a1f12d9163a6f63be599a49c0a149269cde34b2518fbe40b40c9787",
+  "messages": 1200,
+  "first": "2026-09-23",
+  "last": "2026-10-10",
+  "byDate": {
+    "2026-09-23": 81,
+    "2026-09-24": 10,
+    "2026-09-25": 271,
+    "2026-09-26": 55,
+    "2026-09-27": 38,
+    "2026-09-28": 193,
+    "2026-09-29": 108,
+    "2026-09-30": 68,
+    "2026-10-01": 92,
+    "2026-10-02": 10,
+    "2026-10-03": 7,
+    "2026-10-04": 91,
+    "2026-10-05": 114,
+    "2026-10-06": 32,
+    "2026-10-07": 13,
+    "2026-10-09": 3,
+    "2026-10-10": 14
+  },
+  "omittedMediaMessages": 370,
+  "deletedMessages": 42,
+  "documentMentions": 73,
+  "selectedMessages": 295,
+  "lineCount": 1734,
+  "privateOutput": "tmp/chat-review/"
+}
