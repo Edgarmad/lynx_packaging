@@ -31,7 +31,7 @@ Se reutilizan assets locales; no se generan ni compran imágenes:
 | Recursos: producción e impresión | `production.webp`, `printing.webp` | Catálogo Jihong |
 | Recursos: laboratorio y almacenamiento | `quality.webp`, `laboratory.webp`, `warehouse.webp` | Catálogo Jihong |
 
-Las escenas generales mantienen aviso visible de IA. Las fotos reales tienen atribución al proveedor, y el almacén Jihong no se presenta como almacén mexicano de Lynx. Fuentes detalladas: `docs/image-sources.json` y `docs/imagenes-editoriales.md`.
+Por instrucción de Luis del 12/10, las leyendas de procedencia se conservan únicamente como metadatos internos y no se renderizan debajo ni sobre las imágenes. Se retiró también la nota de procedencia al final de las galerías. Los textos alternativos conservan la descripción de las escenas; el almacén Jihong no se presenta como almacén mexicano de Lynx. Fuentes detalladas: `docs/image-sources.json` y `docs/imagenes-editoriales.md`.
 
 ## Recorrido
 
