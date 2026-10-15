@@ -1,0 +1,50 @@
+[
+  {
+    "key": "design",
+    "source": "d4754979-bb9a-42a2-99b2-6ee23894e270.jpg",
+    "src": "/images/editorial/design-supplied.webp",
+    "width": 1600,
+    "height": 528,
+    "note": "Imagen aportada por el usuario para sustitución editorial."
+  },
+  {
+    "key": "electronics",
+    "source": "a65ef0b5-2f23-41c5-9730-52e33ead006c.jpg",
+    "src": "/images/editorial/electronics-supplied.webp",
+    "width": 1600,
+    "height": 528,
+    "note": "Texto español incrustado; EN conserva la imagen anterior."
+  },
+  {
+    "key": "delivery",
+    "source": "438e6ded-032b-46cc-8827-d3bdc73b30c9.jpg",
+    "src": "/images/editorial/delivery-supplied.webp",
+    "width": 1200,
+    "height": 896,
+    "note": "Imagen aportada por el usuario para sustitución editorial."
+  },
+  {
+    "key": "premium-gifts",
+    "source": "a374c1d4-86a0-4d38-a25e-cb592757d24f.jpg",
+    "src": "/images/editorial/premium-gifts-supplied.webp",
+    "width": 1200,
+    "height": 896,
+    "note": "Imagen aportada por el usuario para sustitución editorial."
+  },
+  {
+    "key": "retail",
+    "source": "442b3e3a-c38c-4642-9295-59a40a68375c.jpg",
+    "src": "/images/editorial/retail-supplied.webp",
+    "width": 1600,
+    "height": 528,
+    "note": "Imagen aportada por el usuario para sustitución editorial."
+  },
+  {
+    "key": "food-beverage",
+    "source": "39ec59a6-3821-4af2-89c0-4d2b29faf30c.jpg",
+    "src": "/images/editorial/food-beverage-supplied.webp",
+    "width": 1200,
+    "height": 896,
+    "note": "Imagen aportada por el usuario para sustitución editorial."
+  }
+]

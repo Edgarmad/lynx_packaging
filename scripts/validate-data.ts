@@ -14,7 +14,7 @@ for(const product of products){
   if(product.status==='published'&& !(['es','en'] as const).every(lang=>product.provenance?.some(ref=>ref.language===lang)))throw new Error(`${product.id}: falta evidencia bilingüe`);
 }
 const media = [home.hero, ...Object.values(editorialMedia), ...categories.map(c=>c.media), ...products.flatMap(p=>p.gallery), ...solutions.map(s=>s.media), ...service.stages.map(s=>s.media), ...supply.resources.flatMap(r=>r.gallery)];
-for (const item of media) for (const path of [item.src, item.poster]) {
+for (const item of media) for (const path of [item.src, item.poster, ...Object.values(item.localizedSources ?? {}).map(source => source.src)]) {
   if (path && !existsSync(`public${path}`)) throw new Error(`Asset inexistente: ${path}`);
 }
 if (!existsSync(`public${site.logo}`)) throw new Error('Logo inexistente');

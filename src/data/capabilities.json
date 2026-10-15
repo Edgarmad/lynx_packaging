@@ -22,16 +22,18 @@
       "media": {
         "type": "image",
         "placeholder": false,
-        "src": "/images/editorial/design.webp",
+        "src": "/images/editorial/design-supplied.webp",
         "alt": {
-          "es": "Equipo trabajando en diseño estructural (escena ilustrativa)",
-          "en": "Team working on structural design (illustrative scene)"
+          "es": "Equipo revisando bocetos y prototipos de empaques (escena ilustrativa)",
+          "en": "Team reviewing packaging sketches and prototypes (illustrative scene)"
         },
-        "ratio": 1.7768,
+        "ratio": 3.0303030303030303,
         "caption": {
           "es": "Imagen ilustrativa generada con IA.",
           "en": "AI-generated illustrative image."
-        }
+        },
+        "width": 1600,
+        "height": 528
       },
       "caseIds": [],
       "paragraphs": [
@@ -179,7 +181,7 @@
           "es": "Gestión de inventario en un almacén (escena ilustrativa)",
           "en": "Inventory management in a warehouse (illustrative scene)"
         },
-        "ratio": 2.0,
+        "ratio": 2,
         "caption": {
           "es": "Imagen ilustrativa generada con IA.",
           "en": "AI-generated illustrative image."
@@ -211,16 +213,18 @@
       "media": {
         "type": "image",
         "placeholder": false,
-        "src": "/images/editorial/delivery.webp",
+        "src": "/images/editorial/delivery-supplied.webp",
         "alt": {
-          "es": "Entrega a un comercio (escena ilustrativa)",
-          "en": "Delivery to a business (illustrative scene)"
+          "es": "Reparto de cajas a un restaurante (escena ilustrativa)",
+          "en": "Boxes being delivered to a restaurant (illustrative scene)"
         },
-        "ratio": 1.7768,
+        "ratio": 1.3392857142857142,
         "caption": {
           "es": "Imagen ilustrativa generada con IA.",
           "en": "AI-generated illustrative image."
-        }
+        },
+        "width": 1200,
+        "height": 896
       },
       "caseIds": [],
       "paragraphs": [

@@ -10,6 +10,10 @@ export const mediaSchema = z.object({
   type: z.enum(['image', 'video']),
   placeholder: z.boolean(),
   src: z.string().optional(),
+  localizedSources: z.object({
+    es: z.object({ src: z.string().startsWith('/images/'), ratio: z.number().positive() }).optional(),
+    en: z.object({ src: z.string().startsWith('/images/'), ratio: z.number().positive() }).optional(),
+  }).optional(),
   poster: z.string().optional(),
   alt: localized,
   ratio: z.number().positive(),

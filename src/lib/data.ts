@@ -4,6 +4,7 @@ import siteData from '../data/site.json';
 import categoryData from '../data/categories.json';
 import productData from '../data/products.json';
 import solutionData from '../data/solutions.json';
+import solutionsOverviewData from '../data/solutions-overview.json';
 import catalogData from '../data/catalogs.json';
 import caseData from '../data/case-studies.json';
 import serviceData from '../data/capabilities.json';
@@ -17,6 +18,7 @@ export const site = z.object({ name: z.string(), preview: z.boolean(), publicUrl
 export const categories = z.array(categorySchema).parse(categoryData);
 export const products = z.array(productSchema).parse(productData);
 export const solutions = z.array(solutionSchema).parse(solutionData);
+export const solutionsOverview = z.object({ title: localized, intro: localized, source: z.string().min(1) }).parse(solutionsOverviewData);
 export const catalogs = z.array(catalogSchema).parse(catalogData);
 export const cases = z.array(caseSchema).parse(caseData);
 export const service = z.object({ title: localized, intro: localized, pageIntro: localized, stages: z.array(stageSchema), source: z.string().min(1) }).parse(serviceData);

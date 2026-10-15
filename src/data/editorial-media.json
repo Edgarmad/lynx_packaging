@@ -110,16 +110,18 @@
   "design": {
     "type": "image",
     "placeholder": false,
-    "src": "/images/editorial/design.webp",
+    "src": "/images/editorial/design-supplied.webp",
     "alt": {
-      "es": "Equipo trabajando en diseño estructural (escena ilustrativa)",
-      "en": "Team working on structural design (illustrative scene)"
+      "es": "Equipo revisando bocetos y prototipos de empaques (escena ilustrativa)",
+      "en": "Team reviewing packaging sketches and prototypes (illustrative scene)"
     },
-    "ratio": 1.7768,
+    "ratio": 3.0303030303030303,
     "caption": {
       "es": "Imagen ilustrativa generada con IA.",
       "en": "AI-generated illustrative image."
-    }
+    },
+    "width": 1600,
+    "height": 528
   },
   "logistics": {
     "type": "image",
@@ -138,30 +140,34 @@
   "delivery": {
     "type": "image",
     "placeholder": false,
-    "src": "/images/editorial/delivery.webp",
+    "src": "/images/editorial/delivery-supplied.webp",
     "alt": {
-      "es": "Entrega a un comercio (escena ilustrativa)",
-      "en": "Delivery to a business (illustrative scene)"
+      "es": "Reparto de cajas a un restaurante (escena ilustrativa)",
+      "en": "Boxes being delivered to a restaurant (illustrative scene)"
     },
-    "ratio": 1.7768,
+    "ratio": 1.3392857142857142,
     "caption": {
       "es": "Imagen ilustrativa generada con IA.",
       "en": "AI-generated illustrative image."
-    }
+    },
+    "width": 1200,
+    "height": 896
   },
   "food-beverage": {
     "type": "image",
     "placeholder": false,
-    "src": "/images/editorial/food-beverage.webp",
+    "src": "/images/editorial/food-beverage-supplied.webp",
     "alt": {
-      "es": "Personal trabajando en una cafetería (escena ilustrativa)",
-      "en": "Staff working at a cafe (illustrative scene)"
+      "es": "Personal preparando alimentos en recipientes en una cafetería (escena ilustrativa)",
+      "en": "Staff preparing food in containers at a cafe (illustrative scene)"
     },
-    "ratio": 2.0,
+    "ratio": 1.3392857142857142,
     "caption": {
       "es": "Imagen ilustrativa generada con IA.",
       "en": "AI-generated illustrative image."
-    }
+    },
+    "width": 1200,
+    "height": 896
   },
   "personal-care": {
     "type": "image",
@@ -180,44 +186,56 @@
   "electronics": {
     "type": "image",
     "placeholder": false,
-    "src": "/images/editorial/electronics.webp",
+    "src": "/images/editorial/electronics-supplied.webp",
     "alt": {
-      "es": "Personal ensamblando componentes electrónicos (escena ilustrativa)",
-      "en": "Staff assembling electronic components (illustrative scene)"
+      "es": "Empaques protectores para componentes electrónicos (escena ilustrativa)",
+      "en": "Protective packaging for electronic components (illustrative scene)"
     },
-    "ratio": 1.7787,
+    "ratio": 3.0303030303030303,
     "caption": {
       "es": "Imagen ilustrativa generada con IA.",
       "en": "AI-generated illustrative image."
+    },
+    "width": 1600,
+    "height": 528,
+    "localizedSources": {
+      "en": {
+        "src": "/images/editorial/electronics.webp",
+        "ratio": 1.7787
+      }
     }
   },
   "retail": {
     "type": "image",
     "placeholder": false,
-    "src": "/images/editorial/retail.webp",
+    "src": "/images/editorial/retail-supplied.webp",
     "alt": {
-      "es": "Gestión de pedidos en un espacio de distribución (escena ilustrativa)",
-      "en": "Order management at a fulfillment workspace (illustrative scene)"
+      "es": "Cajas, bolsas y sobres para comercio electrónico y retail (escena ilustrativa)",
+      "en": "Boxes, bags and mailers for e-commerce and retail (illustrative scene)"
     },
-    "ratio": 2.0,
+    "ratio": 3.0303030303030303,
     "caption": {
       "es": "Imagen ilustrativa generada con IA.",
       "en": "AI-generated illustrative image."
-    }
+    },
+    "width": 1600,
+    "height": 528
   },
   "premium-gifts": {
     "type": "image",
     "placeholder": false,
-    "src": "/images/editorial/premium-gifts.webp",
+    "src": "/images/editorial/premium-gifts-supplied.webp",
     "alt": {
-      "es": "Trabajo artesanal en una boutique de regalos (escena ilustrativa)",
-      "en": "Craft work in a gift boutique (illustrative scene)"
+      "es": "Cajas de regalo y bolsas de papel en un taller de empaques (escena ilustrativa)",
+      "en": "Gift boxes and paper bags in a packaging workshop (illustrative scene)"
     },
-    "ratio": 1.5,
+    "ratio": 1.3392857142857142,
     "caption": {
       "es": "Imagen ilustrativa generada con IA.",
       "en": "AI-generated illustrative image."
-    }
+    },
+    "width": 1200,
+    "height": 896
   },
   "local-storage": {
     "type": "image",
@@ -227,7 +245,7 @@
       "es": "Gestión de inventario en un almacén (escena ilustrativa)",
       "en": "Inventory management in a warehouse (illustrative scene)"
     },
-    "ratio": 2.0,
+    "ratio": 2,
     "caption": {
       "es": "Imagen ilustrativa generada con IA.",
       "en": "AI-generated illustrative image."
