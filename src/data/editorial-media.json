@@ -250,5 +250,21 @@
       "es": "Imagen ilustrativa generada con IA.",
       "en": "AI-generated illustrative image."
     }
+  },
+  "solutions-banner": {
+    "type": "image",
+    "placeholder": false,
+    "src": "/images/editorial/solutions-banner.webp",
+    "alt": {
+      "es": "Escena ilustrativa de producción de empaques con cajas, bolsas y vasos con motivos de Lynx",
+      "en": "Illustrative packaging production scene with boxes, bags and cups featuring Lynx motifs"
+    },
+    "width": 2172,
+    "height": 724,
+    "ratio": 3,
+    "caption": {
+      "es": "Imagen ilustrativa generada con IA; no representa instalaciones propias de Lynx.",
+      "en": "AI-generated illustrative image; does not depict Lynx-owned facilities."
+    }
   }
 }

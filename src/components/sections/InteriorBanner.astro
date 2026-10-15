@@ -3,12 +3,15 @@ import MediaPlaceholder from '../ui/MediaPlaceholder.astro';
 import Breadcrumbs from '../ui/Breadcrumbs.astro';
 import type { Language, Media } from '../../types/content';
 import { editorialMedia } from '../../lib/editorial-media';
-interface Props { lang: Language; title: string; media?: Media; parent?: {title: string; path: string}; }
-const {lang, title, parent, media} = Astro.props;
+interface Props { lang: Language; title: string; description?: string; media?: Media; parent?: {title: string; path: string}; }
+const {lang, title, description, parent, media} = Astro.props;
 const path = Astro.url.pathname;
 const banner = media ?? (path.includes('/products') ? undefined : editorialMedia[path.includes('supply-chain') ? 'supplier-campus' : path.includes('/about/overview') ? 'supplier-building' : path.includes('/solutions') ? 'production' : 'design']);
 ---
-<section class:list={['interior-banner', {'has-image': Boolean(banner), 'lynx-overview-banner': path.includes('/about/overview')}]}>
+<section class:list={['interior-banner', {'has-image': Boolean(banner), 'banner-with-description': Boolean(description), 'lynx-overview-banner': path.includes('/about/overview')}]}>
   <MediaPlaceholder lang={lang} media={banner} ratio={3.6} class="banner-media" />
-  <div class="site-container banner-content"><Breadcrumbs lang={lang} items={[...(parent ? [parent] : []),{title}]} /><h1>{title}</h1></div>
+  <div class="site-container banner-content">
+    <Breadcrumbs lang={lang} items={[...(parent ? [parent] : []),{title}]} />
+    <div class="banner-copy"><h1>{title}</h1>{description && <p>{description}</p>}</div>
+  </div>
 </section>

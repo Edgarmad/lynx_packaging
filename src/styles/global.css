@@ -503,6 +503,12 @@
 @media(min-width:1100px) { .product-menu-options { min-height:390px; } }
 
 /* Ability: one continuous page for each confirmed service area. */
+/* Longer hero copy grows naturally on narrow viewports. */
+#main>.interior-banner.banner-with-description:first-child { height:auto; min-height:calc(clamp(460px,38vw,620px) + 100px); }
+.banner-with-description .banner-content { min-height:inherit; gap:3rem; }
+.banner-with-description .banner-copy { max-width:980px; }
+.banner-with-description .banner-copy p { max-width:850px; margin-top:1.5rem; font-size:clamp(1rem,1.3vw,1.15rem); line-height:1.7; color:var(--color-paper); }
+.banner-with-description.has-image:after { background:var(--color-brand); opacity:.7; }
 @layer components {
   .about-menu { position:relative; min-height:260px; }
   .about-menu>.about-overview,.ability-menu>summary { display:block; padding:.65rem 0; font-size:clamp(1.2rem,1.5vw,1.5rem); line-height:1.4; }
