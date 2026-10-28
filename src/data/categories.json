@@ -17,7 +17,7 @@
     "media": {
       "type": "image",
       "placeholder": false,
-      "src": "/images/products/category-cups.webp",
+      "src": "/images/products/category-food-containers.webp",
       "ratio": 1.8,
       "fit": "cover",
       "alt": {
@@ -224,7 +224,7 @@
     "media": {
       "type": "image",
       "placeholder": false,
-      "src": "/images/products/category-food-containers.webp",
+      "src": "/images/products/category-cups.webp",
       "ratio": 1.8,
       "fit": "cover",
       "alt": {
